@@ -22,7 +22,7 @@ updated: 2026-04-15
 
 ## 🏷️ Etiquetas
 
-[openshift](/tags/openshift) [kubernetes](/tags/kubernetes) [kvm](/tags/kvm) [podman](/tags/podman) [proxmox](/tags/proxmox) [docker](/tags/docker) [openstack](/tags/openstack) [linux](/tags/linux) [contenedores](/tags/contenedores) [almacenamiento](/tags/almacenamiento) [redes](/tags/redes) [deployment](/tags/deployment) [virtualizacion](/tags/virtualizacion) [seguridad](/tags/seguridad) [orquestacion](/tags/orquestacion) [automatizacion](/tags/automatizacion) [configuracion](/tags/configuracion) [imagenes](/tags/imagenes) [oci](/tags/oci) [imagestream](/tags/imagestream) [instalacion](/tags/instalacion) [pods](/tags/pods) [rootless](/tags/rootless) [bridge](/tags/bridge) [dns](/tags/dns) [services](/tags/services) [templates](/tags/templates) [secrets](/tags/secrets) [vm](/tags/vm) [volumes](/tags/volumes)
+[openshift](/tags/openshift) [kubernetes](/tags/kubernetes) [contenedores](/tags/contenedores) [kvm](/tags/kvm) [redes](/tags/redes) [deployment](/tags/deployment) [docker](/tags/docker) [podman](/tags/podman) [proxmox](/tags/proxmox) [almacenamiento](/tags/almacenamiento) [imagenes](/tags/imagenes) [virtualizacion](/tags/virtualizacion) [openstack](/tags/openstack) [instalacion](/tags/instalacion) [linux](/tags/linux) [seguridad](/tags/seguridad) [orquestacion](/tags/orquestacion) [automatizacion](/tags/automatizacion) [bridge](/tags/bridge) [dns](/tags/dns) [oci](/tags/oci) [rootless](/tags/rootless) [imagestream](/tags/imagestream) [configuracion](/tags/configuracion) [pods](/tags/pods) [secrets](/tags/secrets) [services](/tags/services) [templates](/tags/templates) [vm](/tags/vm) [volumes](/tags/volumes)
 
 ---
 
