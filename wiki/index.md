@@ -20,6 +20,19 @@ updated: 2026-04-15
 
 ---
 
+## 🏷️ Etiquetas (30)
+
+### Plataformas Mayores (8)
+`openshift` `kubernetes` `kvm` `podman` `proxmox` `docker` `openstack` `linux`
+
+### Conceptos Generales (10)
+`contenedores` `almacenamiento` `redes` `deployment` `virtualizacion` `seguridad` `orquestacion` `automatizacion` `configuracion` `imagenes`
+
+### Específicas Técnicas (12)
+`oci` `imagestream` `instalacion` `pods` `rootless` `bridge` `dns` `services` `templates` `secrets` `vm` `volumes`
+
+---
+
 ## 📚 Conceptos (21)
 
 ### Plataformas Principales (8)
