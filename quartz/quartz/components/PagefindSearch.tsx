@@ -21,11 +21,36 @@ PagefindSearch.beforeDOMLoaded = `
 `
 
 PagefindSearch.afterDOMLoaded = `
+  function setupModal() {
+    const modal = document.createElement("div")
+    modal.id = "pagefind-modal"
+    modal.innerHTML = '<div id="pagefind-modal-inner"></div>'
+    document.body.appendChild(modal)
+
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) closeModal()
+    })
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeModal()
+    })
+  }
+
+  function closeModal() {
+    const modal = document.getElementById("pagefind-modal")
+    if (modal) modal.style.display = "none"
+    const input = document.querySelector(".pagefind-ui__search-input")
+    if (input) { input.value = ""; input.dispatchEvent(new Event("input")) }
+  }
+
   function initPagefind() {
     if (typeof PagefindUI === "undefined" || !document.getElementById("pagefind-search-input")) {
       setTimeout(initPagefind, 100)
       return
     }
+
+    setupModal()
+
     new PagefindUI({
       element: "#pagefind-search-input",
       showSubResults: false,
@@ -35,33 +60,44 @@ PagefindSearch.afterDOMLoaded = `
         zero_results: "Sin resultados para [SEARCH_TERM]",
       },
     })
+
+    // Mover el área de resultados al modal
+    setTimeout(() => {
+      const resultsArea = document.querySelector(".pagefind-ui__results-area")
+      const modalInner = document.getElementById("pagefind-modal-inner")
+      if (resultsArea && modalInner) {
+        modalInner.appendChild(resultsArea)
+      }
+    }, 200)
+
+    // Mostrar modal al escribir
+    const input = document.querySelector(".pagefind-ui__search-input")
+    if (input) {
+      input.addEventListener("input", () => {
+        const modal = document.getElementById("pagefind-modal")
+        if (modal) modal.style.display = input.value ? "flex" : "none"
+      })
+    }
   }
+
   initPagefind()
 
   document.addEventListener("nav", () => {
+    const existing = document.getElementById("pagefind-modal")
+    if (existing) existing.remove()
     const el = document.getElementById("pagefind-search-input")
     if (el) el.innerHTML = ""
     initPagefind()
-  })
-
-  document.addEventListener("click", (e) => {
-    const resultsArea = document.querySelector(".pagefind-ui__results-area")
-    const searchInput = document.querySelector(".pagefind-ui__search-input")
-    if (resultsArea && !resultsArea.contains(e.target) && e.target !== searchInput) {
-      const input = document.querySelector(".pagefind-ui__search-input")
-      if (input) input.value = ""
-      if (resultsArea) resultsArea.innerHTML = ""
-    }
   })
 `
 
 PagefindSearch.css = `
 .pagefind-search {
   width: 100%;
-  position: relative;
 }
 
-.pagefind-ui__results-area {
+#pagefind-modal {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -69,13 +105,12 @@ PagefindSearch.css = `
   bottom: 0;
   z-index: 9999;
   background: rgba(0, 0, 0, 0.5);
-  display: flex;
   align-items: flex-start;
   justify-content: center;
   padding-top: 80px;
 }
 
-.pagefind-ui__results {
+#pagefind-modal-inner {
   background: var(--light);
   border-radius: 8px;
   padding: 1rem;
@@ -83,28 +118,6 @@ PagefindSearch.css = `
   max-width: 700px;
   max-height: 70vh;
   overflow-y: auto;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  list-style: none;
-  margin: 0;
-}
-
-.pagefind-ui__results-area:empty {
-  display: none;
-}
-
-.pagefind-ui__message:empty {
-  display: none;
-}
-
-.pagefind-ui__message {
-  position: fixed;
-  top: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 9999;
-  background: var(--light);
-  border-radius: 8px;
-  padding: 1rem 2rem;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 `
