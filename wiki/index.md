@@ -23,13 +23,13 @@ updated: 2026-04-15
 ## 🏷️ Etiquetas (30)
 
 ### Plataformas Mayores (8)
-`openshift` `kubernetes` `kvm` `podman` `proxmox` `docker` `openstack` `linux`
+[openshift](/tags/openshift) [kubernetes](/tags/kubernetes) [kvm](/tags/kvm) [podman](/tags/podman) [proxmox](/tags/proxmox) [docker](/tags/docker) [openstack](/tags/openstack) [linux](/tags/linux)
 
 ### Conceptos Generales (10)
-`contenedores` `almacenamiento` `redes` `deployment` `virtualizacion` `seguridad` `orquestacion` `automatizacion` `configuracion` `imagenes`
+[contenedores](/tags/contenedores) [almacenamiento](/tags/almacenamiento) [redes](/tags/redes) [deployment](/tags/deployment) [virtualizacion](/tags/virtualizacion) [seguridad](/tags/seguridad) [orquestacion](/tags/orquestacion) [automatizacion](/tags/automatizacion) [configuracion](/tags/configuracion) [imagenes](/tags/imagenes)
 
 ### Específicas Técnicas (12)
-`oci` `imagestream` `instalacion` `pods` `rootless` `bridge` `dns` `services` `templates` `secrets` `vm` `volumes`
+[oci](/tags/oci) [imagestream](/tags/imagestream) [instalacion](/tags/instalacion) [pods](/tags/pods) [rootless](/tags/rootless) [bridge](/tags/bridge) [dns](/tags/dns) [services](/tags/services) [templates](/tags/templates) [secrets](/tags/secrets) [vm](/tags/vm) [volumes](/tags/volumes)
 
 ---
 
