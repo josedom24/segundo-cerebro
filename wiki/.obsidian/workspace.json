@@ -181,6 +181,7 @@
   },
   "active": "9c92206f3be033e4",
   "lastOpenFiles": [
+    "summaries/pods-contenedores.md.tmp.546751.1776368605329",
     "concepts/tls.md.tmp.546751.1776368377860",
     "concepts/tls.md.tmp.546751.1776368376504",
     "concepts/apache.md.tmp.546751.1776368375159",
@@ -191,7 +192,6 @@
     "summaries/proxy-logs-apache.md.tmp.546751.1776368334192",
     "summaries/virtual-hosting-apache.md.tmp.546751.1776368327921",
     "summaries/autenticacion-apache.md.tmp.546751.1776368263440",
-    "summaries/seguridad-apache.md.tmp.546751.1776368254181",
     "log.md",
     "index.md",
     "concepts/index.md",

@@ -250,17 +250,17 @@ spec:
 
 ### Campos Comunes
 
- Campo  Descripción 
---------------------
- `apiVersion`  `v1` para Pods 
- `kind`  `Pod` 
- `metadata.name`  Nombre único en namespace 
- `metadata.labels`  Etiquetas para seleccionar 
- `spec.containers[]`  Array de contenedores 
- `containers[].image`  Imagen a usar 
- `containers[].ports[]`  Puertos expuestos 
- `containers[].env[]`  Variables de entorno 
- `containers[].volumeMounts[]`  Volúmenes montados 
+| Campo | Descripción |
+| :--- | :--- |
+| `apiVersion` | `v1` para Pods |
+| `kind` | `Pod` |
+| `metadata.name` | Nombre único en namespace |
+| `metadata.labels` | Etiquetas para seleccionar |
+| `spec.containers[]` | Array de contenedores |
+| `containers[].image` | Imagen a usar |
+| `containers[].ports[]` | Puertos expuestos |
+| `containers[].env[]` | Variables de entorno |
+| `containers[].volumeMounts[]` | Volúmenes montados |
 
 ---
 
