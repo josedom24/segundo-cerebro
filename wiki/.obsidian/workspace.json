@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "74659722bc1f9d81",
+    "type": "split",
+    "children": [
+      {
+        "id": "994eaf8ed2c32bfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60ba0f7d08e20baf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4775889b5176c3c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d6e87afd45a6538",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "218e7f9ebf128363",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "90962345acb1842c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "504d954918b6ec3e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "70b12fd510399fcb",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9311a063ff4cb6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e4368b1a1e76b98",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "summaries/08-creacion-box-vagrant.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de 08-creacion-box-vagrant"
+            }
+          },
+          {
+            "id": "97c96fd63419bf8b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "summaries/08-creacion-box-vagrant.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de 08-creacion-box-vagrant"
+            }
+          },
+          {
+            "id": "9d07c5b33875ce33",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "3002a2210220649b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "d9a6bbcd280733e6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "summaries/08-creacion-box-vagrant.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de 08-creacion-box-vagrant"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "60ba0f7d08e20baf",
+  "lastOpenFiles": [
+    "summaries/almacenamiento-proxmox.md.tmp.7345.1776320523505",
+    "summaries/creacion-maquinas-virtuales-proxmox.md.tmp.7345.1776320518241",
+    "Clonacion-proxmox.md",
+    "summaries/docker-desktop.md.tmp.7345.1776320453847",
+    "summaries/dockerfile-y-construccion.md.tmp.7345.1776320449350",
+    "summaries/docker-compose.md.tmp.7345.1776320433573",
+    "summaries/redes-docker.md.tmp.7345.1776320428067",
+    "summaries/volumenes-bind-mounts.md.tmp.7345.1776320423565",
+    "summaries/imagenes-y-docker-hub.md.tmp.7345.1776320417733",
+    "summaries/docker-run-y-ciclo-vida.md.tmp.7345.1776320412503",
+    "summaries/introduccion-docker.md.tmp.7345.1776320407332",
+    "concepts/docker-compose.md.tmp.7345.1776320334071",
+    "index.md",
+    "concepts/contenedores.md",
+    "summaries/imagenes-y-docker-hub.md",
+    "Image Management.md",
+    "concepts/kubernetes.md",
+    "Vagrant.md",
+    "Construcción de VPN mesh con Tailscale/Headscale.md",
+    "Cursos de virtualización con KVM/libvirt.md",
+    "38-virsh-cli-kvm.md",
+    "39-almacenamiento-virsh.md",
+    "Container Building.md",
+    "Docker Tooling.md",
+    "lint-report.md",
+    "log.md",
+    "Linux.md",
+    "Orchestration.md",
+    "summaries/almacenamiento-proxmox.md",
+    "summaries/usuarios-permisos-proxmox.md",
+    "AUDIT_REPAIR_REPORT.md",
+    "summaries/virt-manager-setup.md",
+    "summaries/redes-proxmox.md",
+    "summaries/linux-containers-lxc-proxmox.md",
+    "summaries/clonacion-virsh.md",
+    "concepts/proxmox.md",
+    "Sin título.canvas"
+  ]
+}
