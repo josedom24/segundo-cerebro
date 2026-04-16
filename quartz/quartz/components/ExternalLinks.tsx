@@ -50,6 +50,20 @@ export default ((opts?: Options) => {
   opacity: 1;
   color: var(--tertiary);
 }
+
+@media (max-width: 768px) {
+  .external-links ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .external-links a {
+    font-size: 0.85rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    background: var(--lightgray);
+  }
+}
 `
   return ExternalLinks
 }) satisfies QuartzComponentConstructor
