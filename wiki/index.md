@@ -71,8 +71,8 @@ updated: 2026-04-15
 
 ### KVM & libvirt
 
-#### Curso Introductorio
-- [[introduccion-kvm|Introducción a KVM/libvirt]] — Virtualización completa, QEMU/KVM stack, virt-manager
+#### Introducción a KVM & libvirt
+- [[introduccion-kvm|Introducción a KVM]] — Virtualización completa, QEMU/KVM stack, arquitectura
 - [[virt-manager-setup|Setup de virt-manager]] — Instalación, configuración inicial, redes default, almacenamiento
 - [[creacion-vms|Creación de VMs]] — Wizard instalación, Linux/Windows, hardware, detalles VM
 - [[almacenamiento-kvm|Almacenamiento en KVM]] — Storage pools, volúmenes, QCOW2, snapshots, thin provisioning
@@ -80,7 +80,7 @@ updated: 2026-04-15
 - [[redes-kvm|Redes en KVM]] — NAT privadas, aisladas, bridge públicas, macvtap, configuración
 - [[consola-serie-kvm|Consola Serie en KVM]] — Acceso serie, getty, administración remota, bajo overhead
 
-#### Curso Avanzado
+#### Profundización en KVM / libvirt
 - [[conceptos-avanzados-kvm|Conceptos Avanzados]] — Aislamiento seguridad, benchmarking, disaster recovery, cloud computing
 - [[setup-avanzado-kvm|Setup Avanzado]] — Virtualización anidada, CPU host-passthrough, requisitos hardware
 - [[virsh-cli-kvm|virsh CLI]] — Gestión dominios XML, ciclo de vida, volúmenes, virt-viewer
@@ -142,18 +142,18 @@ updated: 2026-04-15
 
 ### OpenShift v4
 
-#### Curso 1: Kubernetes y OpenShift
+#### Kubernetes y OpenShift
 - [[introduccion-openshift|Introducción a OpenShift]] — Distribución K8s enterprise, Developer Sandbox, características
 - [[developer-sandbox|Developer Sandbox]] — Entorno cloud gratuito, proyectos, acceso web
 - [[code-ready-containers|Instalación Local (CRC)]] — Code Ready Containers, instalación, requisitos, primeros pasos
-- [[pods-replicasets-deployments|Pods, ReplicaSets y Deployments]] — Recursos Kubernetes 1 en OpenShift
+- [[pods-replicasets-deployments|Pods, ReplicaSets y Deployments]] — Recursos Kubernetes en OpenShift
 - [[services-routes|Services y Routes]] — Acceso a aplicaciones, exposición, routing
 - [[configmaps-secrets|ConfigMaps y Secrets]] — Parametrización, credenciales, configuración
 - [[almacenamiento-openshift|Almacenamiento en OpenShift]] — Volumes, PersistentVolumes, PersistentVolumeClaims
 - [[recursos-avanzados|Recursos Avanzados]] — StatefulSet, DaemonSet, Jobs, CronJobs, HPA
 - [[aplicacion-ejemplo-citas|Aplicación Ejemplo: Citas]] — Despliegue multi-componente, microservices
 
-#### Curso 2: OpenShift como Plataforma PaaS
+#### OpenShift como PaaS
 - [[openshift-paas|OpenShift como PaaS]] — Características PaaS, abstracciones, flujos de trabajo
 - [[metodos-despliegue|Métodos de Despliegue]] — Image, Source-to-Image (S2I), Dockerfile, Templates
 - [[imagestream-gestion|ImageStream y Gestión]] — Abstracción de imágenes, triggers automáticos, importación
