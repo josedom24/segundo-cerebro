@@ -262,26 +262,52 @@ Escribe lint-report.md con fixes."
 
 ## 📌 Decisiones de Diseño (Actualizables)
 
-### Estrategia de Conceptos (2026-04-15)
+### Estrategia de Conceptos (2026-04-16)
 
-**Decisión actual:** Conceptos = nivel alto (herramientas/plataformas principales)
+**Decisión actual:** Enfoque GRANULAR - Conceptos reutilizables + Conceptos plataforma
 
 ```
-KVM, Docker, Kubernetes, Podman, Helm, etc.
-(~9-15 conceptos máximo)
+Nivel 1: Plataformas principales
+  - Docker, Kubernetes, Podman, KVM, Proxmox, OpenStack, Helm
+
+Nivel 2: Patrones reutilizables (aparecen en múltiples plataformas)
+  - Deployment, Service, Pod, StatefulSet, Job (Kubernetes patterns)
+  - Volume, Snapshot (storage patterns en K8s, OpenStack, Proxmox, KVM)
+  - Quadlet, Systemd (Podman patterns)
+  
+Nivel 3: Abstracciones generales
+  - Contenedores, Network, Storage, etc.
 ```
 
-**Razón:** Vault enfocado actualmente en cursos completos. Los módulos **son** los conceptos detallados.
+**Razón:** 
+- Patterns granulares son reutilizables y transferibles
+- Usuario aprende conceptos aplicables a múltiples plataformas
+- Deployment en K8s → entender deployment en otros contextos
+- Volume en K8s → entender storage en OpenStack, Proxmox, KVM
 
-**¿Por qué es flexible?** Cuando el vault crezca con más fuentes (artículos, investigaciones, análisis), podemos evolucionar a:
-- Conceptos granulares (Deployments, Pods, Services, Quadlet, etc.)
-- Conceptos temáticos (Cloud-Native, IaC, DevOps)
-- Multi-nivel (alta nivel + detallados)
+**Ejemplo - Volume:**
+```
+Concepto único [[Volume]] que:
+- Aparece en Kubernetes (PersistentVolume)
+- Aparece en OpenStack (Cinder)
+- Aparece en Proxmox (LVM/Directory)
+- Aparece en KVM (Storage pools)
 
-**Para cambiar en futuro:** Revisar `wiki/concepts/` y expandir según necesidad. El log.md y esta nota orientarán la evolución.
+Usuario entiende: "Volume = almacenamiento persistente e independiente"
+Aplicable en todas las plataformas
+```
+
+**Tabla de Conceptos por Categoría:**
+
+| Categoría | Conceptos |
+|-----------|-----------|
+| Plataformas | Docker, Kubernetes, Podman, KVM, Proxmox, OpenStack, Helm |
+| K8s Patterns | Deployment, Service, Pod, StatefulSet, Job |
+| Storage | Volume, Snapshot |
+| General | Contenedores, Imagen |
 
 ---
 
 **Creado:** 2026-04-15
-**Versión:** 1.0
-**Última actualización:** 2026-04-15
+**Versión:** 1.1 (2026-04-16)
+**Última actualización:** 2026-04-16 - Actualizado a estrategia granular con patterns reutilizables

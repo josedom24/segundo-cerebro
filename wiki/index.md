@@ -6,29 +6,38 @@ updated: 2026-04-15
 # Índice del Vault
 
 **Última actualización:** 2026-04-16  
-**Total de páginas:** 76  
-**Cursos ingeridos:** 7 (Docker, Kubernetes, Podman, KVM Intro, KVM Avanzado, Proxmox, OpenStack)
+**Total de páginas:** 88  
+**Cursos ingeridos:** 7 (Docker, Kubernetes, Podman, KVM Intro, KVM Avanzado, Proxmox, OpenStack)  
+**Estrategia:** Conceptos granulares + patterns reutilizables
 
 ---
 
-## 📚 Conceptos (10)
+## 📚 Conceptos (17)
 
-### Virtualización
-- [[KVM]] — Hipervisor integrado en Linux para virtualización
-
-### Cloud Computing (IaaS)
-- [[OpenStack]] — Plataforma cloud IaaS: compute, storage, networking, imágenes
-
-### Contenedores
-- [[Contenedores]] — Virtualización a nivel SO con kernel compartido
+### Plataformas Principales (7)
 - [[Docker]] — Plataforma de containerización con imágenes, registros, Compose
+- [[Kubernetes]] — Orquestador cloud-native: master/worker, auto-scaling, rolling updates
+- [[Podman]] — Runtime daemonless, rootless nativo, Pods, Quadlet
+- [[KVM]] — Hipervisor integrado en Linux para virtualización
+- [[Proxmox]] — Plataforma virtualización: KVM + LXC, gestión centralizada
+- [[OpenStack]] — Plataforma cloud IaaS: compute, storage, networking, imágenes
+- [[Helm]] — Package manager de Kubernetes: charts, templating, distribución
+
+### Kubernetes Patterns (5)
+- [[Deployment]] — Orquestación declarativa: rolling updates, rollbacks, replicación
+- [[Service]] — Exposición de Pods: load balancing, DNS, múltiples tipos
+- [[Pod]] — Unidad mínima: 1+ contenedores, network compartida, efímeros
+- [[StatefulSet]] — Aplicaciones stateful: identidad persistente, almacenamiento dedicado
+- [[Job]] — Tareas batch: completación garantizada, reintentos, ejecución paralela
+
+### Storage Patterns (2)
+- [[Volume]] — Almacenamiento persistente e independiente (K8s, OpenStack, Proxmox, KVM)
+- [[Snapshot]] — Captura punto-en-tiempo: backup, clones, rollback
+
+### General (3)
+- [[Contenedores]] — Virtualización a nivel SO con kernel compartido
 - [[Docker Compose]] — Orquestación de múltiples contenedores con YAML
 - [[Dockerfile]] — Sintaxis para definir y construir imágenes Docker
-- [[Podman]] — Runtime daemonless, rootless nativo, Pods, Quadlet
-
-### Orquestación
-- [[Kubernetes]] — Orquestador cloud-native: master/worker, auto-scaling, rolling updates
-- [[Helm]] — Package manager de Kubernetes: charts, templating, distribución
 
 ---
 
