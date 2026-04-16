@@ -246,7 +246,7 @@ Require ip 192.168.1.0/24
 
 ### Conecta con
 - [[apache]] — Servidor web
-- [[seguridad]] — Control acceso, autenticación
+- seguridad — Control acceso, autenticación
 - [[configuracion-apache|Configuración]] — Directivas Apache
 - [[tls]] — HTTPS recomendado con autenticación basic
 

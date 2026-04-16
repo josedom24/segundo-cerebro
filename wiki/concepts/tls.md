@@ -207,8 +207,8 @@ openssl x509 -in server.crt -noout -text | grep -A1 "Subject Alternative"
 - [[openshift|OpenShift Routes]] — HTTPS automático
 
 ### Base para
-- [[seguridad]] — Confidencialidad transporte
-- [[redes]] — Encriptación transport-layer
+- seguridad — Confidencialidad transporte
+- redes — Encriptación transport-layer
 
 ## Fuentes
 

@@ -303,7 +303,7 @@ awk '$NF > 1000 {print $7, $NF}' /var/log/apache2/access.log | sort -k2 -rn
 ### Conecta con
 - [[apache]] — Servidor web
 - [[modulos-apache|Módulos]] — mod_proxy, mod_proxy_http
-- [[redes]] — Concepto proxy, balanceo carga
+- redes — Concepto proxy, balanceo carga
 - [[seguridad-apache|Seguridad]] — Logs análisis
 
 ---

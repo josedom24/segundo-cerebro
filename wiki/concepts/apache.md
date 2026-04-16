@@ -100,8 +100,8 @@ Apache sigue dominando en:
 ### Enlaza con
 - [[http]] — Protocolo base que implementa
 - [[tls]] — Certificados y HTTPS (mod_ssl)
-- [[linux]] — Instalación, gestión systemd
-- [[seguridad]] — mod_security2, autenticación, control acceso
+- linux — Instalación, gestión systemd
+- seguridad — mod_security2, autenticación, control acceso
 
 ### En ecosistema
 - Alternativa a [[kubernetes|K8s proxies]] — Apache como proxy inverso

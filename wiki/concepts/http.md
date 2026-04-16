@@ -159,7 +159,7 @@ Accept-Encoding: gzip, deflate, br
 
 ### Complementado por
 - [[tls]] — HTTPS (HTTP sobre TLS/SSL)
-- [[redes]] — TCP/IP transporte
+- redes — TCP/IP transporte
 
 ## Fuentes
 

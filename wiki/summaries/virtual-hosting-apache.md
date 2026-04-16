@@ -188,7 +188,7 @@ grep "GET" /var/log/apache2/ejemplo1-access.log | wc -l
 - [[apache]] — Servidor web base
 - [[configuracion-apache|Configuración]] — Ficheros .conf VirtualHost
 - [[https-apache|HTTPS]] — VirtualHost en puerto 443
-- [[redes]] — Concepto multi-IP vs multi-dominio
+- redes — Concepto multi-IP vs multi-dominio
 
 ### Conceptos relacionados
 - [[service]] — Kubernetes Services vs Apache VirtualHosts

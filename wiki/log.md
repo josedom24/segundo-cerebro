@@ -2,7 +2,7 @@
 **Conceptos (9 archivos):** Removidos enlaces rotos, normalizados a minúsculas
 - ✏️ contenedores.md
 - ✏️ docker.md
-- ✏️ dockerfile.md
+- ✏️ [[dockerfile-y-construccion|dockerfile-y-construccion.md]]
 - ✏️ docker-compose.md
 - ✏️ kubernetes.md
 - ✏️ podman.md
@@ -15,7 +15,7 @@
 - ✏️ introduccion-podman.md (agregada [[podman]])
 - ✏️ introduccion-kvm.md (agregada [[kvm]])
 - ✏️ introduccion-proxmox.md (agregada [[proxmox]])
-- ✏️ dockerfile-y-construccion.md (agregada [[dockerfile]])
+- ✏️ dockerfile-y-construccion.md (agregada [[dockerfile-y-construccion|dockerfile]])
 - ✏️ docker-compose.md (agregada [[docker-compose]])
 - ✏️ helm-empaquetado.md (agregada [[helm]])
 - ✏️ 7 archivos más con reemplazos masivos
@@ -31,7 +31,7 @@
 - Normalizados 8 nombres de conceptos a minúsculas
 
 **Fase 2: Conectar conceptos aislados (1 hora)**
-- Agregadas referencias a [[kubernetes]], [[podman]], [[kvm]], [[proxmox]], [[helm]], [[dockerfile]], [[docker-compose]]
+- Agregadas referencias a [[kubernetes]], [[podman]], [[kvm]], [[proxmox]], [[helm]], [[dockerfile-y-construccion|dockerfile]], [[docker-compose]]
 - Resultado: 0 conceptos aislados (antes 5)
 
 **Fase 3: Limpeza y validación (30 min)**
@@ -49,7 +49,7 @@ Conceptos y referencias entrantes:
   ✅ contenedores: 9 referencias
   ✅ podman: 2 referencias
   ✅ proxmox: 2 referencias
-  ✅ dockerfile: 2 referencias
+  ✅ dockerfile-y-construccion: 2 referencias
   🟡 helm: 1 referencia
   🟡 docker-compose: 1 referencia
 

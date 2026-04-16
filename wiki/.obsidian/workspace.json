@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d260e3960ccde9c2",
+        "id": "a5b4c0d895a4b85d",
         "type": "tabs",
         "children": [
           {
-            "id": "cda0711d6492fcfa",
+            "id": "9c92206f3be033e4",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -179,16 +179,27 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "cda0711d6492fcfa",
+  "active": "9c92206f3be033e4",
   "lastOpenFiles": [
-    "summaries/index.md",
-    "concepts/index.md",
-    "index.md.tmp.526334.1776365679185",
-    "index.md.tmp.526334.1776365646119",
+    "concepts/tls.md.tmp.546751.1776368377860",
+    "concepts/tls.md.tmp.546751.1776368376504",
+    "concepts/apache.md.tmp.546751.1776368375159",
+    "concepts/apache.md.tmp.546751.1776368373510",
+    "summaries/fundamentos-apache.md.tmp.546751.1776368372023",
+    "summaries/fundamentos-apache.md.tmp.546751.1776368370447",
+    "concepts/http.md.tmp.546751.1776368335630",
+    "summaries/proxy-logs-apache.md.tmp.546751.1776368334192",
+    "summaries/virtual-hosting-apache.md.tmp.546751.1776368327921",
+    "summaries/autenticacion-apache.md.tmp.546751.1776368263440",
+    "summaries/seguridad-apache.md.tmp.546751.1776368254181",
+    "log.md",
     "index.md",
+    "concepts/index.md",
+    "summaries/index.md",
+    "concepts/_index.md",
+    "summaries/_index.md",
     "tags/kubernetes.md",
     "docker.md",
-    "log.md",
     "proxmox.md",
     "profundizacion-kvm.md",
     "podman.md",
@@ -198,25 +209,14 @@
     "kubernetes.md",
     "introduccion-kvm.md",
     "apache2.md",
-    "index.md.tmp.526334.1776364425901",
-    "courses/profundizacion-kvm.md.tmp.526334.1776364420964",
     "courses/profundizacion-kvm.md",
-    "index.md.tmp.526334.1776364337726",
-    "courses/libvirt.md.tmp.526334.1776364334305",
     "courses/libvirt.md",
-    "index.md.tmp.526334.1776363819729",
-    "index.md.tmp.526334.1776363812904",
     "courses/apache2.md",
-    "courses/apache2.md.tmp.526334.1776363784531",
     "courses/openshift-paas.md",
-    "courses/openshift-paas.md.tmp.526334.1776363777026",
     "courses/openshift-kubernetes.md",
     "courses/kubernetes.md",
     "courses/podman.md",
     "courses/docker.md",
-    "courses/openstack.md",
-    "courses/proxmox.md",
-    "courses/introduccion-kvm.md",
     "Sin título.canvas"
   ]
 }

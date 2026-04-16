@@ -129,8 +129,8 @@ grep -E "^User " /etc/apache2/apache2.conf
 - [[configuracion-apache|Configuración]] — Ficheros config
 
 ### Conceptos previos
-- [[linux]] — Sistema operativo base
-- [[redes]] — Puertos, TCP/IP
+- linux — Sistema operativo base
+- redes — Puertos, TCP/IP
 
 ---
 

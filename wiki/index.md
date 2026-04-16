@@ -22,7 +22,7 @@ updated: 2026-04-15
 
 ## 🏷️ Etiquetas (33)
 
-[openshift](/tags/openshift) [kubernetes](/tags/kubernetes) [contenedores](/tags/contenedores) [kvm](/tags/kvm) [redes](/tags/redes) [deployment](/tags/deployment) [docker](/tags/docker) [podman](/tags/podman) [apache](/tags/apache) [proxmox](/tags/proxmox) [almacenamiento](/tags/almacenamiento) [imagenes](/tags/imagenes) [virtualizacion](/tags/virtualizacion) [openstack](/tags/openstack) [instalacion](/tags/instalacion) [linux](/tags/linux) [http](/tags/http) [orquestacion](/tags/orquestacion) [automatizacion](/tags/automatizacion) [oci](/tags/oci) [rootless](/tags/rootless) [bridge](/tags/bridge) [dns](/tags/dns) [seguridad](/tags/seguridad) [configuracion](/tags/configuracion) [imagestream](/tags/imagestream) [pods](/tags/pods) [secrets](/tags/secrets) [services](/tags/services) [templates](/tags/templates) [vm](/tags/vm) [volumes](/tags/volumes) [tls](/tags/tls)
+#openshift #kubernetes #contenedores #kvm #redes #deployment #docker #podman #apache #proxmox #almacenamiento #imagenes #virtualizacion #openstack #instalacion #linux #http #orquestacion #automatizacion #oci #rootless #bridge #dns #seguridad #configuracion #imagestream #pods #secrets #services #templates #vm #volumes #tls
 
 ---
 

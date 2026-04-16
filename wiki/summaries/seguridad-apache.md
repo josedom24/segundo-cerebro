@@ -295,7 +295,7 @@ awk '$9 == 404 {print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -
 - [[https-apache|HTTPS]] — Headers seguridad HSTS
 - [[tls]] — Cifrado transporte
 - [[autenticacion-apache|Autenticación]] — Control acceso
-- [[linux]] — Permisos ficheros, monitoreo
+- linux — Permisos ficheros, monitoreo
 
 ---
 
