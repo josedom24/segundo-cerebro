@@ -37,16 +37,6 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.DesktopOnly(
-      Component.ExternalLinks({
-        links: [
-          { label: "Inicio", url: "/", internal: true },
-          { label: "Blog", url: "https://www.josedomingo.org" },
-          { label: "Plataforma", url: "https://plataforma.josedomingo.org" },
-          { label: "Módulos", url: "https://fp.josedomingo.org" },
-        ],
-      }),
-    ),
     Component.Explorer(),
   ],
   right: [
