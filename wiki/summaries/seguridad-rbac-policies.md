@@ -219,4 +219,4 @@ ingress:
 - Secrets: Gestión de credenciales
 
 ## Fuentes
-- Curso osv4_paas - Módulo 10
+- [Curso OpenShift v4 PaaS (Módulo 10)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo10)

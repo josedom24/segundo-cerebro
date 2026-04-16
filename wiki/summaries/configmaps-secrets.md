@@ -104,4 +104,4 @@ oc expose service wordpress --hostname=myapp.example.com
 - Ejemplo de: Despliegue real multi-tier
 
 ## Fuentes
-- Curso osv4_k8s - Módulo 6
+- [Curso OpenShift v4 (Módulo 6)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo6)

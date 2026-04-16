@@ -152,4 +152,4 @@ spec:
 - Reemplaza: [[kubernetes|Ingress]] de Kubernetes (más simple)
 
 ## Fuentes
-- Curso osv4_paas - Módulo 7
+- [Curso OpenShift v4 PaaS (Módulo 7)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo7)

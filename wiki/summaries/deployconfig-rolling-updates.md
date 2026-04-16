@@ -152,4 +152,4 @@ triggers:
 - Patrón: Reemplazado por Deployment en versiones recientes
 
 ## Fuentes
-- Curso osv4_paas - Módulo 6
+- [Curso OpenShift v4 PaaS (Módulo 6)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo6)

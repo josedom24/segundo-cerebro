@@ -109,4 +109,4 @@ oc get is
 - Define: Deployment, Service, Route
 
 ## Fuentes
-- Curso osv4_paas - Módulo 2
+- [Curso OpenShift v4 PaaS (Módulo 2)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo2)

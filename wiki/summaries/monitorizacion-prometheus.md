@@ -138,4 +138,4 @@ http_requests_total{method="GET",status="200"} 1234
 - Integración: AlertManager para alertas
 
 ## Fuentes
-- Curso osv4_paas - Módulo 9
+- [Curso OpenShift v4 PaaS (Módulo 9)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo9)

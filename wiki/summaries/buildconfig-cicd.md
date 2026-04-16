@@ -201,4 +201,4 @@ Resultado:
 - Integra: Git webhooks, CI/CD
 
 ## Fuentes
-- Curso osv4_paas - Módulo 4
+- [Curso OpenShift v4 PaaS (Módulo 4)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo4)

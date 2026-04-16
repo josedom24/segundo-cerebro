@@ -132,4 +132,4 @@ Si Pod cae → datos persisten en PVs
 - Similar a: [[Snapshot]] (backup/restore)
 
 ## Fuentes
-- Curso osv4_k8s - Módulo 7
+- [Curso OpenShift v4 (Módulo 7)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo7)

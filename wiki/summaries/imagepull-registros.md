@@ -162,4 +162,4 @@ Flujo:
 - Automation: Triggers automáticos
 
 ## Fuentes
-- Curso osv4_paas - Módulo 5
+- [Curso OpenShift v4 PaaS (Módulo 5)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo5)

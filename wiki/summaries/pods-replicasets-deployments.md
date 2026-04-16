@@ -99,4 +99,4 @@ oc rollout undo deployment/myapp     # Volver anterior
 - Relacionado: [[service]] (acceso a Pods)
 
 ## Fuentes
-- Curso osv4_k8s - Módulo 4
+- [Curso OpenShift v4 (Módulo 4)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo4)

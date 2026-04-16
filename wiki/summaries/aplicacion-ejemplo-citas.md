@@ -157,4 +157,4 @@ MySQL (interno): mysql:3306
 - Ejemplo de: Arquitectura microservicios real
 
 ## Fuentes
-- Curso osv4_k8s - Módulo 9
+- [Curso OpenShift v4 (Módulo 9)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo9)

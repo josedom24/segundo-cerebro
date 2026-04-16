@@ -104,4 +104,4 @@ Desarrollo → Pruebas → Producción
 - Simplifica: Acceso via [[route]]
 
 ## Fuentes
-- Curso osv4_paas - Módulo 1
+- [Curso OpenShift v4 PaaS (Módulo 1)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo1)

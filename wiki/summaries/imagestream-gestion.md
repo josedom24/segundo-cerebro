@@ -126,4 +126,4 @@ spec:
 - Alternativa: Referencias simples a Docker registros
 
 ## Fuentes
-- Curso osv4_paas - Módulo 3
+- [Curso OpenShift v4 PaaS (Módulo 3)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo3)

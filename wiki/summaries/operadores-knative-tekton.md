@@ -120,4 +120,4 @@ spec:
 - Operadores: Software as code
 
 ## Fuentes
-- Curso osv4_paas - Módulo 8
+- [Curso OpenShift v4 PaaS (Módulo 8)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo8)

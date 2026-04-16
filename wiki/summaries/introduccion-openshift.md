@@ -84,4 +84,4 @@ Programas que gestionan contenedores en clústers:
 - Introducción a: [[openshift]], [[build]], [[route]], [[imagestream]]
 
 ## Fuentes
-- Curso osv4_k8s - Módulo 1
+- [Curso OpenShift v4 (Módulo 1)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo1)

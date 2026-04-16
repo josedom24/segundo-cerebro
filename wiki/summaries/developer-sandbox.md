@@ -64,4 +64,4 @@ Instalación y uso del Developer Sandbox: plataforma gratuita en cloud de Red Ha
 - Alternativa a: [[build]] manual (Deploy Config)
 
 ## Fuentes
-- Curso osv4_k8s - Módulo 2
+- [Curso OpenShift v4 (Módulo 2)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo2)

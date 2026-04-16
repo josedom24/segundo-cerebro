@@ -141,4 +141,4 @@ spec:
 - HPA: Escalado automático
 
 ## Fuentes
-- Curso osv4_k8s - Módulo 8
+- [Curso OpenShift v4 (Módulo 8)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo8)
