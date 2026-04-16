@@ -8,11 +8,23 @@ Este archivo configura cómo Claude mantiene y evoluciona tu wiki.
 wiki/
 ├── index.md              # Catálogo de todas las páginas
 ├── log.md                # Historial de operaciones (append-only)
-├── summaries/            # Un resumen por fuente importante
-├── concepts/             # Conceptos clave
-├── entities/             # Personas, empresas, proyectos
-└── analyses/             # Síntesis propias, comparaciones
+├── concepts/             # 9 conceptos clave (NÚCLEO)
+├── summaries/            # 50 resúmenes de 6 cursos (NÚCLEO)
+├── articles/             # Artículos, blog, investigaciones (SATÉLITES)
+├── analyses/             # Síntesis propias, comparaciones (SATÉLITES)
+└── entities/             # Personas, empresas, proyectos (SATÉLITES)
 ```
+
+### Núcleo vs Satélites
+
+**NÚCLEO (inmutable, fuente de verdad):**
+- `concepts/` — 9 conceptos principales
+- `summaries/` — 50 módulos de 6 cursos
+
+**SATÉLITES (flexibles, enlazan al núcleo):**
+- `articles/` — Artículos blog, casos reales, profundizaciones
+- `analyses/` — Síntesis propias, comparaciones, estudios
+- `entities/` — Personas, empresas, recursos
 
 ## 🔄 Workflow: Ingestar una Fuente
 
@@ -45,6 +57,57 @@ Cuando se añade algo a `raw-sources/`:
 4. **Guarda** la respuesta como nueva página en `wiki/analyses/` si es valiosa
 5. **Actualiza** `wiki/index.md` con el nuevo análisis
 6. **Anota** en `wiki/log.md`
+
+## 📰 Workflow: Agregar Artículos
+
+Cuando agregues un artículo (blog, investigación, caso real):
+
+1. **Crea archivo** en `wiki/articles/nombre-descripcion.md`
+   - Usa nombrado kebab-case (igual que summaries)
+   
+2. **Identifica módulos relacionados**
+   - ¿Qué del curso refuerza o amplía?
+   - Máximo 3-5 conexiones por artículo
+   
+3. **Escribe sección "Conecta con"**
+   ```markdown
+   ## Relaciones
+   - [[introduccion-docker|Introducción a Docker]] — Fundamentos que cubre
+   - [[docker-compose|Docker Compose]] — Orquestación relacionada
+   ```
+
+4. **Actualiza módulos enlazados**
+   - Añade en sección "Lecturas relacionadas" → `[[articulo-nombre|Texto]]`
+   - NO modifiques el contenido del módulo, solo referencias
+
+5. **Actualiza `wiki/index.md`**
+   - Sección "## Artículos" (nueva si no existe)
+   - Lista: `- [[articulo-nombre]] — descripción de una línea`
+
+6. **Registra en `wiki/log.md`**
+   ```markdown
+   ## [YYYY-MM-DD] article | Título del Artículo
+   
+   - ✏️ wiki/articles/tema-articulo.md (creado)
+   - ✏️ wiki/summaries/modulo-relacionado.md (link añadido)
+   - ✏️ wiki/index.md (artículo listado)
+   
+   **Conecta con:** [[concepto]] — Amplía con [tema]
+   ```
+
+### Tipos de Artículos Válidos
+
+- ✅ **Casos reales** — "Docker en mi startup"
+- ✅ **Troubleshooting** — "Problemas comunes en K8s"
+- ✅ **Opinión/Experiencia** — "Podman vs Docker: mi visión"
+- ✅ **Tutoriales** — "Migrar a Podman en 5 pasos"
+- ✅ **Profundizaciones** — "Networking avanzado en Docker"
+
+### Qué NO es un Artículo
+
+- ❌ No reemplaza módulos de cursos
+- ❌ No es para contenido estructurado educativo
+- ❌ No copia/resume contenido existente en summaries
 
 ## 🧹 Workflow: Limpieza (1x por semana)
 
