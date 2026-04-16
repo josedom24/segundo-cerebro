@@ -42,6 +42,7 @@ build() {
   cd quartz
   npx quartz build
   cd ..
+  cp scripts/.htaccess quartz/public/.htaccess
   log "Build completado"
 }
 
