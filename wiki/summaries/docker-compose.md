@@ -594,7 +594,7 @@ docker compose down -v
 ### Conecta con
 - [[docker-compose]] — Package manager de multi-contenedores
 - [[docker]] — Plataforma base
-- [[dockerfile]] — Define imágenes que Compose orquesta
+- [[dockerfile-y-construccion|Dockerfile]] — Define imágenes que Compose orquesta
 - [[volumenes-bind-mounts|Volúmenes y Bind Mounts]] — Define volúmenes
 - [[redes-docker|Redes en Docker]] — Define redes
 

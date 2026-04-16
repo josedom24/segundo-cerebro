@@ -511,7 +511,7 @@ docker run -d myregistry.com/myapp:1.0
 ## Relaciones
 
 ### Conecta con
-- [[dockerfile]] — Concepto y sintaxis
+- [[dockerfile-y-construccion|Dockerfile]] — Concepto y sintaxis
 - [[docker]] — Plataforma base
 - [[docker-compose|Docker Compose]] — Define imágenes a construir
 

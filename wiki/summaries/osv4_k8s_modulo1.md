@@ -80,7 +80,7 @@ Programas que gestionan contenedores en clústers:
 - **CRC (CodeReady Containers):** OpenShift local en laptop para desarrollo
 
 ## Relaciones
-- Conecta con: [[kubernetes]], [[Contenedores]], [[Docker]]
+- Conecta con: [[kubernetes]], [[contenedores]], [[docker]]
 - Introducción a: [[openshift]], [[build]], [[route]], [[imagestream]]
 
 ## Fuentes
