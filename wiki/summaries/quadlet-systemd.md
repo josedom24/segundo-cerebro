@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
-tags: [podman, quadlet, systemd, servicios]
+tags: [podman]
 ---
 
 # Systemd y Quadlet: Gestión de Contenedores

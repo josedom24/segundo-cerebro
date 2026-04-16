@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
-tags: [podman, contenedores, ejecucion, rootless, interactivo]
+tags: [contenedores, podman, rootless]
 ---
 
 # Ejecución de Contenedores con Podman

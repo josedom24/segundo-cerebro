@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, virsh, clonacion, virt-clone, virt-install, auto-clone, templates]
+tags: [kvm, templates]
 ---
 
 # Clonación Avanzada con virsh

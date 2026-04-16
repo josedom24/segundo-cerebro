@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep]
-tags: [kubernetes, service, networking, load-balancer, dns]
+tags: [dns, kubernetes, redes]
 aliases: [Service]
 ---
 

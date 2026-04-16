@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
-tags: [proxmox, vm, maquinas-virtuales, kvm, windows, linux]
+tags: [kvm, linux, proxmox, vm]
 ---
 
 # Creación de Máquinas Virtuales en Proxmox

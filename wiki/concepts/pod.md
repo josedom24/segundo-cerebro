@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep]
-tags: [kubernetes, pod, container, ephemeral, minimal-unit]
+tags: [contenedores, kubernetes]
 aliases: [Pod]
 ---
 

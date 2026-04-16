@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
-tags: [podman, imagenes, oci, registry]
+tags: [imagenes, oci, podman]
 ---
 
 # Gestión de Imágenes OCI en Podman

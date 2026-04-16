@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
-tags: [openshift, builds, buildconfig, automation, ci-cd]
+tags: [automatizacion, openshift]
 ---
 
 # Builds: Construcción Automática de Imágenes (Curso 2 - Módulo 4)

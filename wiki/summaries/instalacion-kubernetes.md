@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
-tags: [kubernetes, minikube, kubectl, instalacion, setup]
+tags: [instalacion, kubernetes]
 ---
 
 # Instalación de Kubernetes

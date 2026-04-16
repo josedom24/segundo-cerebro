@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, virsh, almacenamiento, qemu-img, storage-pools, lvm, zfs]
+tags: [almacenamiento, kvm]
 ---
 
 # Almacenamiento en KVM/libvirt con virsh

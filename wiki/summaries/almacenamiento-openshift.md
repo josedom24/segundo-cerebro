@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
-tags: [openshift, storage, volumes, persistent-volumes, pvc]
+tags: [almacenamiento, openshift, volumes]
 ---
 
 # Almacenamiento en OpenShift v4 (Curso 1 - Módulo 7)

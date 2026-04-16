@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
-tags: [docker-desktop, gui, image-management, container-management, volumes, extensions]
+tags: [docker, imagenes, volumes]
 ---
 
 # Docker Desktop

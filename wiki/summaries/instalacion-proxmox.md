@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
-tags: [proxmox, instalacion, configuracion, setup]
+tags: [configuracion, instalacion, proxmox]
 ---
 
 # Instalación de Proxmox VE

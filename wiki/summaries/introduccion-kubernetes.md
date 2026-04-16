@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
-tags: [kubernetes, k8s, orquestacion, contenedores, arquitectura]
+tags: [contenedores, kubernetes, orquestacion]
 ---
 
 # Introducción a Kubernetes

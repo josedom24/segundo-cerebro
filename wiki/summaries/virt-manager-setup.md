@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, virt-manager, libvirt, instalacion, configuracion]
+tags: [configuracion, instalacion, kvm]
 ---
 
 # Instalación y Configuración de virt-manager

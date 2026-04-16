@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, virtualizacion, qemu, libvirt, hipervisor]
+tags: [kvm, virtualizacion]
 ---
 
 # Introducción a la Virtualización con KVM/libvirt

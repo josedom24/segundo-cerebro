@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_openstack_ies]
-tags: [openstack, glance, imagenes, cloud]
+tags: [imagenes, openstack]
 ---
 
 # Glance: Gestión de Imágenes en OpenStack

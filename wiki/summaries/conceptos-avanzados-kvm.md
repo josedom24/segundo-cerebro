@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, virtualizacion-avanzada, benchmarking, disaster-recovery, cloud-computing]
+tags: [kvm, virtualizacion]
 ---
 
 # Conceptos Avanzados de Virtualización en KVM

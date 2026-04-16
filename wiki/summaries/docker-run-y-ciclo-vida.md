@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
-tags: [docker, containers, execution, management, docker-run]
+tags: [contenedores, docker]
 ---
 
 # Ejecución de Contenedores

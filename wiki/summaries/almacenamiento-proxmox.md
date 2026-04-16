@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
-tags: [proxmox, almacenamiento, storage, discos, thin-provisioning]
+tags: [almacenamiento, proxmox]
 ---
 
 # Gestión de Almacenamiento en Proxmox

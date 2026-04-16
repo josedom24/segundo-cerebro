@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
-tags: [openshift, networking, services, routes, ingress]
+tags: [openshift, redes, services]
 ---
 
 # Acceso a las Aplicaciones (Curso 1 - Módulo 5)

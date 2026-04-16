@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
-tags: [proxmox, lxc, contenedores, linux]
+tags: [contenedores, linux, proxmox]
 ---
 
 # Trabajando con Linux Containers (LXC) en Proxmox

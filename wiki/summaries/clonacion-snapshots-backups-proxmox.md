@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
-tags: [proxmox, clonacion, snapshots, backups, vm]
+tags: [proxmox, vm]
 ---
 
 # Clonación, Snapshots y Backups en Proxmox

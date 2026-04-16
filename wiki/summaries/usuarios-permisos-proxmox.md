@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
-tags: [proxmox, usuarios, permisos, seguridad, rbac]
+tags: [proxmox, seguridad]
 ---
 
 # Gestión de Usuarios y Permisos en Proxmox VE

@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, redes, nat, bridge, libvirt, virtual-switch]
+tags: [bridge, kvm, redes]
 ---
 
 # Redes en KVM/libvirt

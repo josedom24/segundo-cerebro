@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
-tags: [docker, images, docker-hub, layers, image-management]
+tags: [docker, imagenes]
 ---
 
 # Gestión de Imágenes

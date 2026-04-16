@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, setup, nested-virtualization, hardware-requirements, cpu-passthrough]
+tags: [instalacion, kvm]
 ---
 
 # Setup Avanzado de KVM/QEMU

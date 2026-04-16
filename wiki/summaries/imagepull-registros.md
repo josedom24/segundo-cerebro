@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
-tags: [openshift, imagestream, tags, updates, automation]
+tags: [automatizacion, imagestream, openshift]
 ---
 
 # ImageStreams Avanzado: Etiquetas y Actualizaciones (Curso 2 - Módulo 5)

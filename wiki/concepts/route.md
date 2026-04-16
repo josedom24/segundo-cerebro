@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s]
-tags: [openshift, networking, routing, access]
+tags: [openshift, redes]
 ---
 
 # Route

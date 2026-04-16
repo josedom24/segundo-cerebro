@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
-tags: [proxmox, redes, networking, bridge, firewall]
+tags: [bridge, proxmox, redes]
 ---
 
 # Gestión de Redes en Proxmox VE

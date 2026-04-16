@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
-tags: [openshift, deployconfig, deployment, rolling-updates]
+tags: [deployment, openshift]
 ---
 
 # DeployConfig y Rolling Updates (Curso 2 - Módulo 6)

@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
-tags: [podman, almacenamiento, redes, volumen, bind-mount]
+tags: [almacenamiento, podman, redes]
 ---
 
 # Almacenamiento y Redes en Podman

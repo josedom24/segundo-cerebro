@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, almacenamiento, storage-pools, snapshots, qcow2, thin-provisioning]
+tags: [almacenamiento, kvm]
 ---
 
 # Almacenamiento en KVM/virt-manager

@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
-tags: [podman, dockerfile, construccion, imagenes, oci]
+tags: [docker, imagenes, oci, podman]
 ---
 
 # Construcción y Distribución de Imágenes OCI

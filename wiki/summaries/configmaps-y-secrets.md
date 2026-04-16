@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
-tags: [kubernetes, configmaps, secrets, configuracion, variables-entorno]
+tags: [configuracion, kubernetes, secrets]
 ---
 
 # Despliegues Parametrizados: ConfigMaps y Secrets

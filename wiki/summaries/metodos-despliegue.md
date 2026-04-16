@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
-tags: [openshift, deployment, paas, images, source-code, templates]
+tags: [deployment, imagenes, openshift, templates]
 ---
 
 # Despliegue de Aplicaciones en OpenShift v4 (Curso 2 - Módulo 2)

@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
-tags: [openshift, services, routes, networking, access]
+tags: [openshift, redes, services]
 ---
 
 # Acceso a Aplicaciones: Services y Routes (Curso 2 - Módulo 7)

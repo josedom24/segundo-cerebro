@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, virt-install, instalacion-red, network-boot, consola-serie, automatizacion]
+tags: [automatizacion, instalacion, kvm]
 ---
 
 # Instalación de VMs por Red en KVM

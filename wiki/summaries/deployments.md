@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
-tags: [kubernetes, deployments, actualizaciones, rolling-updates, ciclo-vida]
+tags: [deployment, kubernetes]
 ---
 
 # Deployments: Ciclo de Vida Completo

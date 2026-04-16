@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas]
-tags: [openshift, templates, parametrization, deployments]
+tags: [deployment, openshift, templates]
 ---
 
 # Template

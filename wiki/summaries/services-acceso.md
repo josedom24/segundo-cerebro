@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
-tags: [kubernetes, services, networking, ingress, dns, acceso]
+tags: [dns, kubernetes, redes, services]
 ---
 
 # Services: Acceso a Aplicaciones

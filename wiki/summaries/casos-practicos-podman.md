@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
-tags: [podman, casos-practicos, ejemplos, aplicaciones]
+tags: [podman]
 ---
 
 # Casos Prácticos y Aplicaciones con Podman

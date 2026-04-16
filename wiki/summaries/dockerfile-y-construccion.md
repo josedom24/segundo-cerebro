@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
-tags: [dockerfile, docker-build, image-creation, best-practices]
+tags: [docker, imagenes]
 ---
 
 # Creación de Imágenes

@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, consola-serie, acceso-remoto, ttyS0, getty, administracion]
+tags: [kvm]
 ---
 
 # Acceso por Consola Serie en KVM

@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, virt-manager, creacion-vms, linux, windows]
+tags: [kvm, linux]
 ---
 
 # Creación de Máquinas Virtuales en virt-manager

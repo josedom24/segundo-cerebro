@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
-tags: [docker-compose, yaml, multi-container, orchestration]
+tags: [docker, orquestacion]
 ---
 
 # Docker Compose

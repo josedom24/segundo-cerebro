@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_openstack_ies]
-tags: [openstack, nova, instancias, compute, vm]
+tags: [openstack, vm]
 ---
 
 # Nova: Gestión de Instancias en OpenStack

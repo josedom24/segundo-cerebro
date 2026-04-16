@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
-tags: [podman, seguridad, rootless, selinux, apparmor]
+tags: [podman, rootless, seguridad]
 ---
 
 # Seguridad en Podman

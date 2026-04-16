@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
-tags: [podman, pods, contenedores-multiples, kubernetes]
+tags: [kubernetes, podman, pods]
 ---
 
 # Gestión de Pods en Podman

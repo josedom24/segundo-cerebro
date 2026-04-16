@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, virsh, cli, dominio, xml, libvirt-api]
+tags: [kvm]
 ---
 
 # Gestión de Máquinas Virtuales con virsh

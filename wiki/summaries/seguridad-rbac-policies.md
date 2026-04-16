@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
-tags: [openshift, security, rbac, network-policy, secrets]
+tags: [openshift, redes, secrets, seguridad]
 ---
 
 # Seguridad en OpenShift (Curso 2 - Módulo 10)

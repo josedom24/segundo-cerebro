@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
-tags: [openshift, kubernetes, statefulset, daemonset, jobs, cronjobs, hpa]
+tags: [deployment, kubernetes, openshift]
 ---
 
 # Otros Recursos para Manejar Aplicaciones (Curso 1 - Módulo 8)

@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
-tags: [kvm, clonacion, vms, copia-completa, linked-clone]
+tags: [kvm]
 ---
 
 # Clonación de Máquinas Virtuales en KVM

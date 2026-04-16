@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
-tags: [podman, compose, docker-compose, orquestacion]
+tags: [docker, orquestacion, podman]
 ---
 
 # Escenarios Multicontenedor con podman-compose

@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
-tags: [proxmox, virtualizacion, hipervisor, introduccion]
+tags: [proxmox, virtualizacion]
 ---
 
 # Introducción a la Virtualización con Proxmox VE
