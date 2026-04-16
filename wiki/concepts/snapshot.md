@@ -200,10 +200,10 @@ Aplicar fix
 - [[Kubernetes]] — Volume snapshots
 - [[Volume]] — Storage snapshots
 
-### Conecta con
-- [[Backup]] — Snapshots son base para backups
-- [[Clone]] — Clonación vía snapshot
-- [[Recovery]] — Rollback a punto anterior
+### Casos comunes
+- Backup incremental vía snapshots
+- Clonación rápida con copia-en-escritura
+- Rollback a punto anterior ante fallos
 
 ## Fuentes
 

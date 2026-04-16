@@ -167,9 +167,8 @@ Snapshot: ahora 2GB (datos cambiados)
 - [[StatefulSet]] — Para aplicaciones con estado
 - [[Deployment]] — Configuración, secretos
 
-### Conecta con
-- [[Snapshot]] — Backup incremental
-- [[Storage]] — Backend físico
+### Complementa
+- [[Snapshot]] — Backup incremental de volúmenes
 
 ## Fuentes
 

@@ -127,7 +127,6 @@ spec:
 ### Conecta con
 - [[Pod]] — Unidad desplegada
 - [[Service]] — Expone Deployment
-- [[ReplicaSet]] — Capa intermedia de replicación
 - [[StatefulSet]] — Para aplicaciones stateful
 - [[Job]] — Para tareas que terminan
 
