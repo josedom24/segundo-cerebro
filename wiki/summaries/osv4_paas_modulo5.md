@@ -156,8 +156,8 @@ Flujo:
 ```
 
 ## Relaciones
-- Extensión de: [[ImageStream]]
-- Usado por: [[Build]] (producción)
+- Extensión de: [[imagestream]]
+- Usado por: [[build]] (producción)
 - Patrón para: Multi-entorno (dev/test/prod)
 - Automation: Triggers automáticos
 

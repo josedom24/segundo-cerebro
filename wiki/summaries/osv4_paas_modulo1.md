@@ -98,10 +98,10 @@ Desarrollo → Pruebas → Producción
 - Admin access
 
 ## Relaciones
-- Basado en: [[Kubernetes]]
-- Implementa: [[PaaS]] (modelo)
-- Automatiza: [[Build]], [[ImageStream]], despliegues
-- Simplifica: Acceso via [[Route]]
+- Basado en: [[kubernetes]]
+- Implementa: [[paas]] (modelo)
+- Automatiza: [[build]], [[imagestream]], despliegues
+- Simplifica: Acceso via [[route]]
 
 ## Fuentes
 - Curso osv4_paas - Módulo 1

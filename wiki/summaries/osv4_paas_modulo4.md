@@ -195,8 +195,8 @@ Resultado:
 ```
 
 ## Relaciones
-- Parte de: [[OpenShift]] (característica PaaS)
-- Produce: [[ImageStream]] (output de build)
+- Parte de: [[openshift]] (característica PaaS)
+- Produce: [[imagestream]] (output de build)
 - Usa: BuildConfig (recurso)
 - Integra: Git webhooks, CI/CD
 

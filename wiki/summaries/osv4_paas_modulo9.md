@@ -133,7 +133,7 @@ http_requests_total{method="GET",status="200"} 1234
 **Biblioteca:** Prometheus client library
 
 ### Relaciones
-- Parte de: [[OpenShift]]
+- Parte de: [[openshift]]
 - Herramientas: Prometheus, Grafana, Elasticsearch, Kibana
 - Integración: AlertManager para alertas
 

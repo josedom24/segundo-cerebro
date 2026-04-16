@@ -161,12 +161,12 @@ Snapshot: ahora 2GB (datos cambiados)
 ## Relaciones
 
 ### Aparece en
-- [[Kubernetes]] — PersistentVolumes
-- [[OpenStack]] — Cinder blocks
-- [[Proxmox]] — Storage management
-- [[KVM]] — Storage pools
-- [[StatefulSet]] — Para aplicaciones con estado
-- [[Deployment]] — Configuración, secretos
+- [[kubernetes]] — PersistentVolumes
+- [[openstack]] — Cinder blocks
+- [[proxmox]] — Storage management
+- [[kvm]] — Storage pools
+- [[statefulset]] — Para aplicaciones con estado
+- [[deployment]] — Configuración, secretos
 
 ### Complementa
 - [[Snapshot]] — Backup incremental de volúmenes

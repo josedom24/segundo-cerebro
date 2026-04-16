@@ -114,10 +114,10 @@ oc tag imagestream:v1.0 imagestream:latest
 
 ## Relaciones
 
-- Parte de: [[OpenShift]] (abstracción propia)
-- Usado por: [[Build]] (BuildConfig crea ImageStreams)
-- Asociado con: [[Deployment]] (despliegues referencian ImageStreams)
-- Reemplaza concepto de: Referencias simples a registros en K8s
+- Parte de: [[openshift]] (abstracción propia)
+- Producido por: [[build]] (BuildConfig crea ImageStreams)
+- Usado por: [[deployment]] (despliegues referencian ImageStreams)
+- Complementa: [[kubernetes]] (abstracción propia de OpenShift)
 
 ## Fuentes
 - Curso osv4_paas - Módulo 3: ImageStreams

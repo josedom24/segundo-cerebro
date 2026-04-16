@@ -84,12 +84,13 @@ Route → acceso HTTP/HTTPS
 
 ## Conceptos Relacionados
 
-- [[PaaS]] — Modelo de plataforma que OpenShift implementa
-- [[Kubernetes]] — Orquestador subyacente
-- [[Contenedores]] — Unidad de despliegue
-- [[ImageStream]] — Abstracción propia de OpenShift
-- [[Build]] — Construcción automática en OpenShift
-- [[Route]] — Acceso simplificado a aplicaciones
+- [[paas]] — Modelo de plataforma que OpenShift implementa
+- [[kubernetes]] — Orquestador subyacente
+- [[contenedores]] — Unidad de despliegue
+- [[imagestream]] — Abstracción propia de OpenShift
+- [[build]] — Construcción automática en OpenShift
+- [[route]] — Acceso simplificado a aplicaciones
+- [[template]] — Plantillas parametrizadas
 
 ## Instalaciones Disponibles
 

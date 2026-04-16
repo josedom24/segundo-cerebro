@@ -134,7 +134,7 @@ spec:
 - Respeta min/max replicas
 
 ## Relaciones
-- Parte de: [[Kubernetes]], [[OpenShift]]
+- Parte de: [[kubernetes]], [[openshift]]
 - StatefulSet: Para apps con estado
 - DaemonSet: Para infraestructura
 - Job/CronJob: Para tareas batch

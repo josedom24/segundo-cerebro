@@ -158,9 +158,9 @@ failedJobsHistoryLimit: 1
 ## Relaciones
 
 ### Conecta con
-- [[Deployment]] — Alternativa para Pods que no terminan
-- [[Pod]] — Unidad ejecutada
-- [[Kubernetes]] — Patrón de batch
+- [[deployment]] — Alternativa para Pods que no terminan
+- [[pod]] — Unidad ejecutada
+- [[kubernetes]] — Patrón de batch
 
 ### Reutilizable en
 - Kubernetes principalmente

@@ -174,15 +174,15 @@ mychart/
 ## Relaciones
 
 ### Conecta con
-- [[Kubernetes]] — Plataforma subyacente
-- [[Podman]] — Container images que empaqueta
+- [[kubernetes]] — Plataforma subyacente
+- [[podman]] — Container images que empaqueta
 
 ### Parte de
 - Ecosistema CNCF
 - GitOps practices (Flux, ArgoCD usan charts)
 
 ### Complementa
-- [[Kubernetes]] package distribution
+- [[kubernetes]] package distribution
 - CI/CD pipelines para deployment
 
 ## Fuentes

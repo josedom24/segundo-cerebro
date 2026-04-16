@@ -120,9 +120,9 @@ spec:
 - Ver cuáles Pods usan qué imagen
 
 ## Relaciones
-- Parte de: [[OpenShift]]
-- Produce: [[Build]] (BuildConfig crea IS)
-- Usa: [[Deployment]] (referencian IS)
+- Parte de: [[openshift]]
+- Produce: [[build]] (BuildConfig crea IS)
+- Usa: [[deployment]] (referencian IS)
 - Alternativa: Referencias simples a Docker registros
 
 ## Fuentes

@@ -177,10 +177,10 @@ Builds periódicos (como cron)
 
 ## Relaciones
 
-- Parte de: [[OpenShift]] (característica específica)
-- Produce: [[ImageStream]] (output de cada build)
-- Asociado con: [[BuildConfig]] (configuración del build)
-- Simplifica: CI/CD tradicional (Jenkins, etc.)
+- Parte de: [[openshift]] (característica específica)
+- Produce: [[imagestream]] (output de cada build)
+- Triggers automáticos con: [[imagestream]] (cambios en imágenes base)
+- Complementa: [[paas]] (automatización de despliegues)
 
 ## Fuentes
 - Curso osv4_paas - Módulo 4: Builds y BuildConfig

@@ -152,8 +152,8 @@ MySQL (interno): mysql:3306
 6. **Acceso público:** Routes para clientes externos
 
 ## Relaciones
-- Aplicación de: [[Deployment]], [[Service]], [[Route]]
-- Usa: [[ConfigMap]], [[Secret]], [[Volume]]
+- Aplicación de: [[deployment]], [[service]], [[route]]
+- Usa: ConfigMap, Secret, [[volume]]
 - Ejemplo de: Arquitectura microservicios real
 
 ## Fuentes

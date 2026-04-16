@@ -203,10 +203,10 @@ OpenShift genera certificados self-signed si no se proporciona
 
 ## Relaciones
 
-- Parte de: [[OpenShift]] (característica específica)
-- Expone: [[Service]] (acceso a Pods internos)
-- Alternativa de: Ingress de [[Kubernetes]]
-- Asociado con: Deployments y Pods (indirectamente)
+- Parte de: [[openshift]] (característica específica)
+- Expone: [[service]] (acceso a Pods internos)
+- Alternativa a: Ingress de [[kubernetes]] (más simple)
+- Complementa: [[paas]] (simplificación de acceso a aplicaciones)
 
 ## Ventajas sobre Ingress
 

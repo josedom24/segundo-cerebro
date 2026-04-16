@@ -114,7 +114,7 @@ spec:
 4. **Custom Operators:** Escribir propio operador
 
 ## Relaciones
-- Extensiones de: [[OpenShift]]
+- Extensiones de: [[openshift]]
 - Knative: Abstracción por encima de Pods
 - Tekton: Alternativa a Jenkins
 - Operadores: Software as code

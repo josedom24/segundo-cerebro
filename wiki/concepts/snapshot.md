@@ -195,11 +195,11 @@ Aplicar fix
 ## Relaciones
 
 ### Aparece en
-- [[KVM]] — Internal/external snapshots
-- [[Proxmox]] — VM snapshots
-- [[OpenStack]] — Volume/image snapshots
-- [[Kubernetes]] — Volume snapshots
-- [[Volume]] — Storage snapshots
+- [[kvm]] — Internal/external snapshots
+- [[proxmox]] — VM snapshots
+- [[openstack]] — Volume/image snapshots
+- [[kubernetes]] — Volume snapshots
+- [[volume]] — Storage snapshots
 
 ### Casos comunes
 - Backup incremental vía snapshots

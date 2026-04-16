@@ -213,7 +213,7 @@ ingress:
 ```
 
 ## Relaciones
-- Parte de: [[OpenShift]], [[Kubernetes]]
+- Parte de: [[openshift]], [[kubernetes]]
 - RBAC: Control de acceso basado roles
 - Network Policy: Aislamiento micro-segmentación
 - Secrets: Gestión de credenciales

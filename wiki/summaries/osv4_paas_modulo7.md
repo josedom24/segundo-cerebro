@@ -147,9 +147,9 @@ spec:
 - Botón: Create Route
 
 ## Relaciones
-- Parte de: [[OpenShift]]
-- Expone: [[Service]] internamente
-- Reemplaza: [[Ingress]] de Kubernetes (más simple)
+- Parte de: [[openshift]]
+- Expone: [[service]] internamente
+- Reemplaza: [[kubernetes|Ingress]] de Kubernetes (más simple)
 
 ## Fuentes
 - Curso osv4_paas - Módulo 7

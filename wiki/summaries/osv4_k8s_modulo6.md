@@ -99,7 +99,7 @@ oc expose service wordpress --hostname=myapp.example.com
 ```
 
 ## Relaciones
-- Parte de: [[OpenShift]]
+- Parte de: [[openshift]]
 - Usa: ConfigMap, Secret, Environment variables
 - Ejemplo de: Despliegue real multi-tier
 

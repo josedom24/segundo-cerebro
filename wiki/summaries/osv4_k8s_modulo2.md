@@ -59,9 +59,9 @@ Instalación y uso del Developer Sandbox: plataforma gratuita en cloud de Red Ha
 - **CRC:** Local, control total, admin access, desarrollo offline
 
 ## Relaciones
-- Parte de: [[OpenShift]]
+- Parte de: [[openshift]]
 - Usa: `oc` CLI
-- Alternativa a: [[Build]] manual (Deploy Config)
+- Alternativa a: [[build]] manual (Deploy Config)
 
 ## Fuentes
 - Curso osv4_k8s - Módulo 2

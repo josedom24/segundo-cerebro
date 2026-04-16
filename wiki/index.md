@@ -20,38 +20,39 @@ updated: 2026-04-15
 
 ---
 
-## 📚 Conceptos (20)
+## 📚 Conceptos (21)
 
 ### Plataformas Principales (8)
-- [[Docker]] — Plataforma de containerización con imágenes, registros, Compose
-- [[Kubernetes]] — Orquestador cloud-native: master/worker, auto-scaling, rolling updates
-- [[OpenShift]] — Distribución empresarial de Kubernetes con PaaS, ImageStream, BuildConfig, Routes
-- [[Podman]] — Runtime daemonless, rootless nativo, Pods, Quadlet
-- [[KVM]] — Hipervisor integrado en Linux para virtualización
-- [[Proxmox]] — Plataforma virtualización: KVM + LXC, gestión centralizada
-- [[OpenStack]] — Plataforma cloud IaaS: compute, storage, networking, imágenes
-- [[Helm]] — Package manager de Kubernetes: charts, templating, distribución
+- [[docker]] — Plataforma de containerización con imágenes, registros, Compose
+- [[kubernetes]] — Orquestador cloud-native: master/worker, auto-scaling, rolling updates
+- [[openshift]] — Distribución empresarial de Kubernetes con PaaS, ImageStream, BuildConfig, Routes
+- [[podman]] — Runtime daemonless, rootless nativo, Pods, Quadlet
+- [[kvm]] — Hipervisor integrado en Linux para virtualización
+- [[proxmox]] — Plataforma virtualización: KVM + LXC, gestión centralizada
+- [[openstack]] — Plataforma cloud IaaS: compute, storage, networking, imágenes
+- [[helm]] — Package manager de Kubernetes: charts, templating, distribución
 
-### OpenShift-specific Patterns (5)
-- [[ImageStream]] — Abstracción OpenShift: referencias a imágenes, triggers, gestión automática
-- [[Build|Build (BuildConfig)]] — CI/CD nativo en OpenShift: S2I, Docker build, webhook triggers
-- [[Route]] — Exposición de servicios: TLS, hostname/path routing, alternativa a Ingress
-- [[Template]] — Plantillas parametrizadas: aplicaciones complejas, variables, objetos preconfigurados
+### OpenShift-specific Patterns (6)
+- [[paas]] — Modelo Platform as a Service: abstracción de infraestructura, automatización CI/CD
+- [[imagestream]] — Abstracción OpenShift: referencias a imágenes, triggers, gestión automática
+- [[build]] — CI/CD nativo en OpenShift: S2I, Docker build, webhook triggers
+- [[route]] — Exposición de servicios: TLS, hostname/path routing, alternativa a Ingress
+- [[template]] — Plantillas parametrizadas: aplicaciones complejas, variables, objetos preconfigurados
 - [[DeploymentConfig|DeploymentConfig (DeployConfig)]] — Despliegues con triggers, rolling updates, lifecycle hooks
 
 ### Kubernetes Patterns (5)
-- [[Deployment]] — Orquestación declarativa: rolling updates, rollbacks, replicación
-- [[Service]] — Exposición de Pods: load balancing, DNS, múltiples tipos
-- [[Pod]] — Unidad mínima: 1+ contenedores, network compartida, efímeros
-- [[StatefulSet]] — Aplicaciones stateful: identidad persistente, almacenamiento dedicado
-- [[Job]] — Tareas batch: completación garantizada, reintentos, ejecución paralela
+- [[deployment]] — Orquestación declarativa: rolling updates, rollbacks, replicación
+- [[service]] — Exposición de Pods: load balancing, DNS, múltiples tipos
+- [[pod]] — Unidad mínima: 1+ contenedores, network compartida, efímeros
+- [[statefulset]] — Aplicaciones stateful: identidad persistente, almacenamiento dedicado
+- [[job]] — Tareas batch: completación garantizada, reintentos, ejecución paralela
 
 ### Storage Patterns (2)
-- [[Volume]] — Almacenamiento persistente e independiente (K8s, OpenStack, Proxmox, KVM)
-- [[Snapshot]] — Captura punto-en-tiempo: backup, clones, rollback
+- [[volume]] — Almacenamiento persistente e independiente (K8s, OpenStack, Proxmox, KVM)
+- [[snapshot]] — Captura punto-en-tiempo: backup, clones, rollback
 
 ### Abstracciones Base (1)
-- [[Contenedores]] — Virtualización a nivel SO con kernel compartido
+- [[contenedores]] — Virtualización a nivel SO con kernel compartido
 
 ---
 

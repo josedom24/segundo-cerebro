@@ -154,10 +154,10 @@ Comportamiento:
 ## Relaciones
 
 ### Conecta con
-- [[Deployment]] — Alternativa para aplicaciones stateless
-- [[Pod]] — Unidad gestionada
-- [[Service]] — Acceso a StatefulSet (headless)
-- [[Kubernetes]] — Patrón de estado
+- [[deployment]] — Alternativa para aplicaciones stateless
+- [[pod]] — Unidad gestionada
+- [[service]] — Acceso a StatefulSet (headless)
+- [[kubernetes]] — Patrón de estado
 
 ### Reutilizable en
 - Kubernetes principalmente

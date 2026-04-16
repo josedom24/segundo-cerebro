@@ -147,8 +147,8 @@ triggers:
 - **Manual:** `oc rollout latest`
 
 ## Relaciones
-- OpenShift específico: Alternativa a [[Deployment]]
-- Integración: [[ImageStream]] triggers
+- OpenShift específico: Alternativa a [[deployment]]
+- Integración: [[imagestream]] triggers
 - Patrón: Reemplazado por Deployment en versiones recientes
 
 ## Fuentes

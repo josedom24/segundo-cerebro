@@ -249,9 +249,10 @@ oc new-app wordpress-complete \
 
 ## Relaciones
 
-- Parte de: [[OpenShift]] (característica propia)
-- Define: Conjunto de recursos ([[Deployment]], [[Service]], [[Route]], etc.)
-- Similar a: Helm Charts de [[Kubernetes]] (más simple)
+- Parte de: [[openshift]] (característica propia)
+- Define: Conjunto de recursos ([[deployment]], [[service]], [[route]], etc.)
+- Similar a: [[helm]] charts de [[kubernetes]] (pero más simple)
+- Complementa: [[paas]] (parametrización de aplicaciones)
 
 ## Fuentes
 - Curso osv4_paas - Módulo 2: Templates

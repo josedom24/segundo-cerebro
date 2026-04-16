@@ -129,9 +129,9 @@ spec:
 ## Relaciones
 
 ### Conecta con
-- [[Deployment]] — Gestiona Pods automáticamente
-- [[Service]] — Expone grupo de Pods
-- [[Kubernetes]] — Unidad fundamental
+- [[deployment]] — Gestiona Pods automáticamente
+- [[service]] — Expone grupo de Pods
+- [[kubernetes]] — Unidad fundamental
 
 ### Reutilizable en
 - Kubernetes principalmente

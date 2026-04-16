@@ -130,9 +130,9 @@ curl http://mi-app.default.svc.cluster.local  # FQDN
 ## Relaciones
 
 ### Conecta con
-- [[Deployment]] — Define Pods a exponer
-- [[Pod]] — Unidad detrás del Service
-- [[Kubernetes]] — Patrón de networking
+- [[deployment]] — Define Pods a exponer
+- [[pod]] — Unidad detrás del Service
+- [[kubernetes]] — Patrón de networking
 
 ### Reutilizable en
 - Kubernetes principalmente
