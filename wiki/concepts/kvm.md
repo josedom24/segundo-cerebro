@@ -3,6 +3,7 @@ created: 2026-04-15
 updated: 2026-04-15
 sources: [curso-kvm, creacion-box-vagrant]
 tags: [virtualization, linux, hypervisor]
+aliases: [KVM]
 ---
 
 # KVM (Kernel-based Virtual Machine)

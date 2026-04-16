@@ -3,6 +3,7 @@ created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep]
 tags: [kubernetes, deployment, workload, rolling-update, declarative]
+aliases: [Deployment]
 ---
 
 # Deployment

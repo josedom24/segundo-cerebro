@@ -3,6 +3,7 @@ created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
 tags: [podman, contenedores, daemonless, rootless, oci]
+aliases: [Podman]
 ---
 
 # Podman

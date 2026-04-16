@@ -1,0 +1,10 @@
+@use "./base.scss";
+
+// Sin header fijo: eliminar el espacio reservado para él
+.sidebar {
+  padding-top: 1rem !important;
+}
+
+.page-header {
+  margin-top: 0 !important;
+}

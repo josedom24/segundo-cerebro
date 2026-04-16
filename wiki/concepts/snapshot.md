@@ -3,6 +3,7 @@ created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep, curso_openstack_ies, curso_proxmox_cep, curso_kvm_ow]
 tags: [backup, snapshot, point-in-time, recovery, clone]
+aliases: [Snapshot]
 ---
 
 # Snapshot

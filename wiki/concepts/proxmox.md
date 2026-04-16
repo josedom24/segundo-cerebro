@@ -3,6 +3,7 @@ created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
 tags: [proxmox, virtualizacion, plataforma, hipervisor, infraestructura]
+aliases: [Proxmox]
 ---
 
 # Proxmox VE: Plataforma de Virtualización
