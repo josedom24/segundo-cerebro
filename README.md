@@ -17,7 +17,7 @@ Un vault de Obsidian sobre **infraestructura y plataformas**, construido a parti
 | **OpenShift v4 (Curso 1)** | 9 | [Plataforma](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/) |
 | **OpenShift v4 (Curso 2)** | 10 | [Plataforma](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/) |
 
-**Total:** 74 módulos + 21 conceptos + 1 referencia de patrón = ~120 páginas
+**Total:** 66 módulos + 15 conceptos = ~81 páginas
 
 ### Estructura
 
