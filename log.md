@@ -9,6 +9,37 @@ Historial append-only de todas las operaciones en el vault.
 
 ---
 
+## [2026-04-16] ingest | OpenStack - Cloud Computing IaaS (5 módulos)
+
+**Fuente:** https://github.com/josedom24/curso_openstack_ies
+
+**Módulos ingestionados:**
+1. Introducción (Horizon UI + OpenStack Client CLI)
+2. Glance (Gestión de imágenes)
+3. Nova (Gestión de instancias/VMs)
+4. Cinder (Almacenamiento en bloques)
+5. Neutron (Redes virtuales y SDN)
+
+**Archivos creados:**
+- ✏️ wiki/summaries/introduccion-openstack.md — Plataforma cloud IaaS, autenticación, configuración inicial
+- ✏️ wiki/summaries/glance-imagenes-openstack.md — Catálogo de imágenes, formatos, snapshots
+- ✏️ wiki/summaries/nova-instancias-openstack.md — Ciclo de vida VMs, sabores, snapshots, cloud-init
+- ✏️ wiki/summaries/cinder-almacenamiento-openstack.md — Volúmenes persistentes, tipos storage, snapshots
+- ✏️ wiki/summaries/neutron-redes-openstack.md — Redes, routers, Floating IPs, grupos de seguridad
+- ✏️ wiki/concepts/openstack.md — Concepto principal (nuevo)
+- ✏️ wiki/index.md — Nuevo curso, actualizado contador (66→76 págs, 6→7 cursos)
+
+**Ideas clave:**
+- OpenStack = IaaS completo: compute (Nova) + storage (Cinder) + networking (Neutron) + images (Glance)
+- Interfaz dual: Horizon web + OpenStack Client CLI (OSC)
+- Arquitectura modular: usar solo componentes necesarios
+- Concepto central: instancia = VM creada de imagen + flavor (recursos)
+- Networking Virtual: redes privadas, routers, Floating IPs, cortafuegos (security groups)
+- Persistencia: volúmenes Cinder separados de instancia (no se pierden al eliminar)
+- IaaS vs Kubernetes: OpenStack = infraestructura; K8s = aplicaciones
+
+---
+
 ## [2026-04-16] cleanup | Eliminación de referencias rotas y normalización completa
 
 **Análisis completado:**

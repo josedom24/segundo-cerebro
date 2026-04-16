@@ -5,16 +5,19 @@ updated: 2026-04-15
 
 # Índice del Vault
 
-**Última actualización:** 2026-04-15  
-**Total de páginas:** 66  
-**Cursos ingeridos:** 6 (Docker, Kubernetes, Podman, KVM Intro, KVM Avanzado, Proxmox)
+**Última actualización:** 2026-04-16  
+**Total de páginas:** 76  
+**Cursos ingeridos:** 7 (Docker, Kubernetes, Podman, KVM Intro, KVM Avanzado, Proxmox, OpenStack)
 
 ---
 
-## 📚 Conceptos (9)
+## 📚 Conceptos (10)
 
 ### Virtualización
 - [[KVM]] — Hipervisor integrado en Linux para virtualización
+
+### Cloud Computing (IaaS)
+- [[OpenStack]] — Plataforma cloud IaaS: compute, storage, networking, imágenes
 
 ### Contenedores
 - [[Contenedores]] — Virtualización a nivel SO con kernel compartido
@@ -92,6 +95,13 @@ updated: 2026-04-15
 - [[linux-containers-lxc-proxmox|Contenedores LXC]] — Gestión LXC vs VMs, descarga plantillas, creación contenedores, ciclo de vida, mount points
 - [[redes-proxmox|Redes en Proxmox]] — Linux Bridge, vmbr0 público, redes internas, firewall 3 niveles (datacenter/nodo/VM)
 - [[usuarios-permisos-proxmox|Usuarios y Permisos]] — Autenticación (PAM, Proxmox), usuarios/grupos, roles, privilegios, pools de recursos, RBAC
+
+### OpenStack
+- [[introduccion-openstack|Introducción a OpenStack]] — Cloud IaaS, Horizon (web), OpenStack Client (CLI), claves SSH, grupos de seguridad
+- [[glance-imagenes-openstack|Glance: Gestión de Imágenes]] — Catálogo de imágenes, formatos QCOW2/raw, snapshots, visibilidad
+- [[nova-instancias-openstack|Nova: Gestión de Instancias]] — Ciclo de vida VM, sabores (flavors), snapshots, redimensión, cloud-init
+- [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Volúmenes persistentes, adjunción a instancias, snapshots, tipos storage
+- [[neutron-redes-openstack|Neutron: Redes Virtuales]] — Redes privadas, routers, Floating IPs, grupos de seguridad, SDN
 
 ---
 
