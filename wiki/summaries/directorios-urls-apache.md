@@ -233,8 +233,8 @@ ErrorDocument 404 /404.html
 
 ## Fuentes
 
+- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 Directory, Files Directives](https://httpd.apache.org/docs/2.4/mod/core.html#directory)
 - [Apache 2.4 Alias](https://httpd.apache.org/docs/2.4/mod/mod_alias.html)
 - [Apache 2.4 Redirect](https://httpd.apache.org/docs/2.4/mod/mod_alias.html#redirect)
 - [Apache 2.4 Content Negotiation](https://httpd.apache.org/docs/2.4/content-negotiation.html)
-- Curso Apache 2.4 (PLEDIN)

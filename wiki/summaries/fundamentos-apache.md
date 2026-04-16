@@ -136,6 +136,6 @@ grep -E "^User " /etc/apache2/apache2.conf
 
 ## Fuentes
 
+- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache HTTP Server 2.4 Documentation](https://httpd.apache.org/docs/2.4/)
 - [Apache 2.4 Docs ES](https://httpd.apache.org/docs/2.4/es/)
-- Curso Apache 2.4 (PLEDIN, JOSEDOMINGO)

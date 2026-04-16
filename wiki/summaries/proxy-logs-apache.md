@@ -310,8 +310,8 @@ awk '$NF > 1000 {print $7, $NF}' /var/log/apache2/access.log | sort -k2 -rn
 
 ## Fuentes
 
+- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 mod_proxy](https://httpd.apache.org/docs/2.4/mod/mod_proxy.html)
 - [Apache 2.4 mod_proxy_balancer](https://httpd.apache.org/docs/2.4/mod/mod_proxy_balancer.html)
 - [AWStats Official](https://awstats.sourceforge.io/)
 - [Logrotate Manual](https://linux.die.net/man/8/logrotate)
-- Curso Apache 2.4 (PLEDIN)

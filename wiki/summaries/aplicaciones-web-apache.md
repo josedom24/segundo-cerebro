@@ -252,9 +252,9 @@ app.listen(3000);
 
 ## Fuentes
 
+- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 mod_php](https://www.php.net/manual/en/security.apache.php)
 - [PHP-FPM Official](https://www.php.net/manual/en/install.fpm.php)
 - [Apache 2.4 mod_proxy](https://httpd.apache.org/docs/2.4/mod/mod_proxy.html)
 - [Gunicorn Documentation](https://gunicorn.org/)
 - [Flask Deployment](https://flask.palletsprojects.com/deployment/)
-- Curso Apache 2.4 (PLEDIN)

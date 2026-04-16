@@ -256,10 +256,10 @@ SSLCertificateKeyFile /etc/ssl/private/server.key
 
 ## Fuentes
 
+- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 mod_ssl](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
 - [Apache 2.4 SSL/TLS Configuration](https://httpd.apache.org/docs/2.4/ssl/)
 - [CAcert Community](http://www.cacert.org/)
 - [Let's Encrypt](https://letsencrypt.org/)
 - [Certbot Documentation](https://certbot.eff.org/)
 - [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
-- Curso Apache 2.4 (PLEDIN)

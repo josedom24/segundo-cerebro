@@ -197,7 +197,7 @@ grep "GET" /var/log/apache2/ejemplo1-access.log | wc -l
 
 ## Fuentes
 
+- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 VirtualHosts Guide](https://httpd.apache.org/docs/2.4/vhosts/)
 - [Apache 2.4 NameVhost](https://httpd.apache.org/docs/2.4/vhosts/name-based.html)
 - [Apache 2.4 IP-based VirtualHosts](https://httpd.apache.org/docs/2.4/vhosts/ip-based.html)
-- Curso Apache 2.4 (PLEDIN)

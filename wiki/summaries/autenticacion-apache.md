@@ -254,8 +254,8 @@ Require ip 192.168.1.0/24
 
 ## Fuentes
 
+- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 mod_authz_core (Require)](https://httpd.apache.org/docs/2.4/mod/mod_authz_core.html)
 - [Apache 2.4 mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.html)
 - [Apache 2.4 mod_auth_digest](https://httpd.apache.org/docs/2.4/mod/mod_auth_digest.html)
 - [Apache 2.4 .htaccess](https://httpd.apache.org/docs/2.4/howto/htaccess.html)
-- Curso Apache 2.4 (PLEDIN)
