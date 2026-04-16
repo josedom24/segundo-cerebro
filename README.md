@@ -1,53 +1,62 @@
-# Segundo Cerebro - Wiki Educativa
+# Wiki Pledin - Segundo Cerebro Educativo
 
-Un vault de Obsidian sobre **virtualización, contenedores y orquestación**, construido a partir de 7 cursos completos. Publicado con **Quartz** como sitio web estático.
+Un vault de Obsidian sobre **infraestructura y plataformas**, construido a partir de 9 cursos completos. Publicado con **Quartz** como sitio web estático.
 
 ## 📚 Contenido
 
-### Cursos Ingestionados (7)
+### Infraestructura y Plataformas (9 cursos)
 
 | Curso | Módulos | Fuente |
 |-------|---------|--------|
-| **Docker 2024** | 8 | [josedomingo.org](https://plataforma.josedomingo.org/pledin/cursos/docker2024) |
-| **Kubernetes 2024** | 10 | [IESGN - CEP](https://github.com/iesgn/curso_kubernetes_cep) |
-| **Podman 2024** | 10 | [josedomingo.org](https://github.com/josedom24/curso_podman_ow) |
-| **KVM Introducción** | 7 | [josedomingo.org](https://plataforma.josedomingo.org/pledin/cursos/kvm1/) |
-| **KVM Avanzado** | 7 | [josedomingo.org](https://plataforma.josedomingo.org/pledin/cursos/kvm2/) |
+| **KVM & libvirt** (Intro + Avanzado) | 14 | [josedomingo.org](https://plataforma.josedomingo.org/pledin/cursos/kvm1/) |
 | **Proxmox VE** | 8 | [IESGN - CEP](https://github.com/josedom24/curso_proxmox_cep) |
 | **OpenStack** | 5 | [IESGN - IES](https://github.com/josedom24/curso_openstack_ies) |
+| **Docker 2024** | 8 | [josedomingo.org](https://plataforma.josedomingo.org/pledin/cursos/docker2024) |
+| **Podman 2024** | 10 | [josedomingo.org](https://github.com/josedom24/curso_podman_ow) |
+| **Kubernetes 2024** | 10 | [IESGN - CEP](https://github.com/iesgn/curso_kubernetes_cep) |
+| **OpenShift v4 (Curso 1)** | 9 | [Plataforma](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/) |
+| **OpenShift v4 (Curso 2)** | 10 | [Plataforma](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/) |
 
-**Total:** 55 módulos + 15 conceptos = 70 páginas de contenido
+**Total:** 74 módulos + 21 conceptos + 1 referencia de patrón = ~120 páginas
 
 ### Estructura
 
 ```
 segundo-cerebro/
 ├── wiki/                          # Vault de Obsidian
-│   ├── index.md                   # Tabla de contenidos
-│   ├── concepts/                  # Conceptos reutilizables (15)
-│   └── summaries/                 # Resúmenes de módulos (55)
+│   ├── index.md                   # Tabla de contenidos (actualización dinámica)
+│   ├── concepts/                  # Conceptos reutilizables (21)
+│   ├── summaries/                 # Resúmenes de módulos (74)
+│   └── log.md                     # Historial append-only de cambios
 ├── quartz/                        # Site builder (Quartz v4)
-│   ├── quartz.config.ts           # Configuración del site
+│   ├── quartz.config.ts           # Configuración del site (title, theme, plugins)
 │   ├── quartz.layout.ts           # Layout y componentes
-│   └── quartz/components/         # Componentes personalizados
+│   └── public/                    # Build output
 ├── scripts/
 │   └── deploy.sh                  # Build + rsync al servidor
-├── raw-sources/                   # Archivos fuente originales
 ├── CLAUDE.md                      # Reglas del vault (instrucciones para Claude)
-├── log.md                         # Historial append-only de cambios
 └── README.md                      # Este archivo
 ```
 
-## 🔍 Conceptos Clave (15)
+## 🔍 Conceptos Clave (21)
 
-### Plataformas (7)
-- **Docker** — Plataforma líder de containerización
-- **Kubernetes** — Orquestación enterprise de contenedores
-- **Podman** — Runtime daemonless, rootless, alternativa Docker
-- **KVM** — Hipervisor integrado en Linux para VMs
-- **Proxmox VE** — Plataforma virtualización (KVM + LXC)
-- **OpenStack** — Plataforma cloud IaaS (compute, storage, networking)
-- **Helm** — Package manager de Kubernetes
+### Plataformas Principales (8)
+- **Docker** — Containerización con imágenes, registros, Compose
+- **Kubernetes** — Orquestación cloud-native: master/worker, auto-scaling
+- **OpenShift** — Distribución empresarial de Kubernetes con PaaS
+- **Podman** — Runtime daemonless, rootless nativo, Pods, Quadlet
+- **KVM** — Hipervisor integrado en Linux para virtualización
+- **Proxmox VE** — Plataforma virtualización: KVM + LXC, gestión centralizada
+- **OpenStack** — Plataforma cloud IaaS: compute, storage, networking
+- **Helm** — Package manager de Kubernetes: charts, templating
+
+### OpenShift-specific Patterns (6)
+- **PaaS** — Platform as a Service: abstracción de infraestructura
+- **ImageStream** — Gestión automática de imágenes con triggers
+- **Build** — CI/CD nativo: S2I, Docker build, webhooks
+- **Route** — Exposición simplificada vs Kubernetes Ingress
+- **Template** — Plantillas parametrizadas para aplicaciones complejas
+- **DeploymentConfig** — Despliegues con triggers, rolling updates, lifecycle hooks
 
 ### Kubernetes Patterns (5)
 - **Deployment** — Orquestación declarativa con rolling updates
@@ -56,7 +65,7 @@ segundo-cerebro/
 - **StatefulSet** — Aplicaciones con identidad persistente
 - **Job** — Tareas batch con completación garantizada
 
-### Storage & Base (3)
+### Storage & Base (2)
 - **Volume** — Almacenamiento persistente multiplataforma
 - **Snapshot** — Captura punto-en-tiempo para backup y rollback
 - **Contenedores** — Virtualización a nivel SO con kernel compartido
@@ -118,4 +127,4 @@ Contenido basado en cursos de [josedomingo.org](https://josedomingo.org) e [IESG
 
 ---
 
-**Creado:** 2026-04-15 | **Última actualización:** 2026-04-16
+**Creado:** 2026-04-15 | **Última actualización:** 2026-04-16 | **App:** Wiki Pledin

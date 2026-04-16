@@ -169,7 +169,7 @@ Snapshot: ahora 2GB (datos cambiados)
 - [[deployment]] — Configuración, secretos
 
 ### Complementa
-- [[Snapshot]] — Backup incremental de volúmenes
+- [[snapshot]] — Backup incremental de volúmenes
 
 ## Fuentes
 

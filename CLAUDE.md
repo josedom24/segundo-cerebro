@@ -262,25 +262,28 @@ Escribe lint-report.md con fixes."
 
 ## 📌 Decisiones de Diseño (Actualizables)
 
-### Estrategia de Conceptos (2026-04-16)
+### Estrategia de Conceptos (2026-04-16 - Actualizado)
 
 **CONCEPTO** = Idea abstracta reutilizable en múltiples contextos
 **SUMMARY** = Tutorial específico de un módulo de curso
 
 ```
-Conceptos (15) - Abstracciones reutilizables:
-  └─ Plataformas (7): Docker, Kubernetes, Podman, KVM, Proxmox, OpenStack, Helm
+Conceptos (21) - Abstracciones reutilizables:
+  └─ Plataformas (8): Docker, Kubernetes, OpenShift, Podman, KVM, Proxmox, OpenStack, Helm
+  └─ OpenShift-specific (6): PaaS, ImageStream, Build, Route, Template, DeploymentConfig
   └─ K8s Patterns (5): Deployment, Service, Pod, StatefulSet, Job
   └─ Storage (2): Volume, Snapshot
   └─ Base (1): Contenedores
 
-Summaries (55) - Módulos específicos de cursos:
-  └─ Docker (8): introduccion, docker-run, imagenes, volumenes, redes, docker-compose, dockerfile, desktop
-  └─ Kubernetes (10): introduccion, instalacion, pods, replicasets, deployments, services, configmaps, almacenamiento, statefulsets, helm
-  └─ Podman (10): introduccion, ejecucion, imagenes, almacenamiento, pods, quadlet, podman-compose, construccion, seguridad, casos
+Summaries (74) - Módulos específicos de cursos:
   └─ KVM (14): intro, virt-manager, creacion-vms, almacenamiento, clonacion, redes, consola, conceptos-avanzados, setup-avanzado, virsh, etc.
   └─ Proxmox (8): introduccion, instalacion, vms, almacenamiento, clonacion, lxc, redes, usuarios
   └─ OpenStack (5): introduccion, glance, nova, cinder, neutron
+  └─ Docker (8): introduccion, docker-run, imagenes, volumenes, redes, docker-compose, dockerfile, desktop
+  └─ Podman (10): introduccion, ejecucion, imagenes, almacenamiento, pods, quadlet, podman-compose, construccion, seguridad, casos
+  └─ Kubernetes (10): introduccion, instalacion, pods, replicasets, deployments, services, configmaps, almacenamiento, statefulsets, helm
+  └─ OpenShift v4 Curso 1 (9): introduccion, sandbox, crc, pods-replicasets-deployments, services-routes, configmaps-secrets, almacenamiento, recursos-avanzados, aplicacion-ejemplo
+  └─ OpenShift v4 Curso 2 (10): paas, metodos-despliegue, imagestream, buildconfig, imagepull, deployconfig, services-routes-avanzado, operadores-knative-tekton, monitorizacion, seguridad
 ```
 
 **Razón:** 
