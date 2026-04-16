@@ -9,6 +9,38 @@ Historial append-only de todas las operaciones en el vault.
 
 ---
 
+## [2026-04-16] cleanup | Consolidación y limpieza de etiquetas (tags)
+
+**Acción realizada:** Eliminar ruido del sistema de etiquetas
+
+**Antes:**
+- ~170 etiquetas totales
+- 80+ etiquetas con solo 1-2 ocurrencias (ruido)
+- Duplicados inglés/español: containers/contenedores, storage/almacenamiento, etc.
+
+**Después:**
+- 30 etiquetas útiles
+- Todas con 3+ ocurrencias
+- Consolidadas a español
+
+**Etiquetas finales (30):**
+
+Plataformas mayores (8):
+- openshift (24), kubernetes (22), kvm (15), podman (11), proxmox (9), docker (11), openstack (6), linux (5)
+
+Conceptos generales (10):
+- contenedores (16), almacenamiento (9), redes (12), deployment (12), virtualizacion (8), seguridad (3), orquestacion (4), automatizacion (4), configuracion (3), imagenes (8)
+
+Específicas (12):
+- oci (4), imagestream (3), instalacion (5), pods (3), rootless (4), bridge (4), dns (4), services (3), templates (3), secrets (3), vm (3), volumes (3)
+
+**Beneficios:**
+- Etiquetas útiles para navegación y síntesis
+- Mayor consistencia (sin duplicados EN/ES)
+- Menos ruido en Obsidian graph
+
+---
+
 ## [2026-04-16] lint | Corrección de wikilinks capitalizados
 
 - ✏️ wiki/summaries/almacenamiento-openshift.md (fixed `[[Snapshot]]` → `[[snapshot]]`)
