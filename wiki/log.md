@@ -9,6 +9,49 @@ Historial append-only de todas las operaciones en el vault.
 
 ---
 
+## [2026-04-16] ingest | Curso Apache 2.4 (33 unidades)
+
+**Fuentes:**
+- Curso: ~/github/curso_apache24
+- URL: https://plataforma.josedomingo.org/pledin/cursos/apache24/
+
+**Archivos creados:**
+
+Conceptos (3):
+- ✏️ wiki/concepts/apache.md — Servidor web modular, arquitectura, MPM, virtual hosting
+- ✏️ wiki/concepts/http.md — Protocolo HTTP, métodos, códigos estado, cabeceras, negociación
+- ✏️ wiki/concepts/tls.md — Encriptación, PKI, certificados X.509, handshake TLS, HTTPS
+
+Summaries (10):
+- ✏️ wiki/summaries/fundamentos-apache.md (u1-u3) — HTTP, intro, instalación, systemd, apache2ctl
+- ✏️ wiki/summaries/configuracion-apache.md (u4-u6) — Ficheros config, directivas, contextos
+- ✏️ wiki/summaries/virtual-hosting-apache.md (u7-u9) — VirtualHost, a2ensite/a2dissite, logs
+- ✏️ wiki/summaries/directorios-urls-apache.md (u10-u14) — Options, Alias, Redirect, DirectoryIndex, negociación
+- ✏️ wiki/summaries/autenticacion-apache.md (u15-u19) — Require, auth básica/digest, .htaccess, políticas
+- ✏️ wiki/summaries/modulos-apache.md (u20-u24) — a2enmod, userdir, WebDAV, rewrite, MPM (prefork/worker/event)
+- ✏️ wiki/summaries/aplicaciones-web-apache.md (u25-u26) — mod_php, PHP-FPM, Python/WSGI, Node.js
+- ✏️ wiki/summaries/https-apache.md (u27-u29) — mod_ssl, CAcert, Let's Encrypt, TLS 1.2+, HSTS
+- ✏️ wiki/summaries/seguridad-apache.md (u30-u31) — mod_security2, hardening, headers, permisos
+- ✏️ wiki/summaries/proxy-logs-apache.md (u32-u33) — mod_proxy, balanceo carga, AWStats, análisis logs
+
+Índice:
+- ✏️ wiki/index.md — Agregar sección "🌐 Servicios y Aplicaciones" con Apache2, actualizar conceptos (24 total), actualizar tag cloud
+
+**Etiquetas nuevas (3+refs):**
+- apache (10)
+- http (5)
+- tls (3)
+
+**Ideas clave:**
+- Apache es servidor web modular más usado en hosting compartido (VirtualHosts)
+- HTTP es stateless request/response, identificación por Host header
+- TLS proporciona autenticación (certificados) + confidencialidad + integridad
+- mod_php solo con MPM prefork; PHP-FPM permite worker/event
+- mod_security2 proporciona WAF (Web Application Firewall)
+- Proxy inverso con mod_proxy útil para agregar HTTPS, balanceo, seguridad
+
+---
+
 ## [2026-04-16] update | Agregar sección de etiquetas al índice
 
 - ✏️ wiki/index.md — Nueva sección "🏷️ Etiquetas (30)" con las 30 etiquetas organizadas por categoría

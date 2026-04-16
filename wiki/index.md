@@ -6,8 +6,8 @@ updated: 2026-04-15
 # Índice del Vault
 
 **Última actualización:** 2026-04-16  
-**Total de páginas:** 110  
-**Cursos ingeridos:** 9 (Docker, Kubernetes, Podman, KVM Intro, KVM Avanzado, Proxmox, OpenStack, OpenShift v4 K8s, OpenShift v4 PaaS)  
+**Total de páginas:** 123  
+**Cursos ingeridos:** 10 (Docker, Kubernetes, Podman, KVM Intro, KVM Avanzado, Proxmox, OpenStack, OpenShift v4 K8s, OpenShift v4 PaaS, Apache 2.4)  
 **Estrategia:** Conceptos abstractos reutilizables + Summaries específicos de módulos
 
 ---
@@ -22,13 +22,13 @@ updated: 2026-04-15
 
 ## 🏷️ Etiquetas
 
-[openshift](/tags/openshift) [kubernetes](/tags/kubernetes) [contenedores](/tags/contenedores) [kvm](/tags/kvm) [redes](/tags/redes) [deployment](/tags/deployment) [docker](/tags/docker) [podman](/tags/podman) [proxmox](/tags/proxmox) [almacenamiento](/tags/almacenamiento) [imagenes](/tags/imagenes) [virtualizacion](/tags/virtualizacion) [openstack](/tags/openstack) [instalacion](/tags/instalacion) [linux](/tags/linux) [seguridad](/tags/seguridad) [orquestacion](/tags/orquestacion) [automatizacion](/tags/automatizacion) [bridge](/tags/bridge) [dns](/tags/dns) [oci](/tags/oci) [rootless](/tags/rootless) [imagestream](/tags/imagestream) [configuracion](/tags/configuracion) [pods](/tags/pods) [secrets](/tags/secrets) [services](/tags/services) [templates](/tags/templates) [vm](/tags/vm) [volumes](/tags/volumes)
+[openshift](/tags/openshift) [kubernetes](/tags/kubernetes) [contenedores](/tags/contenedores) [kvm](/tags/kvm) [redes](/tags/redes) [deployment](/tags/deployment) [docker](/tags/docker) [podman](/tags/podman) [apache](/tags/apache) [proxmox](/tags/proxmox) [almacenamiento](/tags/almacenamiento) [imagenes](/tags/imagenes) [virtualizacion](/tags/virtualizacion) [openstack](/tags/openstack) [instalacion](/tags/instalacion) [linux](/tags/linux) [seguridad](/tags/seguridad) [orquestacion](/tags/orquestacion) [automatizacion](/tags/automatizacion) [http](/tags/http) [configuracion](/tags/configuracion) [bridge](/tags/bridge) [dns](/tags/dns) [oci](/tags/oci) [rootless](/tags/rootless) [imagestream](/tags/imagestream) [pods](/tags/pods) [secrets](/tags/secrets) [services](/tags/services) [templates](/tags/templates) [vm](/tags/vm) [volumes](/tags/volumes) [tls](/tags/tls)
 
 ---
 
-## 📚 Conceptos (21)
+## 📚 Conceptos (24)
 
-### Plataformas Principales (8)
+### Plataformas Principales (9)
 - [[docker]] — Plataforma de containerización con imágenes, registros, Compose
 - [[kubernetes]] — Orquestador cloud-native: master/worker, auto-scaling, rolling updates
 - [[openshift]] — Distribución empresarial de Kubernetes con PaaS, ImageStream, BuildConfig, Routes
@@ -37,6 +37,7 @@ updated: 2026-04-15
 - [[proxmox]] — Plataforma virtualización: KVM + LXC, gestión centralizada
 - [[openstack]] — Plataforma cloud IaaS: compute, storage, networking, imágenes
 - [[helm]] — Package manager de Kubernetes: charts, templating, distribución
+- [[apache]] — Servidor web modular: virtual hosting, módulos, autenticación, proxy inverso
 
 ### OpenShift-specific Patterns (6)
 - [[paas]] — Modelo Platform as a Service: abstracción de infraestructura, automatización CI/CD
@@ -56,6 +57,10 @@ updated: 2026-04-15
 ### Storage Patterns (2)
 - [[volume]] — Almacenamiento persistente e independiente (K8s, OpenStack, Proxmox, KVM)
 - [[snapshot]] — Captura punto-en-tiempo: backup, clones, rollback
+
+### Protocolos y Seguridad (2)
+- [[http]] — Protocolo request/response stateless: métodos GET/POST, códigos estado, cabeceras, negociación contenido
+- [[tls]] — Encriptación transport-layer: PKI, certificados X.509, handshake, HTTPS, openssl
 
 ### Abstracciones Base (1)
 - [[contenedores]] — Virtualización a nivel SO con kernel compartido
@@ -159,3 +164,19 @@ updated: 2026-04-15
 - [[operadores-knative-tekton|Operadores, Knative y Tekton]] — Extensiones, serverless, CI/CD declarativa
 - [[monitorizacion-prometheus|Monitorización con Prometheus]] — Prometheus, Grafana, logs, alertas, health checks
 - [[seguridad-rbac-policies|Seguridad: RBAC y Network Policies]] — Control de acceso, aislamiento red, Secrets, SecurityContext
+
+---
+
+## 🌐 Servicios y Aplicaciones
+
+### Apache2
+- [[fundamentos-apache|Fundamentos]] — HTTP, introducción, instalación en Debian/Ubuntu
+- [[configuracion-apache|Configuración]] — Ficheros config, directivas clave, contextos Directory
+- [[virtual-hosting-apache|Virtual Hosting]] — Múltiples dominios, NameVhost, a2ensite/a2dissite
+- [[directorios-urls-apache|Directorios y URLs]] — Options, Alias, Redirect, DirectoryIndex, negociación
+- [[autenticacion-apache|Autenticación]] — Control acceso, auth básica/digest, .htaccess, políticas Require
+- [[modulos-apache|Módulos]] — a2enmod/a2dismod, mod_userdir, mod_dav, mod_rewrite, MPM
+- [[aplicaciones-web-apache|Aplicaciones Web]] — mod_php, PHP-FPM, Python/WSGI, Node.js
+- [[https-apache|HTTPS]] — mod_ssl, certificados, Let's Encrypt, CAcert, configuración TLS
+- [[seguridad-apache|Seguridad]] — mod_security2, hardening, headers, permisos, logs
+- [[proxy-logs-apache|Proxy Inverso y Logs]] — mod_proxy, balanceo carga, AWStats
