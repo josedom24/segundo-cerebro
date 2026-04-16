@@ -185,6 +185,8 @@
   },
   "active": "60ba0f7d08e20baf",
   "lastOpenFiles": [
+    "summaries/index.md",
+    "concepts/index.md",
     "index.md.tmp.7345.1776322047977",
     "index.md.tmp.7345.1776322039495",
     "concepts/deployment.md.tmp.7345.1776321921132",
@@ -200,7 +202,6 @@
     "concepts/volume.md",
     "concepts/volume.md.tmp.7345.1776321726196",
     "concepts/job.md",
-    "concepts/job.md.tmp.7345.1776321710005",
     "concepts/statefulset.md",
     "concepts/pod.md",
     "concepts/service.md",
@@ -220,7 +221,6 @@
     "Cursos de virtualización con KVM/libvirt.md",
     "38-virsh-cli-kvm.md",
     "39-almacenamiento-virsh.md",
-    "Container Building.md",
     "Sin título.canvas"
   ]
 }
