@@ -216,7 +216,7 @@ enp1s0 (interfaz física) ─→ vmbr0 (Linux Bridge)
 
 ### Conecta con
 - [[introduccion-proxmox|Introducción a Proxmox]] — Conceptos previos
-- [[creacion-vms|Creación de Máquinas Virtuales]] — Siguiento paso
+- [[creacion-maquinas-virtuales-proxmox|Creación de Máquinas Virtuales]] — Siguiente paso
 
 ### Parte de
 - Proceso de preparación de Proxmox

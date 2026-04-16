@@ -210,7 +210,7 @@ docker-compose up → podman-compose up
 - podman-composepodman-compose]]
 - [[quadlet-systemd|Quadlet]]
 - [[pods-podman|Pods]]
-- [[helm-empaquetado|Kubernetes]]
+- [[Kubernetes]]
 
 ---
 
