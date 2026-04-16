@@ -41,8 +41,6 @@ build() {
   log "Construyendo el site..."
   cd quartz
   npx quartz build
-  log "Indexando con Pagefind..."
-  npx pagefind --site public
   cd ..
   cp scripts/.htaccess quartz/public/.htaccess
   log "Build completado"
