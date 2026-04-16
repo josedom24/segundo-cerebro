@@ -9,6 +9,19 @@ Historial append-only de todas las operaciones en el vault.
 
 ---
 
+## [2026-04-16] update | Agregar sección de etiquetas al índice
+
+- ✏️ wiki/index.md — Nueva sección "🏷️ Etiquetas (30)" con las 30 etiquetas organizadas por categoría
+
+Organizadas en 3 grupos:
+- Plataformas Mayores (8): openshift, kubernetes, kvm, podman, proxmox, docker, openstack, linux
+- Conceptos Generales (10): contenedores, almacenamiento, redes, deployment, virtualizacion, seguridad, orquestacion, automatizacion, configuracion, imagenes
+- Específicas Técnicas (12): oci, imagestream, instalacion, pods, rootless, bridge, dns, services, templates, secrets, vm, volumes
+
+**Beneficio:** Referencia rápida de todas las etiquetas disponibles y su categorización.
+
+---
+
 ## [2026-04-16] cleanup | Consolidación y limpieza de etiquetas (tags)
 
 **Acción realizada:** Eliminar ruido del sistema de etiquetas
