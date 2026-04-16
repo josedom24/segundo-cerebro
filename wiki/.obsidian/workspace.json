@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "concepts/kubernetes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "kubernetes"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "60ba0f7d08e20baf",
   "lastOpenFiles": [
+    "index.md",
     "summaries/index.md",
     "concepts/index.md",
     "index.md.tmp.7345.1776322047977",
@@ -193,7 +194,6 @@
     "concepts/snapshot.md.tmp.7345.1776321910587",
     "concepts/volume.md.tmp.7345.1776321902132",
     "concepts/service.md.tmp.7345.1776321892158",
-    "index.md",
     "summaries/nova-instancias-openstack.md",
     "index.md.tmp.7345.1776321772223",
     "index.md.tmp.7345.1776321761993",
