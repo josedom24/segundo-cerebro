@@ -38,7 +38,7 @@ updated: 2026-04-15
 - [[build]] — CI/CD nativo en OpenShift: S2I, Docker build, webhook triggers
 - [[route]] — Exposición de servicios: TLS, hostname/path routing, alternativa a Ingress
 - [[template]] — Plantillas parametrizadas: aplicaciones complejas, variables, objetos preconfigurados
-- [[DeploymentConfig|DeploymentConfig (DeployConfig)]] — Despliegues con triggers, rolling updates, lifecycle hooks
+- [[deploymentconfig]] — Despliegues con triggers, rolling updates, lifecycle hooks pre/post
 
 ### Kubernetes Patterns (5)
 - [[deployment]] — Orquestación declarativa: rolling updates, rollbacks, replicación
