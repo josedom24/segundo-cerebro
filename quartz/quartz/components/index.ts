@@ -24,6 +24,7 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import ExternalLinks from "./ExternalLinks"
+import PagefindSearch from "./PagefindSearch"
 
 export {
   ArticleTitle,
@@ -52,4 +53,5 @@ export {
   Flex,
   ConditionalRender,
   ExternalLinks,
+  PagefindSearch,
 }
