@@ -267,7 +267,7 @@ Funcionalidad adicional que corre en el propio k8s:
 - [[kubernetes]] — Concepto fundamental de orquestación
 - [[contenedores]] — Base de k8s
 - [[docker]] — Runtime por defecto
-- [[Docker Compose]] — Orquestación simple (un solo host)
+- [[docker-compose|Docker Compose]] — Orquestación simple (un solo host)
 
 ### Primer paso en
 - Orquestación de contenedores escalable
