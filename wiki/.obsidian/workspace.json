@@ -181,6 +181,7 @@
   },
   "active": "b6fdd1aefcad9dc8",
   "lastOpenFiles": [
+    "index.md.tmp.526334.1776361648307",
     "log.md.tmp.526334.1776361606172",
     "index.md.tmp.526334.1776361599587",
     "log.md.tmp.526334.1776361522515",
@@ -192,7 +193,6 @@
     "concepts/volume.md.tmp.526334.1776360852482",
     "summaries/almacenamiento-openshift.md.tmp.526334.1776360851982",
     "index.md.tmp.526334.1776360698689",
-    "index.md.tmp.526334.1776360694394",
     "concepts/deploymentconfig.md",
     "summaries/seguridad-rbac-policies.md",
     "summaries/monitorizacion-prometheus.md",
