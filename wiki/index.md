@@ -88,6 +88,13 @@ updated: 2026-04-15
 - [[redes-proxmox|Redes en Proxmox]] — Linux Bridge, vmbr0 público, redes internas, firewall 3 niveles (datacenter/nodo/VM)
 - [[usuarios-permisos-proxmox|Usuarios y Permisos]] — Autenticación (PAM, Proxmox), usuarios/grupos, roles, privilegios, pools de recursos, RBAC
 
+### OpenStack
+- [[introduccion-openstack|Introducción a OpenStack]] — Cloud IaaS, Horizon (web), OpenStack Client (CLI), claves SSH, grupos de seguridad
+- [[glance-imagenes-openstack|Glance: Gestión de Imágenes]] — Catálogo de imágenes, formatos QCOW2/raw, snapshots, visibilidad
+- [[nova-instancias-openstack|Nova: Gestión de Instancias]] — Ciclo de vida VM, sabores (flavors), snapshots, redimensión, cloud-init
+- [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Volúmenes persistentes, adjunción a instancias, snapshots, tipos storage
+- [[neutron-redes-openstack|Neutron: Redes Virtuales]] — Redes privadas, routers, Floating IPs, grupos de seguridad, SDN
+
 ### Docker
 - [[introduccion-docker|Introducción a Docker]] — Conceptos, diferencias con VMs, instalación
 - [[docker-run-y-ciclo-vida|Docker Run y Ciclo de Vida]] — docker run, ciclo de vida, mapeamiento de puertos
@@ -146,10 +153,3 @@ updated: 2026-04-15
 - [[operadores-knative-tekton|Operadores, Knative y Tekton]] — Extensiones, serverless, CI/CD declarativa
 - [[monitorizacion-prometheus|Monitorización con Prometheus]] — Prometheus, Grafana, logs, alertas, health checks
 - [[seguridad-rbac-policies|Seguridad: RBAC y Network Policies]] — Control de acceso, aislamiento red, Secrets, SecurityContext
-
-### OpenStack
-- [[introduccion-openstack|Introducción a OpenStack]] — Cloud IaaS, Horizon (web), OpenStack Client (CLI), claves SSH, grupos de seguridad
-- [[glance-imagenes-openstack|Glance: Gestión de Imágenes]] — Catálogo de imágenes, formatos QCOW2/raw, snapshots, visibilidad
-- [[nova-instancias-openstack|Nova: Gestión de Instancias]] — Ciclo de vida VM, sabores (flavors), snapshots, redimensión, cloud-init
-- [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Volúmenes persistentes, adjunción a instancias, snapshots, tipos storage
-- [[neutron-redes-openstack|Neutron: Redes Virtuales]] — Redes privadas, routers, Floating IPs, grupos de seguridad, SDN
