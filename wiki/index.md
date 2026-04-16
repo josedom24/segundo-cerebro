@@ -128,24 +128,24 @@ updated: 2026-04-15
 - [[neutron-redes-openstack|Neutron: Redes Virtuales]] — Redes privadas, routers, Floating IPs, grupos de seguridad, SDN
 
 ### OpenShift v4 (Curso 1: Kubernetes y OpenShift)
-- [[osv4_k8s_modulo1|Introducción a OpenShift]] — Distribución K8s enterprise, Developer Sandbox, características
-- [[osv4_k8s_modulo2|Developer Sandbox]] — Entorno cloud gratuito, proyectos, acceso web
-- [[osv4_k8s_modulo3|Instalación Local (CRC)]] — Code Ready Containers, instalación, requisitos, primeros pasos
-- [[osv4_k8s_modulo4|Recursos Kubernetes 1]] — Pods, ReplicaSets, Deployments en OpenShift
-- [[osv4_k8s_modulo5|Recursos Kubernetes 2]] — Services, Routes, acceso a aplicaciones
-- [[osv4_k8s_modulo6|Configuración]] — ConfigMaps, Secrets, parametrización
-- [[osv4_k8s_modulo7|Almacenamiento]] — Volumes, PersistentVolumes, PersistentVolumeClaims
-- [[osv4_k8s_modulo8|Recursos Avanzados]] — StatefulSet, DaemonSet, Jobs, CronJobs, HPA
-- [[osv4_k8s_modulo9|Aplicación Ejemplo]] — Citas microservices, despliegue multi-componente
+- [[introduccion-openshift|Introducción a OpenShift]] — Distribución K8s enterprise, Developer Sandbox, características
+- [[developer-sandbox|Developer Sandbox]] — Entorno cloud gratuito, proyectos, acceso web
+- [[code-ready-containers|Instalación Local (CRC)]] — Code Ready Containers, instalación, requisitos, primeros pasos
+- [[pods-replicasets-deployments|Pods, ReplicaSets y Deployments]] — Recursos Kubernetes 1 en OpenShift
+- [[services-routes|Services y Routes]] — Acceso a aplicaciones, exposición, routing
+- [[configmaps-secrets|ConfigMaps y Secrets]] — Parametrización, credenciales, configuración
+- [[almacenamiento-openshift|Almacenamiento en OpenShift]] — Volumes, PersistentVolumes, PersistentVolumeClaims
+- [[recursos-avanzados|Recursos Avanzados]] — StatefulSet, DaemonSet, Jobs, CronJobs, HPA
+- [[aplicacion-ejemplo-citas|Aplicación Ejemplo: Citas]] — Despliegue multi-componente, microservices
 
 ### OpenShift v4 (Curso 2: OpenShift como Plataforma PaaS)
-- [[osv4_paas_modulo1|OpenShift como PaaS]] — Características PaaS, abstracciones, flujos de trabajo
-- [[osv4_paas_modulo2|Métodos de Despliegue]] — Image, Source-to-Image (S2I), Dockerfile, Templates
-- [[osv4_paas_modulo3|ImageStream y Gestión]] — Abstracción de imágenes, triggers automáticos, importación
-- [[osv4_paas_modulo4|BuildConfig y CI/CD]] — Construcción automatizada, S2I, Docker build, webhooks
-- [[osv4_paas_modulo5|ImagePull y Registros]] — ImagePullSecrets, registros privados, seguridad
-- [[osv4_paas_modulo6|DeployConfig y Rolling Updates]] — Despliegues avanzados, hooks lifecycle, rollbacks
-- [[osv4_paas_modulo7|Services y Routes]] — Exposición de aplicaciones, TLS, balanceo de carga
-- [[osv4_paas_modulo8|Extensiones]] — Operadores, Knative (serverless), Tekton (CI/CD)
-- [[osv4_paas_modulo9|Monitorización]] — Prometheus, Grafana, logs, alertas, health checks
-- [[osv4_paas_modulo10|Seguridad]] — RBAC, Network Policies, Secrets, SecurityContext, PodSecurityPolicy
+- [[openshift-paas|OpenShift como PaaS]] — Características PaaS, abstracciones, flujos de trabajo
+- [[metodos-despliegue|Métodos de Despliegue]] — Image, Source-to-Image (S2I), Dockerfile, Templates
+- [[imagestream-gestion|ImageStream y Gestión]] — Abstracción de imágenes, triggers automáticos, importación
+- [[buildconfig-cicd|BuildConfig y CI/CD]] — Construcción automatizada, S2I, Docker build, webhooks
+- [[imagepull-registros|ImagePull y Registros Privados]] — ImagePullSecrets, registros privados, seguridad
+- [[deployconfig-rolling-updates|DeployConfig y Rolling Updates]] — Despliegues avanzados, hooks lifecycle, rollbacks
+- [[services-routes-avanzado|Services y Routes Avanzado]] — Exposición de aplicaciones, TLS, balanceo de carga
+- [[operadores-knative-tekton|Operadores, Knative y Tekton]] — Extensiones, serverless, CI/CD declarativa
+- [[monitorizacion-prometheus|Monitorización con Prometheus]] — Prometheus, Grafana, logs, alertas, health checks
+- [[seguridad-rbac-policies|Seguridad: RBAC y Network Policies]] — Control de acceso, aislamiento red, Secrets, SecurityContext
