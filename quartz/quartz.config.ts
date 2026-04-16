@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "es-ES",
     baseUrl: "wiki.josedomingo.org",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "log.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

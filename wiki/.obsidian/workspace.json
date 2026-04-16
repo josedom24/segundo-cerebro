@@ -182,6 +182,7 @@
   "active": "b6fdd1aefcad9dc8",
   "lastOpenFiles": [
     "log.md",
+    "log.md.tmp.526334.1776361321366",
     "log.md.tmp.526334.1776360925880",
     "summaries/casos-practicos-podman.md.tmp.526334.1776360853207",
     "summaries/pods-podman.md.tmp.526334.1776360852859",
@@ -191,7 +192,6 @@
     "index.md.tmp.526334.1776360694394",
     "index.md.tmp.526334.1776360640508",
     "index.md.tmp.526334.1776360605189",
-    "summaries/sedYHCH7Y",
     "concepts/deploymentconfig.md",
     "summaries/seguridad-rbac-policies.md",
     "summaries/monitorizacion-prometheus.md",
@@ -216,7 +216,6 @@
     "summaries/osv4_paas_modulo7.md",
     "index.md",
     "concepts/paas.md",
-    "summaries/osv4_paas_modulo10.md",
     "Sin título.canvas"
   ]
 }
