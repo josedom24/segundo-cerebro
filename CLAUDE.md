@@ -264,47 +264,41 @@ Escribe lint-report.md con fixes."
 
 ### Estrategia de Conceptos (2026-04-16)
 
-**Decisión actual:** Enfoque GRANULAR - Conceptos reutilizables + Conceptos plataforma
+**CONCEPTO** = Idea abstracta reutilizable en múltiples contextos
+**SUMMARY** = Tutorial específico de un módulo de curso
 
 ```
-Nivel 1: Plataformas principales
-  - Docker, Kubernetes, Podman, KVM, Proxmox, OpenStack, Helm
+Conceptos (15) - Abstracciones reutilizables:
+  └─ Plataformas (7): Docker, Kubernetes, Podman, KVM, Proxmox, OpenStack, Helm
+  └─ K8s Patterns (5): Deployment, Service, Pod, StatefulSet, Job
+  └─ Storage (2): Volume, Snapshot
+  └─ Base (1): Contenedores
 
-Nivel 2: Patrones reutilizables (aparecen en múltiples plataformas)
-  - Deployment, Service, Pod, StatefulSet, Job (Kubernetes patterns)
-  - Volume, Snapshot (storage patterns en K8s, OpenStack, Proxmox, KVM)
-  - Quadlet, Systemd (Podman patterns)
-  
-Nivel 3: Abstracciones generales
-  - Contenedores, Network, Storage, etc.
+Summaries (55) - Módulos específicos de cursos:
+  └─ Docker (8): introduccion, docker-run, imagenes, volumenes, redes, docker-compose, dockerfile, desktop
+  └─ Kubernetes (10): introduccion, instalacion, pods, replicasets, deployments, services, configmaps, almacenamiento, statefulsets, helm
+  └─ Podman (10): introduccion, ejecucion, imagenes, almacenamiento, pods, quadlet, podman-compose, construccion, seguridad, casos
+  └─ KVM (14): intro, virt-manager, creacion-vms, almacenamiento, clonacion, redes, consola, conceptos-avanzados, setup-avanzado, virsh, etc.
+  └─ Proxmox (8): introduccion, instalacion, vms, almacenamiento, clonacion, lxc, redes, usuarios
+  └─ OpenStack (5): introduccion, glance, nova, cinder, neutron
 ```
 
 **Razón:** 
-- Patterns granulares son reutilizables y transferibles
-- Usuario aprende conceptos aplicables a múltiples plataformas
-- Deployment en K8s → entender deployment en otros contextos
-- Volume en K8s → entender storage en OpenStack, Proxmox, KVM
+- Conceptos: Transferibles entre plataformas (Deployment, Volume, Snapshot)
+- Summaries: Educativos, específicos del curso (cómo usar Docker Compose, cómo crear Dockerfile)
 
-**Ejemplo - Volume:**
+**Ejemplo - Docker:**
 ```
-Concepto único [[Volume]] que:
-- Aparece en Kubernetes (PersistentVolume)
-- Aparece en OpenStack (Cinder)
-- Aparece en Proxmox (LVM/Directory)
-- Aparece en KVM (Storage pools)
-
-Usuario entiende: "Volume = almacenamiento persistente e independiente"
-Aplicable en todas las plataformas
+Concepto [[Docker]] = "Plataforma de containerización"
+  ↓
+Summaries:
+  - docker-compose.md = "Cómo orquestar múltiples contenedores"
+  - dockerfile-y-construccion.md = "Cómo definir imágenes"
 ```
 
-**Tabla de Conceptos por Categoría:**
-
-| Categoría | Conceptos |
-|-----------|-----------|
-| Plataformas | Docker, Kubernetes, Podman, KVM, Proxmox, OpenStack, Helm |
-| K8s Patterns | Deployment, Service, Pod, StatefulSet, Job |
-| Storage | Volume, Snapshot |
-| General | Contenedores, Imagen |
+**Regla simple:**
+- Si aparece en múltiples plataformas → Concepto
+- Si es específico de un curso → Summary
 
 ---
 

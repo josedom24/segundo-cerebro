@@ -6,13 +6,13 @@ updated: 2026-04-15
 # Índice del Vault
 
 **Última actualización:** 2026-04-16  
-**Total de páginas:** 88  
+**Total de páginas:** 86  
 **Cursos ingeridos:** 7 (Docker, Kubernetes, Podman, KVM Intro, KVM Avanzado, Proxmox, OpenStack)  
-**Estrategia:** Conceptos granulares + patterns reutilizables
+**Estrategia:** Conceptos abstractos reutilizables + Summaries específicos de módulos
 
 ---
 
-## 📚 Conceptos (17)
+## 📚 Conceptos (15)
 
 ### Plataformas Principales (7)
 - [[Docker]] — Plataforma de containerización con imágenes, registros, Compose
@@ -34,10 +34,8 @@ updated: 2026-04-15
 - [[Volume]] — Almacenamiento persistente e independiente (K8s, OpenStack, Proxmox, KVM)
 - [[Snapshot]] — Captura punto-en-tiempo: backup, clones, rollback
 
-### General (3)
+### Abstracciones Base (1)
 - [[Contenedores]] — Virtualización a nivel SO con kernel compartido
-- [[Docker Compose]] — Orquestación de múltiples contenedores con YAML
-- [[Dockerfile]] — Sintaxis para definir y construir imágenes Docker
 
 ---
 
