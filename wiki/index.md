@@ -109,7 +109,3 @@ updated: 2026-04-15
 - [[nova-instancias-openstack|Nova: Gestión de Instancias]] — Ciclo de vida VM, sabores (flavors), snapshots, redimensión, cloud-init
 - [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Volúmenes persistentes, adjunción a instancias, snapshots, tipos storage
 - [[neutron-redes-openstack|Neutron: Redes Virtuales]] — Redes privadas, routers, Floating IPs, grupos de seguridad, SDN
-
----
-
-**Nota:** Este índice se actualiza automáticamente con cada nueva ingesta. Es tu punto de entrada al vault.
