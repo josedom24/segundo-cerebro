@@ -8,3 +8,11 @@
 .page-header {
   margin-top: 0 !important;
 }
+
+// Estilos para Enlaces Rápidos en index.md
+.center > article > ul li > a {
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background: var(--lightgray);
+}
