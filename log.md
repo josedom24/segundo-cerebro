@@ -9,6 +9,44 @@ Historial append-only de todas las operaciones en el vault.
 
 ---
 
+## [2026-04-16] refactor | Renombrar módulos OpenShift a nombres descriptivos
+
+**Cambio realizado:** Actualización de convención de nombres para consistencia
+
+Todos los archivos OpenShift fueron renombrados de formato genérico a descriptivo:
+
+**Curso 1 (9 módulos):**
+- osv4_k8s_modulo1 → introduccion-openshift
+- osv4_k8s_modulo2 → developer-sandbox
+- osv4_k8s_modulo3 → code-ready-containers
+- osv4_k8s_modulo4 → pods-replicasets-deployments
+- osv4_k8s_modulo5 → services-routes
+- osv4_k8s_modulo6 → configmaps-secrets
+- osv4_k8s_modulo7 → almacenamiento-openshift
+- osv4_k8s_modulo8 → recursos-avanzados
+- osv4_k8s_modulo9 → aplicacion-ejemplo-citas
+
+**Curso 2 (10 módulos):**
+- osv4_paas_modulo1 → openshift-paas
+- osv4_paas_modulo2 → metodos-despliegue
+- osv4_paas_modulo3 → imagestream-gestion
+- osv4_paas_modulo4 → buildconfig-cicd
+- osv4_paas_modulo5 → imagepull-registros
+- osv4_paas_modulo6 → deployconfig-rolling-updates
+- osv4_paas_modulo7 → services-routes-avanzado
+- osv4_paas_modulo8 → operadores-knative-tekton
+- osv4_paas_modulo9 → monitorizacion-prometheus
+- osv4_paas_modulo10 → seguridad-rbac-policies
+
+**Archivos actualizados:**
+- ✏️ wiki/index.md — Links actualizados con nuevos nombres
+
+**Razón:** Consistencia con convención de nombres del vault. Todos los módulos ahora tienen nombres descriptivos y significativos, no genéricos numéricos.
+
+**Resultado:** Archivo graph en Obsidian ahora muestra nodos con etiquetas claras (introduccion-openshift, buildconfig-cicd, etc.) en lugar de osv4_paas_modulo3.
+
+---
+
 ## [2026-04-16] ingest | OpenShift v4 - Dos Cursos Completos (19 módulos + 5 conceptos)
 
 **Fuentes:**
