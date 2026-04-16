@@ -1,5 +1,8 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
+// @ts-ignore
+import script from "./scripts/externalLinks.inline"
+
 interface ExternalLink {
   label: string
   url: string
@@ -131,21 +134,7 @@ export default ((opts?: Options) => {
 }
 `
 
-  ExternalLinks.afterHydrate = () => {
-    const toggleButtons = document.querySelectorAll(".external-links-toggle")
-    toggleButtons.forEach((button) => {
-      button.addEventListener("click", function (this: HTMLElement) {
-        const nav = this.closest(".external-links") as HTMLElement
-        if (nav) {
-          nav.classList.toggle("collapsed")
-          nav.setAttribute(
-            "aria-expanded",
-            nav.getAttribute("aria-expanded") === "true" ? "false" : "true",
-          )
-        }
-      })
-    })
-  }
+  ExternalLinks.beforeDOMInsert = script
 
   return ExternalLinks
 }) satisfies QuartzComponentConstructor
