@@ -42,7 +42,7 @@ export default ((opts?: Options) => {
         <div id="external-links-content" class="external-links-content">
           <ul>
             {links.map(({ label, url, internal }) => (
-              <li>
+              <li key={url}>
                 <a href={url} {...(!internal && { target: "_blank", rel: "noopener noreferrer" })}>
                   {label}
                 </a>
@@ -134,7 +134,7 @@ export default ((opts?: Options) => {
 }
 `
 
-  ExternalLinks.beforeDOMInsert = script
+  ExternalLinks.afterDOMLoaded = script
 
   return ExternalLinks
 }) satisfies QuartzComponentConstructor
