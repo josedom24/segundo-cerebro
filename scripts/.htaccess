@@ -1,3 +1,15 @@
+# MIME types para Pagefind (WebAssembly)
+AddType application/wasm .pagefind
+AddType application/wasm .wasm
+
+# Headers necesarios para WebAssembly workers
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|pagefind|wasm)$">
+    Header set Cross-Origin-Opener-Policy "same-origin"
+    Header set Cross-Origin-Embedder-Policy "require-corp"
+  </FilesMatch>
+</IfModule>
+
 RewriteEngine On
 
 ErrorDocument 404 /404.html
