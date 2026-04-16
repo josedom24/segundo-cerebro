@@ -14,8 +14,7 @@ updated: 2026-04-15
 
 ## 🔗 Enlaces Rápidos
 
-- [Inicio](/) — Volver a la página principal
-- [Blog](https://www.josedomingo.org) — Blog personal
+- [Blog/Microblog](https://www.josedomingo.org) — Blog personal
 - [Plataforma](https://plataforma.josedomingo.org) — Plataforma de enseñanza
 - [Módulos](https://fp.josedomingo.org) — Cursos y módulos
 
