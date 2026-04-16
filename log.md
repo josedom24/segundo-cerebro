@@ -9,6 +9,112 @@ Historial append-only de todas las operaciones en el vault.
 
 ---
 
+## [2026-04-16] ingest | OpenShift v4 - Dos Cursos Completos (19 módulos + 5 conceptos)
+
+**Fuentes:**
+1. Curso 1: https://github.com/josedom24/curso_openshift_v4/curso1 — Introducción K8s/OpenShift
+2. Curso 2: https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/ — OpenShift como PaaS
+
+**Módulos ingestionados:**
+
+**Curso 1 (K8s & OpenShift) - 9 módulos:**
+1. Introducción a OpenShift (Distribución K8s, Developer Sandbox)
+2. Developer Sandbox (Entorno cloud gratuito)
+3. Code Ready Containers (Instalación local, CRC)
+4. Recursos Kubernetes 1 (Pods, ReplicaSets, Deployments)
+5. Recursos Kubernetes 2 (Services, Routes, acceso)
+6. Configuración (ConfigMaps, Secrets, parametrización)
+7. Almacenamiento (Volumes, PersistentVolumes, PVC)
+8. Recursos Avanzados (StatefulSet, DaemonSet, Jobs, HPA)
+9. Aplicación Ejemplo (Citas microservices, multi-componente)
+
+**Curso 2 (OpenShift PaaS) - 10 módulos:**
+1. OpenShift como Plataforma (PaaS, abstracciones, flujos)
+2. Métodos de Despliegue (Image, S2I, Dockerfile, Templates)
+3. ImageStream y Gestión (Abstracción imágenes, triggers)
+4. BuildConfig y CI/CD (Construcción automatizada, webhooks)
+5. ImagePull y Registros (ImagePullSecrets, privados)
+6. DeployConfig y Rolling Updates (Despliegues avanzados, hooks)
+7. Services y Routes (Exposición, TLS, balanceo)
+8. Extensiones (Operadores, Knative, Tekton)
+9. Monitorización (Prometheus, Grafana, alertas)
+10. Seguridad (RBAC, Network Policies, Secrets, SecurityContext)
+
+**Archivos creados:**
+
+**Conceptos (5 nuevos):**
+- ✏️ wiki/concepts/openshift.md — Distribución K8s empresarial, PaaS, abstracciones
+- ✏️ wiki/concepts/imagestream.md — Abstracción OpenShift: referencias, triggers, gestión
+- ✏️ wiki/concepts/build.md — BuildConfig: CI/CD nativo, S2I, Docker build
+- ✏️ wiki/concepts/route.md — Exposición servicios: TLS, routing, alternativa Ingress
+- ✏️ wiki/concepts/template.md — Plantillas parametrizadas: aplicaciones, variables
+
+**Resúmenes Curso 1 (9 archivos):**
+- ✏️ osv4_k8s_modulo1.md — Introducción a OpenShift
+- ✏️ osv4_k8s_modulo2.md — Developer Sandbox
+- ✏️ osv4_k8s_modulo3.md — Code Ready Containers
+- ✏️ osv4_k8s_modulo4.md — Pods, ReplicaSets, Deployments
+- ✏️ osv4_k8s_modulo5.md — Services, Routes
+- ✏️ osv4_k8s_modulo6.md — ConfigMaps, Secrets
+- ✏️ osv4_k8s_modulo7.md — Almacenamiento
+- ✏️ osv4_k8s_modulo8.md — Recursos avanzados
+- ✏️ osv4_k8s_modulo9.md — Aplicación ejemplo
+
+**Resúmenes Curso 2 (10 archivos):**
+- ✏️ osv4_paas_modulo1.md — OpenShift como PaaS
+- ✏️ osv4_paas_modulo2.md — Métodos de despliegue
+- ✏️ osv4_paas_modulo3.md — ImageStream
+- ✏️ osv4_paas_modulo4.md — BuildConfig
+- ✏️ osv4_paas_modulo5.md — ImagePull registros
+- ✏️ osv4_paas_modulo6.md — DeployConfig rolling updates
+- ✏️ osv4_paas_modulo7.md — Services y Routes
+- ✏️ osv4_paas_modulo8.md — Operadores, Knative, Tekton
+- ✏️ osv4_paas_modulo9.md — Monitorización Prometheus
+- ✏️ osv4_paas_modulo10.md — Seguridad RBAC/Policies
+
+**Actualización índice y conceptos:**
+- ✏️ wiki/index.md — Actualizado: 20→110 páginas, 7→9 cursos, 15→20 conceptos, nuevas 5 secciones OpenShift
+- ✏️ wiki/concepts/kubernetes.md — Agregada relación con [[OpenShift]]
+- ✏️ wiki/concepts/contenedores.md — Agregada relación con [[OpenShift]]
+
+**Git history:**
+- ✏️ Commit 1: 5 conceptos OpenShift (9873f62)
+- ✏️ Commit 2: 9 módulos Curso 1 (8aaabf8)
+- ✏️ Commit 3: 10 módulos Curso 2 (6a46aa5)
+
+### Conceptos clave identificados
+
+**OpenShift vs Kubernetes puro:**
+- **Kubernetes:** Orquestador cloud-native
+- **OpenShift:** Kubernetes + PaaS (ImageStream, BuildConfig, Route, DeployConfig, Template)
+- **Distinción:** Curso 1 = K8s fundamentals; Curso 2 = Abstracciones PaaS OpenShift
+
+**Abstracciones OpenShift (nuevas respecto K8s):**
+- **ImageStream:** Referencia automática a imágenes, triggers en cambios
+- **BuildConfig:** CI/CD integrado (S2I, Docker build, webhooks)
+- **Route:** Exposición simplificada vs Kubernetes Ingress
+- **DeployConfig:** Ciclo de vida con hooks pre/post deploy (vs Deployment básico)
+- **Template:** Parametrización de objetos para aplicaciones complejas
+
+**Estrategia de ingesta:**
+- Conceptos = Abstracciones OpenShift reutilizables (ImageStream, Build, Route, Template)
+- Summaries = Módulos de cursos específicos (Curso 1 enfocado K8s, Curso 2 enfocado PaaS)
+
+### Relaciones identificadas
+- OpenShift ← basado en → Kubernetes
+- ImageStream ← trigger automático → BuildConfig
+- BuildConfig ← CI/CD nativo → DeployConfig
+- Route ← exposición → Services (subyacente)
+- Template ← parametrización → Aplicaciones complejas
+
+### Total de contenido
+- Conceptos nuevos: 5
+- Resúmenes nuevos: 19 (9 + 10)
+- Relaciones actualizadas: 2 conceptos existentes
+- Total vault: 110 páginas, 9 cursos, 20 conceptos, 69 módulos
+
+---
+
 ## [2026-04-16] ingest | OpenStack - Cloud Computing IaaS (5 módulos)
 
 **Fuente:** https://github.com/josedom24/curso_openstack_ies

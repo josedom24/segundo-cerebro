@@ -237,6 +237,7 @@ Contenedor eliminado
 - [[Docker]] — Plataforma que ejecuta contenedores
 - [[Podman]] — Runtime alternativo daemonless
 - [[Kubernetes]] — Orquestación de contenedores
+- [[OpenShift]] — Distribución K8s con abstracciones PaaS para contenedores
 
 ### Contrasta con
 - [[KVM]] — Máquinas virtuales con overhead mayor

@@ -132,6 +132,7 @@ Cluster Kubernetes:
 - [[Contenedores]] — Unidad de deployment
 - [[Docker]] — Runtime típico
 - [[Podman]] — Alternativa OCI-compatible
+- [[OpenShift]] — Distribución empresarial de Kubernetes con abstracciones PaaS
 
 ### Parte de
 - Cloud Native Computing Foundation (CNCF) ecosystem
@@ -139,7 +140,7 @@ Cluster Kubernetes:
 ### Comparado con
 - [[Docker]] Compose: Simple single-host
 - Nomad: Orquestador general-purpose (no solo contenedores)
-- OpenShift: Kubernetes + features enterprise
+- [[OpenShift]]: Distribución empresarial con features adicionales (ImageStream, BuildConfig, Routes)
 
 ## Fuentes
 
