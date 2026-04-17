@@ -5,7 +5,6 @@ updated: 2026-04-16
 sources: [osv4_paas]
 tags: [deployment, openshift, templates, template]
 ---
-title: Template
 
 # Template
 

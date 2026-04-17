@@ -6,7 +6,6 @@ sources: [curso_apache24]
 tags: [http]
 aliases: [HTTP, HTTP/1.1, Protocolo HTTP]
 ---
-title: HTTP
 
 # HTTP
 

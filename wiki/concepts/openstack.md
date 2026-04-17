@@ -6,7 +6,6 @@ sources: [curso_openstack_ies]
 tags: [openstack, virtualizacion]
 aliases: [OpenStack]
 ---
-title: OpenStack
 
 # OpenStack
 

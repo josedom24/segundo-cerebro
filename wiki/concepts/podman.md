@@ -6,7 +6,6 @@ sources: [curso_podman_ow]
 tags: [contenedores, oci, podman, rootless]
 aliases: [Podman]
 ---
-title: Podman
 
 # Podman
 

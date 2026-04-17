@@ -6,7 +6,6 @@ sources: [curso_kubernetes_cep]
 tags: [kubernetes, helm]
 aliases: [Helm]
 ---
-title: Helm
 
 # Helm
 

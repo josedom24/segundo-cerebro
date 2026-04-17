@@ -6,7 +6,6 @@ sources: [curso_kubernetes_cep]
 tags: [deployment, kubernetes, statefulset]
 aliases: [StatefulSet]
 ---
-title: StatefulSet
 
 # StatefulSet
 

@@ -1,12 +1,11 @@
 ---
-title: Proxmox VE: Plataforma de Virtualización
+title: "Proxmox VE: Plataforma de Virtualización"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
 tags: [proxmox, virtualizacion]
 aliases: [Proxmox]
 ---
-title: Proxmox VE: Plataforma de Virtualización
 
 # Proxmox VE: Plataforma de Virtualización
 

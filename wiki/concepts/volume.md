@@ -6,7 +6,6 @@ sources: [curso_kubernetes_cep, curso_openstack_ies, curso_proxmox_cep]
 tags: [almacenamiento, volume]
 aliases: [Volume]
 ---
-title: Volume
 
 # Volume
 

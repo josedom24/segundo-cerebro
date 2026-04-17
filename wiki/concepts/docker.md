@@ -6,7 +6,6 @@ sources: [docker-jekyll, curso_docker_ow]
 tags: [contenedores, docker]
 aliases: [Docker]
 ---
-title: Docker
 
 # Docker
 

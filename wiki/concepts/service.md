@@ -6,7 +6,6 @@ sources: [curso_kubernetes_cep]
 tags: [dns, kubernetes, redes, service]
 aliases: [Service]
 ---
-title: Service
 
 # Service
 

@@ -5,7 +5,6 @@ updated: 2026-04-16
 sources: [osv4_paas]
 tags: [contenedores, imagenes, imagestream, openshift]
 ---
-title: ImageStream
 
 # ImageStream
 

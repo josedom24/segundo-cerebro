@@ -6,7 +6,6 @@ sources: [curso_kubernetes_cep]
 tags: [contenedores, kubernetes, orquestacion]
 aliases: [Kubernetes]
 ---
-title: Kubernetes
 
 # Kubernetes
 

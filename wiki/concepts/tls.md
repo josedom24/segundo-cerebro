@@ -6,7 +6,6 @@ sources: [curso_apache24]
 tags: [tls, seguridad]
 aliases: [SSL, HTTPS, TLS, PKI, Certificados Digitales, X.509]
 ---
-title: TLS
 
 # TLS
 

@@ -6,7 +6,6 @@ sources: [curso_apache24]
 tags: [apache]
 aliases: [Apache, Apache2, httpd, Servidor Web Apache]
 ---
-title: Apache
 
 # Apache
 

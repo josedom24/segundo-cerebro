@@ -1,12 +1,11 @@
 ---
-title: KVM (Kernel-based Virtual Machine)
+title: "KVM (Kernel-based Virtual Machine)"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso-kvm, creacion-box-vagrant]
 tags: [linux, virtualizacion, kvm]
 aliases: [KVM]
 ---
-title: KVM (Kernel-based Virtual Machine)
 
 # KVM (Kernel-based Virtual Machine)
 

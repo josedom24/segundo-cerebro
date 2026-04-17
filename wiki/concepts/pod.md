@@ -6,7 +6,6 @@ sources: [curso_kubernetes_cep]
 tags: [contenedores, kubernetes, pod]
 aliases: [Pod]
 ---
-title: Pod
 
 # Pod
 

@@ -6,7 +6,6 @@ sources: [curso_kubernetes_cep]
 tags: [deployment, kubernetes]
 aliases: [Deployment]
 ---
-title: Deployment
 
 # Deployment
 
