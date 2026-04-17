@@ -377,7 +377,7 @@ sudo ip link del virbr-test
 ## Relaciones
 
 ### Conecta con
-- [[redes-kvm|Redes en KVM/libvirt]]
+- [[redes-kvm|Redes en KVM - libvirt]]
 - [[clonacion-virsh|Clonación Avanzada con virsh]]
 - [[instalacion-red-kvm|Instalación de VMs por Red en KVM]]
 

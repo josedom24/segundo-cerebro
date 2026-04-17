@@ -263,7 +263,7 @@ Ventajas:
 ## Relaciones
 
 ### Conecta con
-- [[introduccion-kvm|Introducción a la Virtualización con KVM/libvirt]]
+- [[introduccion-kvm|Introducción a la Virtualización con KVM - libvirt]]
 - [[virt-manager-setup|Instalación y Configuración de virt-manager]]
 
 ### Parte de

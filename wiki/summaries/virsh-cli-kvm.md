@@ -396,7 +396,7 @@ virsh vol-create-as default mi-vm-restore.qcow2 \
 ### Conecta con
 - [[conceptos-avanzados-kvm|Conceptos Avanzados de Virtualización en KVM]]
 - [[setup-avanzado-kvm|Setup Avanzado de KVM/QEMU]]
-- [[almacenamiento-virsh|Almacenamiento en KVM/libvirt con virsh]]
+- [[almacenamiento-virsh|Almacenamiento en KVM - libvirt con virsh]]
 - [[clonacion-virsh|Clonación Avanzada con virsh]]
 
 ### Parte de

@@ -239,8 +239,8 @@ Pero no se cubren en este módulo
 
 ### Conecta con
 - [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]]
-- [[almacenamiento-kvm|Almacenamiento en KVM/virt-manager]]
-- [[redes-kvm|Redes en KVM/libvirt]]
+- [[almacenamiento-kvm|Almacenamiento en KVM - virt-manager]]
+- [[redes-kvm|Redes en KVM - libvirt]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

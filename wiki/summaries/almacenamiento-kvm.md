@@ -1,5 +1,5 @@
 ---
-title: "Almacenamiento en KVM/virt-manager"
+title: "Almacenamiento en KVM - virt-manager"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]

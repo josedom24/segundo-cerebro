@@ -328,7 +328,7 @@ Resultados:
 
 ### Conecta con
 - [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]]
-- [[redes-kvm|Redes en KVM/libvirt]]
+- [[redes-kvm|Redes en KVM - libvirt]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

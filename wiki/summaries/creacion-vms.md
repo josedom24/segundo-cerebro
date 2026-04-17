@@ -272,9 +272,9 @@ Opciones: Disco, Red, USB, PCI, Gráficos, ...
 
 ### Conecta con
 - [[virt-manager-setup|Instalación y Configuración de virt-manager]]
-- [[almacenamiento-kvm|Almacenamiento en KVM/virt-manager]]
+- [[almacenamiento-kvm|Almacenamiento en KVM - virt-manager]]
 - [[clonacion-kvm|Clonación de Máquinas Virtuales en KVM]]
-- [[redes-kvm|Redes en KVM/libvirt]]
+- [[redes-kvm|Redes en KVM - libvirt]]
 - [[consola-serie-kvm|Acceso por Consola Serie en KVM]]
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Introducción a la Virtualización con KVM/libvirt"
+title: "Introducción a la Virtualización con KVM - libvirt"
 created: 2026-04-15
 updated: 2026-04-17
 sources: [curso_kvm_ow]

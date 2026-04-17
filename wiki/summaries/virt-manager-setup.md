@@ -209,11 +209,11 @@ vagrant up  # VM con Nginx lista en <1 minuto
 ## Relaciones
 
 ### Conecta con
-- [[introduccion-kvm|Introducción a la Virtualización con KVM/libvirt]]
+- [[introduccion-kvm|Introducción a la Virtualización con KVM - libvirt]]
 - [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]]
-- [[almacenamiento-kvm|Almacenamiento en KVM/virt-manager]]
+- [[almacenamiento-kvm|Almacenamiento en KVM - virt-manager]]
 - [[clonacion-kvm|Clonación de Máquinas Virtuales en KVM]]
-- [[redes-kvm|Redes en KVM/libvirt]]
+- [[redes-kvm|Redes en KVM - libvirt]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

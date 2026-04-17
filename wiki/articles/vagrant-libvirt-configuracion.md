@@ -375,12 +375,12 @@ sudo systemctl restart systemd-networkd
 ### Conecta con
 - [[vagrant-introduccion|Vagrant - Introducción y Conceptos Fundamentales]] — Conceptos base
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Backend de virtualización
-- [[redes-kvm|Redes en KVM/libvirt]] — Networking avanzado
-- [[almacenamiento-kvm|Almacenamiento en KVM/virt-manager]] — Volúmenes QCOW2, snapshots
+- [[redes-kvm|Redes en KVM - libvirt]] — Networking avanzado
+- [[almacenamiento-kvm|Almacenamiento en KVM - virt-manager]] — Volúmenes QCOW2, snapshots
 - Ansible — Provisioning alternativo a shell scripts
 
 ### Mejora a
-- [[introduccion-kvm|Introducción a la Virtualización con KVM/libvirt]] — Automatización de VMs
+- [[introduccion-kvm|Introducción a la Virtualización con KVM - libvirt]] — Automatización de VMs
 - [[virt-manager-setup|Instalación y Configuración de virt-manager]] — Alternativa GUI (vs IaC)
 
 ---

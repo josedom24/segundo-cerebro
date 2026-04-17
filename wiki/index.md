@@ -73,19 +73,19 @@ title: Wiki Pledin
 ### KVM & libvirt
 
 #### Introducción a KVM & libvirt
-- [[introduccion-kvm|Introducción a la Virtualización con KVM/libvirt]] — Virtualización completa, QEMU/KVM stack, arquitectura
+- [[introduccion-kvm|Introducción a la Virtualización con KVM - libvirt]] — Virtualización completa, QEMU/KVM stack, arquitectura
 - [[virt-manager-setup|Instalación y Configuración de virt-manager]] — Instalación, configuración inicial, redes default, almacenamiento
 - [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]] — Wizard instalación, Linux/Windows, hardware, detalles VM
-- [[almacenamiento-kvm|Almacenamiento en KVM/virt-manager]] — Storage pools, volúmenes, QCOW2, snapshots, thin provisioning
+- [[almacenamiento-kvm|Almacenamiento en KVM - virt-manager]] — Storage pools, volúmenes, QCOW2, snapshots, thin provisioning
 - [[clonacion-kvm|Clonación de Máquinas Virtuales en KVM]] — Full clone vs linked clone, problemas identidad, gestión
-- [[redes-kvm|Redes en KVM/libvirt]] — NAT privadas, aisladas, bridge públicas, macvtap, configuración
+- [[redes-kvm|Redes en KVM - libvirt]] — NAT privadas, aisladas, bridge públicas, macvtap, configuración
 - [[consola-serie-kvm|Acceso por Consola Serie en KVM]] — Acceso serie, getty, administración remota, bajo overhead
 
 #### Profundización en KVM / libvirt
 - [[conceptos-avanzados-kvm|Conceptos Avanzados de Virtualización en KVM]] — Aislamiento seguridad, benchmarking, disaster recovery, cloud computing
 - [[setup-avanzado-kvm|Setup Avanzado de KVM/QEMU]] — Virtualización anidada, CPU host-passthrough, requisitos hardware
 - [[virsh-cli-kvm|Gestión de Máquinas Virtuales con virsh]] — Gestión dominios XML, ciclo de vida, volúmenes, virt-viewer
-- [[almacenamiento-virsh|Almacenamiento en KVM/libvirt con virsh]] — Pool types (dir/lvm/zfs/nfs), qemu-img, snapshots
+- [[almacenamiento-virsh|Almacenamiento en KVM - libvirt con virsh]] — Pool types (dir/lvm/zfs/nfs), qemu-img, snapshots
 - [[clonacion-virsh|Clonación Avanzada con virsh]] — virt-clone, virt-install, virt-customize, templates, batch
 - [[redes-virsh|Redes Virtuales con virsh]] — Definición XML, DHCP/DNS, bridges (virbr), leases
 - [[instalacion-red-kvm|Instalación de VMs por Red en KVM]] — virt-install --location, preseed/kickstart, automatización

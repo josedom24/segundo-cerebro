@@ -1,5 +1,5 @@
 ---
-title: "Almacenamiento en KVM/libvirt con virsh"
+title: "Almacenamiento en KVM - libvirt con virsh"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
