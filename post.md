@@ -100,7 +100,7 @@ Y lo más importante: el sistema está preparado para que los nuevos materiales 
 ---
 
 **Cómo funciona:**
-- Carpeta `wiki/` con estructura: concepts/, resúmenes/, articles/, analyses/, entities/
+- Carpeta `wiki/` con estructura: concepts/, summaries/, articles/, analyses/, entities/
 - Archivo `CLAUDE.md` con instrucciones reproducibles para mantenimiento
 - `wiki/log.md` documentando cada cambio (append-only)
 - Git como histórico y fuente de verdad
