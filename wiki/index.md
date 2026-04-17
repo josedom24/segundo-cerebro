@@ -7,11 +7,6 @@ title: Wiki Pledin
 
 # Índice del Vault
 
-**Última actualización:** 2026-04-17  
-**Total de páginas:** 128  
-**Cursos ingeridos:** 10 (Docker, Kubernetes, Podman, KVM Intro, KVM Avanzado, Proxmox, OpenStack, OpenShift v4 K8s, OpenShift v4 PaaS, Apache 2.4)  
-**Estrategia:** Conceptos abstractos reutilizables + Summaries específicos de módulos
-
 ---
 
 ## 🔗 Enlaces Rápidos
