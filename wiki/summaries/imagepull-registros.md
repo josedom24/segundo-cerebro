@@ -160,7 +160,7 @@ Flujo:
 
 ### Conecta con
 - Extensión de: [[imagestream|ImageStream]]
-- Usado por: [[build|Build]] (producción)
+- Usado por: [[build|Build (BuildConfig en OpenShift)]] (producción)
 - Patrón para: Multi-entorno (dev/test/prod)
 - Automation: Triggers automáticos
 

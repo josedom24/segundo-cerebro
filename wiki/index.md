@@ -29,42 +29,42 @@ title: Wiki Pledin
 ## 📚 Conceptos (25)
 
 ### Plataformas Principales (10)
-- [[docker]] — Plataforma de containerización con imágenes, registros, Compose
-- [[kubernetes]] — Orquestador cloud-native: master/worker, auto-scaling, rolling updates
-- [[openshift]] — Distribución empresarial de Kubernetes con PaaS, ImageStream, BuildConfig, Routes
-- [[podman]] — Runtime daemonless, rootless nativo, Pods, Quadlet
-- [[kvm]] — Hipervisor integrado en Linux para virtualización
-- [[proxmox]] — Plataforma virtualización: KVM + LXC, gestión centralizada
-- [[openstack]] — Plataforma cloud IaaS: compute, storage, networking, imágenes
-- [[helm]] — Package manager de Kubernetes: charts, templating, distribución
-- [[apache]] — Servidor web modular: virtual hosting, módulos, autenticación, proxy inverso
-- [[vagrant]] — Automatización de VMs: Infrastructure as Code, reproducibilidad, provisioning declarativo
+- [[docker|Docker]] — Plataforma de containerización con imágenes, registros, Compose
+- [[kubernetes|Kubernetes]] — Orquestador cloud-native: master/worker, auto-scaling, rolling updates
+- [[openshift|OpenShift]] — Distribución empresarial de Kubernetes con PaaS, ImageStream, BuildConfig, Routes
+- [[podman|Podman]] — Runtime daemonless, rootless nativo, Pods, Quadlet
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Hipervisor integrado en Linux para virtualización
+- [[proxmox|Proxmox VE: Plataforma de Virtualización]] — Plataforma virtualización: KVM + LXC, gestión centralizada
+- [[openstack|OpenStack]] — Plataforma cloud IaaS: compute, storage, networking, imágenes
+- [[helm|Helm]] — Package manager de Kubernetes: charts, templating, distribución
+- [[apache|Apache]] — Servidor web modular: virtual hosting, módulos, autenticación, proxy inverso
+- [[vagrant|Vagrant]] — Automatización de VMs: Infrastructure as Code, reproducibilidad, provisioning declarativo
 
 ### OpenShift-specific Patterns (6)
-- [[paas]] — Modelo Platform as a Service: abstracción de infraestructura, automatización CI/CD
-- [[imagestream]] — Abstracción OpenShift: referencias a imágenes, triggers, gestión automática
-- [[build]] — CI/CD nativo en OpenShift: S2I, Docker build, webhook triggers
-- [[route]] — Exposición de servicios: TLS, hostname/path routing, alternativa a Ingress
-- [[template]] — Plantillas parametrizadas: aplicaciones complejas, variables, objetos preconfigurados
-- [[deploymentconfig]] — Despliegues con triggers, rolling updates, lifecycle hooks pre/post
+- [[paas|PaaS (Platform as a Service)]] — Modelo Platform as a Service: abstracción de infraestructura, automatización CI/CD
+- [[imagestream|ImageStream]] — Abstracción OpenShift: referencias a imágenes, triggers, gestión automática
+- [[build|Build (BuildConfig en OpenShift)]] — CI/CD nativo en OpenShift: S2I, Docker build, webhook triggers
+- [[route|Route]] — Exposición de servicios: TLS, hostname/path routing, alternativa a Ingress
+- [[template|Template]] — Plantillas parametrizadas: aplicaciones complejas, variables, objetos preconfigurados
+- [[deploymentconfig|DeploymentConfig]] — Despliegues con triggers, rolling updates, lifecycle hooks pre/post
 
 ### Kubernetes Patterns (5)
-- [[deployment]] — Orquestación declarativa: rolling updates, rollbacks, replicación
-- [[service]] — Exposición de Pods: load balancing, DNS, múltiples tipos
-- [[pod]] — Unidad mínima: 1+ contenedores, network compartida, efímeros
-- [[statefulset]] — Aplicaciones stateful: identidad persistente, almacenamiento dedicado
-- [[job]] — Tareas batch: completación garantizada, reintentos, ejecución paralela
+- [[deployment|Deployment]] — Orquestación declarativa: rolling updates, rollbacks, replicación
+- [[service|Service]] — Exposición de Pods: load balancing, DNS, múltiples tipos
+- [[pod|Pod]] — Unidad mínima: 1+ contenedores, network compartida, efímeros
+- [[statefulset|StatefulSet]] — Aplicaciones stateful: identidad persistente, almacenamiento dedicado
+- [[job|Job]] — Tareas batch: completación garantizada, reintentos, ejecución paralela
 
 ### Storage Patterns (2)
-- [[volume]] — Almacenamiento persistente e independiente (K8s, OpenStack, Proxmox, KVM)
-- [[snapshot]] — Captura punto-en-tiempo: backup, clones, rollback
+- [[volume|Volume]] — Almacenamiento persistente e independiente (K8s, OpenStack, Proxmox, KVM)
+- [[snapshot|Snapshot]] — Captura punto-en-tiempo: backup, clones, rollback
 
 ### Protocolos y Seguridad (2)
-- [[http]] — Protocolo request/response stateless: métodos GET/POST, códigos estado, cabeceras, negociación contenido
-- [[tls]] — Encriptación transport-layer: PKI, certificados X.509, handshake, HTTPS, openssl
+- [[http|HTTP]] — Protocolo request/response stateless: métodos GET/POST, códigos estado, cabeceras, negociación contenido
+- [[tls|TLS]] — Encriptación transport-layer: PKI, certificados X.509, handshake, HTTPS, openssl
 
 ### Abstracciones Base (1)
-- [[contenedores]] — Virtualización a nivel SO con kernel compartido
+- [[contenedores|Contenedores]] — Virtualización a nivel SO con kernel compartido
 
 ---
 

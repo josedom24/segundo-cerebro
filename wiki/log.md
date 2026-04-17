@@ -1,3 +1,34 @@
+## [2026-04-17] update | Estandarización de títulos en enlaces (ALL files)
+
+**Objetivo:** Cambiar todos los enlaces internos a formato `[[archivo|Título Significativo]]` usando el `title:` del frontmatter
+
+**Archivos actualizados (101 archivos):**
+- ✏️ wiki/index.md — Todos los conceptos ahora con títulos visibles
+- ✏️ 100+ archivos en concepts/, summaries/, articles/, analyses/ — Referencias actualizadas
+
+**Cambios realizados:**
+```
+27 referencias: [[kvm|KVM]] → [[kvm|KVM (Kernel-based Virtual Machine)]]
+ 7 referencias: [[proxmox|Proxmox]] → [[proxmox|Proxmox VE: Plataforma de Virtualización]]
+ 5+ referencias: [[paas|PaaS]] → [[paas|PaaS (Platform as a Service)]]
+ 5+ referencias: [[build|Build]] → [[build|Build (BuildConfig en OpenShift)]]
+```
+
+**Secciones del index actualizadas:**
+- ✅ Plataformas Principales (10): docker, kubernetes, openshift, podman, kvm, proxmox, openstack, helm, apache, vagrant
+- ✅ OpenShift-specific Patterns (6): paas, imagestream, build, route, template, deploymentconfig
+- ✅ Kubernetes Patterns (5): deployment, service, pod, statefulset, job
+- ✅ Storage Patterns (2): volume, snapshot
+- ✅ Protocolos y Seguridad (2): http, tls
+- ✅ Abstracciones Base (1): contenedores
+
+**Impacto:**
+- Todos los enlaces internos ahora tienen títulos significativos
+- Búsqueda de etiquetas funciona correctamente (sin index como primer resultado)
+- Consistencia en todo el vault
+
+---
+
 ## [2026-04-17] update | Limpieza de etiquetas en index.md
 
 - ✏️ wiki/index.md — Removidas etiquetas del frontmatter (evita que index sea primera referencia al navegar por tags)
@@ -241,8 +272,8 @@ Se creó análisis con 3 utilidades principales:
 **Summaries (14 archivos):** Agregadas referencias a conceptos, normalizados nombres
 - ✏️ introduccion-kubernetes.md (agregada [[kubernetes|Kubernetes]])
 - ✏️ introduccion-podman.md (agregada [[podman|Podman]])
-- ✏️ introduccion-kvm.md (agregada [[kvm|KVM]])
-- ✏️ introduccion-proxmox.md (agregada [[proxmox|Proxmox]])
+- ✏️ introduccion-kvm.md (agregada [[kvm|KVM (Kernel-based Virtual Machine)]])
+- ✏️ introduccion-proxmox.md (agregada [[proxmox|Proxmox VE: Plataforma de Virtualización]])
 - ✏️ dockerfile-y-construccion.md (agregada [[dockerfile-y-construccion|dockerfile]])
 - ✏️ docker-compose.md (agregada [[docker-compose|Docker Compose]])
 - ✏️ helm-empaquetado.md (agregada [[helm|Helm]])
@@ -259,7 +290,7 @@ Se creó análisis con 3 utilidades principales:
 - Normalizados 8 nombres de conceptos a minúsculas
 
 **Fase 2: Conectar conceptos aislados (1 hora)**
-- Agregadas referencias a [[kubernetes|Kubernetes]], [[podman|Podman]], [[kvm|KVM]], [[proxmox|Proxmox]], [[helm|Helm]], [[dockerfile-y-construccion|dockerfile]], [[docker-compose|Docker Compose]]
+- Agregadas referencias a [[kubernetes|Kubernetes]], [[podman|Podman]], [[kvm|KVM (Kernel-based Virtual Machine)]], [[proxmox|Proxmox VE: Plataforma de Virtualización]], [[helm|Helm]], [[dockerfile-y-construccion|dockerfile]], [[docker-compose|Docker Compose]]
 - Resultado: 0 conceptos aislados (antes 5)
 
 **Fase 3: Limpeza y validación (30 min)**

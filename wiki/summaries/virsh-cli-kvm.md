@@ -400,7 +400,7 @@ virsh vol-create-as default mi-vm-restore.qcow2 \
 - [[clonacion-virsh|Unidad 5: Clonación (virsh)]]
 
 ### Parte de
-- [[kvm|KVM]] — Stack de virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización
 
 
 ## Fuentes

@@ -124,7 +124,7 @@ spec:
 
 ### Conecta con
 - Parte de: [[openshift|OpenShift]]
-- Produce: [[build|Build]] (BuildConfig crea IS)
+- Produce: [[build|Build (BuildConfig en OpenShift)]] (BuildConfig crea IS)
 - Usa: [[deployment|Deployment]] (referencian IS)
 - Alternativa: Referencias simples a Docker registros
 

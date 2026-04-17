@@ -267,7 +267,7 @@ Ventajas:
 - [[virt-manager-setup|Setup virt-manager (Curso 1)]]
 
 ### Parte de
-- [[kvm|KVM]] — Stack de virtualización avanzada
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización avanzada
 
 
 ## Fuentes

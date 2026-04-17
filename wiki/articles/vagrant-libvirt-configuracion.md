@@ -374,7 +374,7 @@ sudo systemctl restart systemd-networkd
 
 ### Conecta con
 - [[vagrant-introduccion|Vagrant: Introducción]] — Conceptos base
-- [[kvm|KVM]] — Backend de virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Backend de virtualización
 - [[redes-kvm|Redes en KVM]] — Networking avanzado
 - [[almacenamiento-kvm|Almacenamiento en KVM]] — Volúmenes QCOW2, snapshots
 - [[ansible|Ansible]] — Provisioning alternativo a shell scripts

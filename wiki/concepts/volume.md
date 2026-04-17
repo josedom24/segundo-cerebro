@@ -166,8 +166,8 @@ Snapshot: ahora 2GB (datos cambiados)
 ### Aparece en
 - [[kubernetes|Kubernetes]] — PersistentVolumes
 - [[openstack|OpenStack]] — Cinder blocks
-- [[proxmox|Proxmox]] — Storage management
-- [[kvm|KVM]] — Storage pools
+- [[proxmox|Proxmox VE: Plataforma de Virtualización]] — Storage management
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Storage pools
 - [[statefulset|StatefulSet]] — Para aplicaciones con estado
 - [[deployment|Deployment]] — Configuración, secretos
 

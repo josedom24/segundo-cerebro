@@ -146,7 +146,7 @@ Soluciona conflictos de versiones de gemas Ruby al aislar cada proyecto en su co
 - Práct icas DevOps y CI/CD
 
 ### Contrasta con
-- [[kvm|KVM]] — Máquinas virtuales con mayor overhead
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Máquinas virtuales con mayor overhead
 - [[kubernetes|Kubernetes]] — Docker para single-host; K8s para clusters escalables
 
 ## Fuentes

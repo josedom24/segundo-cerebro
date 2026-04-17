@@ -107,7 +107,7 @@ oc get is
 
 ### Conecta con
 - Parte de: [[openshift|OpenShift]] (característica PaaS)
-- Usa: [[build|Build]] (construcción automática)
+- Usa: [[build|Build (BuildConfig en OpenShift)]] (construcción automática)
 - Produce: [[imagestream|ImageStream]] (referencias)
 - Define: Deployment, Service, Route
 

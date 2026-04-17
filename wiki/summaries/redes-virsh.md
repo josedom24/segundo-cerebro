@@ -382,7 +382,7 @@ sudo ip link del virbr-test
 - [[instalacion-red-kvm|Unidad 7: Instalación por Red]]
 
 ### Parte de
-- [[kvm|KVM]] — Stack de virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización
 
 
 ## Fuentes

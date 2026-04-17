@@ -198,8 +198,8 @@ Aplicar fix
 ### Conecta con
 
 ### Aparece en
-- [[kvm|KVM]] — Internal/external snapshots
-- [[proxmox|Proxmox]] — VM snapshots
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Internal/external snapshots
+- [[proxmox|Proxmox VE: Plataforma de Virtualización]] — VM snapshots
 - [[openstack|OpenStack]] — Volume/image snapshots
 - [[kubernetes|Kubernetes]] — Volume snapshots
 - [[volume|Volume]] — Storage snapshots

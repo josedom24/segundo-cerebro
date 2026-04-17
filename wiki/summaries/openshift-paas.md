@@ -102,8 +102,8 @@ Desarrollo → Pruebas → Producción
 
 ### Conecta con
 - Basado en: [[kubernetes|Kubernetes]]
-- Implementa: [[paas|PaaS]] (modelo)
-- Automatiza: [[build|Build]], [[imagestream|ImageStream]], despliegues
+- Implementa: [[paas|PaaS (Platform as a Service)]] (modelo)
+- Automatiza: [[build|Build (BuildConfig en OpenShift)]], [[imagestream|ImageStream]], despliegues
 - Simplifica: Acceso via [[route|Route]]
 
 ## Fuentes

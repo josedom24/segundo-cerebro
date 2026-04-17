@@ -183,7 +183,7 @@ Builds periódicos (como cron)
 - Parte de: [[openshift|OpenShift]] (característica específica)
 - Produce: [[imagestream|ImageStream]] (output de cada build)
 - Triggers automáticos con: [[imagestream|ImageStream]] (cambios en imágenes base)
-- Complementa: [[paas|PaaS]] (automatización de despliegues)
+- Complementa: [[paas|PaaS (Platform as a Service)]] (automatización de despliegues)
 
 ## Fuentes
 

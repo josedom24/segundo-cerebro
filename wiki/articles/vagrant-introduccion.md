@@ -260,7 +260,7 @@ vagrant destroy (cleanup)
 ## Relaciones
 
 ### Conecta con
-- [[kvm|KVM]] — Backend de virtualización (via libvirt)
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Backend de virtualización (via libvirt)
 - [[vm|Máquinas Virtuales]] — Lo que Vagrant crea/gestiona
 - [[docker|Docker]] — Alternativa ligera (mismo concepto, distinta implementación)
 - [[ansible|Ansible]] — Provisioning avanzado

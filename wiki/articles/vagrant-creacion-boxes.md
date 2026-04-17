@@ -393,7 +393,7 @@ vagrant package --output nodejs-dev-1.0.box
 ### Conecta con
 - [[vagrant-introduccion|Vagrant: Introducción]] — Conceptos de boxes
 - [[vagrant-libvirt-configuracion|Vagrant + libvirt]] — Usar boxes en KVM
-- [[kvm|KVM]] — Backend virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Backend virtualización
 
 ### Casos de Uso Relacionados
 - **CI/CD:** Usar custom box en pipelines de testing

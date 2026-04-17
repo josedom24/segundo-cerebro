@@ -118,7 +118,7 @@ oc tag imagestream:v1.0 imagestream:latest
 ### Conecta con
 
 - Parte de: [[openshift|OpenShift]] (abstracción propia)
-- Producido por: [[build|Build]] (BuildConfig crea ImageStreams)
+- Producido por: [[build|Build (BuildConfig en OpenShift)]] (BuildConfig crea ImageStreams)
 - Usado por: [[deployment|Deployment]] (despliegues referencian ImageStreams)
 - Complementa: [[kubernetes|Kubernetes]] (abstracción propia de OpenShift)
 

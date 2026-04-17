@@ -331,7 +331,7 @@ Resultados:
 - [[redes-kvm|Unidad 6: Redes]]
 
 ### Parte de
-- [[kvm|KVM]] — Stack de virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización
 
 
 

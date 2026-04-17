@@ -86,11 +86,11 @@ Route → acceso HTTP/HTTPS
 ## Relaciones
 
 ### Conecta con
-- [[paas|PaaS]] — Modelo de plataforma que OpenShift implementa
+- [[paas|PaaS (Platform as a Service)]] — Modelo de plataforma que OpenShift implementa
 - [[kubernetes|Kubernetes]] — Orquestador subyacente
 - [[contenedores|Contenedores]] — Unidad de despliegue
 - [[imagestream|ImageStream]] — Abstracción propia de OpenShift
-- [[build|Build]] — Construcción automática en OpenShift
+- [[build|Build (BuildConfig en OpenShift)]] — Construcción automática en OpenShift
 - [[route|Route]] — Acceso simplificado a aplicaciones
 - [[template|Template]] — Plantillas parametrizadas
 

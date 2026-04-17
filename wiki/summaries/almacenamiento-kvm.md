@@ -262,7 +262,7 @@ Uso: Copias de seguridad VM
 - [[virt-manager-setup|Unidad 2: Setup]]
 
 ### Parte de
-- [[kvm|KVM]] — Stack de virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización
 
 
 ## Fuentes

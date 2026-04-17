@@ -385,7 +385,7 @@ echo "✅ $CANTIDAD clones creados"
 - [[almacenamiento-virsh|Unidad 4: Almacenamiento]]
 
 ### Parte de
-- [[kvm|KVM]] — Stack de virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización
 
 
 ## Fuentes

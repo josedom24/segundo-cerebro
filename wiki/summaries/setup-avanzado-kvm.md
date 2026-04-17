@@ -366,7 +366,7 @@ Soluciones:
 - [[virsh-cli-kvm|Unidad 3: virsh CLI]]
 
 ### Parte de
-- [[kvm|KVM]] — Stack de virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización
 
 
 ## Fuentes

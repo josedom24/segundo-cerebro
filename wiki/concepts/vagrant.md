@@ -52,7 +52,7 @@ Herramienta de automatización que define máquinas virtuales en código declara
 ## Relaciones
 
 ### Conecta con
-- [[kvm|KVM]] — Backend de virtualización (via libvirt provider)
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Backend de virtualización (via libvirt provider)
 - [[vm|Máquinas Virtuales]] — Lo que Vagrant automatiza y gestiona
 - [[docker|Docker]] — Alternativa: filosofía IaC similar, distinta implementación (containers vs VMs)
 - [[ansible|Ansible]] — Provisioning complementario para configuración avanzada

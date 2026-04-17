@@ -255,7 +255,7 @@ oc new-app wordpress-complete \
 - Parte de: [[openshift|OpenShift]] (característica propia)
 - Define: Conjunto de recursos ([[deployment|Deployment]], [[service|Service]], [[route|Route]], etc.)
 - Similar a: [[helm|Helm]] charts de [[kubernetes|Kubernetes]] (pero más simple)
-- Complementa: [[paas|PaaS]] (parametrización de aplicaciones)
+- Complementa: [[paas|PaaS (Platform as a Service)]] (parametrización de aplicaciones)
 
 ## Fuentes
 

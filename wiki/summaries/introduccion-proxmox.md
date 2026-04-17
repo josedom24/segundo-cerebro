@@ -133,8 +133,8 @@ Proxmox VE (Hypervisor Manager)
 ## Relaciones
 
 ### Conecta con
-- [[proxmox|Proxmox]] — Plataforma de virtualización integrada
-- [[kvm|KVM]] — Hipervisor de máquinas virtuales en Proxmox
+- [[proxmox|Proxmox VE: Plataforma de Virtualización]] — Plataforma de virtualización integrada
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Hipervisor de máquinas virtuales en Proxmox
 - [[contenedores|Contenedores]] — LXC es virtualización ligera en Proxmox
 
 ### Diferencia con

@@ -84,7 +84,7 @@ Programas que gestionan contenedores en clústers:
 
 ### Conecta con
 - Conecta con: [[kubernetes|Kubernetes]], [[contenedores|Contenedores]], [[docker|Docker]]
-- Introducción a: [[openshift|OpenShift]], [[build|Build]], [[route|Route]], [[imagestream|ImageStream]]
+- Introducción a: [[openshift|OpenShift]], [[build|Build (BuildConfig en OpenShift)]], [[route|Route]], [[imagestream|ImageStream]]
 
 ## Fuentes
 - [Curso: OpenShift v4](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/)

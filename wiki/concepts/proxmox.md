@@ -78,7 +78,7 @@ Tipos soportados:
 ### Conceptos Relacionados
 
 **Técnicamente Vinculados:**
-- [[kvm|KVM]] — Hipervisor subyacente para VMs
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Hipervisor subyacente para VMs
 - [[contenedores|Contenedores]] — Fundamento de LXC
 
 **En Contexto de Infraestructura:**

@@ -226,9 +226,9 @@ Ver también:
 ## Relaciones
 
 ### Conecta con
-- [[kvm|KVM]] — Hipervisor basado en Linux
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Hipervisor basado en Linux
 - [[contenedores|Contenedores]] — Alternativa ligera a virtualización
-- [[proxmox|Proxmox]] — Plataforma que usa KVM
+- [[proxmox|Proxmox VE: Plataforma de Virtualización]] — Plataforma que usa KVM
 
 ### Diferencia con
 - [[docker|Docker]] — Virtualización completa vs ligera

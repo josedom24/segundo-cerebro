@@ -359,7 +359,7 @@ virsh pool-info vm-images  # ver target
 - [[clonacion-virsh|Unidad 5: Clonación]]
 
 ### Parte de
-- [[kvm|KVM]] — Stack de virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización
 
 
 ## Fuentes

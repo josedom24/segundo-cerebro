@@ -309,7 +309,7 @@ Detalles VM → Interfaces de red
 - [[consola-serie-kvm|Unidad 7: Consola Serie]]
 
 ### Parte de
-- [[kvm|KVM]] — Stack de virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización
 
 
 ## Fuentes

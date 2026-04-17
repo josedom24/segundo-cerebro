@@ -164,7 +164,7 @@ oc rollout latest dc/myapp
 - Parte de: [[openshift|OpenShift]] (característica específica)
 - Basado en: [[deployment|Deployment]] (concepto subyacente)
 - Integra: [[imagestream|ImageStream]] (triggers automáticos)
-- Complementa: [[paas|PaaS]] (automatización de despliegues)
+- Complementa: [[paas|PaaS (Platform as a Service)]] (automatización de despliegues)
 - Alternativa a: Deployment + webhook externo
 
 ## Nota Histórica

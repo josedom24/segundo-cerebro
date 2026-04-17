@@ -64,7 +64,7 @@ Instalación y uso del Developer Sandbox: plataforma gratuita en cloud de Red Ha
 ### Conecta con
 - Parte de: [[openshift|OpenShift]]
 - Usa: `oc` CLI
-- Alternativa a: [[build|Build]] manual (Deploy Config)
+- Alternativa a: [[build|Build (BuildConfig en OpenShift)]] manual (Deploy Config)
 
 ## Fuentes
 - [Curso: OpenShift v4](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/)

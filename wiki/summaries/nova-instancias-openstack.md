@@ -228,7 +228,7 @@ openstack server delete [instancia]
 - [[glance-imagenes-openstack|Glance: Imágenes]] — Plantillas para instancias
 - [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Volúmenes persistentes
 - [[neutron-redes-openstack|Neutron: Redes]] — Conectividad de instancias
-- [[kvm|KVM]] — Hypervisor subyacente típico
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Hypervisor subyacente típico
 
 ### Parte de
 - OpenStack Stack

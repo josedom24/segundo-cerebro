@@ -216,7 +216,7 @@ vagrant up  # VM con Nginx lista en <1 minuto
 - [[redes-kvm|Unidad 6: Redes]]
 
 ### Parte de
-- [[kvm|KVM]] — Stack de virtualización
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización
 
 
 ## Fuentes

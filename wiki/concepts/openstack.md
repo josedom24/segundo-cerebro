@@ -174,7 +174,7 @@ Kubernetes:
 - [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Persistencia
 - [[neutron-redes-openstack|Neutron: Redes]] — Conectividad
 - [[introduccion-openstack|Introducción OpenStack]] — Primer paso
-- [[kvm|KVM]] — Hypervisor típico subyacente
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Hypervisor típico subyacente
 - [[proxmox|Proxmox VE]] — Alternativa integrada
 
 ### Parte de

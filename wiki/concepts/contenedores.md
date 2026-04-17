@@ -241,7 +241,7 @@ Contenedor eliminado
 - [[openshift|OpenShift]] — Distribución K8s con abstracciones PaaS para contenedores
 
 ### Contrasta con
-- [[kvm|KVM]] — Máquinas virtuales con overhead mayor
+- [[kvm|KVM (Kernel-based Virtual Machine)]] — Máquinas virtuales con overhead mayor
 
 ## Fuentes
 - [Curso Docker 2024 - Módulo 1](../summaries/introduccion-docker.md) — Introducción a contenedores
