@@ -1,12 +1,12 @@
 ---
-title: "Introducción a OpenShift v4 (Curso 1 - Módulo 1)"
+title: "Introducción a OpenShift v4"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
 tags: [contenedores, kubernetes, openshift]
 ---
 
-# Introducción a OpenShift v4 (Curso 1 - Módulo 1)
+# Introducción a OpenShift v4
 
 ## Resumen
 Introducción a OpenShift v4, explicando qué son los contenedores, las diferencias con máquinas virtuales, Docker vs alternativas, y por qué OpenShift es una distribución de Kubernetes con características PaaS.

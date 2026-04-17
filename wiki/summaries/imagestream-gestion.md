@@ -1,12 +1,12 @@
 ---
-title: "ImageStreams: Gestión de Imágenes (Curso 2 - Módulo 3)"
+title: "ImageStreams: Gestión de Imágenes"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [automatizacion, imagestream, openshift]
 ---
 
-# ImageStreams: Gestión de Imágenes (Curso 2 - Módulo 3)
+# ImageStreams: Gestión de Imágenes
 
 ## Resumen
 Profundización en ImageStreams: cómo gestionar imágenes en OpenShift, referencias inmutables (digests), etiquetado, actualizaciones automáticas, y triggers de redeploy.

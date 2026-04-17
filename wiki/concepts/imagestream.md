@@ -124,5 +124,5 @@ oc tag imagestream:v1.0 imagestream:latest
 
 ## Fuentes
 
-- [[imagestream-gestion|ImageStreams: Gestión de Imágenes (Curso 2 - Módulo 3)]]
-- [[buildconfig-cicd|Builds: Construcción Automática de Imágenes (Curso 2 - Módulo 4)]]
+- [[imagestream-gestion|ImageStreams: Gestión de Imágenes]]
+- [[buildconfig-cicd|Builds: Construcción Automática de Imágenes]]

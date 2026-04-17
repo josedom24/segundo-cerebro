@@ -1,12 +1,12 @@
 ---
-title: "Builds: Construcción Automática de Imágenes (Curso 2 - Módulo 4)"
+title: "Builds: Construcción Automática de Imágenes"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [automatizacion, openshift]
 ---
 
-# Builds: Construcción Automática de Imágenes (Curso 2 - Módulo 4)
+# Builds: Construcción Automática de Imágenes
 
 ## Resumen
 Sistema BuildConfig de OpenShift: construcción automática de imágenes desde Git, estrategias (S2I, Docker), triggers (webhooks), y gestión del ciclo de vida de builds.

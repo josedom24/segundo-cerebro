@@ -1,12 +1,12 @@
 ---
-title: "Seguridad en OpenShift (Curso 2 - Módulo 10)"
+title: "Seguridad en OpenShift"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [openshift, redes, secrets, seguridad]
 ---
 
-# Seguridad en OpenShift (Curso 2 - Módulo 10)
+# Seguridad en OpenShift
 
 ## Resumen
 Seguridad en OpenShift: RBAC (control de acceso), network policies (aislamiento de red), secrets (datos sensibles), Security Context (privilegios), y auditoría.

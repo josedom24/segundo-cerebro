@@ -1,12 +1,12 @@
 ---
-title: "Ejemplo Final: Aplicación Citas (Curso 1 - Módulo 9)"
+title: "Ejemplo Final: Aplicación Citas"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
 tags: [openshift]
 ---
 
-# Ejemplo Final: Aplicación Citas (Curso 1 - Módulo 9)
+# Ejemplo Final: Aplicación Citas
 
 ## Resumen
 Despliegue end-to-end de aplicación real: Citas (microservicios). Incluye citas-backend (Python), citas-frontend (Node.js), base de datos MySQL, y actualización de versiones.

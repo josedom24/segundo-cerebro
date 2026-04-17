@@ -1,12 +1,12 @@
 ---
-title: "CRC (CodeReady Containers) (Curso 1 - Módulo 3)"
+title: "CRC (CodeReady Containers)"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
 tags: [openshift]
 ---
 
-# CRC (CodeReady Containers) (Curso 1 - Módulo 3)
+# CRC (CodeReady Containers)
 
 ## Resumen
 Instalación local de OpenShift v4 en laptop usando CRC. Cluster single-node con Kubernetes/OpenShift completo para desarrollo offline sin costes.

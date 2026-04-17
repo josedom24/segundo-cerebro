@@ -1,12 +1,12 @@
 ---
-title: "ImageStreams Avanzado: Etiquetas y Actualizaciones (Curso 2 - Módulo 5)"
+title: "ImageStreams Avanzado: Etiquetas y Actualizaciones"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [automatizacion, imagestream, openshift]
 ---
 
-# ImageStreams Avanzado: Etiquetas y Actualizaciones (Curso 2 - Módulo 5)
+# ImageStreams Avanzado: Etiquetas y Actualizaciones
 
 ## Resumen
 Gestión avanzada de ImageStreams: etiquetado, promoción entre entornos (dev→test→prod), actualizaciones automáticas de imágenes base, y patrones de versioning.

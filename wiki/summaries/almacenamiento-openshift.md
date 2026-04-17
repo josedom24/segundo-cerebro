@@ -1,12 +1,12 @@
 ---
-title: "Almacenamiento en OpenShift v4 (Curso 1 - Módulo 7)"
+title: "Almacenamiento en OpenShift v4"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
 tags: [almacenamiento, openshift, volumes]
 ---
 
-# Almacenamiento en OpenShift v4 (Curso 1 - Módulo 7)
+# Almacenamiento en OpenShift v4
 
 ## Resumen
 Gestión del almacenamiento persistente en OpenShift: Volumes, PersistentVolumes, PersistentVolumeClaims, y aprovisionamiento dinámico usando StorageClass.

@@ -1,12 +1,12 @@
 ---
-title: "Acceso a Aplicaciones: Services y Routes (Curso 2 - Módulo 7)"
+title: "Acceso a Aplicaciones: Services y Routes"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [openshift, redes, services]
 ---
 
-# Acceso a Aplicaciones: Services y Routes (Curso 2 - Módulo 7)
+# Acceso a Aplicaciones: Services y Routes
 
 ## Resumen
 Exposición de aplicaciones en OpenShift: Services (interno), Routes (externo), DNS, tipos de acceso, y configuración TLS.

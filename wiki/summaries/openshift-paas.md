@@ -1,12 +1,12 @@
 ---
-title: "Introducción a OpenShift v4 como PaaS (Curso 2 - Módulo 1)"
+title: "Introducción a OpenShift v4 como PaaS"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [openshift]
 ---
 
-# Introducción a OpenShift v4 como PaaS (Curso 2 - Módulo 1)
+# Introducción a OpenShift v4 como PaaS
 
 ## Resumen
 OpenShift como plataforma PaaS: características que lo distinguen de Kubernetes puro, automatización de despliegues, integración DevOps, y opciones de instalación (cloud, on-premise, local).

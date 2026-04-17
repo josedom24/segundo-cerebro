@@ -1,12 +1,12 @@
 ---
-title: "Despliegue de Aplicaciones en OpenShift v4 (Curso 2 - Módulo 2)"
+title: "Despliegue de Aplicaciones en OpenShift v4"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [deployment, imagenes, openshift, templates]
 ---
 
-# Despliegue de Aplicaciones en OpenShift v4 (Curso 2 - Módulo 2)
+# Despliegue de Aplicaciones en OpenShift v4
 
 ## Resumen
 Métodos para desplegar aplicaciones en OpenShift: desde imágenes Docker, código fuente (S2I), Dockerfile, y Templates del catálogo. Comparación de enfoques PaaS.

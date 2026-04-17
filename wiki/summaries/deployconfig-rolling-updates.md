@@ -1,12 +1,12 @@
 ---
-title: "DeployConfig y Rolling Updates (Curso 2 - Módulo 6)"
+title: "DeployConfig y Rolling Updates"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [deployment, openshift]
 ---
 
-# DeployConfig y Rolling Updates (Curso 2 - Módulo 6)
+# DeployConfig y Rolling Updates
 
 ## Resumen
 DeployConfig (recurso nativo de OpenShift vs Deployment de K8s): características, rolling updates, rollbacks, y ciclo de vida de despliegues.

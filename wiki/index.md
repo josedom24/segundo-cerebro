@@ -144,27 +144,27 @@ title: Wiki Pledin
 ### OpenShift v4
 
 #### Kubernetes y OpenShift
-- [[introduccion-openshift|Introducción a OpenShift v4 (Curso 1 - Módulo 1)]] — Distribución K8s enterprise, Developer Sandbox, características
-- [[developer-sandbox|Red Hat OpenShift Dedicated Developer Sandbox (Curso 1 - Módulo 2)]] — Entorno cloud gratuito, proyectos, acceso web
-- [[code-ready-containers|CRC (CodeReady Containers) (Curso 1 - Módulo 3)]] — Code Ready Containers, instalación, requisitos, primeros pasos
-- [[pods-replicasets-deployments|OpenShift como Distribución de Kubernetes (Curso 1 - Módulo 4)]] — Recursos Kubernetes en OpenShift
-- [[services-routes|Acceso a las Aplicaciones (Curso 1 - Módulo 5)]] — Acceso a aplicaciones, exposición, routing
-- [[configmaps-secrets|Despliegues Parametrizados (Curso 1 - Módulo 6)]] — Parametrización, credenciales, configuración
-- [[almacenamiento-openshift|Almacenamiento en OpenShift v4 (Curso 1 - Módulo 7)]] — Volumes, PersistentVolumes, PersistentVolumeClaims
-- [[recursos-avanzados|Otros Recursos para Manejar Aplicaciones (Curso 1 - Módulo 8)]] — StatefulSet, DaemonSet, Jobs, CronJobs, HPA
-- [[aplicacion-ejemplo-citas|Ejemplo Final: Aplicación Citas (Curso 1 - Módulo 9)]] — Despliegue multi-componente, microservices
+- [[introduccion-openshift|Introducción a OpenShift v4]] — Distribución K8s enterprise, Developer Sandbox, características
+- [[developer-sandbox|Red Hat OpenShift Dedicated Developer Sandbox]] — Entorno cloud gratuito, proyectos, acceso web
+- [[code-ready-containers|CRC (CodeReady Containers)]] — Code Ready Containers, instalación, requisitos, primeros pasos
+- [[pods-replicasets-deployments|OpenShift como Distribución de Kubernetes]] — Recursos Kubernetes en OpenShift
+- [[services-routes|Acceso a las Aplicaciones]] — Acceso a aplicaciones, exposición, routing
+- [[configmaps-secrets|Despliegues Parametrizados]] — Parametrización, credenciales, configuración
+- [[almacenamiento-openshift|Almacenamiento en OpenShift v4]] — Volumes, PersistentVolumes, PersistentVolumeClaims
+- [[recursos-avanzados|Otros Recursos para Manejar Aplicaciones]] — StatefulSet, DaemonSet, Jobs, CronJobs, HPA
+- [[aplicacion-ejemplo-citas|Ejemplo Final: Aplicación Citas]] — Despliegue multi-componente, microservices
 
 #### OpenShift como PaaS
-- [[openshift-paas|Introducción a OpenShift v4 como PaaS (Curso 2 - Módulo 1)]] — Características PaaS, abstracciones, flujos de trabajo
-- [[metodos-despliegue|Despliegue de Aplicaciones en OpenShift v4 (Curso 2 - Módulo 2)]] — Image, Source-to-Image (S2I), Dockerfile, Templates
-- [[imagestream-gestion|ImageStreams: Gestión de Imágenes (Curso 2 - Módulo 3)]] — Abstracción de imágenes, triggers automáticos, importación
-- [[buildconfig-cicd|Builds: Construcción Automática de Imágenes (Curso 2 - Módulo 4)]] — Construcción automatizada, S2I, Docker build, webhooks
-- [[imagepull-registros|ImageStreams Avanzado: Etiquetas y Actualizaciones (Curso 2 - Módulo 5)]] — ImagePullSecrets, registros privados, seguridad
-- [[deployconfig-rolling-updates|DeployConfig y Rolling Updates (Curso 2 - Módulo 6)]] — Despliegues avanzados, hooks lifecycle, rollbacks
-- [[services-routes-avanzado|Acceso a Aplicaciones: Services y Routes (Curso 2 - Módulo 7)]] — Exposición de aplicaciones, TLS, balanceo de carga
-- [[operadores-knative-tekton|Extensiones de OpenShift: Operadores, Knative, Tekton (Curso 2 - Módulo 8)]] — Extensiones, serverless, CI/CD declarativa
-- [[monitorizacion-prometheus|Monitorización y Observabilidad (Curso 2 - Módulo 9)]] — Prometheus, Grafana, logs, alertas, health checks
-- [[seguridad-rbac-policies|Seguridad en OpenShift (Curso 2 - Módulo 10)]] — Control de acceso, aislamiento red, Secrets, SecurityContext
+- [[openshift-paas|Introducción a OpenShift v4 como PaaS]] — Características PaaS, abstracciones, flujos de trabajo
+- [[metodos-despliegue|Despliegue de Aplicaciones en OpenShift v4]] — Image, Source-to-Image (S2I), Dockerfile, Templates
+- [[imagestream-gestion|ImageStreams: Gestión de Imágenes]] — Abstracción de imágenes, triggers automáticos, importación
+- [[buildconfig-cicd|Builds: Construcción Automática de Imágenes]] — Construcción automatizada, S2I, Docker build, webhooks
+- [[imagepull-registros|ImageStreams Avanzado: Etiquetas y Actualizaciones]] — ImagePullSecrets, registros privados, seguridad
+- [[deployconfig-rolling-updates|DeployConfig y Rolling Updates]] — Despliegues avanzados, hooks lifecycle, rollbacks
+- [[services-routes-avanzado|Acceso a Aplicaciones: Services y Routes]] — Exposición de aplicaciones, TLS, balanceo de carga
+- [[operadores-knative-tekton|Extensiones de OpenShift: Operadores, Knative, Tekton]] — Extensiones, serverless, CI/CD declarativa
+- [[monitorizacion-prometheus|Monitorización y Observabilidad]] — Prometheus, Grafana, logs, alertas, health checks
+- [[seguridad-rbac-policies|Seguridad en OpenShift]] — Control de acceso, aislamiento red, Secrets, SecurityContext
 
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: "Red Hat OpenShift Dedicated Developer Sandbox (Curso 1 - Módulo 2)"
+title: "Red Hat OpenShift Dedicated Developer Sandbox"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
 tags: [openshift]
 ---
 
-# Red Hat OpenShift Dedicated Developer Sandbox (Curso 1 - Módulo 2)
+# Red Hat OpenShift Dedicated Developer Sandbox
 
 ## Resumen
 Instalación y uso del Developer Sandbox: plataforma gratuita en cloud de Red Hat. Descarga de `oc` CLI, configuración de acceso, y primeros pasos en la consola web de OpenShift.

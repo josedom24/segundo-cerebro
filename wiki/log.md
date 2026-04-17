@@ -47,6 +47,34 @@
 
 ---
 
+## [2026-04-17] refine | Limpieza de referencias a curso/módulo en OpenShift
+
+**Objetivo:** Remover referencias "(Curso X - Módulo Y)" de títulos OpenShift para titles más limpios
+
+**Archivos actualizados (19):**
+- almacenamiento-openshift, aplicacion-ejemplo-citas, buildconfig-cicd
+- code-ready-containers, configmaps-secrets, deployconfig-rolling-updates
+- developer-sandbox, imagepull-registros, imagestream-gestion
+- introduccion-openshift, metodos-despliegue, monitorizacion-prometheus
+- openshift-paas, operadores-knative-tekton, pods-replicasets-deployments
+- recursos-avanzados, seguridad-rbac-policies, services-routes-avanzado
+- services-routes
+
+**Enlaces actualizados (33 en 8 archivos):**
+- wiki/index.md, wiki/summaries/openshift-paas.md
+- wiki/summaries/pods-replicasets-deployments.md
+- wiki/summaries/services-routes-avanzado.md
+- wiki/summaries/almacenamiento-openshift.md
+- wiki/summaries/seguridad-rbac-policies.md
+- wiki/concepts/openshift.md
+- wiki/articles/vagrant-introduccion.md
+
+**Ejemplo de cambios:**
+- "Introducción a OpenShift v4 (Curso 1 - Módulo 1)" → "Introducción a OpenShift v4"
+- "Seguridad en OpenShift (Curso 2 - Módulo 10)" → "Seguridad en OpenShift"
+
+---
+
 ## [2026-04-17] refine | Especificidad en títulos de resúmenes Docker
 
 **Objetivo:** Cambiar títulos genéricos de Docker a títulos más específicos y descriptivos

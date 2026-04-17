@@ -1,12 +1,12 @@
 ---
-title: "Monitorización y Observabilidad (Curso 2 - Módulo 9)"
+title: "Monitorización y Observabilidad"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [openshift]
 ---
 
-# Monitorización y Observabilidad (Curso 2 - Módulo 9)
+# Monitorización y Observabilidad
 
 ## Resumen
 Herramientas de observabilidad en OpenShift: métricas (Prometheus), logs (ELK), alertas, dashboards, y monitorización de aplicaciones.

@@ -1,12 +1,12 @@
 ---
-title: "Despliegues Parametrizados (Curso 1 - Módulo 6)"
+title: "Despliegues Parametrizados"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
 tags: [openshift, secrets]
 ---
 
-# Despliegues Parametrizados (Curso 1 - Módulo 6)
+# Despliegues Parametrizados
 
 ## Resumen
 Cómo parametrizar despliegues en OpenShift usando variables de entorno, ConfigMaps para configuración, y Secrets para datos sensibles. Ejemplo completo: WordPress + MySQL.

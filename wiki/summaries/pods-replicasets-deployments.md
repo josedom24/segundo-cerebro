@@ -1,12 +1,12 @@
 ---
-title: "OpenShift como Distribución de Kubernetes (Curso 1 - Módulo 4)"
+title: "OpenShift como Distribución de Kubernetes"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
 tags: [deployment, kubernetes, openshift, pods]
 ---
 
-# OpenShift como Distribución de Kubernetes (Curso 1 - Módulo 4)
+# OpenShift como Distribución de Kubernetes
 
 ## Resumen
 Despliegue de aplicaciones en OpenShift usando recursos Kubernetes: Pods, ReplicaSets, Deployments. Cómo OpenShift hereda y amplía Kubernetes.

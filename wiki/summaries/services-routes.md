@@ -1,12 +1,12 @@
 ---
-title: "Acceso a las Aplicaciones (Curso 1 - Módulo 5)"
+title: "Acceso a las Aplicaciones"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
 tags: [openshift, redes, services]
 ---
 
-# Acceso a las Aplicaciones (Curso 1 - Módulo 5)
+# Acceso a las Aplicaciones
 
 ## Resumen
 Cómo exponer aplicaciones en OpenShift mediante Services (acceso interno) y Routes (acceso externo), simplificando la configuración versus Ingress de Kubernetes.

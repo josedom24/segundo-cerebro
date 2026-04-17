@@ -1,12 +1,12 @@
 ---
-title: "Otros Recursos para Manejar Aplicaciones (Curso 1 - Módulo 8)"
+title: "Otros Recursos para Manejar Aplicaciones"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
 tags: [deployment, kubernetes, openshift]
 ---
 
-# Otros Recursos para Manejar Aplicaciones (Curso 1 - Módulo 8)
+# Otros Recursos para Manejar Aplicaciones
 
 ## Resumen
 Recursos avanzados de Kubernetes/OpenShift: StatefulSets (aplicaciones con estado), DaemonSets (un Pod por nodo), Jobs/CronJobs (tareas batch), y HPA (auto-escalado).

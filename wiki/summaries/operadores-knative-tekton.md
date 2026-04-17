@@ -1,12 +1,12 @@
 ---
-title: "Extensiones de OpenShift: Operadores, Knative, Tekton (Curso 2 - Módulo 8)"
+title: "Extensiones de OpenShift: Operadores, Knative, Tekton"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [openshift]
 ---
 
-# Extensiones de OpenShift: Operadores, Knative, Tekton (Curso 2 - Módulo 8)
+# Extensiones de OpenShift: Operadores, Knative, Tekton
 
 ## Resumen
 Extensibilidad de OpenShift: Operadores (instalación de software), Knative (serverless), Tekton (CI/CD), y cómo ampliar funcionalidad del cluster.
