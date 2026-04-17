@@ -36,7 +36,7 @@ Pero el volumen inicial no importa tanto como la arquitectura. El diseño permit
 - **Consolidar tags:** Cuando un tema nuevo aparece (como Vagrant, Infrastructure as Code), crear un tag general consolidable que agrupe múltiples artículos
 - **Mantener coherencia:** Sistema de etiquetas consolidado en español, frontmatter estandarizado, enlaces bidireccionales validados
 
-La metáfora funciona: cuanto más crece el vault, más valor tiene el grafo de conexiones.
+La metáfora funciona: cuanto más contenido hay, más valiosas se vuelven las conexiones entre páginas. Un concepto aislado es útil; ese mismo concepto conectado con 10 diferentes plataformas revela patrones que no veías cuando estudiabas cada una por separado.
 
 ## Las herramientas: Obsidian + Git
 
