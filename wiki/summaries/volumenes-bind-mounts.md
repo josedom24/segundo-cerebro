@@ -1,12 +1,12 @@
 ---
-title: "Almacenamiento"
+title: "Almacenamiento en Docker"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
 tags: [almacenamiento, docker, volumes]
 ---
 
-# Almacenamiento
+# Almacenamiento en Docker
 
 ## Resumen de una línea
 Cómo persistir datos en contenedores efímeros usando volúmenes Docker, bind mounts y tmpfs, y cuándo usar cada uno.

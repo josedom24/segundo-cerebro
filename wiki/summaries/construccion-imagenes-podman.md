@@ -104,7 +104,7 @@ podman commit <container-id> myapp:1.0
 
 ### Conecta con
 - [[imagenes-podman|Gestión de Imágenes OCI en Podman]]
-- [[dockerfile-y-construccion|Creación de Imágenes]]
+- [[dockerfile-y-construccion|Creación de Imágenes en Docker]]
 
 
 ## Fuentes

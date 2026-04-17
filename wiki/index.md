@@ -109,12 +109,12 @@ title: Wiki Pledin
 
 ### Docker
 - [[introduccion-docker|Introducción a Docker]] — Conceptos, diferencias con VMs, instalación
-- [[docker-run-y-ciclo-vida|Ejecución de Contenedores]] — docker run, ciclo de vida, mapeamiento de puertos
-- [[imagenes-y-docker-hub|Gestión de Imágenes]] — Capas, Docker Hub, comandos de gestión
-- [[volumenes-bind-mounts|Almacenamiento]] — Volúmenes, bind mounts, tmpfs, persistencia
+- [[docker-run-y-ciclo-vida|Ejecución de Contenedores en Docker]] — docker run, ciclo de vida, mapeamiento de puertos
+- [[imagenes-y-docker-hub|Gestión de Imágenes en Docker]] — Capas, Docker Hub, comandos de gestión
+- [[volumenes-bind-mounts|Almacenamiento en Docker]] — Volúmenes, bind mounts, tmpfs, persistencia
 - [[redes-docker|Redes en Docker]] — Bridge, DNS, mapeamiento de puertos, SNAT/DNAT
 - [[docker-compose|Docker Compose]] — Orquestación declarativa, servicios, volúmenes, variables
-- [[dockerfile-y-construccion|Creación de Imágenes]] — Dockerfile, docker build, caching, multi-stage, best practices
+- [[dockerfile-y-construccion|Creación de Imágenes en Docker]] — Dockerfile, docker build, caching, multi-stage, best practices
 - [[docker-desktop|Docker Desktop]] — GUI para contenedores, imágenes, volúmenes, builds, extensiones
 
 ### Podman

@@ -342,10 +342,10 @@ Acceso rápido desde icono en barra de notificaciones:
 
 ### Conecta con
 - [[docker|Docker]] — Plataforma base
-- [[docker-run-y-ciclo-vida|Ejecución de Contenedores]] — Funciones en GUI
-- [[imagenes-y-docker-hub|Gestión de Imágenes]] — Interfaz visual
-- [[volumenes-bind-mounts|Almacenamiento]] — Gestión de volúmenes
-- [[dockerfile-y-construccion|Creación de Imágenes]] — Vista de builds
+- [[docker-run-y-ciclo-vida|Ejecución de Contenedores en Docker]] — Funciones en GUI
+- [[imagenes-y-docker-hub|Gestión de Imágenes en Docker]] — Interfaz visual
+- [[volumenes-bind-mounts|Almacenamiento en Docker]] — Gestión de volúmenes
+- [[dockerfile-y-construccion|Creación de Imágenes en Docker]] — Vista de builds
 
 
 ## Conceptos Clave

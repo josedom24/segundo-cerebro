@@ -1,12 +1,12 @@
 ---
-title: "Creación de Imágenes"
+title: "Creación de Imágenes en Docker"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
 tags: [docker, imagenes]
 ---
 
-# Creación de Imágenes
+# Creación de Imágenes en Docker
 
 ## Resumen de una línea
 Cómo construir imágenes Docker personalizadas con Dockerfile, docker build, caching, y mejores prácticas para aplicaciones en producción.
@@ -502,7 +502,7 @@ docker run -d myregistry.com/myapp:1.0
 ## Relaciones
 
 ### Conecta con
-- [[dockerfile-y-construccion|Creación de Imágenes]] — Concepto y sintaxis
+- [[dockerfile-y-construccion|Creación de Imágenes en Docker]] — Concepto y sintaxis
 - [[docker|Docker]] — Plataforma base
 - [[docker-compose|Docker Compose]] — Define imágenes a construir
 

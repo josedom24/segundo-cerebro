@@ -1,12 +1,12 @@
 ---
-title: "Gestión de Imágenes"
+title: "Gestión de Imágenes en Docker"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
 tags: [docker, imagenes]
 ---
 
-# Gestión de Imágenes
+# Gestión de Imágenes en Docker
 
 ## Resumen de una línea
 Cómo funcionan las imágenes Docker (capas, almacenamiento, compartición), Docker Hub como registro, y comandos para gestionar imágenes locales.
@@ -312,7 +312,7 @@ docker run postgres:15-alpine  # Versión específica
 - [[docker|Docker]] — Plataforma base
 - Docker Hub — Registro de imágenes
 - [[contenedores|Contenedores]] — Basados en imágenes
-- [[dockerfile-y-construccion|Creación de Imágenes]] — Cómo construir imágenes
+- [[dockerfile-y-construccion|Creación de Imágenes en Docker]] — Cómo construir imágenes
 
 
 ## Flujo Típico

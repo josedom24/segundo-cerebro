@@ -47,6 +47,32 @@
 
 ---
 
+## [2026-04-17] refine | Especificidad en títulos de resúmenes Docker
+
+**Objetivo:** Cambiar títulos genéricos de Docker a títulos más específicos y descriptivos
+
+**Archivos actualizados (4):**
+- ✏️ dockerfile-y-construccion.md: "Creación de Imágenes" → "Creación de Imágenes en Docker"
+- ✏️ docker-run-y-ciclo-vida.md: "Ejecución de Contenedores" → "Ejecución de Contenedores en Docker"
+- ✏️ imagenes-y-docker-hub.md: "Gestión de Imágenes" → "Gestión de Imágenes en Docker"
+- ✏️ volumenes-bind-mounts.md: "Almacenamiento" → "Almacenamiento en Docker"
+
+**Enlaces actualizados (14 en 7 archivos):**
+- wiki/index.md (4 enlaces)
+- wiki/summaries/docker-compose.md (2 enlaces)
+- wiki/summaries/dockerfile-y-construccion.md (1 enlace)
+- wiki/summaries/docker-desktop.md (4 enlaces)
+- wiki/summaries/imagenes-y-docker-hub.md (1 enlace)
+- wiki/summaries/construccion-imagenes-podman.md (1 enlace)
+- wiki/concepts/docker.md (1 enlace)
+
+**Cambios en títulos:**
+- Frontmatter: `title: "Nuevo Título"`
+- H1: `# Nuevo Título`
+- Enlaces: `[[archivo|Nuevo Título]]`
+
+---
+
 ## [2026-04-17] update | Estandarización de títulos en enlaces (ALL files)
 
 **Objetivo:** Cambiar todos los enlaces internos a formato `[[archivo|Título Significativo]]` usando el `title:` del frontmatter

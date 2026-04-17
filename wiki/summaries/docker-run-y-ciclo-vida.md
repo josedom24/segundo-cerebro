@@ -1,12 +1,12 @@
 ---
-title: "Ejecución de Contenedores"
+title: "Ejecución de Contenedores en Docker"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
 tags: [contenedores, docker]
 ---
 
-# Ejecución de Contenedores
+# Ejecución de Contenedores en Docker
 
 ## Resumen de una línea
 Cómo ejecutar, gestionar y controlar contenedores Docker: `docker run`, ciclo de vida, mapeamiento de puertos, y operaciones básicas de gestión.
