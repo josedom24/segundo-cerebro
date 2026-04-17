@@ -2,7 +2,7 @@
 created: 2026-04-17
 updated: 2026-04-17
 sources: [josedomingo-vagrant-blog, hashicorp-vagrant-docs]
-tags: [vagrant, vm, iac, automatizacion, kvm, docker]
+tags: [vagrant, vm, automatizacion, kvm, docker]
 ---
 
 # Vagrant: Introducción y Conceptos Fundamentales

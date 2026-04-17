@@ -2,7 +2,7 @@
 created: 2026-04-17
 updated: 2026-04-17
 sources: [vagrant-oficial, josedomingo-vagrant-blog]
-tags: [vagrant, iac, automatizacion, herramientas]
+tags: [vagrant, automatizacion, vm]
 aliases: [Vagrant, Infrastructure as Code]
 ---
 

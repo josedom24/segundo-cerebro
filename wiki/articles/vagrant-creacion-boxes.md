@@ -2,7 +2,7 @@
 created: 2026-04-17
 updated: 2026-04-17
 sources: [josedomingo-creacion-boxes-vagrant]
-tags: [vagrant, boxes, imagenes, distribucion, automatizacion]
+tags: [vagrant, imagenes, automatizacion]
 ---
 
 # Creación de Custom Boxes para Vagrant
