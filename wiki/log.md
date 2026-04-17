@@ -1,3 +1,11 @@
+## [2026-04-17] update | Limpieza de etiquetas en index.md
+
+- ✏️ wiki/index.md — Removidas etiquetas del frontmatter (evita que index sea primera referencia al navegar por tags)
+
+**Razón:** Las etiquetas en index.md hacen que sea la primera página en navegación de tags en Quartz, lo cual no es útil. Las etiquetas deben estar solo en páginas de contenido individual.
+
+---
+
 ## [2026-04-17] ingest | Vagrant: Automatización de VMs
 
 Se ingerieron 3 artículos sobre Vagrant (Infrastructure as Code para máquinas virtuales) con análisis completo de impacto en el vault.
