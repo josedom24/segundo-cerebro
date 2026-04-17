@@ -1,10 +1,12 @@
 ---
+title: Apache
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
 tags: [apache]
 aliases: [Apache, Apache2, httpd, Servidor Web Apache]
 ---
+title: Apache
 
 # Apache
 

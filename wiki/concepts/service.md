@@ -1,10 +1,12 @@
 ---
+title: Service
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep]
 tags: [dns, kubernetes, redes, service]
 aliases: [Service]
 ---
+title: Service
 
 # Service
 

@@ -1,10 +1,12 @@
 ---
+title: Contenedores
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
 tags: [contenedores, linux, virtualizacion]
 aliases: [Contenedores]
 ---
+title: Contenedores
 
 # Contenedores
 

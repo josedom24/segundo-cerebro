@@ -1,9 +1,11 @@
 ---
+title: DeploymentConfig
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s, osv4_paas]
 tags: [deployment, openshift, deploymentconfig]
 ---
+title: DeploymentConfig
 
 # DeploymentConfig
 

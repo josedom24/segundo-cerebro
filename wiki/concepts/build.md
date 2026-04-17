@@ -1,9 +1,11 @@
 ---
+title: Build (BuildConfig en OpenShift)
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas]
 tags: [contenedores, openshift, build]
 ---
+title: Build (BuildConfig en OpenShift)
 
 # Build (BuildConfig en OpenShift)
 

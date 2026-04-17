@@ -1,10 +1,12 @@
 ---
+title: StatefulSet
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep]
 tags: [deployment, kubernetes, statefulset]
 aliases: [StatefulSet]
 ---
+title: StatefulSet
 
 # StatefulSet
 

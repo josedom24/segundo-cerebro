@@ -1,10 +1,12 @@
 ---
+title: OpenStack
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_openstack_ies]
 tags: [openstack, virtualizacion]
 aliases: [OpenStack]
 ---
+title: OpenStack
 
 # OpenStack
 

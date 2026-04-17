@@ -1,10 +1,12 @@
 ---
+title: TLS
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
 tags: [tls, seguridad]
 aliases: [SSL, HTTPS, TLS, PKI, Certificados Digitales, X.509]
 ---
+title: TLS
 
 # TLS
 

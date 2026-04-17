@@ -1,10 +1,12 @@
 ---
+title: Kubernetes
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
 tags: [contenedores, kubernetes, orquestacion]
 aliases: [Kubernetes]
 ---
+title: Kubernetes
 
 # Kubernetes
 

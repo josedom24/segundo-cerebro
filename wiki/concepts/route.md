@@ -1,9 +1,11 @@
 ---
+title: Route
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s]
 tags: [openshift, redes, route]
 ---
+title: Route
 
 # Route
 
@@ -114,6 +116,7 @@ spec:
     kind: Service
     name: api-service
 ---
+title: Route
 spec:
   host: example.com
   path: /web

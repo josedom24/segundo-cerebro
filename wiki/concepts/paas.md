@@ -1,9 +1,11 @@
 ---
+title: PaaS (Platform as a Service)
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
 tags: [paas]
 ---
+title: PaaS (Platform as a Service)
 
 # PaaS (Platform as a Service)
 

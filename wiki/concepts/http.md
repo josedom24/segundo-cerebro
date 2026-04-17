@@ -1,10 +1,12 @@
 ---
+title: HTTP
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
 tags: [http]
 aliases: [HTTP, HTTP/1.1, Protocolo HTTP]
 ---
+title: HTTP
 
 # HTTP
 

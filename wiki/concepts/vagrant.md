@@ -1,4 +1,5 @@
 ---
+title: Vagrant
 created: 2026-04-17
 updated: 2026-04-17
 sources: [vagrant-oficial, josedomingo-vagrant-blog]
