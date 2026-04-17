@@ -381,8 +381,8 @@ echo "✅ $CANTIDAD clones creados"
 ## Relaciones
 
 ### Conecta con
-- [[virsh-cli-kvm|Unidad 3: virsh CLI]]
-- [[almacenamiento-virsh|Unidad 4: Almacenamiento]]
+- [[virsh-cli-kvm|Gestión de Máquinas Virtuales con virsh]]
+- [[almacenamiento-virsh|Almacenamiento en KVM/libvirt con virsh]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

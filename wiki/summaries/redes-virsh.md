@@ -377,9 +377,9 @@ sudo ip link del virbr-test
 ## Relaciones
 
 ### Conecta con
-- [[redes-kvm|Redes KVM (Curso 1)]]
-- [[clonacion-virsh|Unidad 5: Clonación]]
-- [[instalacion-red-kvm|Unidad 7: Instalación por Red]]
+- [[redes-kvm|Redes en KVM/libvirt]]
+- [[clonacion-virsh|Clonación Avanzada con virsh]]
+- [[instalacion-red-kvm|Instalación de VMs por Red en KVM]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

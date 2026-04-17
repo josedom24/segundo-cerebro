@@ -291,8 +291,8 @@ kubectl scale deployment web-app --replicas=2
 ## Relaciones
 
 ### Conecta con
-- [[replicasets|ReplicaSets]] — Gestiona internamente
-- [[services-acceso|Services]] — Acceso a Deployments
+- [[replicasets|ReplicaSets: Escalabilidad y Tolerancia a Fallos]] — Gestiona internamente
+- [[services-acceso|Services: Acceso a Aplicaciones]] — Acceso a Deployments
 
 ### Parte de
 - Cargas de trabajo de Kubernetes — Principal carga de trabajo

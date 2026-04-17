@@ -157,8 +157,8 @@ podman-compose up -d
 ## Relaciones
 
 ### Conecta con
-- [[ejecucion-contenedores-podman|Ejecución]]
-- [[almacenamiento-redes-podman|Almacenamiento y redes]]
+- [[ejecucion-contenedores-podman|Ejecución de Contenedores con Podman]]
+- [[almacenamiento-redes-podman|Almacenamiento y Redes en Podman]]
 - [[docker-compose|Docker Compose]] — Similar
 
 

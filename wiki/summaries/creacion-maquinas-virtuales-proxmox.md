@@ -214,9 +214,9 @@ WINDOWS VM TÍPICA:
 ## Relaciones
 
 ### Conecta con
-- [[instalacion-proxmox|Instalación de Proxmox]] — Proxmox preinstalado
-- [[almacenamiento-proxmox|Almacenamiento]] — Gestión de discos
-- [[clonacion-snapshots-backups-proxmox|Clonación y Snapshots]] — Copias y templates
+- [[instalacion-proxmox|Instalación de Proxmox VE]] — Proxmox preinstalado
+- [[almacenamiento-proxmox|Gestión de Almacenamiento en Proxmox]] — Gestión de discos
+- [[clonacion-snapshots-backups-proxmox|Clonación, Snapshots y Backups en Proxmox]] — Copias y templates
 
 
 ## Próximo Paso

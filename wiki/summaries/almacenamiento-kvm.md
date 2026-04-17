@@ -258,8 +258,8 @@ Uso: Copias de seguridad VM
 
 ### Conecta con
 - [[creacion-vms|Unidad 3: Creación VMs]]
-- [[clonacion-kvm|Unidad 5: Clonación]]
-- [[virt-manager-setup|Unidad 2: Setup]]
+- [[clonacion-kvm|Clonación de Máquinas Virtuales en KVM]]
+- [[virt-manager-setup|Instalación y Configuración de virt-manager]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

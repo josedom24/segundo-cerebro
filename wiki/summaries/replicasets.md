@@ -157,14 +157,14 @@ Opciones con RS:
 ❌ Eliminar RS → Downtime
 ```
 
-**Solución:** [[deployments|Deployments]]
+**Solución:** [[deployments|Deployments: Ciclo de Vida Completo]]
 
 
 ## Relaciones
 
 ### Conecta con
-- [[pods-contenedores|Pods]] — Lo que ReplicaSet replica
-- [[deployments|Deployments]] — Sucesor de ReplicaSets
+- [[pods-contenedores|Pods: Contenedores en Kubernetes]] — Lo que ReplicaSet replica
+- [[deployments|Deployments: Ciclo de Vida Completo]] — Sucesor de ReplicaSets
 
 ### Parte de
 - Cargas de trabajo de Kubernetes — Cargas de trabajo

@@ -453,8 +453,8 @@ virt-viewer nombre-vm
 ## Relaciones
 
 ### Conecta con
-- [[virsh-cli-kvm|Unidad 3: virsh CLI]]
-- [[redes-virsh|Unidad 6: Redes]]
+- [[virsh-cli-kvm|Gestión de Máquinas Virtuales con virsh]]
+- [[redes-virsh|Redes Virtuales con virsh]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

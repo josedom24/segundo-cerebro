@@ -327,8 +327,8 @@ Resultados:
 ## Relaciones
 
 ### Conecta con
-- [[creacion-vms|Unidad 3: Creación VMs]]
-- [[redes-kvm|Unidad 6: Redes]]
+- [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]]
+- [[redes-kvm|Redes en KVM/libvirt]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

@@ -238,9 +238,9 @@ Pero no se cubren en este módulo
 ## Relaciones
 
 ### Conecta con
-- [[creacion-vms|Unidad 3: Creación VMs]]
-- [[almacenamiento-kvm|Unidad 4: Almacenamiento]]
-- [[redes-kvm|Unidad 6: Redes]]
+- [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]]
+- [[almacenamiento-kvm|Almacenamiento en KVM/virt-manager]]
+- [[redes-kvm|Redes en KVM/libvirt]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

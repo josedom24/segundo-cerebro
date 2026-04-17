@@ -312,7 +312,7 @@ docker run postgres:15-alpine  # Versión específica
 - [[docker|Docker]] — Plataforma base
 - Docker Hub — Registro de imágenes
 - [[contenedores|Contenedores]] — Basados en imágenes
-- [[dockerfile-y-construccion|Dockerfile]] — Cómo construir imágenes
+- [[dockerfile-y-construccion|Creación de Imágenes]] — Cómo construir imágenes
 
 
 ## Flujo Típico

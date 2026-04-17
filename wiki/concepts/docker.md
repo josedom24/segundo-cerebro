@@ -137,7 +137,7 @@ Soluciona conflictos de versiones de gemas Ruby al aislar cada proyecto en su co
 
 ### Conecta con
 - [[docker-compose|Docker Compose]] — Orquestación de múltiples contenedores
-- [[dockerfile-y-construccion|Dockerfile]] — Sintaxis para construir imágenes
+- [[dockerfile-y-construccion|Creación de Imágenes]] — Sintaxis para construir imágenes
 - [[contenedores|Contenedores]] — Tecnología subyacente
 - [[podman|Podman]] — Alternativa daemonless
 

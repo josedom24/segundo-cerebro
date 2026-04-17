@@ -264,8 +264,8 @@ Rollback:
 ## Relaciones
 
 ### Conecta con
-- [[creacion-maquinas-virtuales-proxmox|VMs]] — Discos pertenecen a VMs
-- [[clonacion-snapshots-backups-proxmox|Clonación y Backups]] — Usa almacenamiento
+- [[creacion-maquinas-virtuales-proxmox|Creación de Máquinas Virtuales en Proxmox]] — Discos pertenecen a VMs
+- [[clonacion-snapshots-backups-proxmox|Clonación, Snapshots y Backups en Proxmox]] — Usa almacenamiento
 
 
 ## Próximo Paso

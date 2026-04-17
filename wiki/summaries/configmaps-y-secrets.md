@@ -237,7 +237,7 @@ spec:
 
 ### Conecta con
 - [[deployments|Deployments]] — Usa ConfigMaps/Secrets
-- [[services-acceso|Services]] — Acceso a apps configuradas
+- [[services-acceso|Services: Acceso a Aplicaciones]] — Acceso a apps configuradas
 
 
 ## Fuentes

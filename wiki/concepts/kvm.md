@@ -39,9 +39,9 @@ Capa de abstracción que simplifica la gestión de VMs mediante:
 
 ## Fuentes
 
-- [[introduccion-kvm|Introduccion Kvm]]
-- [[virt-manager-setup|Virt Manager Setup]]
-- [[creacion-vms|Creacion Vms]]
+- [[introduccion-kvm|Introducción a la Virtualización con KVM/libvirt]]
+- [[virt-manager-setup|Instalación y Configuración de virt-manager]]
+- [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]]
 
 ## Relaciones
 

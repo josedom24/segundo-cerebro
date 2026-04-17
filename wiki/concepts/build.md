@@ -187,5 +187,5 @@ Builds periódicos (como cron)
 
 ## Fuentes
 
-- [[buildconfig-cicd|Buildconfig Cicd]]
-- [[imagestream-gestion|Imagestream Gestion]]
+- [[buildconfig-cicd|Builds: Construcción Automática de Imágenes (Curso 2 - Módulo 4)]]
+- [[imagestream-gestion|ImageStreams: Gestión de Imágenes (Curso 2 - Módulo 3)]]

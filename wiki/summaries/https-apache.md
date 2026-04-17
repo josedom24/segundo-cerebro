@@ -241,9 +241,9 @@ SSLCertificateKeyFile /etc/ssl/private/server.key
 ### Conecta con
 - [[apache|Apache]] — Servidor web
 - [[tls|TLS]] — Protocolo TLS/SSL base
-- [[modulos-apache|Módulos]] — mod_ssl
-- [[seguridad-apache|Seguridad]] — HSTS, cipher suites
-- [[virtual-hosting-apache|Virtual Hosting]] — VirtualHost puerto 443
+- [[modulos-apache|Módulos en Apache]] — mod_ssl
+- [[seguridad-apache|Seguridad en Apache]] — HSTS, cipher suites
+- [[virtual-hosting-apache|Virtual Hosting en Apache]] — VirtualHost puerto 443
 
 
 ## Fuentes

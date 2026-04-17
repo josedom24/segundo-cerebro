@@ -362,8 +362,8 @@ Soluciones:
 ## Relaciones
 
 ### Conecta con
-- [[conceptos-avanzados-kvm|Unidad 1: Conceptos Avanzados]]
-- [[virsh-cli-kvm|Unidad 3: virsh CLI]]
+- [[conceptos-avanzados-kvm|Conceptos Avanzados de Virtualización en KVM]]
+- [[virsh-cli-kvm|Gestión de Máquinas Virtuales con virsh]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

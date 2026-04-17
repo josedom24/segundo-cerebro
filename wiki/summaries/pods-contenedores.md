@@ -266,14 +266,14 @@ spec:
 3. **Sin escalado:** No escalan automáticamente
 4. **Sin actualización:** No hay rolling updates
 
-**Solución:** Usar [[replicasets|ReplicaSets]] y [[deployments|Deployments]]
+**Solución:** Usar [[replicasets|ReplicaSets: Escalabilidad y Tolerancia a Fallos]] y [[deployments|Deployments: Ciclo de Vida Completo]]
 
 
 ## Relaciones
 
 ### Conecta con
-- [[instalacion-kubernetes|Instalación]] — Kubectl para manejar Pods
-- [[introduccion-kubernetes|Introducción]] — Concepto de unidad mínima
+- [[instalacion-kubernetes|Instalación de Kubernetes]] — Kubectl para manejar Pods
+- [[introduccion-kubernetes|Introducción a Kubernetes]] — Concepto de unidad mínima
 
 ### Parte de
 - Cargas de trabajo de Kubernetes — Tipos de carga de trabajo
@@ -281,7 +281,7 @@ spec:
 
 ## Próximo Paso
 
-Pods son poderosos pero limitados. Siguiente: [[replicasets|Módulo 4: ReplicaSets]].
+Pods son poderosos pero limitados. Siguiente: [[replicasets|ReplicaSets: Escalabilidad y Tolerancia a Fallos]].
 
 
 ## Fuentes

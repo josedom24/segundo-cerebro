@@ -263,8 +263,8 @@ Ventajas:
 ## Relaciones
 
 ### Conecta con
-- [[introduccion-kvm|KVM Introducción (Curso 1)]]
-- [[virt-manager-setup|Setup virt-manager (Curso 1)]]
+- [[introduccion-kvm|Introducción a la Virtualización con KVM/libvirt]]
+- [[virt-manager-setup|Instalación y Configuración de virt-manager]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización avanzada

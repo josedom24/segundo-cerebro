@@ -297,7 +297,7 @@ kubectl port-forward svc/mi-app 8080:80
 
 ## Próximo Paso
 
-Una vez instalado, pasamos a [[pods-contenedores|Módulo 3: Pods]].
+Una vez instalado, pasamos a [[pods-contenedores|Pods: Contenedores en Kubernetes]].
 
 
 ## Fuentes

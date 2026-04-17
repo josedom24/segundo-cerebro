@@ -282,8 +282,8 @@ kubectl create job manual-backup --from=cronjob/daily-backup
 ## Relaciones
 
 ### Conecta con
-- [[deployments|Deployments]] — Alternativa para otros casos
-- [[almacenamiento-kubernetes|Storage]] — StatefulSets necesitan storage
+- [[deployments|Deployments: Ciclo de Vida Completo]] — Alternativa para otros casos
+- [[almacenamiento-kubernetes|Almacenamiento en Kubernetes]] — StatefulSets necesitan storage
 
 ### Parte de
 - Cargas de trabajo de Kubernetes — Todas las cargas de trabajo

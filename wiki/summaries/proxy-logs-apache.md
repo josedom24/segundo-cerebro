@@ -295,9 +295,9 @@ awk '$NF > 1000 {print $7, $NF}' /var/log/apache2/access.log | sort -k2 -rn
 
 ### Conecta con
 - [[apache|Apache]] — Servidor web
-- [[modulos-apache|Módulos]] — mod_proxy, mod_proxy_http
+- [[modulos-apache|Módulos en Apache]] — mod_proxy, mod_proxy_http
 - redes — Concepto proxy, balanceo carga
-- [[seguridad-apache|Seguridad]] — Logs análisis
+- [[seguridad-apache|Seguridad en Apache]] — Logs análisis
 
 
 ## Fuentes

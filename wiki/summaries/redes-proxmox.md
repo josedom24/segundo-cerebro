@@ -325,10 +325,10 @@ Impacto educativo:
 ## Relaciones
 
 ### Conecta con
-- [[creacion-maquinas-virtuales-proxmox|VMs]] — Conexión de VMs a redes
-- [[linux-containers-lxc-proxmox|Contenedores]] — Conexión de LXC a redes
-- [[usuarios-permisos-proxmox|Usuarios y Permisos]] — Control de acceso (limitado en redes)
-- [[instalacion-proxmox|Instalación]] — Configuración inicial de red
+- [[creacion-maquinas-virtuales-proxmox|Creación de Máquinas Virtuales en Proxmox]] — Conexión de VMs a redes
+- [[linux-containers-lxc-proxmox|Trabajando con Linux Containers (LXC) en Proxmox]] — Conexión de LXC a redes
+- [[usuarios-permisos-proxmox|Gestión de Usuarios y Permisos en Proxmox VE]] — Control de acceso (limitado en redes)
+- [[instalacion-proxmox|Instalación de Proxmox VE]] — Configuración inicial de red
 
 
 ## Próximo Paso

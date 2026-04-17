@@ -70,7 +70,7 @@ Pods (replicas)
 ### Conecta con
 - Parte de: [[openshift|OpenShift]]
 - Expone: Deployments/Pods
-- Alternativa de: [[kubernetes|Ingress]] de [[kubernetes|Kubernetes]]
+- Alternativa de: [[kubernetes|Kubernetes]] de [[kubernetes|Kubernetes]]
 - Usa: [[service|Service]] internamente
 
 ## Fuentes

@@ -88,8 +88,8 @@ Esencialmente idéntico en:
 ## Relaciones
 
 ### Conecta con
-- [[ejecucion-contenedores-podman|Ejecución]]
-- [[imagenes-podman|Imágenes]]
+- [[ejecucion-contenedores-podman|Ejecución de Contenedores con Podman]]
+- [[imagenes-podman|Gestión de Imágenes OCI en Podman]]
 
 
 ## Fuentes

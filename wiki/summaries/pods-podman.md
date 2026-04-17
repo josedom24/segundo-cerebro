@@ -132,7 +132,7 @@ podman run --pod wordpress-pod \
 ## Relaciones
 
 ### Conecta con
-- [[introduccion-podman|Introducción]] — Feature única de Podman
+- [[introduccion-podman|Introducción a Podman]] — Feature única de Podman
 - [[kubernetes|Kubernetes]] — Generate YAML compatible
 
 ### Diferencia con

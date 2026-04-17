@@ -201,19 +201,19 @@ vagrant up  # VM con Nginx lista en <1 minuto
 
 ### Recursos Vagrant
 
-- [[vagrant-introduccion|Vagrant: Introducción y Conceptos Fundamentales]]
-- [[vagrant-libvirt-configuracion|Vagrant + libvirt: Configuración Completa]]
-- [[vagrant-creacion-boxes|Creación de Custom Boxes Vagrant]]
+- [[vagrant-introduccion|Vagrant - Introducción y Conceptos Fundamentales]]
+- [[vagrant-libvirt-configuracion|Vagrant + libvirt - Configuración Completa de Networking y Almacenamiento]]
+- [[vagrant-creacion-boxes|Creación de Custom Boxes para Vagrant]]
 
 
 ## Relaciones
 
 ### Conecta con
-- [[introduccion-kvm|Introducción a KVM]]
-- [[creacion-vms|Unidad 3: Creación de VMs]]
-- [[almacenamiento-kvm|Unidad 4: Almacenamiento]]
-- [[clonacion-kvm|Unidad 5: Clonación]]
-- [[redes-kvm|Unidad 6: Redes]]
+- [[introduccion-kvm|Introducción a la Virtualización con KVM/libvirt]]
+- [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]]
+- [[almacenamiento-kvm|Almacenamiento en KVM/virt-manager]]
+- [[clonacion-kvm|Clonación de Máquinas Virtuales en KVM]]
+- [[redes-kvm|Redes en KVM/libvirt]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

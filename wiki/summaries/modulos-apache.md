@@ -274,10 +274,10 @@ systemctl restart apache2
 
 ### Conecta con
 - [[apache|Apache]] — Servidor modular
-- [[configuracion-apache|Configuración]] — Activación módulos
-- [[aplicaciones-web-apache|Aplicaciones Web]] — mod_php, mod_wsgi
-- [[https-apache|HTTPS]] — mod_ssl
-- [[seguridad-apache|Seguridad]] — mod_security2
+- [[configuracion-apache|Configuración de Apache]] — Activación módulos
+- [[aplicaciones-web-apache|Aplicaciones Web en Apache]] — mod_php, mod_wsgi
+- [[https-apache|HTTPS en Apache]] — mod_ssl
+- [[seguridad-apache|Seguridad en Apache]] — mod_security2
 
 
 ## Fuentes

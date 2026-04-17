@@ -223,8 +223,8 @@ kubectl port-forward svc/web-service 8080:80
 ## Relaciones
 
 ### Conecta con
-- [[deployments|Deployments]] — Qué accesar
-- [[configmaps-y-secrets|ConfigMaps]] — Configuración
+- [[deployments|Deployments: Ciclo de Vida Completo]] — Qué accesar
+- [[configmaps-y-secrets|Despliegues Parametrizados: ConfigMaps y Secrets]] — Configuración
 
 
 ## Fuentes

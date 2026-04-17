@@ -283,9 +283,9 @@ awk '$9 == 404 {print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -
 
 ### Conecta con
 - [[apache|Apache]] — Servidor web
-- [[https-apache|HTTPS]] — Headers seguridad HSTS
+- [[https-apache|HTTPS en Apache]] — Headers seguridad HSTS
 - [[tls|TLS]] — Cifrado transporte
-- [[autenticacion-apache|Autenticación]] — Control acceso
+- [[autenticacion-apache|Autenticación en Apache]] — Control acceso
 - linux — Permisos ficheros, monitoreo
 
 

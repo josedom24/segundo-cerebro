@@ -400,10 +400,10 @@ En desarrollo en próximas versiones:
 ## Relaciones
 
 ### Conecta con
-- [[creacion-maquinas-virtuales-proxmox|VMs]] — Control de quién puede acceder
-- [[linux-containers-lxc-proxmox|Contenedores]] — Mismo sistema de permisos
-- [[almacenamiento-proxmox|Almacenamiento]] — Permisos sobre storage
-- [[redes-proxmox|Redes]] — Limitación actual (sin control)
+- [[creacion-maquinas-virtuales-proxmox|Creación de Máquinas Virtuales en Proxmox]] — Control de quién puede acceder
+- [[linux-containers-lxc-proxmox|Trabajando con Linux Containers (LXC) en Proxmox]] — Mismo sistema de permisos
+- [[almacenamiento-proxmox|Gestión de Almacenamiento en Proxmox]] — Permisos sobre storage
+- [[redes-proxmox|Gestión de Redes en Proxmox VE]] — Limitación actual (sin control)
 
 
 ## Próximo Paso

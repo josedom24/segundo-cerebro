@@ -231,7 +231,7 @@ Mover volumen entre backends:
 
 ### Conecta con
 - [[introduccion-openstack|Introducción a OpenStack]] — Almacenamiento persistent
-- [[nova-instancias-openstack|Nova: Instancias]] — Adjunción de volúmenes
+- [[nova-instancias-openstack|Nova: Gestión de Instancias en OpenStack]] — Adjunción de volúmenes
 - [[proxmox|Proxmox VE: Plataforma de Virtualización]] — Thin provisioning similar
 
 ### Parte de

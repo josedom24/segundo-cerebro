@@ -223,5 +223,5 @@ OpenShift genera certificados self-signed si no se proporciona
 
 ## Fuentes
 
-- [[services-routes|Services Routes]]
-- [[services-routes-avanzado|Services Routes Avanzado]]
+- [[services-routes|Acceso a las Aplicaciones (Curso 1 - Módulo 5)]]
+- [[services-routes-avanzado|Acceso a Aplicaciones: Services y Routes (Curso 2 - Módulo 7)]]

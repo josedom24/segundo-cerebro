@@ -177,5 +177,5 @@ Para proyectos nuevos, considera [[deployment|Deployment]] nativo en lugar de De
 
 ## Fuentes
 
-- [[deployconfig-rolling-updates|Deployconfig Rolling Updates]]
-- [[metodos-despliegue|Metodos Despliegue]]
+- [[deployconfig-rolling-updates|DeployConfig y Rolling Updates (Curso 2 - Módulo 6)]]
+- [[metodos-despliegue|Despliegue de Aplicaciones en OpenShift v4 (Curso 2 - Módulo 2)]]

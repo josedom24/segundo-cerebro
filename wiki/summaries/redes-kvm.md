@@ -305,8 +305,8 @@ Detalles VM → Interfaces de red
 ## Relaciones
 
 ### Conecta con
-- [[creacion-vms|Unidad 3: Creación VMs]]
-- [[consola-serie-kvm|Unidad 7: Consola Serie]]
+- [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]]
+- [[consola-serie-kvm|Acceso por Consola Serie en KVM]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

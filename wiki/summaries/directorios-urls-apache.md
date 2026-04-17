@@ -217,9 +217,9 @@ ErrorDocument 404 /404.html
 
 ### Conecta con
 - [[apache|Apache]] — Servidor base
-- [[configuracion-apache|Configuración]] — Directivas Apache
+- [[configuracion-apache|Configuración de Apache]] — Directivas Apache
 - [[http|HTTP]] — Códigos redirección, negociación contenido
-- [[modulos-apache|Módulos]] — mod_negotiation, mod_dir
+- [[modulos-apache|Módulos en Apache]] — mod_negotiation, mod_dir
 
 
 ## Fuentes

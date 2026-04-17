@@ -134,8 +134,8 @@ systemctl stop container-app
 ## Relaciones
 
 ### Conecta con
-- [[introduccion-podman|Introducción]] — Feature de Podman
-- [[pods-podman|Pods]] — También con Pods
+- [[introduccion-podman|Introducción a Podman]] — Feature de Podman
+- [[pods-podman|Gestión de Pods en Podman]] — También con Pods
 
 
 ## Fuentes

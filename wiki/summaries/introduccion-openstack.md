@@ -135,10 +135,10 @@ Conexión de instancias a redes virtuales:
 ## Relaciones
 
 ### Conecta con
-- [[glance-imagenes-openstack|Glance: Imágenes]] — Plantillas para instancias
-- [[nova-instancias-openstack|Nova: Instancias]] — Máquinas virtuales
-- [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Volúmenes persistentes
-- [[neutron-redes-openstack|Neutron: Redes]] — Conectividad virtual
+- [[glance-imagenes-openstack|Glance: Gestión de Imágenes en OpenStack]] — Plantillas para instancias
+- [[nova-instancias-openstack|Nova: Gestión de Instancias en OpenStack]] — Máquinas virtuales
+- [[cinder-almacenamiento-openstack|Cinder: Gestión de Almacenamiento en OpenStack]] — Volúmenes persistentes
+- [[neutron-redes-openstack|Neutron: Gestión de Redes en OpenStack]] — Conectividad virtual
 - [[contenedores|Contenedores]] — Alternativa: contenedores vs VMs
 
 ### Parte de

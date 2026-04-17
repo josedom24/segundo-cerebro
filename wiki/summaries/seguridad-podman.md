@@ -100,7 +100,7 @@ podman run --read-only myapp
 ## Relaciones
 
 ### Conecta con
-- [[introduccion-podman|Introducción]] — Seguridad
+- [[introduccion-podman|Introducción a Podman]] — Seguridad
 
 
 ## Fuentes

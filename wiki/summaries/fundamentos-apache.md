@@ -121,7 +121,7 @@ grep -E "^User " /etc/apache2/apache2.conf
 ### Conecta con
 - [[http|HTTP]] — Protocolo implementado
 - [[apache|Apache]] — Concepto general del servidor
-- [[configuracion-apache|Configuración]] — Ficheros config
+- [[configuracion-apache|Configuración de Apache]] — Ficheros config
 
 ### Conceptos previos
 - linux — Sistema operativo base

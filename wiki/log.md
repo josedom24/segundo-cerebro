@@ -1,3 +1,24 @@
+## [2026-04-17] update | Estandarización completa de títulos en enlaces (ALL files)
+
+**Fase 2 - Corrección masiva:** Verificadas y corregidas todas las referencias en la wiki
+
+**Resultado:**
+- ✅ 184 enlaces con títulos incorrectos identificados
+- ✅ 75 archivos actualizados con títulos correctos
+- ✅ 100% de enlaces ahora usan el título exacto del frontmatter del documento
+
+**Archivos procesados:**
+- 10 conceptos (docker, kubernetes, openshift, podman, kvm, proxmox, openstack, helm, apache, vagrant, paas, imagestream, build, route, template, deploymentconfig, deployment, service, pod, statefulset, job, volume, snapshot, http, tls, contenedores)
+- 74 summaries (KVM, Proxmox, OpenStack, Docker, Podman, Kubernetes, OpenShift, Apache)
+- 3 articles (Vagrant)
+- 1 analysis (utilidad-pods-podman)
+
+**Verificación:**
+- Script de validación: ✅ 0 mismatches encontrados
+- Todos los enlaces en formato [[archivo|Título Exacto del Frontmatter]]
+
+---
+
 ## [2026-04-17] update | Estandarización de títulos en enlaces (ALL files)
 
 **Objetivo:** Cambiar todos los enlaces internos a formato `[[archivo|Título Significativo]]` usando el `title:` del frontmatter

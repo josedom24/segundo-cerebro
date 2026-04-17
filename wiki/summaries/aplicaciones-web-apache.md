@@ -239,8 +239,8 @@ app.listen(3000);
 
 ### Conecta con
 - [[apache|Apache]] — Servidor web
-- [[modulos-apache|Módulos]] — mod_php, mod_proxy_fcgi
-- [[configuracion-apache|Configuración]] — SetHandler, ProxyPass
+- [[modulos-apache|Módulos en Apache]] — mod_php, mod_proxy_fcgi
+- [[configuracion-apache|Configuración de Apache]] — SetHandler, ProxyPass
 
 
 ## Fuentes

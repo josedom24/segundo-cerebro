@@ -107,8 +107,8 @@ Apache sigue dominando en:
 - seguridad — mod_security2, autenticación, control acceso
 
 ### En ecosistema
-- Alternativa a [[kubernetes|K8s proxies]] — Apache como proxy inverso
-- Complemento a [[openshift|OpenShift routes]] — Proxy web tradicional
+- Alternativa a [[kubernetes|Kubernetes]] — Apache como proxy inverso
+- Complemento a [[openshift|OpenShift]] — Proxy web tradicional
 
 ## Fuentes
 

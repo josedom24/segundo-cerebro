@@ -183,10 +183,10 @@ apache2ctl -S
 
 ### Conecta con
 - [[apache|Apache]] — Concept general
-- [[fundamentos-apache|Fundamentos]] — Instalación previa
-- [[virtual-hosting-apache|Virtual Hosting]] — Usando VirtualHosts en config
-- [[directorios-urls-apache|Directorios y URLs]] — Directivas Directory avanzadas
-- [[autenticacion-apache|Autenticación]] — Contextos con Require
+- [[fundamentos-apache|Fundamentos de Apache]] — Instalación previa
+- [[virtual-hosting-apache|Virtual Hosting en Apache]] — Usando VirtualHosts en config
+- [[directorios-urls-apache|Directorios y URLs en Apache]] — Directivas Directory avanzadas
+- [[autenticacion-apache|Autenticación en Apache]] — Contextos con Require
 
 
 ## Fuentes

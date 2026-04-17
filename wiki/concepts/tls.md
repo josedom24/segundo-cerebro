@@ -206,8 +206,8 @@ openssl x509 -in server.crt -noout -text | grep -A1 "Subject Alternative"
 
 ### Complementa
 - [[apache|Apache]] — mod_ssl para HTTPS
-- [[kubernetes|K8s Ingress]] — TLS termination
-- [[openshift|OpenShift Routes]] — HTTPS automático
+- [[kubernetes|Kubernetes]] — TLS termination
+- [[openshift|OpenShift]] — HTTPS automático
 
 ### Base para
 - seguridad — Confidencialidad transporte

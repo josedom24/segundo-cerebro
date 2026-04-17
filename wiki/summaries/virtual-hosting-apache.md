@@ -179,8 +179,8 @@ grep "GET" /var/log/apache2/ejemplo1-access.log | wc -l
 
 ### Conecta con
 - [[apache|Apache]] — Servidor web base
-- [[configuracion-apache|Configuración]] — Ficheros .conf VirtualHost
-- [[https-apache|HTTPS]] — VirtualHost en puerto 443
+- [[configuracion-apache|Configuración de Apache]] — Ficheros .conf VirtualHost
+- [[https-apache|HTTPS en Apache]] — VirtualHost en puerto 443
 - redes — Concepto multi-IP vs multi-dominio
 
 ### Conceptos relacionados

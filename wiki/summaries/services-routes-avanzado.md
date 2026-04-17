@@ -151,7 +151,7 @@ spec:
 ### Conecta con
 - Parte de: [[openshift|OpenShift]]
 - Expone: [[service|Service]] internamente
-- Reemplaza: [[kubernetes|Ingress]] de Kubernetes (más simple)
+- Reemplaza: [[kubernetes|Kubernetes]] de Kubernetes (más simple)
 
 ## Fuentes
 - [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

@@ -200,8 +200,8 @@ docker-compose up → podman-compose up
 
 ### Conecta con
 - podman-composepodman-compose]]
-- [[quadlet-systemd|Quadlet]]
-- [[pods-podman|Pods]]
+- [[quadlet-systemd|Systemd y Quadlet: Gestión de Contenedores]]
+- [[pods-podman|Gestión de Pods en Podman]]
 - [[kubernetes|Kubernetes]]
 
 

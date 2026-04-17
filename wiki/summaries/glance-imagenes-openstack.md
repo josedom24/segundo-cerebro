@@ -134,8 +134,8 @@ Metadatos:
 
 ### Conecta con
 - [[introduccion-openstack|Introducción a OpenStack]] — Primer componente a usar
-- [[nova-instancias-openstack|Nova: Instancias]] — Fuente para instancias
-- [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Origen de volúmenes
+- [[nova-instancias-openstack|Nova: Gestión de Instancias en OpenStack]] — Fuente para instancias
+- [[cinder-almacenamiento-openstack|Cinder: Gestión de Almacenamiento en OpenStack]] — Origen de volúmenes
 
 ### Parte de
 - OpenStack Stack

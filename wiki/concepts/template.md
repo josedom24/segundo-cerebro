@@ -259,5 +259,5 @@ oc new-app wordpress-complete \
 
 ## Fuentes
 
-- [[openshift-paas|Openshift Paas]]
-- [[metodos-despliegue|Metodos Despliegue]]
+- [[openshift-paas|Introducción a OpenShift v4 como PaaS (Curso 2 - Módulo 1)]]
+- [[metodos-despliegue|Despliegue de Aplicaciones en OpenShift v4 (Curso 2 - Módulo 2)]]

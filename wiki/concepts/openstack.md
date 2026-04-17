@@ -169,13 +169,13 @@ Kubernetes:
 ## Relaciones
 
 ### Conecta con
-- [[nova-instancias-openstack|Nova: Instancias]] — Computación
-- [[glance-imagenes-openstack|Glance: Imágenes]] — Plantillas
-- [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Persistencia
-- [[neutron-redes-openstack|Neutron: Redes]] — Conectividad
-- [[introduccion-openstack|Introducción OpenStack]] — Primer paso
+- [[nova-instancias-openstack|Nova: Gestión de Instancias en OpenStack]] — Computación
+- [[glance-imagenes-openstack|Glance: Gestión de Imágenes en OpenStack]] — Plantillas
+- [[cinder-almacenamiento-openstack|Cinder: Gestión de Almacenamiento en OpenStack]] — Persistencia
+- [[neutron-redes-openstack|Neutron: Gestión de Redes en OpenStack]] — Conectividad
+- [[introduccion-openstack|Introducción a OpenStack]] — Primer paso
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Hypervisor típico subyacente
-- [[proxmox|Proxmox VE]] — Alternativa integrada
+- [[proxmox|Proxmox VE: Plataforma de Virtualización]] — Alternativa integrada
 
 ### Parte de
 - Cloud Computing (IaaS)

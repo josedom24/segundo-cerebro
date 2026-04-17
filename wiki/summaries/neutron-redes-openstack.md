@@ -264,8 +264,8 @@ openstack security group rule create --protocol tcp \
 
 ### Conecta con
 - [[introduccion-openstack|Introducción a OpenStack]] — Conectividad de instancias
-- [[nova-instancias-openstack|Nova: Instancias]] — Instancias usan interfaces
-- [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — También necesita red
+- [[nova-instancias-openstack|Nova: Gestión de Instancias en OpenStack]] — Instancias usan interfaces
+- [[cinder-almacenamiento-openstack|Cinder: Gestión de Almacenamiento en OpenStack]] — También necesita red
 
 ### Parte de
 - OpenStack Stack

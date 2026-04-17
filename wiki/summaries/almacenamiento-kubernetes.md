@@ -254,8 +254,8 @@ spec:
 ## Relaciones
 
 ### Conecta con
-- [[deployments|Deployments]] — Consume storage
-- [[configmaps-y-secrets|Secrets]] — Credenciales de BD
+- [[deployments|Deployments: Ciclo de Vida Completo]] — Consume storage
+- [[configmaps-y-secrets|Despliegues Parametrizados: ConfigMaps y Secrets]] — Credenciales de BD
 
 ### Parte de
 - Almacenamiento en Kubernetes — Soluciones de almacenamiento

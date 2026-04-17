@@ -271,11 +271,11 @@ Opciones: Disco, Red, USB, PCI, Gráficos, ...
 ## Relaciones
 
 ### Conecta con
-- [[virt-manager-setup|Unidad 2: Setup virt-manager]]
-- [[almacenamiento-kvm|Unidad 4: Almacenamiento]]
-- [[clonacion-kvm|Unidad 5: Clonación]]
-- [[redes-kvm|Unidad 6: Redes]]
-- [[consola-serie-kvm|Unidad 7: Consola Serie]]
+- [[virt-manager-setup|Instalación y Configuración de virt-manager]]
+- [[almacenamiento-kvm|Almacenamiento en KVM/virt-manager]]
+- [[clonacion-kvm|Clonación de Máquinas Virtuales en KVM]]
+- [[redes-kvm|Redes en KVM/libvirt]]
+- [[consola-serie-kvm|Acceso por Consola Serie en KVM]]
 
 
 ## Fuentes

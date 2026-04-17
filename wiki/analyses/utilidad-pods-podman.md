@@ -125,9 +125,9 @@ spec:
 ## Relaciones
 
 ### Conecta con
-- [[pods-podman|Gestión de Pods (módulo)]] — Comandos y operaciones
+- [[pods-podman|Gestión de Pods en Podman]] — Comandos y operaciones
 - [[introduccion-podman|Introducción a Podman]] — Contexto de por qué Podman
-- [[pod|Pod (concepto K8s)]] — Definición formal de Pod
+- [[pod|Pod]] — Definición formal de Pod
 - [[kubernetes|Kubernetes]] — Destino final de los YAML generados
 - [[docker-compose|Docker Compose]] — Alternativa en Docker
 
@@ -135,6 +135,6 @@ spec:
 
 ## Fuentes
 
-- [[pods-podman|Gestión de Pods]]
+- [[pods-podman|Gestión de Pods en Podman]]
 - [[introduccion-podman|Introducción a Podman]]
 

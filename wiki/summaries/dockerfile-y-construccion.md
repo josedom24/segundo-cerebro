@@ -502,7 +502,7 @@ docker run -d myregistry.com/myapp:1.0
 ## Relaciones
 
 ### Conecta con
-- [[dockerfile-y-construccion|Dockerfile]] — Concepto y sintaxis
+- [[dockerfile-y-construccion|Creación de Imágenes]] — Concepto y sintaxis
 - [[docker|Docker]] — Plataforma base
 - [[docker-compose|Docker Compose]] — Define imágenes a construir
 

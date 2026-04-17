@@ -285,10 +285,10 @@ Contenedor Configurado → Plantilla
 ## Relaciones
 
 ### Conecta con
-- [[creacion-maquinas-virtuales-proxmox|VMs]] — Alternativa a máquinas virtuales
-- [[almacenamiento-proxmox|Almacenamiento]] — Dónde se guardan
-- [[redes-proxmox|Redes]] — Configuración de interfaz
-- [[usuarios-permisos-proxmox|Usuarios y Permisos]] — Control de acceso
+- [[creacion-maquinas-virtuales-proxmox|Creación de Máquinas Virtuales en Proxmox]] — Alternativa a máquinas virtuales
+- [[almacenamiento-proxmox|Gestión de Almacenamiento en Proxmox]] — Dónde se guardan
+- [[redes-proxmox|Gestión de Redes en Proxmox VE]] — Configuración de interfaz
+- [[usuarios-permisos-proxmox|Gestión de Usuarios y Permisos en Proxmox VE]] — Control de acceso
 
 
 ## Próximo Paso

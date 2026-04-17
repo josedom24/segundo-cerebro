@@ -103,5 +103,5 @@ Route → acceso HTTP/HTTPS
 
 ## Fuentes
 
-- [[introduccion-openshift|Introduccion Openshift]]
-- [[openshift-paas|Openshift Paas]]
+- [[introduccion-openshift|Introducción a OpenShift v4 (Curso 1 - Módulo 1)]]
+- [[openshift-paas|Introducción a OpenShift v4 como PaaS (Curso 2 - Módulo 1)]]

@@ -355,8 +355,8 @@ virsh pool-info vm-images  # ver target
 ## Relaciones
 
 ### Conecta con
-- [[virsh-cli-kvm|Unidad 3: virsh CLI]]
-- [[clonacion-virsh|Unidad 5: Clonación]]
+- [[virsh-cli-kvm|Gestión de Máquinas Virtuales con virsh]]
+- [[clonacion-virsh|Clonación Avanzada con virsh]]
 
 ### Parte de
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Stack de virtualización

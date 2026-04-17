@@ -338,9 +338,9 @@ helm install ingress-nginx ingress-nginx/ingress-nginx
 ### Conecta con
 - [[helm|Helm]] — Package manager de Kubernetes
 - [[kubernetes|Kubernetes]] — Orquestador donde corre Helm
-- [[deployments|Deployments]] — Lo que Helm despliega
-- [[services-acceso|Services]] — Parte de Charts
-- [[almacenamiento-kubernetes|Storage]] — PVCs en Charts
+- [[deployments|Deployments: Ciclo de Vida Completo]] — Lo que Helm despliega
+- [[services-acceso|Services: Acceso a Aplicaciones]] — Parte de Charts
+- [[almacenamiento-kubernetes|Almacenamiento en Kubernetes]] — PVCs en Charts
 
 ### Parte de
 - Gestión y empaquetado de aplicaciones en Kubernetes

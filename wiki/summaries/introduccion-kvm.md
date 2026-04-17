@@ -189,7 +189,7 @@ Necesarios para buen rendimiento. La mayoría de CPUs modernas los incluyen.
 
 ### Interfaz Gráfica: virt-manager
 
-[[virt-manager-setup|virt-manager]] proporciona interfaz gráfica intuitiva para crear y gestionar máquinas virtuales. Ideal para:
+[[virt-manager-setup|Instalación y Configuración de virt-manager]] proporciona interfaz gráfica intuitiva para crear y gestionar máquinas virtuales. Ideal para:
 - Principiantes (punto-and-click)
 - Administración visual
 - Laboratorios educativos
@@ -219,8 +219,8 @@ Cada acción GUI se traduce a operaciones libvirt subyacentes.
 **Recomendación:** Usar virt-manager para exploración inicial y administración visual. Usar Vagrant para entornos de equipo, testing y producción-like.
 
 Ver también: 
-- [[vagrant-introduccion|Vagrant: Introducción y Conceptos Fundamentales]]
-- [[vagrant-libvirt-configuracion|Vagrant + libvirt: Configuración Completa]]
+- [[vagrant-introduccion|Vagrant - Introducción y Conceptos Fundamentales]]
+- [[vagrant-libvirt-configuracion|Vagrant + libvirt - Configuración Completa de Networking y Almacenamiento]]
 
 
 ## Relaciones
@@ -240,7 +240,7 @@ Ver también:
 
 ## Próximo Paso
 
-Con conceptos claros, pasar a [[virt-manager-setup|Unidad 2: virt-manager]].
+Con conceptos claros, pasar a [[virt-manager-setup|Instalación y Configuración de virt-manager]].
 
 
 ## Fuentes

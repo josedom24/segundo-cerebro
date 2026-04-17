@@ -220,9 +220,9 @@ Incluye información de compresión en nombre
 ## Relaciones
 
 ### Conecta con
-- [[creacion-maquinas-virtuales-proxmox|Creación de VMs]] — Base para clonar
-- [[almacenamiento-proxmox|Almacenamiento]] — Dónde se guardan
-- [[usuarios-permisos-proxmox|Usuarios y Permisos]] — Control de acceso
+- [[creacion-maquinas-virtuales-proxmox|Creación de Máquinas Virtuales en Proxmox]] — Base para clonar
+- [[almacenamiento-proxmox|Gestión de Almacenamiento en Proxmox]] — Dónde se guardan
+- [[usuarios-permisos-proxmox|Gestión de Usuarios y Permisos en Proxmox VE]] — Control de acceso
 
 
 ## Próximo Paso

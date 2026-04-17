@@ -291,7 +291,7 @@ Automáticamente crea VM con Podman dentro.
 
 ## Próximo Paso
 
-Con Podman instalado, pasar a [[ejecucion-contenedores-podman|Módulo 2: Ejecución de contenedores]].
+Con Podman instalado, pasar a [[ejecucion-contenedores-podman|Ejecución de Contenedores con Podman]].
 
 
 ## Fuentes

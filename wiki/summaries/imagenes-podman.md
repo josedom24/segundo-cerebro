@@ -102,8 +102,8 @@ podman system prune
 ## Relaciones
 
 ### Conecta con
-- [[ejecucion-contenedores-podman|Ejecución]]
-- [[almacenamiento-redes-podman|Almacenamiento]]
+- [[ejecucion-contenedores-podman|Ejecución de Contenedores con Podman]]
+- [[almacenamiento-redes-podman|Almacenamiento y Redes en Podman]]
 
 
 ## Fuentes
