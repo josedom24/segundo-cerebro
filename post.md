@@ -6,7 +6,7 @@ Llevo muchos años generando materiales didácticos: en el blog de mi página we
 
 La idea del "Segundo Cerebro" en la era de los LLMs es simple: un sistema externo donde acumulas conocimiento de forma estructurada, con relaciones entre conceptos, que puedes consultar y ampliar con ayuda de la IA. No se trata de almacenar información en bruto, sino de *sintetizarla* — extraer lo esencial, relacionarlo con lo que ya sabes, y mantenerlo accesible.
 
-El vault tiene dos capas arquitectónicas claras:
+Mi implementación tiene dos capas arquitectónicas claras:
 
 **🔗 El Núcleo (inmutable, fuente de verdad):**
 - **Conceptos:** Abstracciones reutilizables que aparecen en múltiples plataformas (Deployment, Volume, Snapshot, Pod, etc.)
