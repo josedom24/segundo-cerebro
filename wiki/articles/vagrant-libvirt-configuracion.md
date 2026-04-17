@@ -377,7 +377,7 @@ sudo systemctl restart systemd-networkd
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Backend de virtualización
 - [[redes-kvm|Redes en KVM/libvirt]] — Networking avanzado
 - [[almacenamiento-kvm|Almacenamiento en KVM/virt-manager]] — Volúmenes QCOW2, snapshots
-- [[ansible|Ansible]] — Provisioning alternativo a shell scripts
+- Ansible — Provisioning alternativo a shell scripts
 
 ### Mejora a
 - [[introduccion-kvm|Introducción a la Virtualización con KVM/libvirt]] — Automatización de VMs

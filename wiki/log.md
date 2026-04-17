@@ -1,3 +1,31 @@
+## [2026-04-17] fix | Reparación de enlaces rotos y fragmentos de código mal formados
+
+**Problemas encontrados y reparados:**
+- ❌ 1 enlace a concepto inexistente: `[[virt-manager|...]]` → `[[virt-manager-setup|...]]`
+- ❌ 13 enlaces rotos encontrados (fragmentos de código YAML mal formados)
+  - 5 referencias a `[[container|...]]` en código → removidas
+  - 3 referencias a `[[config|...]]` en código → removidas
+  - 2 referencias a `[[secret|...]]` en código → removidas
+  - 1 referencia a `[[200|...]]` numérica → removida
+  - 2 referencias a `[[vm|...]]` sin concepto asociado → removidas
+  - 1 referencia a `[[ansible|...]]` sin concepto asociado → removido
+
+**Archivos reparados (11):**
+- ✅ wiki/summaries/pods-contenedores.md
+- ✅ wiki/summaries/configmaps-y-secrets.md
+- ✅ wiki/summaries/almacenamiento-kvm.md
+- ✅ wiki/summaries/helm-empaquetado.md
+- ✅ wiki/concepts/vagrant.md
+- ✅ wiki/articles/vagrant-introduccion.md
+- ✅ wiki/articles/vagrant-libvirt-configuracion.md
+
+**Verificación final:**
+- ✅ 0 enlaces rotos
+- ✅ Todos los enlaces [[archivo|Título]] apuntan a archivos existentes
+- ✅ Todos los títulos coinciden con los del frontmatter
+
+---
+
 ## [2026-04-17] update | Estandarización completa de títulos en enlaces (ALL files)
 
 **Fase 2 - Corrección masiva:** Verificadas y corregidas todas las referencias en la wiki

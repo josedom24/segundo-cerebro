@@ -168,7 +168,7 @@ Asignar espacio de forma **dinámica** según sea necesario, no todo desde inici
 ### Ejemplo Práctico
 
 ```
-Pool: default (/var/lib/libvirt/images - [[200|GB disponibles)
+Pool: default (/var/lib/libvirt/images - 200 GB disponibles
 
 VM1: 50GB asignado, QCOW2
     → Ocupa 5GB al iniciar

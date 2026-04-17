@@ -59,7 +59,7 @@ spec:
   - name: app
     image: myapp:1.0
     envFrom:
-    - [[config|MapRef:
+    - MapRef:
         name: app-config
     # Inyecta todas las vars del ConfigMap
 ```
@@ -187,7 +187,7 @@ env:
 
 ```yaml
 envFrom:
-- [[config|MapRef:
+- MapRef:
     name: app-config
 ```
 
@@ -226,9 +226,9 @@ spec:
       - name: wordpress
         image: wordpress:5.9
         envFrom:
-        - [[config|MapRef:
+        - MapRef:
             name: wordpress-config
-        - [[secret|Ref:
+        - Ref:
             name: wordpress-secret
 ```
 

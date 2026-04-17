@@ -53,12 +53,12 @@ Herramienta de automatización que define máquinas virtuales en código declara
 
 ### Conecta con
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Backend de virtualización (via libvirt provider)
-- [[vm|Máquinas Virtuales]] — Lo que Vagrant automatiza y gestiona
+- Máquinas Virtuales — Lo que Vagrant automatiza y gestiona
 - [[docker|Docker]] — Alternativa: filosofía IaC similar, distinta implementación (containers vs VMs)
-- [[ansible|Ansible]] — Provisioning complementario para configuración avanzada
+- Ansible — Provisioning complementario para configuración avanzada
 
 ### Contrasta con
-- [[virt-manager|virt-manager]] — GUI manual vs Vagrant IaC
+- [[virt-manager-setup|Instalación y Configuración de virt-manager]] — GUI manual vs Vagrant IaC
 - [[docker|Docker]] — VMs completas vs containers ligeros
 
 ### Relacionado con

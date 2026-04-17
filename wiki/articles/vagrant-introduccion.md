@@ -261,9 +261,9 @@ vagrant destroy (cleanup)
 
 ### Conecta con
 - [[kvm|KVM (Kernel-based Virtual Machine)]] — Backend de virtualización (via libvirt)
-- [[vm|Máquinas Virtuales]] — Lo que Vagrant crea/gestiona
+- Máquinas Virtuales — Lo que Vagrant crea/gestiona
 - [[docker|Docker]] — Alternativa ligera (mismo concepto, distinta implementación)
-- [[ansible|Ansible]] — Provisioning avanzado
+- Ansible — Provisioning avanzado
 
 ### Conceptos Relacionados
 - **Infraestructura as Code (IaC):** Definir infraestructura en código

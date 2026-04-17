@@ -280,7 +280,7 @@ spec:
       - name: {{ .Chart.Name }}
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         ports:
-        - [[container|Port: {{ .Values.service.port }}
+        - Port: {{ .Values.service.port }}
 ```
 
 ### values.yaml

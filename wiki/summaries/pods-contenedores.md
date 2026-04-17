@@ -97,7 +97,7 @@ spec:
   - name: app
     image: nginx:latest
     ports:
-    - [[container|Port: 80
+    - Port: 80
 ```
 
 **Uso típico:**
@@ -237,7 +237,7 @@ spec:
   - name: nginx
     image: nginx:1.21
     ports:
-    - [[container|Port: 80
+    - Port: 80
   - name: app
     image: myapp:1.0
 ```
