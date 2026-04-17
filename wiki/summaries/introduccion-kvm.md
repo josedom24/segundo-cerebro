@@ -1,6 +1,6 @@
 ---
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-17
 sources: [curso_kvm_ow]
 tags: [kvm, virtualizacion]
 ---
@@ -191,6 +191,45 @@ Necesarios para buen rendimiento. La mayoría de CPUs modernas los incluyen.
 │ Hardware (CPU VT-x/AMD-V)            │
 └─────────────────────────────────────┘
 ```
+
+---
+
+## Herramientas de Gestión
+
+### Interfaz Gráfica: virt-manager
+
+[[virt-manager-setup|virt-manager]] proporciona interfaz gráfica intuitiva para crear y gestionar máquinas virtuales. Ideal para:
+- Principiantes (punto-and-click)
+- Administración visual
+- Laboratorios educativos
+- Testing ad-hoc
+
+Cada acción GUI se traduce a operaciones libvirt subyacentes.
+
+### Automatización: Vagrant (Infrastructure as Code)
+
+[[vagrant|Vagrant]] es herramienta declarativa que define máquinas virtuales en código (Vagrantfile). Ideal para:
+- **Reproducibilidad:** Mismo Vagrantfile = mismo entorno siempre
+- **Equipos:** Código compartible en Git, setup automático
+- **Automatización:** Testing, CI/CD, provisioning repetitivo
+- **Escalabilidad:** Múltiples VMs definidas en un archivo
+
+**Comparativa:**
+
+| Aspecto | virt-manager | Vagrant |
+|--------|-------------|---------|
+| **Interfaz** | GUI visual | CLI + Código (Vagrantfile) |
+| **Reproducibilidad** | Manual, propensa a errores | Automática, garantizada |
+| **Versionado** | No aplicable | Sí (Git) |
+| **Equipo** | Setup manual para cada miembro | Setup automático (vagrant up) |
+| **Aprendizaje** | Rápido | Medio |
+| **Batch operations** | No | Sí (múltiples VMs) |
+
+**Recomendación:** Usar virt-manager para exploración inicial y administración visual. Usar Vagrant para entornos de equipo, testing y producción-like.
+
+Ver también: 
+- [[vagrant-introduccion|Vagrant: Introducción y Conceptos Fundamentales]]
+- [[vagrant-libvirt-configuracion|Vagrant + libvirt: Configuración Completa]]
 
 ---
 

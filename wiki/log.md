@@ -1,3 +1,45 @@
+## [2026-04-17] ingest | Vagrant: Automatización de VMs
+
+Se ingerieron 3 artículos sobre Vagrant (Infrastructure as Code para máquinas virtuales) con análisis completo de impacto en el vault.
+
+**Artículos creados (wiki/articles/):**
+- ✨ vagrant-introduccion.md — Conceptos, workflows, providers, provisioning, ciclo de vida
+- ✨ vagrant-libvirt-configuracion.md — Networking completo, almacenamiento persistente, multi-VM
+- ✨ vagrant-creacion-boxes.md — Custom boxes, distribución, versionado, Vagrant Cloud
+
+**Cambios en conceptos:**
+- ✨ concepts/vagrant.md (creado) — Nuevo concepto: herramienta IaC transversal
+
+**Cambios en summaries (mejoras):**
+- ✏️ summaries/introduccion-kvm.md — +1 sección "Herramientas de Gestión" con comparativa virt-manager vs Vagrant
+- ✏️ summaries/virt-manager-setup.md — +1 sección "Alternativas: Automatización con Vagrant"
+
+**Cambios en índice:**
+- ✏️ wiki/index.md — +1 nuevo concepto Vagrant + nueva sección "📰 Artículos y Recursos"
+- ✏️ wiki/articles/index.md (creado) — Índice en español "Artículos y Recursos"
+
+**Impacto:**
+- +4 archivos nuevos (3 artículos + 1 concepto)
+- +2 archivos actualizados (introduccion-kvm, virt-manager-setup)
+- +2 metadatos actualizados (index.md, log.md)
+- Total páginas: 123 → 128
+- Total conceptos: 24 → 25
+
+**Ideas clave:**
+- Vagrant completa stack de KVM: GUI manual (virt-manager) + Automatización (Vagrant IaC)
+- Transversal a múltiples backends (VirtualBox, libvirt, Hyper-V, AWS, Docker)
+- Estándar industria: similar a Docker, Kubernetes, Ansible
+- Flujo educativo: conceptos → herramientas manuales → automatización
+
+**Validación:**
+- ✅ Nuevos artículos siguen formato/tags/frontmatter estándar
+- ✅ Enlaces internos en formato `[[archivo|Texto]]`
+- ✅ Relaciones actualizadas bidireccionales
+- ✅ Sin contradicciones o inconsistencias
+- ✅ Tags consolidados (sin ruido)
+
+---
+
 ## [2026-04-17] update | Carpeta analyses con index en español
 
 Se creó archivo `wiki/analyses/index.md` con título "# Análisis y Síntesis" para que aparezca en español en el explorador de Obsidian, manteniendo el nombre técnico `analyses/` en la carpeta.

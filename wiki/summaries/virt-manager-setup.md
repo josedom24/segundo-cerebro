@@ -1,6 +1,6 @@
 ---
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-17
 sources: [curso_kvm_ow]
 tags: [configuracion, instalacion, kvm]
 ---
@@ -159,6 +159,57 @@ Grupos pueden corresponder a:
 - Editar configuración: Click derecho → Editar o Detalles
 - Gestionar redes: Detalles conexión → Redes
 - Gestionar almacenamiento: Detalles conexión → Almacenamiento
+
+---
+
+## Alternativas: Automatización con Vagrant
+
+virt-manager es ideal para crear y gestionar máquinas virtuales **manualmente** con interfaz gráfica.
+
+Para **reproducibilidad, automatización y entornos de equipo**, considera **Vagrant:**
+
+### Vagrant: Infrastructure as Code para VMs
+
+[[vagrant|Vagrant]] define máquinas virtuales en código (Vagrantfile) en lugar de mediante GUI. Ideal para:
+- **Equipos de desarrollo:** Mismo Vagrantfile = setup idéntico para todos
+- **Testing infrastructure code:** Ansible, Kubernetes, testing cloud-like
+- **CI/CD pipelines:** VMs reproducibles en pipelines de testing
+- **Reproducibilidad garantizada:** Código versionado, sin errores de configuración manual
+
+```ruby
+# Vagrantfile: Define VM en código
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/focal64"
+  config.vm.network "private_network", ip: "192.168.121.10"
+  config.vm.provision "shell", inline: "apt-get update && apt-get install -y nginx"
+end
+
+# Resultado:
+vagrant up  # VM con Nginx lista en <1 minuto
+```
+
+### Comparativa: virt-manager vs Vagrant
+
+| Aspecto | virt-manager | Vagrant |
+|--------|-------------|---------|
+| **Interfaz** | GUI visual | CLI + Código (Vagrantfile) |
+| **Modo de trabajo** | Punto-and-click | Declarativo (IaC) |
+| **Reproducibilidad** | Manual, propensa a errores | Automática, garantizada |
+| **Versionado** | No | Sí (Git) |
+| **Equipo sincronizado** | Setup manual para cada miembro | `vagrant up` automático |
+| **Batch operations** | No (1 VM por vez) | Sí (múltiples VMs) |
+| **Curva aprendizaje** | Rápida (GUI intuitiva) | Media (Ruby DSL) |
+| **Provisioning** | Manual post-instalación | Automático (shell, Ansible) |
+
+**Recomendación:** 
+- **virt-manager:** Para exploración inicial, administración visual, laboratorios simples
+- **Vagrant:** Para equipos, testing, entornos production-like, reproducibilidad
+
+### Recursos Vagrant
+
+- [[vagrant-introduccion|Vagrant: Introducción y Conceptos Fundamentales]]
+- [[vagrant-libvirt-configuracion|Vagrant + libvirt: Configuración Completa]]
+- [[vagrant-creacion-boxes|Creación de Custom Boxes Vagrant]]
 
 ---
 

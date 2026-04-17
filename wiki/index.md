@@ -1,13 +1,13 @@
 ---
 created: 2026-04-15
-updated: 2026-04-15
-tags: [openshift, kubernetes, vm, contenedores, kvm, redes, podman, deployment, docker, configuracion, apache, proxmox, almacenamiento, virtualizacion, imagenes, seguridad, linux, openstack, instalacion, orquestacion, automatizacion, rootless, pods, oci, http, dns, bridge, volumes, templates, services, secrets, imagestream, tls]
+updated: 2026-04-17
+tags: [openshift, kubernetes, vm, contenedores, kvm, redes, podman, deployment, docker, configuracion, apache, proxmox, almacenamiento, virtualizacion, imagenes, seguridad, linux, openstack, instalacion, orquestacion, automatizacion, rootless, pods, oci, http, dns, bridge, volumes, templates, services, secrets, imagestream, tls, vagrant, iac, box, provisioning]
 ---
 
 # Índice del Vault
 
-**Última actualización:** 2026-04-16  
-**Total de páginas:** 123  
+**Última actualización:** 2026-04-17  
+**Total de páginas:** 128  
 **Cursos ingeridos:** 10 (Docker, Kubernetes, Podman, KVM Intro, KVM Avanzado, Proxmox, OpenStack, OpenShift v4 K8s, OpenShift v4 PaaS, Apache 2.4)  
 **Estrategia:** Conceptos abstractos reutilizables + Summaries específicos de módulos
 
@@ -27,9 +27,17 @@ tags: [openshift, kubernetes, vm, contenedores, kvm, redes, podman, deployment, 
 
 ---
 
-## 📚 Conceptos (24)
+## 📰 Artículos y Recursos
 
-### Plataformas Principales (9)
+- [[vagrant-introduccion|Vagrant: Introducción y Conceptos Fundamentales]] — Automatización de VMs, providers, provisioning, ciclo de vida
+- [[vagrant-libvirt-configuracion|Vagrant + libvirt: Configuración Completa]] — Networking, almacenamiento persistente, multi-VM, casos de uso
+- [[vagrant-creacion-boxes|Creación de Custom Boxes Vagrant]] — Empaquetar, versionar, distribuir boxes, Vagrant Cloud
+
+---
+
+## 📚 Conceptos (25)
+
+### Plataformas Principales (10)
 - [[docker]] — Plataforma de containerización con imágenes, registros, Compose
 - [[kubernetes]] — Orquestador cloud-native: master/worker, auto-scaling, rolling updates
 - [[openshift]] — Distribución empresarial de Kubernetes con PaaS, ImageStream, BuildConfig, Routes
@@ -39,6 +47,7 @@ tags: [openshift, kubernetes, vm, contenedores, kvm, redes, podman, deployment, 
 - [[openstack]] — Plataforma cloud IaaS: compute, storage, networking, imágenes
 - [[helm]] — Package manager de Kubernetes: charts, templating, distribución
 - [[apache]] — Servidor web modular: virtual hosting, módulos, autenticación, proxy inverso
+- [[vagrant]] — Automatización de VMs: Infrastructure as Code, reproducibilidad, provisioning declarativo
 
 ### OpenShift-specific Patterns (6)
 - [[paas]] — Modelo Platform as a Service: abstracción de infraestructura, automatización CI/CD
