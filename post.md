@@ -6,18 +6,20 @@ Llevo muchos años generando materiales didácticos: en el blog de mi página we
 
 La idea del "Segundo Cerebro" en la era de los LLMs es simple: un sistema externo donde acumulas conocimiento de forma estructurada, con relaciones entre conceptos, que puedes consultar y ampliar con ayuda de la IA. No se trata de almacenar información en bruto, sino de *sintetizarla* — extraer lo esencial, relacionarlo con lo que ya sabes, y mantenerlo accesible.
 
+Pero esto es clave: **la síntesis no pierde la conexión con el original**. Cada resumen mantiene referencias a la fuente (un curso, un artículo, un libro), y cada concepto enlaza con los summaries que lo usan. Si quiero entender cómo funciona un Deployment en Kubernetes, voy al concepto abstracto; si quiero ver ejemplos prácticos, salto al resumen del curso donde se enseña. La información es redundante en estructura pero no en contenido: el mismo concepto aparece en múltiples plataformas, así que un solo "Deployment" conecta Docker, Kubernetes, OpenShift, etc. a la vez.
+
 Mi implementación tiene dos capas arquitectónicas claras:
 
 **🔗 El Núcleo (inmutable, fuente de verdad):**
-- **Conceptos:** Abstracciones reutilizables que aparecen en múltiples plataformas (Deployment, Volume, Snapshot, Pod, etc.)
-- **Resúmenes:** Módulos específicos de cursos con las ideas clave de cada unidad
+- **Conceptos:** Abstracciones reutilizables que aparecen en múltiples plataformas (Deployment, Volume, Snapshot, Pod, etc.) — cada uno enlaza a todos los summaries que lo mencionan
+- **Resúmenes:** Síntesis de módulos específicos de cursos con las ideas clave — cada uno referencia la fuente original y enlaza con conceptos relacionados
 
 **📡 Los Satélites (flexibles, crecen con el tiempo):**
-- **Artículos:** Blog posts, troubleshooting, casos reales, experiencias propias
-- **Análisis:** Síntesis propias, comparativas, investigaciones
-- **Entidades:** Personas, empresas, recursos relevantes
+- **Artículos:** Blog posts, troubleshooting, casos reales que enlazan al núcleo
+- **Análisis:** Síntesis propias que conectan múltiples conceptos
+- **Entidades:** Personas, empresas, recursos relevantes que contextualizan el contenido
 
-La distinción es importante: el núcleo es estable y referencial; los satélites lo enriquecen con contexto del mundo real. Y aquí está la clave arquitectónica: **los artículos pueden modificar y mejorar los resúmenes del núcleo** cuando aportan valor. Si descubro un caso de uso no documentado o una solución a un problema común, fluye de vuelta al núcleo.
+La distinción es importante: el núcleo es estable, referencial y enlazado bidireccionalemente; los satélites lo enriquecen con contexto del mundo real. Y aquí está la clave arquitectónica: **los artículos pueden modificar y mejorar los resúmenes del núcleo** cuando aportan valor. Si descubro un caso de uso no documentado o una solución a un problema común, fluye de vuelta al núcleo.
 
 ## El contenido: Estructurado para crecer
 
