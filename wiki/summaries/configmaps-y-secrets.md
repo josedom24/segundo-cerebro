@@ -236,7 +236,7 @@ spec:
 ## Relaciones
 
 ### Conecta con
-- [[deployments|Deployments]] — Usa ConfigMaps/Secrets
+- [[deployments|Deployments: Ciclo de Vida Completo]] — Usa ConfigMaps/Secrets
 - [[services-acceso|Services: Acceso a Aplicaciones]] — Acceso a apps configuradas
 
 

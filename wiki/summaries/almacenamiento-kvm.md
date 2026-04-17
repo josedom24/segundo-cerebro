@@ -257,7 +257,7 @@ Uso: Copias de seguridad VM
 ## Relaciones
 
 ### Conecta con
-- [[creacion-vms|Unidad 3: Creación VMs]]
+- [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]]
 - [[clonacion-kvm|Clonación de Máquinas Virtuales en KVM]]
 - [[virt-manager-setup|Instalación y Configuración de virt-manager]]
 
