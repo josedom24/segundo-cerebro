@@ -23,7 +23,7 @@ La distinción es importante: el núcleo es estable, referencial y enlazado bidi
 
 ## El contenido: Estructurado para crecer
 
-El vault comienza con cursos que ya existen en [plataforma.josedomingo.org](https://plataforma.josedomingo.org). Cada uno se sintetiza:
+Esta estructura comienza con cursos que ya existen en [plataforma.josedomingo.org](https://plataforma.josedomingo.org). Cada uno se sintetiza:
 
 1. Se extrae un resumen por módulo (una página por unidad de curso)
 2. Se identifican conceptos transversales y se enlazan
