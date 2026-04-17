@@ -40,7 +40,7 @@ La metáfora funciona: cuanto más crece el vault, más valor tiene el grafo de 
 
 ## Las herramientas: Obsidian + Git
 
-[Obsidian](https://obsidian.md) es un editor de notas que funciona sobre archivos locales en Markdown. Sin base de datos, sin vendor lock-in — todo son ficheros `.md` versionados en Git.
+[Obsidian](https://obsidian.md) es un editor de notas que funciona sobre archivos locales en Markdown. Sin base de datos, sin vendor lock-in — todo son ficheros `.md` versionados en Git. Obsidian llama **"vault"** a una carpeta de notas: es el contenedor de todo tu conocimiento, donde viven los conceptos, resúmenes, artículos y análisis interconectados.
 
 **Wikilinks bidireccionales:** `[[Docker]]` crea un enlace entre páginas. Obsidian mantiene un grafo de conexiones que visualiza cómo se relacionan los conceptos. Para un segundo cerebro técnico, este grafo es invaluable: ver que *Volume* conecta simultáneamente con Kubernetes, Docker, KVM y Proxmox revela patrones transversales que no son evidentes estudiando cada plataforma en silos.
 
@@ -50,7 +50,7 @@ La metáfora funciona: cuanto más crece el vault, más valor tiene el grafo de 
 - `tags:` — Sistema de 30+ etiquetas consolidadas en español
 - `sources:` — Referencias a las fuentes originales
 
-**Git como histórico:** El vault vive en `wiki/` dentro del repositorio. Cada ingesta (nuevo curso, artículo, análisis) genera un commit documentado en `wiki/log.md`.
+**Git como histórico:** Este vault vive en `wiki/` dentro del repositorio. Cada ingesta (nuevo curso, artículo, análisis) genera un commit documentado en `wiki/log.md`.
 
 ## La publicación: Quartz
 
