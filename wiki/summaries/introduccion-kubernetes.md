@@ -1,4 +1,5 @@
 ---
+title: "Introducción a Kubernetes"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
@@ -16,7 +17,6 @@ Qué es Kubernetes, por qué surge, cómo se diferencia de otras soluciones, y s
 - **URL Repositorio:** https://github.com/iesgn/curso_kubernetes_cep/tree/main/modulo1
 - **Líneas de contenido:** 400+
 
----
 
 ## El Problema: Escalabilidad en Producción
 
@@ -46,7 +46,6 @@ Evolución de 11 pasos (simplificado):
 
 **Conclusión:** Gestionar esto manualmente es **imposible**. Necesitamos orquestación.
 
----
 
 ## ¿Qué es Kubernetes?
 
@@ -67,7 +66,6 @@ Kubernetes (k8s) es un **orquestador de contenedores** desarrollado por Google q
 - **Código abierto:** Apache License v2.0
 - **Gobernanza abierta:** Dirigido por CNCF (Cloud Native Computing Foundation), no por Google
 
----
 
 ## Historia del Proyecto Kubernetes
 
@@ -96,7 +94,6 @@ Hoy: Proyecto de fundación con contribuciones abiertas
  **Versión actual**  1.23+ (2 o 3 releases anuales) 
  **Estabilidad**  Muy estable, retrocompatibilidad mantenida 
 
----
 
 ## Orquestadores: Alternativas
 
@@ -147,7 +144,6 @@ Desventajas:
 - Complejo para casos simples
 ```
 
----
 
 ## Arquitectura Fundamental
 
@@ -185,7 +181,6 @@ Un clúster k8s es un conjunto de **nodos coordinados** (máquinas físicas, VMs
 - Reciben órdenes del master
 - Número variable según demanda
 
----
 
 ## Componentes del Master (Control Plane)
 
@@ -213,7 +208,6 @@ Interactúa con proveedores cloud:
 - Balanceadores de carga
 - Volúmenes en cloud
 
----
 
 ## Componentes del Worker
 
@@ -234,7 +228,6 @@ Docker, containerd, CRI-O, etc.
 ### supervisord
 Monitoriza y controla kubelet y el runtime
 
----
 
 ## Complementos (Add-ons)
 
@@ -247,7 +240,6 @@ Funcionalidad adicional que corre en el propio k8s:
  **Monitoring**  Métricas (Prometheus, Sysdig) 
  **Logging**  Centralización de logs 
 
----
 
 ## Conceptos Clave
 
@@ -259,7 +251,6 @@ Funcionalidad adicional que corre en el propio k8s:
 6. **Scheduler:** Decide dónde ejecutar los pods
 7. **etcd:** Corazón de la configuración del clúster
 
----
 
 ## Relaciones
 
@@ -273,7 +264,6 @@ Funcionalidad adicional que corre en el propio k8s:
 - Orquestación de contenedores escalable
 - Arquitectura cloud-native
 
----
 
 ## Flujo de Aprendizaje
 
@@ -299,7 +289,6 @@ Módulo 9: Otros workloads (StatefulSets, Jobs)
 Módulo 10: Helm (empaquetado)
 ```
 
----
 
 ## Fuentes
 

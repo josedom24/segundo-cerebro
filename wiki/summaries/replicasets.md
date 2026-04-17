@@ -1,4 +1,5 @@
 ---
+title: "ReplicaSets: Escalabilidad y Tolerancia a Fallos"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
@@ -14,7 +15,6 @@ ReplicaSet asegura que N réplicas de un Pod se ejecuten siempre, proporcionando
 - **Fuente:** Curso Kubernetes - Módulo 4
 - **URL GitHub:** https://github.com/iesgn/curso_kubernetes_cep/tree/main/modulo4
 
----
 
 ## Problema: Pod Único
 
@@ -26,7 +26,6 @@ Pod web-app ← muere → ❌ No hay servicio
 
 **Solución:** ReplicaSet
 
----
 
 ## Concepto: ReplicaSet
 
@@ -65,7 +64,6 @@ Tengo 4 → Elimina 1 ✅
 Tengo 2 → Crea 1 ✅
 ```
 
----
 
 ## Características
 
@@ -100,7 +98,6 @@ selector:
     app: web     # Pods con esta etiqueta
 ```
 
----
 
 ## Ciclo de Vida
 
@@ -143,7 +140,6 @@ kubectl delete rs web-rs --cascade=orphan
 kubectl delete rs web-rs
 ```
 
----
 
 ## Limitación: Sin Actualizaciones
 
@@ -163,7 +159,6 @@ Opciones con RS:
 
 **Solución:** [[deployments|Deployments]]
 
----
 
 ## Relaciones
 
@@ -174,7 +169,6 @@ Opciones con RS:
 ### Parte de
 - Cargas de trabajo de Kubernetes — Cargas de trabajo
 
----
 
 ## Fuentes
 

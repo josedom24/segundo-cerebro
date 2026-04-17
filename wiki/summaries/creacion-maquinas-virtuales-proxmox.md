@@ -1,4 +1,5 @@
 ---
+title: "Creación de Máquinas Virtuales en Proxmox"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
@@ -15,7 +16,6 @@ Gestión de ISOs, creación de VMs Linux y Windows con dispositivos paravirtuali
 - **Duración:** 3 horas teoría + 4 horas actividades prácticas
 - **Semana:** Semana 3
 
----
 
 ## Gestión de Imágenes ISO
 
@@ -30,7 +30,6 @@ Gestión de ISOs, creación de VMs Linux y Windows con dispositivos paravirtuali
 - **Windows:** Windows Server, Windows 10/11 (requiere drivers VirtIO)
 - **Herramientas:** VirtIO drivers ISO, boot tools
 
----
 
 ## Dispositivos Paravirtualizados vs Emulados
 
@@ -51,7 +50,6 @@ Gestión de ISOs, creación de VMs Linux y Windows con dispositivos paravirtuali
 - **Desventajas:** Rendimiento reducido
 - **Típicamente:** e1000 (red emulada), IDE (almacenamiento emulado)
 
----
 
 ## Creación de VM Linux
 
@@ -103,7 +101,6 @@ Gestión de ISOs, creación de VMs Linux y Windows con dispositivos paravirtuali
 4. Completar instalación
 5. Reiniciar
 
----
 
 ## Creación de VM Windows
 
@@ -130,7 +127,6 @@ Gestión de ISOs, creación de VMs Linux y Windows con dispositivos paravirtuali
 - **qemupcdriver:** QEMU PC (opcional)
 - **pvpanic:** Panic device (opcional)
 
----
 
 ## Gestión de Ciclo de Vida de VMs
 
@@ -149,7 +145,6 @@ Gestión de ISOs, creación de VMs Linux y Windows con dispositivos paravirtuali
 - **Clone:** Copia la VM
 - **Console:** Acceso a VNC/SPICE
 
----
 
 ## Qemu-Guest-Agent
 
@@ -177,7 +172,6 @@ systemctl start qemu-guest-agent
 ### Activación en Proxmox
 - VM → Opciones → Qemu Agent: ✅ Habilitado
 
----
 
 ## Acceso Remoto a VMs
 
@@ -196,7 +190,6 @@ ssh -p 22 usuario@192.168.1.100
 - Proxmox GUI → VM → Console
 - Acceso gráfico sin OS instalado
 
----
 
 ## Configuración Recomendada Resumen
 
@@ -217,7 +210,6 @@ WINDOWS VM TÍPICA:
 └─ Qemu-agent: Instalado
 ```
 
----
 
 ## Relaciones
 
@@ -226,13 +218,11 @@ WINDOWS VM TÍPICA:
 - [[almacenamiento-proxmox|Almacenamiento]] — Gestión de discos
 - [[clonacion-snapshots-backups-proxmox|Clonación y Snapshots]] — Copias y templates
 
----
 
 ## Próximo Paso
 
 Gestión de almacenamiento, adición de discos, y operaciones de disco (resize, move).
 
----
 
 ## Fuentes
 - [Curso Proxmox VE - Módulo 3 (GitHub)](https://github.com/iesgn/curso_proxmox_cep)

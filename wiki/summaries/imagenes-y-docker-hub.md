@@ -1,4 +1,5 @@
 ---
+title: "Gestión de Imágenes"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
@@ -16,7 +17,6 @@ Cómo funcionan las imágenes Docker (capas, almacenamiento, compartición), Doc
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 407
 
----
 
 ## Conceptos Fundamentales
 
@@ -105,7 +105,6 @@ $ docker rm contenedor1
 $ docker rmi ubuntu  # Ahora funciona
 ```
 
----
 
 ## Docker Hub: Registro de Imágenes
 
@@ -180,7 +179,6 @@ Con runtime y compiladores:
 **Pestaña Tags:**
 Lista todas las versiones disponibles por SO y arquitectura
 
----
 
 ## Gestión de Imágenes: Comandos
 
@@ -242,7 +240,6 @@ docker system df
 docker system df -v
 ```
 
----
 
 ## Concepto: Pull vs Run
 
@@ -260,7 +257,6 @@ docker pull nginx:latest
 docker run -d --name web nginx:latest
 ```
 
----
 
 ## Casos de Uso Prácticos
 
@@ -297,7 +293,6 @@ docker run postgres:latest  # Última versión
 docker run postgres:15-alpine  # Versión específica
 ```
 
----
 
 ## Conceptos Clave del Módulo
 
@@ -310,7 +305,6 @@ docker run postgres:15-alpine  # Versión específica
 7. **Tipos:** SO, servicios, lenguajes, CMS
 8. **Comandos:** pull, images, rmi, inspect, history
 
----
 
 ## Relaciones
 
@@ -320,7 +314,6 @@ docker run postgres:15-alpine  # Versión específica
 - [[contenedores|Contenedores]] — Basados en imágenes
 - [[dockerfile-y-construccion|Dockerfile]] — Cómo construir imágenes
 
----
 
 ## Flujo Típico
 
@@ -332,7 +325,6 @@ docker run postgres:15-alpine  # Versión específica
 5. docker ps / docker logs para debugging
 ```
 
----
 
 ## Fuentes
 

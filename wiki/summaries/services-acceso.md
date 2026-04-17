@@ -1,4 +1,5 @@
 ---
+title: "Services: Acceso a Aplicaciones"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
@@ -14,7 +15,6 @@ Service proporciona acceso estable a Deployments mediante IP virtual y DNS, con 
 - **Fuente:** Curso Kubernetes - Módulo 6
 - **URL GitHub:** https://github.com/iesgn/curso_kubernetes_cep/tree/main/modulo6
 
----
 
 ## Problema: Acceso a Pods Efímeros
 
@@ -30,7 +30,6 @@ Problema:
 
 **Solución:** Service
 
----
 
 ## Concepto: Service
 
@@ -50,7 +49,6 @@ spec:
     targetPort: 8080
 ```
 
----
 
 ## Tipos de Services
 
@@ -114,7 +112,6 @@ externalName: example.com
 
 CNAME a servicio externo
 
----
 
 ## DNS en Kubernetes
 
@@ -138,7 +135,6 @@ curl http://db-service:5432
 # Kubernetes DNS resuelve automáticamente
 ```
 
----
 
 ## Ingress Controller
 
@@ -175,7 +171,6 @@ http://example.com/app1 → app1-service
 http://example.com/app2 → app2-service
 ```
 
----
 
 ## Operaciones Comunes
 
@@ -213,7 +208,6 @@ kubectl port-forward svc/web-service 8080:80
 # Luego: http://localhost:8080
 ```
 
----
 
 ## Parámetros Clave
 
@@ -225,7 +219,6 @@ kubectl port-forward svc/web-service 8080:80
  `targetPort`  Puerto del contenedor 
  `nodePort`  Puerto en nodo (NodePort) 
 
----
 
 ## Relaciones
 
@@ -233,7 +226,6 @@ kubectl port-forward svc/web-service 8080:80
 - [[deployments|Deployments]] — Qué accesar
 - [[configmaps-y-secrets|ConfigMaps]] — Configuración
 
----
 
 ## Fuentes
 

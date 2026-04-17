@@ -1,4 +1,5 @@
 ---
+title: "Acceso por Consola Serie en KVM"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ Consola serie en KVM: acceso por puerto serial virtual (ttyS0) ideal para servid
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm1/
 - **Líneas de contenido:** 270+
 
----
 
 ## Concepto
 
@@ -36,7 +36,6 @@ Consola serie en KVM: acceso por puerto serial virtual (ttyS0) ideal para servid
 ✅ Recuperación de fallos
 ```
 
----
 
 ## Casos de Uso
 
@@ -82,7 +81,6 @@ N VMs simultáneas
   → Bajo overhead
 ```
 
----
 
 ## Configuración Hardware en virt-manager
 
@@ -121,7 +119,6 @@ Detalles VM → botón Consolas (dropdown)
   └─ Serie 1 (ttyS0)
 ```
 
----
 
 ## Configuración del Sistema Operativo
 
@@ -174,7 +171,6 @@ sudo systemctl disable --now getty@ttyS0.service
 
 (Este módulo enfoca Linux)
 
----
 
 ## Uso desde virt-manager
 
@@ -215,7 +211,6 @@ Teclas: CTRL + ALT GR + ]
 (ALT GR = AltRight en algunos teclados)
 ```
 
----
 
 ## Ventajas vs Desventajas
 
@@ -245,7 +240,6 @@ Teclas: CTRL + ALT GR + ]
 ❌ Latencia en conexiones remotas
 ```
 
----
 
 ## Comparativa: Acceso a VM
 
@@ -256,7 +250,6 @@ Teclas: CTRL + ALT GR + ]
  VNC  Gráfico  Alto  SÍ  Sí  Pobre 
  SSH  TTY  Bajo  NO  SÍ  Excelente 
 
----
 
 ## Casos Prácticos
 
@@ -297,7 +290,6 @@ Resultados:
   ✅ Logging automático
 ```
 
----
 
 ## Mejores Prácticas
 
@@ -310,7 +302,6 @@ Resultados:
 ✅ Probar: Antes de producción
 ```
 
----
 
 ## Stack Completo: Acceso a KVM
 
@@ -332,7 +323,6 @@ Resultados:
 └─────────────────────────────────┘
 ```
 
----
 
 ## Relaciones
 
@@ -344,7 +334,6 @@ Resultados:
 - [[kvm|KVM]] — Stack de virtualización
 
 
----
 
 ## Fuentes
 

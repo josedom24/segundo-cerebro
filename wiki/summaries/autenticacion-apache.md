@@ -1,4 +1,5 @@
 ---
+title: "Autenticación en Apache"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
@@ -15,7 +16,6 @@ Control acceso por autenticación: directiva Require, autenticación básica (HT
 - **Módulos:** mod_authz_core (Require), mod_auth_basic, mod_auth_digest, mod_access_compat (obsoleto)
 - **URL:** https://plataforma.josedomingo.org/pledin/cursos/apache24/
 
----
 
 ## Directiva Require (Autorización)
 
@@ -50,7 +50,6 @@ Require local
 Require not ip 192.168.1.100
 ```
 
----
 
 ## Combinaciones Lógicas
 
@@ -78,7 +77,6 @@ Require not ip 192.168.1.100
 # Denegar IP 192.168.1.100
 ```
 
----
 
 ## Autenticación Básica (HTTP Basic Auth)
 
@@ -113,7 +111,6 @@ cat /etc/apache2/.htpasswd
 htpasswd -D /etc/apache2/.htpasswd juan
 ```
 
----
 
 ## Autenticación Digest
 
@@ -141,7 +138,6 @@ htdigest -c /etc/apache2/.htdigest "Área Privada" juan
 htdigest /etc/apache2/.htdigest "Área Privada" maria
 ```
 
----
 
 ## Archivo .htaccess
 
@@ -169,7 +165,6 @@ Require valid-user
 - Menos eficiente (busca .htaccess en cada request)
 - AllowOverride None más seguro
 
----
 
 ## Combinación Autenticación + Require
 
@@ -188,7 +183,6 @@ Require valid-user
 </Directory>
 ```
 
----
 
 ## Migración Apache 2.2 → 2.4
 
@@ -204,7 +198,6 @@ Order allow,deny
 Require ip 192.168.1.0/24
 ```
 
----
 
 ## Casos de Uso
 
@@ -240,7 +233,6 @@ Require ip 192.168.1.0/24
 </Directory>
 ```
 
----
 
 ## Relaciones
 
@@ -250,7 +242,6 @@ Require ip 192.168.1.0/24
 - [[configuracion-apache|Configuración]] — Directivas Apache
 - [[tls|TLS]] — HTTPS recomendado con autenticación basic
 
----
 
 ## Fuentes
 

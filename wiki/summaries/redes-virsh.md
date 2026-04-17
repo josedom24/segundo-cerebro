@@ -1,4 +1,5 @@
 ---
+title: "Redes Virtuales con virsh"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ Gestión redes virsh: definir XML, virsh net-create/define/start, DHCP/DNS autom
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm2/
 - **Líneas de contenido:** 350+
 
----
 
 ## Gestión de Redes con virsh
 
@@ -61,7 +61,6 @@ virsh net-stop red-nat
 virsh net-undefine red-nat
 ```
 
----
 
 ## Definición XML de Red
 
@@ -131,7 +130,6 @@ virsh net-undefine red-nat
 - Sin DNS del host
 - Configuración manual necesaria
 
----
 
 ## Bridges Virtuales en Host
 
@@ -170,7 +168,6 @@ ip a
 - Host puede conectarse a red virtual
 - Actúa como gateway
 
----
 
 ## Configuración DHCP en Red Virtual
 
@@ -211,7 +208,6 @@ virsh net-dhcp-leases default
 - IP asignada
 - Hostname (si disponible)
 
----
 
 ## DNS en Redes Virtuales
 
@@ -241,7 +237,6 @@ Red Muy Aislada:
   → Sin DNS (manual necesario)
 ```
 
----
 
 ## Flujo Completo: Crear Red
 
@@ -299,7 +294,6 @@ virsh edit db-server
 # </interface>
 ```
 
----
 
 ## Casos de Uso: Múltiples Redes
 
@@ -337,7 +331,6 @@ virsh attach-interface web-server \
   --type network --source prod
 ```
 
----
 
 ## Troubleshooting Redes
 
@@ -380,7 +373,6 @@ sudo ip link del virbr-test
 <bridge name='virbr-test-new' ... />
 ```
 
----
 
 ## Relaciones
 
@@ -392,7 +384,6 @@ sudo ip link del virbr-test
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización
 
----
 
 ## Fuentes
 

@@ -1,4 +1,5 @@
 ---
+title: "Docker Compose"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
@@ -16,7 +17,6 @@ Cómo orquestar múltiples contenedores declarativamente con `docker-compose.yam
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 913
 
----
 
 ## El Problema: Múltiples Contenedores
 
@@ -101,7 +101,6 @@ volumes:
 - ✅ Fácil de versionar (git)
 - ✅ Portable
 
----
 
 ## Estructura Básica del `compose.yaml`
 
@@ -135,7 +134,6 @@ networks:                   # Redes personalizadas
     driver: bridge
 ```
 
----
 
 ## Secciones Principales
 
@@ -211,7 +209,6 @@ services:
       - app-net
 ```
 
----
 
 ## Comandos Docker Compose
 
@@ -317,7 +314,6 @@ docker compose build api
 docker compose build --no-cache
 ```
 
----
 
 ## Variables de Entorno y Parámetros
 
@@ -366,7 +362,6 @@ services:
       - .env.local
 ```
 
----
 
 ## Casos de Uso Prácticos
 
@@ -477,7 +472,6 @@ volumes:
   redis-data:
 ```
 
----
 
 ## Dependencias: `depends_on`
 
@@ -514,7 +508,6 @@ services:
         condition: service_healthy
 ```
 
----
 
 ## Build desde Dockerfile
 
@@ -540,7 +533,6 @@ services:
         NODE_ENV: ${APP_ENV}
 ```
 
----
 
 ## Restart Policies
 
@@ -552,7 +544,6 @@ restart: on-failure:3        # Max 3 intentos
 restart: no                  # No reiniciar
 ```
 
----
 
 ## Conceptos Clave
 
@@ -565,7 +556,6 @@ restart: no                  # No reiniciar
 7. **Variables:** Configuración externa (.env)
 8. **Ciclo de vida:** up, ps, logs, exec, down
 
----
 
 ## Flujo Típico
 
@@ -587,7 +577,6 @@ docker compose up -d --build
 docker compose down -v
 ```
 
----
 
 ## Relaciones
 
@@ -602,7 +591,6 @@ docker compose down -v
 - Orquestación de múltiples contenedores
 - Infrastructure as Code declarativo
 
----
 
 ## Fuentes
 

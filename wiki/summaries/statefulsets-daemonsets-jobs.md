@@ -1,4 +1,5 @@
 ---
+title: "Otras Cargas de Trabajo: StatefulSets, DaemonSets, Jobs"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
@@ -14,7 +15,6 @@ Más allá de Deployments: StatefulSets para DBs con identidad (MySQL cluster), 
 - **Fuente:** Curso Kubernetes - Módulo 9
 - **URL GitHub:** https://github.com/iesgn/curso_kubernetes_cep/tree/main/modulo9
 
----
 
 ## El Problema: ¿Deployment para Todo?
 
@@ -31,7 +31,6 @@ Casos que NO funcionan bien:
 
 **Soluciones:** StatefulSet, DaemonSet, Job, CronJob
 
----
 
 ## StatefulSet: Aplicaciones con Estado
 
@@ -92,7 +91,6 @@ No importa identidad Importa identidad
 - Redis cluster
 - Kafka brokers
 
----
 
 ## DaemonSet: Un Pod por Nodo
 
@@ -145,7 +143,6 @@ Nodo se elimina: Automáticamente elimina Pod
 - Device plugins (GPU drivers)
 - Security agents (Falco)
 
----
 
 ## Job: Tarea que Corre Una Vez
 
@@ -207,7 +204,6 @@ kubectl delete job backup-db
 - Migraciones
 - Limpieza de datos
 
----
 
 ## CronJob: Job Periódico
 
@@ -271,7 +267,6 @@ kubectl edit cronjob daily-backup
 kubectl create job manual-backup --from=cronjob/daily-backup
 ```
 
----
 
 ## Comparativa: Cuándo Usar Cada Uno
 
@@ -283,7 +278,6 @@ kubectl create job manual-backup --from=cronjob/daily-backup
  **Job**  ❌  ❌  ❌  Tareas únicas (backup, migrate) 
  **CronJob**  ❌  ❌  ✅  Tareas periódicas (cron) 
 
----
 
 ## Relaciones
 
@@ -294,7 +288,6 @@ kubectl create job manual-backup --from=cronjob/daily-backup
 ### Parte de
 - Cargas de trabajo de Kubernetes — Todas las cargas de trabajo
 
----
 
 ## Flujo de Aprendizaje
 
@@ -307,7 +300,6 @@ Jobs (tareas únicas)
 CronJobs (tareas periódicas) ← Estás aquí
 ```
 
----
 
 ## Fuentes
 

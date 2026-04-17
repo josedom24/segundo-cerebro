@@ -1,4 +1,5 @@
 ---
+title: "Docker Desktop"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
@@ -16,7 +17,6 @@ Interfaz gráfica de Docker Desktop para gestionar contenedores, imágenes, vol�
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 294
 
----
 
 ## Dashboard Principal
 
@@ -58,7 +58,6 @@ Docker Desktop proporciona un **Docker Dashboard** gráfico que reemplaza comand
 - Dev Environments (entornos de desarrollo)
 - Docker Scout (análisis de vulnerabilidades)
 
----
 
 ## Gestión de Contenedores
 
@@ -112,7 +111,6 @@ Al hacer click en nombre del contenedor:
  **Files**  Explorador con cambios marcados 
  **Stats**  Gráficas de CPU, RAM, disco, red 
 
----
 
 ## Gestión de Imágenes
 
@@ -165,7 +163,6 @@ Al hacer click en imagen:
  **Vulnerabilidades**  CVEs encontrados en paquetes 
  **Paquetes**  Lista de paquetes instalados 
 
----
 
 ## Gestión de Construcciones (Builds)
 
@@ -203,7 +200,6 @@ Interfaz para inspeccionar historial y construcciones en curso.
 - Estadísticas de construcciones completadas
 - Gráficas de duración, pasos, caché
 
----
 
 ## Gestión de Volúmenes
 
@@ -225,7 +221,6 @@ Al click en nombre:
 
 Opción simple para crear nuevo volumen indicando nombre.
 
----
 
 ## Extensiones
 
@@ -273,7 +268,6 @@ Funcionalidad:
 - Clonar, vaciar o eliminar volumen
 ```
 
----
 
 ## Panel de Búsqueda
 
@@ -289,7 +283,6 @@ Búsqueda unificada (Cmd+K o Ctrl+K):
 
 **Acciones sin dejar búsqueda:** Filtrar, ejecutar, navegar
 
----
 
 ## Menú Docker (Barra de Notificaciones)
 
@@ -312,7 +305,6 @@ Acceso rápido desde icono en barra de notificaciones:
 - Salir
 ```
 
----
 
 ## Flujo Típico en Docker Desktop
 
@@ -330,7 +322,6 @@ Acceso rápido desde icono en barra de notificaciones:
 6. View packages/CVEs para seguridad
 ```
 
----
 
 ## Ventajas de Docker Desktop vs CLI
 
@@ -346,7 +337,6 @@ Acceso rápido desde icono en barra de notificaciones:
 
 **Conclusión:** Desktop es ideal para desarrollo y debugging. CLI es mejor para automatización y producción.
 
----
 
 ## Relaciones
 
@@ -357,7 +347,6 @@ Acceso rápido desde icono en barra de notificaciones:
 - [[volumenes-bind-mounts|Volúmenes y Bind Mounts]] — Gestión de volúmenes
 - [[dockerfile-y-construccion|Dockerfile y Construcción]] — Vista de builds
 
----
 
 ## Conceptos Clave
 
@@ -369,7 +358,6 @@ Acceso rápido desde icono en barra de notificaciones:
 6. **Debugging mejorado:** Terminal, archivos, stats accesibles visualmente
 7. **Portabilidad:** Windows/Mac/Linux con interfaz consistente
 
----
 
 ## Fuentes
 

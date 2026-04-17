@@ -1,4 +1,5 @@
 ---
+title: "Conceptos Avanzados de Virtualización en KVM"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -16,7 +17,6 @@ Virtualización avanzada: aislamiento seguridad multinivel, benchmarking sin afe
 - **URL GitHub:** https://github.com/josedom24/curso_kvm_ow
 - **Líneas de contenido:** 200+
 
----
 
 ## Definición de Virtualización Avanzada
 
@@ -49,7 +49,6 @@ Virtualización avanzada: aislamiento seguridad multinivel, benchmarking sin afe
    → Multitenancy seguro
 ```
 
----
 
 ## Ventajas de Virtualización
 
@@ -80,7 +79,6 @@ Virtualización avanzada: aislamiento seguridad multinivel, benchmarking sin afe
    → Monitoreo centralizado
 ```
 
----
 
 ## Desventajas de Virtualización
 
@@ -101,7 +99,6 @@ Virtualización avanzada: aislamiento seguridad multinivel, benchmarking sin afe
    → Compatibilidad varïa
 ```
 
----
 
 ## Conceptos Clave Avanzados
 
@@ -143,7 +140,6 @@ Discos virtuales optimizados
   → Snapshots para recuperación
 ```
 
----
 
 ## Casos de Uso Específicos
 
@@ -217,7 +213,6 @@ Multitenancy seguro:
   → Autoscaling transparente
 ```
 
----
 
 ## Comparativa: Virtualización vs Contenedores
 
@@ -230,7 +225,6 @@ Multitenancy seguro:
  **Casos**  Producción legacy  Cloud-native, dev 
  **Seguridad**  Multi-layer  Kernel es límite 
 
----
 
 ## Arquitectura Completa: Virtualización en Producción
 
@@ -253,7 +247,6 @@ Ventajas:
   ✅ Escalabilidad horizontal
 ```
 
----
 
 ## KVM vs Otras Soluciones
 
@@ -266,7 +259,6 @@ Ventajas:
  **VirtualBox**  Tipo 2  10-20%  ✅ Sí  Desarrollo 
  **QEMU puro**  Tipo 2  30-50%  ✅ Sí  Emulación arch 
 
----
 
 ## Relaciones
 
@@ -277,7 +269,6 @@ Ventajas:
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización avanzada
 
----
 
 ## Fuentes
 

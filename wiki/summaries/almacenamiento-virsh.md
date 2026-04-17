@@ -1,4 +1,5 @@
 ---
+title: "Almacenamiento en KVM/libvirt con virsh"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ Almacenamiento avanzado con virsh: pool types (dir/disk/logical/nfs/zfs), qemu-i
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm2/
 - **Líneas de contenido:** 350+
 
----
 
 ## Pools de Almacenamiento Avanzados
 
@@ -79,7 +79,6 @@ virsh pool-stop vm-images
 virsh pool-undefine vm-images
 ```
 
----
 
 ## Gestión de Volúmenes con virsh
 
@@ -120,7 +119,6 @@ sudo parted /dev/vda
 sudo resize2fs /dev/vda1
 ```
 
----
 
 ## Gestión Avanzada con qemu-img
 
@@ -206,7 +204,6 @@ qemu-img convert -f qcow2 -O qcow2 -c disco.qcow2 disco-compressed.qcow2
 # Resultado: archivo más pequeño
 ```
 
----
 
 ## Storage Pools Especializados
 
@@ -264,7 +261,6 @@ virsh pool-define-as nfs-vms nfs \
 #  - Latencia NFS
 ```
 
----
 
 ## Workflow Típico: Pool Múltiples
 
@@ -295,7 +291,6 @@ virsh pool-list
 #  iso-images    active   yes
 ```
 
----
 
 ## Performance: Formato QCOW2 vs Raw
 
@@ -317,7 +312,6 @@ Decisión:
   → Balance: QCOW2 con backing images
 ```
 
----
 
 ## Troubleshooting Almacenamiento
 
@@ -357,7 +351,6 @@ virsh pool-info vm-images  # ver target
 # Luego expandir filesystem del pool
 ```
 
----
 
 ## Relaciones
 
@@ -368,7 +361,6 @@ virsh pool-info vm-images  # ver target
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización
 
----
 
 ## Fuentes
 

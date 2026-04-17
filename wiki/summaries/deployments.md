@@ -1,4 +1,5 @@
 ---
+title: "Deployments: Ciclo de Vida Completo"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
@@ -14,7 +15,6 @@ Deployment es el nivel superior: gestiona ReplicaSets, permite actualizaciones s
 - **Fuente:** Curso Kubernetes - Módulo 5
 - **URL GitHub:** https://github.com/iesgn/curso_kubernetes_cep/tree/main/modulo5
 
----
 
 ## Problema: Actualizar sin Downtime
 
@@ -35,7 +35,6 @@ Con ReplicaSet:
 - ↩️ Rollback (volver a versión anterior)
 - ⏸️ Pausar/reanudar despliegues
 
----
 
 ## Concepto: Deployment
 
@@ -64,7 +63,6 @@ spec:
         image: nginx:1.20
 ```
 
----
 
 ## Ciclo de Vida: Rolling Update
 
@@ -102,7 +100,6 @@ Paso 6: Elimina 1 Pod nginx:1.20 (total: 3)
 ✅ Completado: Sin downtime, sin pérdida de tráfico
 ```
 
----
 
 ## Estrategias de Actualización
 
@@ -138,7 +135,6 @@ Paso 2: Crea nuevos Pods
 ❌ Downtime significativo
 ```
 
----
 
 ## Operaciones Comunes
 
@@ -222,7 +218,6 @@ kubectl rollout resume deployment/web-app
 kubectl delete deployment web-app
 ```
 
----
 
 ## Parámetros Importantes
 
@@ -261,7 +256,6 @@ strategy:
     maxUnavailable: 1   # Cuántos pueden estar sin servicio
 ```
 
----
 
 ## Casos de Uso
 
@@ -293,7 +287,6 @@ kubectl scale deployment web-app --replicas=5
 kubectl scale deployment web-app --replicas=2
 ```
 
----
 
 ## Relaciones
 
@@ -304,7 +297,6 @@ kubectl scale deployment web-app --replicas=2
 ### Parte de
 - Cargas de trabajo de Kubernetes — Principal carga de trabajo
 
----
 
 ## Flujo de Aprendizaje
 
@@ -318,7 +310,6 @@ Deployments (ciclo de vida completo) ← Estás aquí
 Services (acceso externo)
 ```
 
----
 
 ## Fuentes
 

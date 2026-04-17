@@ -1,4 +1,5 @@
 ---
+title: "CRC (CodeReady Containers) (Curso 1 - Módulo 3)"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]

@@ -1,4 +1,5 @@
 ---
+title: "Pods: Contenedores en Kubernetes"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
@@ -15,7 +16,6 @@ Pod es la unidad mínima en Kubernetes: envoltura que contiene uno o varios cont
 - **URL GitHub:** https://github.com/iesgn/curso_kubernetes_cep/tree/main/modulo3
 - **Líneas de contenido:** 400+
 
----
 
 ## Concepto: Pod
 
@@ -46,7 +46,6 @@ Pod = Envoltura de 1+ contenedores que:
  **Health checks**  Docker health  Readiness/Liveness 
  **Reinicio**  Política Docker  Política k8s 
 
----
 
 ## Características Clave
 
@@ -83,7 +82,6 @@ Pod:
         # Sin cambios en la definición
 ```
 
----
 
 ## Tipos de Pods
 
@@ -129,7 +127,6 @@ spec:
 - Sidecar containers (logging, monitoring)
 - **Nota:** Curso se enfoca en single-container
 
----
 
 ## Ciclo de Vida de un Pod
 
@@ -141,7 +138,6 @@ spec:
 5. Unknown     → Estado desconocido
 ```
 
----
 
 ## Conceptos: Health Checks
 
@@ -175,7 +171,6 @@ livenessProbe:
 
 **Caso:** Detectar deadlocks, aplicación colgada
 
----
 
 ## Gestión Básica de Pods
 
@@ -225,7 +220,6 @@ kubectl delete pod mi-pod
 kubectl delete pod mi-pod --grace-period=0 --force
 ```
 
----
 
 ## Manifest YAML: Definición Declarativa
 
@@ -262,7 +256,6 @@ spec:
 | `containers[].env[]` | Variables de entorno |
 | `containers[].volumeMounts[]` | Volúmenes montados |
 
----
 
 ## Limitaciones de Pods
 
@@ -275,7 +268,6 @@ spec:
 
 **Solución:** Usar [[replicasets|ReplicaSets]] y [[deployments|Deployments]]
 
----
 
 ## Relaciones
 
@@ -286,13 +278,11 @@ spec:
 ### Parte de
 - Cargas de trabajo de Kubernetes — Tipos de carga de trabajo
 
----
 
 ## Próximo Paso
 
 Pods son poderosos pero limitados. Siguiente: [[replicasets|Módulo 4: ReplicaSets]].
 
----
 
 ## Fuentes
 

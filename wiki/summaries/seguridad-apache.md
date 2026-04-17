@@ -1,4 +1,5 @@
 ---
+title: "Seguridad en Apache"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
@@ -16,7 +17,6 @@ Hardening Apache: mod_security2 (WAF), ocultación version, control de acceso, h
 - **Herramientas:** apache2ctl, awstats, logwatch
 - **URL:** https://plataforma.josedomingo.org/pledin/cursos/apache24/
 
----
 
 ## mod_security2 (Web Application Firewall)
 
@@ -86,7 +86,6 @@ SecRule REQUEST_METHOD "@streq POST" \
 # - REQUEST-942-APPLICATION-ATTACK-SQLI.conf
 ```
 
----
 
 ## Ocultación Información Servidor
 
@@ -111,7 +110,6 @@ ServerSignature Off            # No mostrar version en error pages
 # Server: Apache
 ```
 
----
 
 ## Control de Acceso Fuerte
 
@@ -135,7 +133,6 @@ ServerSignature Off            # No mostrar version en error pages
 </FilesMatch>
 ```
 
----
 
 ## Headers de Seguridad
 
@@ -163,7 +160,6 @@ Adicionar headers HTTPS para protección navegador:
 </IfModule>
 ```
 
----
 
 ## Permisos Ficheros
 
@@ -188,7 +184,6 @@ chmod 600 /etc/apache2/.htpasswd
 chmod 600 /etc/ssl/private/server.key
 ```
 
----
 
 ## Desabilitar Características Innecesarias
 
@@ -214,7 +209,6 @@ chmod 600 /etc/ssl/private/server.key
 </Directory>
 ```
 
----
 
 ## Logging Seguro
 
@@ -246,7 +240,6 @@ LogLevel warn
 }
 ```
 
----
 
 ## Monitoreo
 
@@ -265,7 +258,6 @@ grep "403" /var/log/apache2/access.log
 awk '$9 == 404 {print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -rn | head -10
 ```
 
----
 
 ## Checklist de Seguridad
 
@@ -286,7 +278,6 @@ awk '$9 == 404 {print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -
 □ Antivirus/WAF activos
 ```
 
----
 
 ## Relaciones
 
@@ -297,7 +288,6 @@ awk '$9 == 404 {print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -
 - [[autenticacion-apache|Autenticación]] — Control acceso
 - linux — Permisos ficheros, monitoreo
 
----
 
 ## Fuentes
 

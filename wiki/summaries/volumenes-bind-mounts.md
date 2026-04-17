@@ -1,4 +1,5 @@
 ---
+title: "Almacenamiento"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
@@ -16,7 +17,6 @@ Cómo persistir datos en contenedores efímeros usando volúmenes Docker, bind m
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 480
 
----
 
 ## El Problema: Contenedores Efímeros
 
@@ -30,7 +30,6 @@ Todos los cambios perdidos ❌
 
 **Solución:** Almacenamiento persistente fuera del contenedor.
 
----
 
 ## 3 Tipos de Almacenamiento en Docker
 
@@ -135,7 +134,6 @@ docker run --mount type=tmpfs,destination=/datos,tmpfs-size=100m ubuntu
 - Scratchpad de trabajo
 - Seguridad (no dejar rastro)
 
----
 
 ## Sintaxis: `-v` vs `--mount`
 
@@ -187,7 +185,6 @@ docker run --mount type=tmpfs,destination=/datos ubuntu
 - ✅ Menos propenso a errores
 - ✅ Mejor para scripts
 
----
 
 ## Comandos de Gestión de Volúmenes
 
@@ -211,7 +208,6 @@ docker volume prune
 docker system df
 ```
 
----
 
 ## Propagación de Contenido
 
@@ -253,7 +249,6 @@ Contenedor solo ve:
 
 **Conclusión:** El montaje oculta el contenido original del contenedor.
 
----
 
 ## Qué Persistir: Buenas Prácticas
 
@@ -278,7 +273,6 @@ Contenedor solo ve:
 - Dependencias (go en imagen)
 - Sistema operativo (va en imagen)
 
----
 
 ## Casos de Uso Prácticos
 
@@ -347,7 +341,6 @@ docker run -d \
 # Al parar contenedor, secrets desaparecen de disco ✅
 ```
 
----
 
 ## Conceptos Clave
 
@@ -360,7 +353,6 @@ docker run -d \
 7. **Docker gestiona:** Volúmenes (él los crea/elimina)
 8. **Host gestiona:** Bind mounts (directorios existentes)
 
----
 
 ## Relaciones
 
@@ -373,7 +365,6 @@ docker run -d \
 - Persistencia de datos — Almacenamiento persistente
 - Ciclo de vida de contenedores — Estado de contenedores
 
----
 
 ## Flujo Típico
 
@@ -386,7 +377,6 @@ docker run -d \
 6. Otro contenedor puede leer mismo volumen
 ```
 
----
 
 ## Fuentes
 

@@ -1,4 +1,5 @@
 ---
+title: "Instalación de Proxmox VE"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
@@ -16,7 +17,6 @@ Descarga, instalación en servidor o VM anidada, configuración de almacenamient
 - **Duración:** 2 horas teoría + 2 horas actividad (instalación)
 - **Semana:** Semana 2
 
----
 
 ## Escenarios de Instalación
 
@@ -47,7 +47,6 @@ Servidor Proxmox ←→ NAS/SAN (almacenamiento compartido)
 ```
 **Uso:** Alta disponibilidad, migración en vivo, escalabilidad
 
----
 
 ## Requisitos de Sistema
 
@@ -62,7 +61,6 @@ Servidor Proxmox ←→ NAS/SAN (almacenamiento compartido)
 - CPU del host: VT-x (Intel) o AMD-V (AMD) activado
 - RAM disponible: 8+ GB
 
----
 
 ## Proceso de Instalación
 
@@ -90,7 +88,6 @@ Servidor Proxmox ←→ NAS/SAN (almacenamiento compartido)
 8. Esperar instalación (5-10 minutos)
 9. Reinicio automático
 
----
 
 ## Estructura de GUI
 
@@ -131,7 +128,6 @@ PANEL DE LOG (Abajo)
 └── Historial
 ```
 
----
 
 ## Estructura del Clúster (Proxmox)
 
@@ -158,7 +154,6 @@ PANEL DE LOG (Abajo)
 - **Interfaces físicas:** Conectadas a vmbr0
 - **Contenedores/VMs:** Conectados a bridges
 
----
 
 ## Almacenamiento por Defecto
 
@@ -183,7 +178,6 @@ Características:
   - Thin provisioning (ocupa según uso)
 ```
 
----
 
 ## Configuración de Red Predeterminada
 
@@ -195,7 +189,6 @@ enp1s0 (interfaz física) ─→ vmbr0 (Linux Bridge)
 
 **Red por defecto:** 192.168.x.x (DHCP o configurada durante instalación)
 
----
 
 ## Acceso a la GUI
 
@@ -210,7 +203,6 @@ enp1s0 (interfaz física) ─→ vmbr0 (Linux Bridge)
 
 **Nota:** SSL auto-firmado, navegador mostrará advertencia de seguridad
 
----
 
 ## Relaciones
 
@@ -221,13 +213,11 @@ enp1s0 (interfaz física) ─→ vmbr0 (Linux Bridge)
 ### Parte de
 - Proceso de preparación de Proxmox
 
----
 
 ## Próximo Paso
 
 Creación de máquinas virtuales Linux y Windows con configuración correcta de dispositivos (VirtIO).
 
----
 
 ## Fuentes
 - [Curso Proxmox VE - Módulo 2 (GitHub)](https://github.com/iesgn/curso_proxmox_cep)

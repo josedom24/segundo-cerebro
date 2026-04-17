@@ -1,4 +1,5 @@
 ---
+title: "Redes en KVM/libvirt"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ Redes libvirt: virtuales privadas (NAT, aisladas, muy aisladas) con bridge/DHCP/
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm1/
 - **Líneas de contenido:** 320+
 
----
 
 ## Conceptos Básicos
 
@@ -44,7 +44,6 @@ Gateway: 192.168.122.1 (host)
 Bridge: vmbr0
 ```
 
----
 
 ## Redes Virtuales (Privadas)
 
@@ -156,7 +155,6 @@ Bridge: vmbr0
 🔵 Testing de segregación
 ```
 
----
 
 ## Redes Puente (Públicas)
 
@@ -245,7 +243,6 @@ Bridge: vmbr0
    (diferente a bridge donde host es parte del bridge)
 ```
 
----
 
 ## Configuración en virt-manager
 
@@ -282,7 +279,6 @@ Detalles VM → Interfaces de red
   → Aplicar
 ```
 
----
 
 ## Tabla Comparativa de Redes
 
@@ -294,7 +290,6 @@ Detalles VM → Interfaces de red
  Bridge Ext  Pública  SÍ  Sí (router)  SÍ  Producción 
  Macvtap  Pública  SÍ  Sí (router)  NO  Performance 
 
----
 
 ## Mejores Prácticas
 
@@ -306,7 +301,6 @@ Detalles VM → Interfaces de red
 ✅ Documentar: Qué red para qué propósito
 ```
 
----
 
 ## Relaciones
 
@@ -317,7 +311,6 @@ Detalles VM → Interfaces de red
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización
 
----
 
 ## Fuentes
 

@@ -1,4 +1,5 @@
 ---
+title: "Seguridad en Podman"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
@@ -13,7 +14,6 @@ Seguridad Podman: rootless nativo, SELinux/AppArmor, aislamiento de usuarios, me
 ## Información
 - **Fuente:** Curso Podman 2024 - Módulos 9-10
 
----
 
 ## Rootless: La Mejor Defensa
 
@@ -25,7 +25,6 @@ podman run myapp
 # Máximo daño: tu usuario, no sistema ✅
 ```
 
----
 
 ## SELinux y AppArmor
 
@@ -46,7 +45,6 @@ podman run myapp  # Ejecuta con contexto SELinux
 podman run myapp
 ```
 
----
 
 ## Mejores Prácticas
 
@@ -89,7 +87,6 @@ podman pull random-registry.com/random-image
 podman run --read-only myapp
 ```
 
----
 
 ## Limitaciones Rootless
 
@@ -99,14 +96,12 @@ podman run --read-only myapp
 
 **But:** Worth it for security
 
----
 
 ## Relaciones
 
 ### Conecta con
 - [[introduccion-podman|Introducción]] — Seguridad
 
----
 
 ## Fuentes
 

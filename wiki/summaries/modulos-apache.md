@@ -1,4 +1,5 @@
 ---
+title: "Módulos en Apache"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
@@ -16,7 +17,6 @@ Arquitectura modular Apache: a2enmod/a2dismod, módulos clave (mod_userdir, mod_
 - **Herramienta:** a2enmod / a2dismod
 - **URL:** https://plataforma.josedomingo.org/pledin/cursos/apache24/
 
----
 
 ## Gestión de Módulos
 
@@ -61,7 +61,6 @@ apache2ctl -M
 ls /etc/apache2/mods-available/
 ```
 
----
 
 ## Módulos Clave
 
@@ -96,7 +95,6 @@ echo "<h1>Web Juan</h1>" > ~/public_html/index.html
 # Acceder: http://servidor/~juan/
 ```
 
----
 
 ### mod_dav (WebDAV)
 
@@ -128,7 +126,6 @@ mount -t davfs http://servidor/webdav /mnt/webdav
 Ctrl+L → davs://servidor/webdav
 ```
 
----
 
 ### mod_rewrite
 
@@ -160,7 +157,6 @@ a2enmod rewrite
 - `[R]` = Redirect (301, 302, 303, 307)
 - `[NC]` = No case (insensible mayúsculas)
 
----
 
 ## Módulos de Multiprocesamiento (MPM)
 
@@ -243,7 +239,6 @@ a2enmod mpm_worker
 systemctl restart apache2
 ```
 
----
 
 ## Módulos Útiles Adicionales
 
@@ -257,7 +252,6 @@ systemctl restart apache2
 | mod_expires | Cache control |
 | mod_deflate | Compresión gzip |
 
----
 
 ## Casos de Uso
 
@@ -275,7 +269,6 @@ a2enmod dav dav_fs rewrite
 systemctl restart apache2
 ```
 
----
 
 ## Relaciones
 
@@ -286,7 +279,6 @@ systemctl restart apache2
 - [[https-apache|HTTPS]] — mod_ssl
 - [[seguridad-apache|Seguridad]] — mod_security2
 
----
 
 ## Fuentes
 

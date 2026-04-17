@@ -1,4 +1,5 @@
 ---
+title: "Otros Recursos para Manejar Aplicaciones (Curso 1 - Módulo 8)"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]

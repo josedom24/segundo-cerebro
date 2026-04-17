@@ -1,4 +1,5 @@
 ---
+title: "Despliegue de Aplicaciones en OpenShift v4 (Curso 2 - Módulo 2)"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]

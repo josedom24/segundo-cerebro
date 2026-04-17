@@ -1,4 +1,5 @@
 ---
+title: "ImageStreams: Gestión de Imágenes (Curso 2 - Módulo 3)"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]

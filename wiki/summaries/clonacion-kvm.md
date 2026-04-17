@@ -1,4 +1,5 @@
 ---
+title: "Clonación de Máquinas Virtuales en KVM"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ Clonación en virt-manager: clonación completa copia XML y discos con cambios a
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm1/
 - **Líneas de contenido:** 250+
 
----
 
 ## Clonación Completa (Full Clone)
 
@@ -72,7 +72,6 @@ VM Clonada (debian-server-clon)
 ❌ Tarda más tiempo en crear
 ```
 
----
 
 ## Clonación sin Disco (Linked Clone)
 
@@ -113,7 +112,6 @@ VM Clonada (debian-server-clon)
 ❌ NO recomendado para uso normal
 ```
 
----
 
 ## Problemas de Identidad en Clones
 
@@ -178,7 +176,6 @@ Algunos entornos usan **cloud-init** o **sysprep** para automatizar:
 
 Pero no se cubren en este módulo
 
----
 
 ## Estrategia de Clonación
 
@@ -212,7 +209,6 @@ Pero no se cubren en este módulo
    - Cloud-init scripts
 ```
 
----
 
 ## Casos Prácticos
 
@@ -238,7 +234,6 @@ Pero no se cubren en este módulo
    → Corrupción garantizada ❌
 ```
 
----
 
 ## Relaciones
 
@@ -250,7 +245,6 @@ Pero no se cubren en este módulo
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización
 
----
 
 ## Fuentes
 

@@ -1,4 +1,5 @@
 ---
+title: "Almacenamiento en OpenShift v4 (Curso 1 - Módulo 7)"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s_curso]
@@ -78,7 +79,6 @@ provisioner: kubernetes.io/aws-ebs
 parameters:
   type: gp2
   iops: "3000"
----
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:

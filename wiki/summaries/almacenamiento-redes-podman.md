@@ -1,4 +1,5 @@
 ---
+title: "Almacenamiento y Redes en Podman"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
@@ -13,7 +14,6 @@ Volúmenes, bind mounts y redes en Podman: muy similar a Docker pero con soporte
 ## Información
 - **Fuente:** Curso Podman 2024 - Módulo 4
 
----
 
 ## Almacenamiento
 
@@ -36,7 +36,6 @@ Limitaciones en rootless:
 - ✅ vfs funciona (menos eficiente)
 - ✅ fuse-overlayfs es alternativa
 
----
 
 ## Redes
 
@@ -74,7 +73,6 @@ Red especial para rootless (user-mode networking):
 podman run --net slirp4netns nginx
 ```
 
----
 
 ## Comparativa: Docker vs Podman
 
@@ -86,7 +84,6 @@ Esencialmente idéntico en:
 
 **Diferencia:** Podman maneja mejor rootless automáticamente
 
----
 
 ## Relaciones
 
@@ -94,7 +91,6 @@ Esencialmente idéntico en:
 - [[ejecucion-contenedores-podman|Ejecución]]
 - [[imagenes-podman|Imágenes]]
 
----
 
 ## Fuentes
 

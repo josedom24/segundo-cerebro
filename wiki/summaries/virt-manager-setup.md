@@ -1,4 +1,5 @@
 ---
+title: "Instalación y Configuración de virt-manager"
 created: 2026-04-15
 updated: 2026-04-17
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ virt-manager es la interfaz gráfica de libvirt para KVM; se instala con depende
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm1/
 - **Líneas de contenido:** 300+
 
----
 
 ## Hardware y Requisitos Previos
 
@@ -46,7 +46,6 @@ egrep 'svmvmx' /proc/cpuinfo --color
 - Linux con GUI: 1-2 GB
 - Windows: 2 GB mínimo
 
----
 
 ## Instalación de virt-manager
 
@@ -61,7 +60,6 @@ sudo usermod -aG libvirt $USER
 sudo reboot
 ```
 
----
 
 ## Configuración Inicial de virt-manager
 
@@ -77,7 +75,6 @@ Menú: **Archivo → Añadir conexión...**
 
 O ver detalles: **Editar → Detalles de la conexión** o click derecho en QEMU/KVM → **Detalles**
 
----
 
 ## Gestión de Redes Virtuales
 
@@ -100,7 +97,6 @@ En **Detalles de la conexión → Redes disponibles**:
 - Crear/eliminar/modificar redes
 - Activar/desactivar redes
 
----
 
 ## Gestión de Almacenamiento
 
@@ -134,7 +130,6 @@ Grupos pueden corresponder a:
 - GlusterFS (distribuido)
 - LVM, iSCSI, ZFS (bloque)
 
----
 
 ## Interfaz Principal de virt-manager
 
@@ -160,7 +155,6 @@ Grupos pueden corresponder a:
 - Gestionar redes: Detalles conexión → Redes
 - Gestionar almacenamiento: Detalles conexión → Almacenamiento
 
----
 
 ## Alternativas: Automatización con Vagrant
 
@@ -211,7 +205,6 @@ vagrant up  # VM con Nginx lista en <1 minuto
 - [[vagrant-libvirt-configuracion|Vagrant + libvirt: Configuración Completa]]
 - [[vagrant-creacion-boxes|Creación de Custom Boxes Vagrant]]
 
----
 
 ## Relaciones
 
@@ -225,7 +218,6 @@ vagrant up  # VM con Nginx lista en <1 minuto
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización
 
----
 
 ## Fuentes
 

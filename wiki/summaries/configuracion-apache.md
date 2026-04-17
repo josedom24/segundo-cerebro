@@ -1,4 +1,5 @@
 ---
+title: "Configuración de Apache"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
@@ -15,7 +16,6 @@ Estructura de ficheros config en Apache: apache2.conf, directivas clave (Timeout
 - **Ficheros:** /etc/apache2/apache2.conf, *.conf en mods-enabled/ y sites-enabled/
 - **URL:** https://plataforma.josedomingo.org/pledin/cursos/apache24/
 
----
 
 ## Estructura de Ficheros de Configuración
 
@@ -47,7 +47,6 @@ IncludeOptional sites-enabled/*.conf    # Sitios virtuales
 /var/log/apache2/              # Logs (access.log, error.log)
 ```
 
----
 
 ## Directivas de Control
 
@@ -87,7 +86,6 @@ CustomLog /var/log/apache2/access.log common
 ErrorLog /var/log/apache2/error.log
 ```
 
----
 
 ## Contextos de Configuración
 
@@ -131,7 +129,6 @@ Directivas aplican a contextos específicos:
 </VirtualHost>
 ```
 
----
 
 ## Opciones de Directorio
 
@@ -158,7 +155,6 @@ Activar/desactivar con `+`/`-`:
 </Directory>
 ```
 
----
 
 ## AllowOverride
 
@@ -169,7 +165,6 @@ AllowOverride Indexes      # .htaccess solo para Indexes
 AllowOverride AuthConfig   # .htaccess para autenticación
 ```
 
----
 
 ## Comprobación de Sintaxis
 
@@ -183,7 +178,6 @@ apache2ctl -S
 # Muestra VirtualHosts, ports, documentroots
 ```
 
----
 
 ## Relaciones
 
@@ -194,7 +188,6 @@ apache2ctl -S
 - [[directorios-urls-apache|Directorios y URLs]] — Directivas Directory avanzadas
 - [[autenticacion-apache|Autenticación]] — Contextos con Require
 
----
 
 ## Fuentes
 

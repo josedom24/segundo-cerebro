@@ -1,4 +1,5 @@
 ---
+title: "Almacenamiento en Kubernetes"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
@@ -14,7 +15,6 @@ PersistentVolume y PersistentVolumeClaim permitendatos persistentes más allá d
 - **Fuente:** Curso Kubernetes - Módulo 8
 - **URL GitHub:** https://github.com/iesgn/curso_kubernetes_cep/tree/main/modulo8
 
----
 
 ## Problema: Datos Efímeros
 
@@ -29,7 +29,6 @@ Pod muere → Todos los datos desaparecen ❌
 
 **Solución:** Storage persistente
 
----
 
 ## Conceptos
 
@@ -81,7 +80,6 @@ spec:
 5. Datos persisten más allá del Pod
 ```
 
----
 
 ## Access Modes (Modos de Acceso)
 
@@ -91,7 +89,6 @@ spec:
  `ReadOnlyMany`  Muchos nodos, solo lectura 
  `ReadWriteMany`  Muchos nodos, lectura/escritura 
 
----
 
 ## Aprovisionamiento
 
@@ -147,7 +144,6 @@ Kubernetes automáticamente:
 2. Crea PV
 3. Vincula PV ↔ PVC
 
----
 
 ## Uso en Deployment
 
@@ -171,7 +167,6 @@ spec:
           claimName: mysql-pvc
 ```
 
----
 
 ## Operaciones
 
@@ -192,7 +187,6 @@ kubectl describe pvc mysql-pvc
 kubectl delete pvc mysql-pvc
 ```
 
----
 
 ## Ciclos de Vida de Reclamación
 
@@ -203,7 +197,6 @@ Recycle:     Datos se borran automáticamente
 Delete:      Almacenamiento en cloud se elimina
 ```
 
----
 
 ## Tipos de Storage
 
@@ -215,7 +208,6 @@ Delete:      Almacenamiento en cloud se elimina
  **GCP Disk**  Nativo cloud  Vendor lock-in 
  **local**  Rápido  No portable 
 
----
 
 ## Caso de Uso: WordPress + MariaDB
 
@@ -229,7 +221,6 @@ spec:
   resources:
     requests:
       storage: 10Gi
----
 # PVC para WordPress
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -239,7 +230,6 @@ spec:
   resources:
     requests:
       storage: 5Gi
----
 # Deployment MariaDB con storage
 apiVersion: apps/v1
 kind: Deployment
@@ -260,7 +250,6 @@ spec:
           claimName: mariadb-pvc
 ```
 
----
 
 ## Relaciones
 
@@ -271,7 +260,6 @@ spec:
 ### Parte de
 - Almacenamiento en Kubernetes — Soluciones de almacenamiento
 
----
 
 ## Fuentes
 

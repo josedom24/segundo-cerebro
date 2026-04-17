@@ -1,4 +1,5 @@
 ---
+title: "Introducción a la Virtualización con Proxmox VE"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
@@ -17,7 +18,6 @@ Conceptos de virtualización, tipos de hipervisores (KVM, LXC), y cómo Proxmox 
 - **Duración:** 2 horas teoría + 30 minutos actividad
 - **Semana:** Semana 1
 
----
 
 ## Definición: Virtualización
 
@@ -29,7 +29,6 @@ Permite:
 - Optimizar uso de recursos hardware
 - Migración en vivo entre servidores
 
----
 
 ## Tipos de Virtualización
 
@@ -56,7 +55,6 @@ Permite:
 - Bajo overhead
 - Ejemplo: Docker, LXC, Podman
 
----
 
 ## Conceptos Clave
 
@@ -74,7 +72,6 @@ Permite:
 - **AMD-V:** Extensiones AMD para virtualización
 - **Requerido** para buen rendimiento en KVM
 
----
 
 ## Ventajas de Virtualización
 
@@ -84,7 +81,6 @@ Permite:
 ✅ **Migración en vivo:** Mover VMs entre servidores  
 ✅ **Eficiencia energética:** Consolidación de servidores  
 
----
 
 ## Desventajas
 
@@ -92,7 +88,6 @@ Permite:
 ❌ **Overhead:** Rendimiento ~5-10% inferior a nativo  
 ❌ **Complejidad:** Requiere configuración y gestión  
 
----
 
 ## Proxmox VE: Solución de Virtualización
 
@@ -123,7 +118,6 @@ Proxmox VE (Hypervisor Manager)
 - CLI completa
 - API REST disponible
 
----
 
 ## Casos de Uso Educativos
 
@@ -135,7 +129,6 @@ Proxmox VE (Hypervisor Manager)
 ✅ Consolidación de servidores
 ```
 
----
 
 ## Relaciones
 
@@ -151,13 +144,11 @@ Proxmox VE (Hypervisor Manager)
 ### Parte de
 - Soluciones de virtualización para datacenters
 
----
 
 ## Próximo Paso
 
 Instalación de Proxmox VE en servidor o VM anidada con preparación de laboratorio.
 
----
 
 ## Fuentes
 - [Curso Proxmox VE - Módulo 1 (GitHub)](https://github.com/iesgn/curso_proxmox_cep)

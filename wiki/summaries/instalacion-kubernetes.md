@@ -1,4 +1,5 @@
 ---
+title: "Instalación de Kubernetes"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
@@ -15,7 +16,6 @@ Alternativas para instalar Kubernetes localmente: minikube (recomendado para apr
 - **URL GitHub:** https://github.com/iesgn/curso_kubernetes_cep/tree/main/modulo2
 - **Líneas de contenido:** 400+
 
----
 
 ## Problema: Kubernetes en Desarrollo
 
@@ -37,7 +37,6 @@ Alternativas para instalar Kubernetes localmente: minikube (recomendado para apr
 
 ### Solución: Instalaciones Locales Simplificadas
 
----
 
 ## Alternativas de Instalación
 
@@ -172,7 +171,6 @@ Desventajas:
   - ❌ Vendor lock-in
 ```
 
----
 
 ## kubectl: Herramienta de Control
 
@@ -237,7 +235,6 @@ kubectl config get-contexts
 kubectl config use-context minikube
 ```
 
----
 
 ## Flujo Típico de Configuración
 
@@ -260,7 +257,6 @@ kubectl config use-context minikube
    kubectl run ...
 ```
 
----
 
 ## Despliegues Básicos en Kubernetes
 
@@ -282,7 +278,6 @@ kubectl port-forward svc/mi-app 8080:80
 # Luego: http://localhost:8080
 ```
 
----
 
 ## Comparativa Resumen
 
@@ -293,20 +288,17 @@ kubectl port-forward svc/mi-app 8080:80
  **kubeadm**  N  ⭐⭐⭐  ⭐⭐⭐⭐  ⭐⭐ 
  **k3s**  N  ⭐⭐⭐⭐  ⭐⭐⭐  ⭐⭐⭐⭐ 
 
----
 
 ## Relaciones
 
 ### Conecta con
 - [[introduccion-kubernetes|Introducción a Kubernetes]] — Conceptos antes de instalar
 
----
 
 ## Próximo Paso
 
 Una vez instalado, pasamos a [[pods-contenedores|Módulo 3: Pods]].
 
----
 
 ## Fuentes
 

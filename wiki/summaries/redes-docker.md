@@ -1,4 +1,5 @@
 ---
+title: "Redes en Docker"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
@@ -16,7 +17,6 @@ Cómo se comunican los contenedores entre sí y con el exterior: redes bridge, m
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 699
 
----
 
 ## Conceptos Fundamentales
 
@@ -39,7 +39,6 @@ Contenedores en la misma red pueden comunicarse
 Contenedores en redes diferentes necesitan exposición de puertos
 ```
 
----
 
 ## Red Bridge por Defecto
 
@@ -93,7 +92,6 @@ $ ip a
     master docker0
 ```
 
----
 
 ## Mapeamiento de Puertos: `-p`
 
@@ -145,7 +143,6 @@ PORTS: 0.0.0.0:8080->80/tcp
 docker inspect --format='{{.NetworkSettings.Ports}}' mi-contenedor
 ```
 
----
 
 ## NAT: SNAT y DNAT
 
@@ -192,7 +189,6 @@ sudo iptables -L -n -t nat
 # Ver todas las reglas NAT en el host
 ```
 
----
 
 ## Redes Bridge Definidas por el Usuario
 
@@ -243,7 +239,6 @@ docker network connect mi-red contenedor-existente
 docker network disconnect mi-red contenedor
 ```
 
----
 
 ## Resolución DNS
 
@@ -293,7 +288,6 @@ nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
 
----
 
 ## Tipos de Redes en Docker
 
@@ -332,7 +326,6 @@ docker run --network none nginx
 - Redes entre múltiples hosts
 - No cubierto en este módulo
 
----
 
 ## Casos de Uso Prácticos
 
@@ -397,7 +390,6 @@ docker run -d \
   nginx
 ```
 
----
 
 ## Conceptos Clave
 
@@ -410,7 +402,6 @@ docker run -d \
 7. **Resolución:** `contenedor-a` se resuelve a su IP automáticamente
 8. **iptables:** Docker configura DNAT/SNAT automáticamente
 
----
 
 ## Relaciones
 
@@ -420,7 +411,6 @@ docker run -d \
 - [[docker-compose|Docker Compose]] — Define redes declarativamente
 
 
----
 
 ## Flujo Típico
 
@@ -432,7 +422,6 @@ docker run -d \
 5. Contenedores internos: sin -p (aislados internamente)
 ```
 
----
 
 ## Fuentes
 

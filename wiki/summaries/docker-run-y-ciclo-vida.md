@@ -1,4 +1,5 @@
 ---
+title: "Ejecución de Contenedores"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
@@ -16,7 +17,6 @@ Cómo ejecutar, gestionar y controlar contenedores Docker: `docker run`, ciclo d
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 734
 
----
 
 ## Conceptos Fundamentales
 
@@ -169,7 +169,6 @@ docker inspect -s nombre                          # Incluir tamaño
 docker top nombre               # Ver procesos corriendo en contenedor
 ```
 
----
 
 ## Casos de Uso Prácticos
 
@@ -217,7 +216,6 @@ root@abc123:/# python --version
 # exit → contenedor se elimina (--rm)
 ```
 
----
 
 ## Conceptos Importantes
 
@@ -249,7 +247,6 @@ docker inspect nombre           # Información completa
 docker exec -it nombre bash     # Conectarse y debuguear
 ```
 
----
 
 ## Comandos Cheat Sheet
 
@@ -265,7 +262,6 @@ docker exec -it nombre bash     # Conectarse y debuguear
  `docker port`  Ver mapeamiento de puertos 
  `docker rm`  Eliminar contenedor 
 
----
 
 ## Relaciones
 
@@ -278,7 +274,6 @@ docker exec -it nombre bash     # Conectarse y debuguear
 - Ciclo de vida de contenedores — Gestión completa
 - Redes en Docker — Mapeamiento de puertos
 
----
 
 ## Ideas Clave del Módulo
 
@@ -291,7 +286,6 @@ docker exec -it nombre bash     # Conectarse y debuguear
 7. **docker logs -f** para debugging en tiempo real
 8. **docker inspect** para información detallada en JSON
 
----
 
 ## Fuentes
 

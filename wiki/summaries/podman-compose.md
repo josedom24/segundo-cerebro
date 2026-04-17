@@ -1,4 +1,5 @@
 ---
+title: "Escenarios Multicontenedor con podman-compose"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
@@ -13,7 +14,6 @@ podman-compose es equivalente a docker-compose: define múltiples contenedores e
 ## Información
 - **Fuente:** Curso Podman 2024 - Módulo 7
 
----
 
 ## Concepto
 
@@ -42,7 +42,6 @@ services:
 podman-compose up -d
 ```
 
----
 
 ## Sintaxis: compose.yaml
 
@@ -86,7 +85,6 @@ volumes:
   db-data:
 ```
 
----
 
 ## Comandos
 
@@ -107,7 +105,6 @@ podman-compose down
 podman-compose down -v  # También elimina volúmenes
 ```
 
----
 
 ## Casos de Uso
 
@@ -146,7 +143,6 @@ podman-compose up -d
 # WordPress disponible en http://localhost
 ```
 
----
 
 ## Rootless con podman-compose
 
@@ -157,7 +153,6 @@ podman-compose up -d
 # Nota: en rootless, puertos < 1024 necesitan workaround
 ```
 
----
 
 ## Relaciones
 
@@ -166,7 +161,6 @@ podman-compose up -d
 - [[almacenamiento-redes-podman|Almacenamiento y redes]]
 - [[docker-compose|Docker Compose]] — Similar
 
----
 
 ## Fuentes
 

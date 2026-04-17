@@ -1,4 +1,5 @@
 ---
+title: "Extensiones de OpenShift: Operadores, Knative, Tekton (Curso 2 - Módulo 8)"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]

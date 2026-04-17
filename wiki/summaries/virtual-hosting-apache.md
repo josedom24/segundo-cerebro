@@ -1,4 +1,5 @@
 ---
+title: "Virtual Hosting en Apache"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
@@ -15,7 +16,6 @@ Servir múltiples sitios en un servidor Apache: virtual hosting por nombre (Name
 - **Ficheros:** /etc/apache2/sites-available/, /etc/apache2/sites-enabled/
 - **URL:** https://plataforma.josedomingo.org/pledin/cursos/apache24/
 
----
 
 ## Virtual Hosting por Nombre (NameVhost)
 
@@ -56,7 +56,6 @@ Múltiples dominios en **una única IP**. Servidor identifica sitio por cabecera
 - HTTPS requiere SNI (Server Name Indication) → TLS 1.2+
 - Navegadores antiguos pueden problemas
 
----
 
 ## Virtual Hosting por IP
 
@@ -79,7 +78,6 @@ Cada dominio en **IP diferente**. Identifica sitio por IP:
 - Menos común modernamente
 - HTTPS simple (sin SNI)
 
----
 
 ## Gestión de Sitios: a2ensite / a2dissite
 
@@ -107,7 +105,6 @@ apache2ctl -S
 systemctl reload apache2
 ```
 
----
 
 ## Estructura de Directorios
 
@@ -126,7 +123,6 @@ Recomendación: cada sitio en subdirectorio de `/var/www/`:
     └── index.html
 ```
 
----
 
 ## Sitio Default
 
@@ -141,7 +137,6 @@ Cuando no coincide Host header con ningún VirtualHost, Apache sirve el **defaul
 </VirtualHost>
 ```
 
----
 
 ## Acceso a Sitios Virtuales
 
@@ -157,7 +152,6 @@ curl http://www.ejemplo1.com/
 curl -H "Host: www.ejemplo1.com" http://192.168.1.10/
 ```
 
----
 
 ## Logs por Sitio
 
@@ -180,7 +174,6 @@ tail -f /var/log/apache2/ejemplo1-access.log
 grep "GET" /var/log/apache2/ejemplo1-access.log | wc -l
 ```
 
----
 
 ## Relaciones
 
@@ -193,7 +186,6 @@ grep "GET" /var/log/apache2/ejemplo1-access.log | wc -l
 ### Conceptos relacionados
 - [[service|Service]] — Kubernetes Services vs Apache VirtualHosts
 
----
 
 ## Fuentes
 

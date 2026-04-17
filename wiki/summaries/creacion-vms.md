@@ -1,4 +1,5 @@
 ---
+title: "Creación de Máquinas Virtuales en virt-manager"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ Creación paso a paso de VMs Linux y Windows en virt-manager: wizard de instalac
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm1/
 - **Líneas de contenido:** 350+
 
----
 
 ## Pasos Generales de Creación
 
@@ -30,7 +30,6 @@ Creación paso a paso de VMs Linux y Windows en virt-manager: wizard de instalac
 8. Iniciar instalación
 ```
 
----
 
 ## Creación de VMs Linux (Debian)
 
@@ -83,7 +82,6 @@ Nombre: debian-server
 
 Se abre consola SPICE para instalación
 
----
 
 ## Creación de VMs Windows
 
@@ -152,7 +150,6 @@ CDROM → amd64 → win10 (o versión)
 
 Continúa instalación normalmente
 
----
 
 ## Detalles de la Máquina Virtual
 
@@ -257,7 +254,6 @@ Botón: Agregar Hardware
 Opciones: Disco, Red, USB, PCI, Gráficos, ...
 ```
 
----
 
 ## Mejores Prácticas
 
@@ -271,7 +267,6 @@ Opciones: Disco, Red, USB, PCI, Gráficos, ...
 ❌ No usar --privileged (equivalente a este contexto)
 ```
 
----
 
 ## Relaciones
 
@@ -282,7 +277,6 @@ Opciones: Disco, Red, USB, PCI, Gráficos, ...
 - [[redes-kvm|Unidad 6: Redes]]
 - [[consola-serie-kvm|Unidad 7: Consola Serie]]
 
----
 
 ## Fuentes
 

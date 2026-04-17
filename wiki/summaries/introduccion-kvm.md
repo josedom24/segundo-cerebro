@@ -1,4 +1,5 @@
 ---
+title: "Introducción a la Virtualización con KVM/libvirt"
 created: 2026-04-15
 updated: 2026-04-17
 sources: [curso_kvm_ow]
@@ -16,7 +17,6 @@ KVM es un hipervisor que virtualiza máquinas completas (con SO propio) a nivel 
 - **URL GitHub:** https://github.com/josedom24/curso_kvm_ow
 - **Líneas de contenido:** 400+
 
----
 
 ## Concepto: ¿Qué es Virtualización?
 
@@ -35,7 +35,6 @@ KVM es un hipervisor que virtualiza máquinas completas (con SO propio) a nivel 
  **Overhead**  Mínimo  Significativo 
  **Uso típico**  Aplicaciones  Sistemas completos 
 
----
 
 ## Casos de Uso de Virtualización
 
@@ -50,7 +49,6 @@ KVM es un hipervisor que virtualiza máquinas completas (con SO propio) a nivel 
 ✅ Software heredado (legacy)
 ```
 
----
 
 ## Ventajas
 
@@ -63,7 +61,6 @@ KVM es un hipervisor que virtualiza máquinas completas (con SO propio) a nivel 
 📈 Escalabilidad
 ```
 
----
 
 ## Desventajas
 
@@ -74,7 +71,6 @@ KVM es un hipervisor que virtualiza máquinas completas (con SO propio) a nivel 
 🎓 Curva de aprendizaje pronunciada
 ```
 
----
 
 ## Conceptos Clave
 
@@ -87,7 +83,6 @@ Sistema operativo virtualizado (Ubuntu, Windows, etc.)
 ### Hipervisor
 Software de virtualización (KVM en este caso)
 
----
 
 ## Tipos de Virtualización
 
@@ -133,7 +128,6 @@ Kernel Linux (compartido)
 
 - Ejemplo: Docker, Podman
 
----
 
 ## Tecnologías Hardware
 
@@ -145,7 +139,6 @@ IOMMU:        Entrada/Salida virtualizada
 
 Necesarios para buen rendimiento. La mayoría de CPUs modernas los incluyen.
 
----
 
 ## QEMU/KVM Stack
 
@@ -176,7 +169,6 @@ Necesarios para buen rendimiento. La mayoría de CPUs modernas los incluyen.
 - Simplifica creación y gestión de VMs
 ```
 
----
 
 ## Stack Completo
 
@@ -192,7 +184,6 @@ Necesarios para buen rendimiento. La mayoría de CPUs modernas los incluyen.
 └─────────────────────────────────────┘
 ```
 
----
 
 ## Herramientas de Gestión
 
@@ -231,7 +222,6 @@ Ver también:
 - [[vagrant-introduccion|Vagrant: Introducción y Conceptos Fundamentales]]
 - [[vagrant-libvirt-configuracion|Vagrant + libvirt: Configuración Completa]]
 
----
 
 ## Relaciones
 
@@ -247,13 +237,11 @@ Ver también:
 ### Parte de
 - Soluciones de virtualización en infraestructura
 
----
 
 ## Próximo Paso
 
 Con conceptos claros, pasar a [[virt-manager-setup|Unidad 2: virt-manager]].
 
----
 
 ## Fuentes
 

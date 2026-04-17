@@ -1,4 +1,5 @@
 ---
+title: "Introducción a Podman"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
@@ -16,7 +17,6 @@ Podman es un motor de contenedores OCI sin demonio (daemonless), rootless nativo
 - **URL GitHub:** https://github.com/josedom24/curso_podman_ow
 - **Líneas de contenido:** 400+
 
----
 
 ## ¿Qué es Podman?
 
@@ -36,7 +36,6 @@ Diferente de Docker:
   ✓ OCI runtime estándar (runc, crun)
 ```
 
----
 
 ## Características Principales
 
@@ -162,7 +161,6 @@ crun  → Runtime de C (más rápido, menos RAM)
 Ambos compatibles con OCI spec
 ```
 
----
 
 ## Arquitectura: Fork/Exec vs Client-Server
 
@@ -204,7 +202,6 @@ Ambos compatibles con OCI spec
 
 **Ventajas:** 2 capas, sin demonio, más simple
 
----
 
 ## Contenedores OCI
 
@@ -222,7 +219,6 @@ Antes: Docker propietario
 Ahora: OCI abierto → Docker, Podman, CRI-O, etc. interoperables
 ```
 
----
 
 ## Instalación
 
@@ -252,7 +248,6 @@ podman run hello-world
 
 Automáticamente crea VM con Podman dentro.
 
----
 
 ## Contenedores OCI
 
@@ -278,7 +273,6 @@ Automáticamente crea VM con Podman dentro.
 ❌ GPUs (posible pero complejo)
 ```
 
----
 
 ## Relaciones
 
@@ -294,13 +288,11 @@ Automáticamente crea VM con Podman dentro.
 ### Parte de
 - Runtimes de contenedores OCI estándar
 
----
 
 ## Próximo Paso
 
 Con Podman instalado, pasar a [[ejecucion-contenedores-podman|Módulo 2: Ejecución de contenedores]].
 
----
 
 ## Fuentes
 

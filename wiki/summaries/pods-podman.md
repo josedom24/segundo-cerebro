@@ -1,4 +1,5 @@
 ---
+title: "Gestión de Pods en Podman"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
@@ -13,7 +14,6 @@ Pods en Podman: grupos nativos de contenedores que comparten IP y almacenamiento
 ## Información
 - **Fuente:** Curso Podman 2024 - Módulo 5
 
----
 
 ## Concepto: Pod en Podman
 
@@ -33,7 +33,6 @@ podman run --pod mypod php-fpm
 # Ambos compartirán localhost:80, localhost:9000
 ```
 
----
 
 ## Gestión de Pods
 
@@ -73,7 +72,6 @@ podman pod start mypod
 podman pod rm mypod
 ```
 
----
 
 ## Almacenamiento Compartido
 
@@ -90,7 +88,6 @@ podman run --pod mypod -v shared:/data2 busybox
 # Ambos acceden a mismo almacenamiento
 ```
 
----
 
 ## Generación de YAML Kubernetes
 
@@ -109,7 +106,6 @@ podman generate kube mypod > mypod.yaml
 kubectl apply -f mypod.yaml
 ```
 
----
 
 ## Casos de Uso
 
@@ -132,7 +128,6 @@ podman run --pod wordpress-pod \
 # Ambos comparten red automáticamente
 ```
 
----
 
 ## Relaciones
 
@@ -143,7 +138,6 @@ podman run --pod wordpress-pod \
 ### Diferencia con
 - [[docker|Docker]] — Docker usa Swarm, Podman usa Pods nativos
 
----
 
 ## Fuentes
 

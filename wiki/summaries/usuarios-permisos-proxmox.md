@@ -1,4 +1,5 @@
 ---
+title: "Gestión de Usuarios y Permisos en Proxmox VE"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
@@ -15,7 +16,6 @@ Autenticación con Linux PAM y Proxmox VE Server, creación de usuarios y grupos
 - **Duración:** 2.5 horas teoría + 1.5 horas actividades prácticas
 - **Semana:** Semana 8
 
----
 
 ## Realms de Autenticación
 
@@ -82,7 +82,6 @@ GUI Proxmox:
           [AD]
 ```
 
----
 
 ## Gestión de Usuarios y Grupos
 
@@ -125,7 +124,6 @@ Parámetros:
 └─ Operaciones: Editar, Eliminar, Cambiar contraseña
 ```
 
----
 
 ## Sistema de Privilegios y Roles
 
@@ -221,7 +219,6 @@ Ejemplo "SysAdmin":
 └─ Pool.Allocate
 ```
 
----
 
 ## Pools de Recursos
 
@@ -282,7 +279,6 @@ Al clonar:
 └─ VM clonada hereda pool especificado
 ```
 
----
 
 ## Sistema de Permisos RBAC
 
@@ -340,7 +336,6 @@ Permiso:
 Resultado: Usuario jdoe administra VMs de grupo1
 ```
 
----
 
 ## Escenarios Educativos
 
@@ -364,7 +359,6 @@ Estructura:
 └─ Limitado por pool, no por red
 ```
 
----
 
 ## Limitación: Permisos y Redes
 
@@ -402,7 +396,6 @@ En desarrollo en próximas versiones:
 └─ Redes como recurso controlable con permisos
 ```
 
----
 
 ## Relaciones
 
@@ -412,13 +405,11 @@ En desarrollo en próximas versiones:
 - [[almacenamiento-proxmox|Almacenamiento]] — Permisos sobre storage
 - [[redes-proxmox|Redes]] — Limitación actual (sin control)
 
----
 
 ## Próximo Paso
 
 Completar comprensión de administración de Proxmox para despliegues en producción o laboratorios educativos.
 
----
 
 ## Fuentes
 - [Curso Proxmox VE - Módulo 8 (GitHub)](https://github.com/iesgn/curso_proxmox_cep)

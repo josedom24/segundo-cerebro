@@ -1,4 +1,5 @@
 ---
+title: "Despliegues Parametrizados: ConfigMaps y Secrets"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
@@ -14,7 +15,6 @@ ConfigMap y Secret permiten parametrizar Deployments sin cambiar imágenes: conf
 - **Fuente:** Curso Kubernetes - Módulo 7
 - **URL GitHub:** https://github.com/iesgn/curso_kubernetes_cep/tree/main/modulo7
 
----
 
 ## Problema: Configuración Hardcodeada
 
@@ -32,7 +32,6 @@ Problemas:
 
 **Solución:** ConfigMaps y Secrets
 
----
 
 ## ConfigMap: Configuración
 
@@ -82,7 +81,6 @@ kubectl edit configmap app-config
 kubectl delete configmap app-config
 ```
 
----
 
 ## Secret: Datos Sensibles
 
@@ -142,7 +140,6 @@ kubectl describe secret db-secret
 kubectl get secret db-secret -o jsonpath='{.data.password}'  base64 -d
 ```
 
----
 
 ## Comparación
 
@@ -153,7 +150,6 @@ kubectl get secret db-secret -o jsonpath='{.data.password}'  base64 -d
  **Encoding**  Plaintext  Base64 
  **Caso de uso**  Config, URLs  Credenciales, tokens 
 
----
 
 ## Uso de Variables de Entorno
 
@@ -195,7 +191,6 @@ envFrom:
     name: app-config
 ```
 
----
 
 ## Caso de Uso: WordPress + MariaDB
 
@@ -209,7 +204,6 @@ data:
   WORDPRESS_DB_HOST: "mariadb:3306"
   WORDPRESS_DB_NAME: "wordpress"
   WORDPRESS_TABLE_PREFIX: "wp_"
----
 # Secret para credenciales
 apiVersion: v1
 kind: Secret
@@ -220,7 +214,6 @@ data:
   WORDPRESS_DB_USER: d29yZHByZXNz  # base64(wordpress)
   WORDPRESS_DB_PASSWORD: cGFzc3dvcmQ=  # base64(password)
   WORDPRESS_AUTH_KEY: ...
----
 # Deployment usa ambos
 apiVersion: apps/v1
 kind: Deployment
@@ -239,7 +232,6 @@ spec:
             name: wordpress-secret
 ```
 
----
 
 ## Relaciones
 
@@ -247,7 +239,6 @@ spec:
 - [[deployments|Deployments]] — Usa ConfigMaps/Secrets
 - [[services-acceso|Services]] — Acceso a apps configuradas
 
----
 
 ## Fuentes
 

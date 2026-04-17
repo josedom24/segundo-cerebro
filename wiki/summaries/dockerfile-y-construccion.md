@@ -1,4 +1,5 @@
 ---
+title: "Creación de Imágenes"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_docker_ow]
@@ -17,7 +18,6 @@ Cómo construir imágenes Docker personalizadas con Dockerfile, docker build, ca
 - **Líneas de contenido:** 1138
 - **Nota:** Módulo más grande del curso
 
----
 
 ## El Problema: Por Qué Dockerfile
 
@@ -58,7 +58,6 @@ CMD ["apache2ctl", "-D", "FOREGROUND"]
 - ✅ Versionable (git)
 - ✅ Automatizable
 
----
 
 ## Dockerfile: Sintaxis Completa
 
@@ -184,7 +183,6 @@ USER appuser
 # Contenedor ejecuta como appuser (no root)
 ```
 
----
 
 ## docker build: Construir Imágenes
 
@@ -255,7 +253,6 @@ ghi789         2 minutes ago    RUN apt-get install -y curl        10MB
 jkl012         2 minutes ago    /bin/sh -c #(nop) WORKDIR /app      0B
 ```
 
----
 
 ## Caching en Docker Build
 
@@ -311,7 +308,6 @@ Beneficio: Cambiar código no invalida caché de dependencias
 5. **COPY código:** Código fuente (cambia frecuente)
 6. **Comandos:** CMD/ENTRYPOINT al final
 
----
 
 ## Ciclo de Vida de Aplicaciones Docker
 
@@ -329,7 +325,6 @@ Beneficio: Cambiar código no invalida caché de dependencias
 6. Actualización  (volver al paso 1 si cambios)
 ```
 
----
 
 ## Casos de Uso Prácticos
 
@@ -409,7 +404,6 @@ CMD ["npm", "start"]
 
 Beneficio: Imagen final sin herramientas de build (más pequeña)
 
----
 
 ## Mejores Prácticas
 
@@ -471,7 +465,6 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
   CMD curl -f http://localhost:80/  exit 1
 ```
 
----
 
 ## Conceptos Clave
 
@@ -484,7 +477,6 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
 7. **Multi-stage:** Separar build de runtime
 8. **Reproducibilidad:** Mismo Dockerfile = misma imagen
 
----
 
 ## Flujo Típico
 
@@ -506,7 +498,6 @@ docker push myregistry.com/myapp:1.0
 docker run -d myregistry.com/myapp:1.0
 ```
 
----
 
 ## Relaciones
 
@@ -519,7 +510,6 @@ docker run -d myregistry.com/myapp:1.0
 - Construcción y automatización de imágenes
 - Infrastructure as Code declarativo
 
----
 
 ## Fuentes
 

@@ -1,4 +1,5 @@
 ---
+title: "Directorios y URLs en Apache"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
@@ -15,7 +16,6 @@ Gestión de directorios y URLs: Options, Alias, Redirect, negociación contenido
 - **Directivas:** Options, Alias, Redirect, DirectoryIndex, ErrorDocument
 - **URL:** https://plataforma.josedomingo.org/pledin/cursos/apache24/
 
----
 
 ## Opciones de Directorio (Repaso)
 
@@ -41,7 +41,6 @@ Combinar con `+`/`-`:
 </Directory>
 ```
 
----
 
 ## Alias: Mapeo URL → Directorio
 
@@ -72,7 +71,6 @@ Alias:         /descargas → /home/usuario/descargas
                /static → /opt/assets/
 ```
 
----
 
 ## Redirect: Redirecciones
 
@@ -101,7 +99,6 @@ RedirectMatch permanent ^/articulos/(.*)\.html$ /blog/$1/
 - 302 (Found) — Temporal, no cambiar bookmarks
 - 307 (Temporary Redirect) — Temporal, preserva método HTTP
 
----
 
 ## DirectoryIndex: Fichero Índice Default
 
@@ -116,7 +113,6 @@ DirectoryIndex index.html index.htm index.php
 # Si ninguno, lista directorio (si Options Indexes)
 ```
 
----
 
 ## Negociación de Contenido
 
@@ -143,7 +139,6 @@ Apache elige formato según preferencias cliente (Accept headers):
 # documento.var (fichero especial que lista variantes)
 ```
 
----
 
 ## Páginas de Error Personalizadas
 
@@ -173,7 +168,6 @@ ErrorDocument 403 /acceso-denegado.html
 </html>
 ```
 
----
 
 ## Orden Búsqueda Ficheros
 
@@ -188,7 +182,6 @@ Cuando cliente solicita URL, Apache busca:
 6. ErrorDocument (si error, muestra página error)
 ```
 
----
 
 ## Casos de Uso
 
@@ -219,7 +212,6 @@ ErrorDocument 404 /404.html
 # - Contacto support
 ```
 
----
 
 ## Relaciones
 
@@ -229,7 +221,6 @@ ErrorDocument 404 /404.html
 - [[http|HTTP]] — Códigos redirección, negociación contenido
 - [[modulos-apache|Módulos]] — mod_negotiation, mod_dir
 
----
 
 ## Fuentes
 

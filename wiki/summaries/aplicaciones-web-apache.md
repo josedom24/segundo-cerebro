@@ -1,4 +1,5 @@
 ---
+title: "Aplicaciones Web en Apache"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
@@ -15,7 +16,6 @@ Ejecutar aplicaciones dinámicas: mod_php (integrado, prefork), PHP-FPM (separad
 - **Módulos:** mod_php, mod_fcgid, mod_proxy_fcgi (para FPM)
 - **URL:** https://plataforma.josedomingo.org/pledin/cursos/apache24/
 
----
 
 ## mod_php (Integrado)
 
@@ -48,7 +48,6 @@ apt install apache2 php libapache2-mod-php
 - PHP con fallo mata proceso Apache
 - Memoria por request (cada proceso duplica PHP)
 
----
 
 ## PHP-FPM (Recomendado)
 
@@ -111,7 +110,6 @@ O con ProxyPassMatch:
 - Socket/TCP overhead
 - Requiere módulos proxy
 
----
 
 ## Configuración PHP
 
@@ -128,7 +126,6 @@ Directorios config PHP:
 /usr/lib/php/extensions/           # Módulos .so
 ```
 
----
 
 ## Python + WSGI
 
@@ -196,7 +193,6 @@ WantedBy=multi-user.target
 a2enmod proxy_http
 ```
 
----
 
 ## Node.js / Express
 
@@ -228,7 +224,6 @@ app.listen(3000);
 </VirtualHost>
 ```
 
----
 
 ## Comparación Métodos
 
@@ -239,7 +234,6 @@ app.listen(3000);
 | Python + Gunicorn | Escalable, staging | Overhead proxy | any |
 | Node.js | Moderno | Memoria | any |
 
----
 
 ## Relaciones
 
@@ -248,7 +242,6 @@ app.listen(3000);
 - [[modulos-apache|Módulos]] — mod_php, mod_proxy_fcgi
 - [[configuracion-apache|Configuración]] — SetHandler, ProxyPass
 
----
 
 ## Fuentes
 

@@ -1,4 +1,5 @@
 ---
+title: "Gestión de Imágenes OCI en Podman"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
@@ -13,7 +14,6 @@ Gestión de imágenes OCI con Podman: muy similar a Docker, con formato OCI est�
 ## Información
 - **Fuente:** Curso Podman 2024 - Módulo 3
 
----
 
 ## Conceptos OCI
 
@@ -38,7 +38,6 @@ Imagen OCI:
 ~/.local/share/containers/storage
 ```
 
----
 
 ## Operaciones Comunes
 
@@ -75,7 +74,6 @@ podman tag nginx:latest myregistry/nginx:v1
 podman push myregistry/nginx:v1
 ```
 
----
 
 ## Múltiples Registros
 
@@ -89,7 +87,6 @@ podman run docker.io/library/ubuntu
 # Configurar registros en /etc/containers/registries.conf
 ```
 
----
 
 ## Ahorro de Almacenamiento
 
@@ -101,7 +98,6 @@ podman system df
 podman system prune
 ```
 
----
 
 ## Relaciones
 
@@ -109,7 +105,6 @@ podman system prune
 - [[ejecucion-contenedores-podman|Ejecución]]
 - [[almacenamiento-redes-podman|Almacenamiento]]
 
----
 
 ## Fuentes
 

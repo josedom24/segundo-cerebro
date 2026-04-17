@@ -1,4 +1,5 @@
 ---
+title: "Setup Avanzado de KVM/QEMU"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ Setup KVM avanzado: virtualización anidada en VirtualBox/KVM, CPU host-passthro
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm2/
 - **Líneas de contenido:** 200+
 
----
 
 ## Verificación Hardware
 
@@ -44,7 +44,6 @@ BIOS/UEFI → CPU Settings
 ❌ QEMU fallará
 ```
 
----
 
 ## Virtualización Anidada (Nested Virtualization)
 
@@ -83,7 +82,6 @@ VM (Hyper2)
    → Migración de VMs
 ```
 
----
 
 ## Nested Virtualization en VirtualBox
 
@@ -117,7 +115,6 @@ Memoria:
 ✅ Viable para laboratorios educativos
 ```
 
----
 
 ## Nested Virtualization en KVM/QEMU
 
@@ -175,7 +172,6 @@ virt-install --cpu host-passthrough \
              --disk size=20
 ```
 
----
 
 ## Requisitos Mínimos para Laboratorio
 
@@ -259,7 +255,6 @@ SSD preferible (vs HDD)
   → Faster boot VMs
 ```
 
----
 
 ## Consideraciones Avanzadas
 
@@ -298,7 +293,6 @@ qemu-img resize disco.qcow2 +10G
   → Útil para laboratorios
 ```
 
----
 
 ## Troubleshooting Setup
 
@@ -350,7 +344,6 @@ Soluciones:
   → Cambiar a bare metal si crítico
 ```
 
----
 
 ## Checklist Post-Setup
 
@@ -365,7 +358,6 @@ Soluciones:
 ✅ Nested (si aplica): cat /sys/module/kvm_intel/parameters/nested
 ```
 
----
 
 ## Relaciones
 
@@ -376,7 +368,6 @@ Soluciones:
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización
 
----
 
 ## Fuentes
 

@@ -1,4 +1,5 @@
 ---
+title: "Casos Prácticos y Aplicaciones con Podman"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
@@ -13,7 +14,6 @@ Casos prácticos con Podman: Drupal, GuestBook, Temperaturas, WordPress; integra
 ## Información
 - **Fuente:** Curso Podman 2024 - Módulos 3-7 (casos prácticos)
 
----
 
 ## Patrón General
 
@@ -25,7 +25,6 @@ Casos prácticos con Podman: Drupal, GuestBook, Temperaturas, WordPress; integra
 5. (Opcional) Generar YAML Kubernetes
 ```
 
----
 
 ## Caso: WordPress + MariaDB (Pod)
 
@@ -52,7 +51,6 @@ podman run --pod wordpress-pod \
 # Acceder: http://localhost:8080
 ```
 
----
 
 ## Caso: WordPress + MariaDB (Compose)
 
@@ -86,7 +84,6 @@ volumes:
 podman-compose up -d
 ```
 
----
 
 ## Caso: WordPress + Systemd (Quadlet)
 
@@ -112,7 +109,6 @@ WantedBy=default.target
 systemctl enable --now container-wordpress
 ```
 
----
 
 ## GuestBook (Aplicación Demo)
 
@@ -136,7 +132,6 @@ podman run --net mynet -e REDIS_HOST=redis python-api
 podman run --net mynet -e API_HOST=api node-frontend
 ```
 
----
 
 ## Temperaturas (Aplicación Demo)
 
@@ -151,7 +146,6 @@ Base de datos
 MQTT (sensores)
 ```
 
----
 
 ## Generar YAML Kubernetes
 
@@ -168,7 +162,6 @@ podman generate kube myapp > myapp.yaml
 kubectl apply -f myapp.yaml
 ```
 
----
 
 ## Patrones Comunes
 
@@ -202,7 +195,6 @@ podman run ... && systemctl enable container-app
 docker-compose up → podman-compose up
 ```
 
----
 
 ## Relaciones
 
@@ -212,7 +204,6 @@ docker-compose up → podman-compose up
 - [[pods-podman|Pods]]
 - [[kubernetes|Kubernetes]]
 
----
 
 ## Fuentes
 

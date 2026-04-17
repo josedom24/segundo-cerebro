@@ -1,4 +1,5 @@
 ---
+title: "Trabajando con Linux Containers (LXC) en Proxmox"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
@@ -15,7 +16,6 @@ Gestión de contenedores LXC como alternativa ligera a VMs, descarga de plantill
 - **Duración:** 2.5 horas teoría + 2.5 horas actividades prácticas
 - **Semana:** Semana 6
 
----
 
 ## Introducción a LXC
 
@@ -53,7 +53,6 @@ Proxmox VE
 
 Ambos gestionables desde misma interfaz
 
----
 
 ## Plantillas de Contenedores
 
@@ -100,7 +99,6 @@ Con buscador integrado para encontrar por nombre
 3. Botón Download
 4. Esperar a que descargue completamente
 
----
 
 ## Creación de Contenedores LXC
 
@@ -173,7 +171,6 @@ Opciones:
 └─ Especificar → Custom DNS servers
 ```
 
----
 
 ## Ciclo de Vida de Contenedores
 
@@ -218,7 +215,6 @@ Procedimiento:
 3. Confirmar con ID del contenedor
 ```
 
----
 
 ## Adición de Almacenamiento: Mount Points
 
@@ -250,7 +246,6 @@ Contenedor ubuntu-dev:
 └─ /dev/mapper/pve-vm-backup → /backup (100 GB, mount point)
 ```
 
----
 
 ## Clonación de Contenedores
 
@@ -261,7 +256,6 @@ Botón derecho → Clone
 - Crea contenedor independiente
 - Copia plantilla completamente
 
----
 
 ## Conversión a Plantilla
 
@@ -274,7 +268,6 @@ Contenedor Configurado → Plantilla
 └─ Requiere clonar para usar
 ```
 
----
 
 ## Comparativa: Contenedores vs VMs
 
@@ -288,7 +281,6 @@ Contenedor Configurado → Plantilla
 | **Uso** | Servicios, microservicios | Laboratorios, complejo |
 | **Escalabilidad** | Excelente | Limitada |
 
----
 
 ## Relaciones
 
@@ -298,13 +290,11 @@ Contenedor Configurado → Plantilla
 - [[redes-proxmox|Redes]] — Configuración de interfaz
 - [[usuarios-permisos-proxmox|Usuarios y Permisos]] — Control de acceso
 
----
 
 ## Próximo Paso
 
 Gestión de redes en Proxmox, creación de bridges internos, y conexión de recursos a diferentes redes.
 
----
 
 ## Fuentes
 - [Curso Proxmox VE - Módulo 6 (GitHub)](https://github.com/iesgn/curso_proxmox_cep)

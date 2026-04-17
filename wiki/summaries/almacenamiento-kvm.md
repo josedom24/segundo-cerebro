@@ -1,4 +1,5 @@
 ---
+title: "Almacenamiento en KVM/virt-manager"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ Gestión de almacenamiento KVM: storage pools (directorios, bloque, red), volúm
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm1/
 - **Líneas de contenido:** 300+
 
----
 
 ## Grupos de Almacenamiento (Storage Pools)
 
@@ -59,7 +59,6 @@ Los storage pools son espacios lógicos organizados donde se guardan discos de V
 **Tipo:** dir (directorio)
 **Uso:** Almacenamiento principal de discos VM
 
----
 
 ## Volúmenes de Almacenamiento (Storage Volumes)
 
@@ -73,7 +72,6 @@ Unidades individuales dentro de un grupo (corresponden a diferentes elementos se
  **logical**  Volúmenes LVM 
  **nfs/glusterfs**  Ficheros remotos 
 
----
 
 ## Formatos de Imagen de Disco
 
@@ -102,7 +100,6 @@ Unidades individuales dentro de un grupo (corresponden a diferentes elementos se
 
 **Recomendación:** Usar QCOW2 por defecto ✅
 
----
 
 ## Snapshots (Instantáneas)
 
@@ -146,7 +143,6 @@ Acceso: **Detalles VM → Instantáneas** (botón 3)
 - Eliminar snapshot
 ```
 
----
 
 ## Thin Provisioning (Aprovisionamiento Ligero)
 
@@ -192,7 +188,6 @@ Capacidad para crecer: 180GB
 
 Sin thin provisioning (RAW) = 200GB ocupados inmediatamente ❌
 
----
 
 ## Gestión en virt-manager
 
@@ -228,7 +223,6 @@ Detalles de conexión QEMU/KVM
 - Crear volumen: Dentro del pool
 ```
 
----
 
 ## Estrategia de Almacenamiento
 
@@ -259,7 +253,6 @@ Uso: Copias de seguridad VM
 🔵 LVM: Entornos corporativos con infraestructura
 ```
 
----
 
 ## Relaciones
 
@@ -271,7 +264,6 @@ Uso: Copias de seguridad VM
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización
 
----
 
 ## Fuentes
 

@@ -1,4 +1,5 @@
 ---
+title: "Gestión de Almacenamiento en Proxmox"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
@@ -15,7 +16,6 @@ Tipos de almacenamiento (filesystem vs block device), creación de storage Direc
 - **Duración:** 3 horas teoría + 3 horas actividades prácticas
 - **Semana:** Semana 4
 
----
 
 ## Arquitectura de Almacenamiento
 
@@ -43,7 +43,6 @@ ALMACENAMIENTO PROXMOX
 | **Overhead** | Bajo | Bajo |
 | **Uso típico** | Local, backup | Rendimiento |
 
----
 
 ## Almacenamiento Predeterminado
 
@@ -70,7 +69,6 @@ Contenido:
   - Discos de contenedores
 ```
 
----
 
 ## Creación de Storage Directory
 
@@ -109,7 +107,6 @@ echo "/dev/sdb1 /mnt/storage-images ext4 defaults 0 2" >> /etc/fstab
 - Storage → local-images → Visible en árbol
 - Proxmox puede crear VMs/contenedores allí
 
----
 
 ## Agregar Discos a VMs
 
@@ -155,7 +152,6 @@ Disk Management → Buscar disco sin particionar
 → Listo para usar
 ```
 
----
 
 ## Operaciones de Disco
 
@@ -201,7 +197,6 @@ Disk Management → Right click disco → Extend Volume
 
 **Resultado:** Disco queda huérfano en storage, reutilizable
 
----
 
 ## Formatos de Disco
 
@@ -226,7 +221,6 @@ Desventaja: Overhead
 Uso: Migración desde VMware
 ```
 
----
 
 ## Thin Provisioning
 
@@ -244,7 +238,6 @@ Riesgo: Storage puede llenarse sin advertencia
 - Alertar si uso > 80%
 - Expandir storage proactivamente
 
----
 
 ## Snapshots
 
@@ -267,7 +260,6 @@ Rollback:
   → Rollback
 ```
 
----
 
 ## Relaciones
 
@@ -275,13 +267,11 @@ Rollback:
 - [[creacion-maquinas-virtuales-proxmox|VMs]] — Discos pertenecen a VMs
 - [[clonacion-snapshots-backups-proxmox|Clonación y Backups]] — Usa almacenamiento
 
----
 
 ## Próximo Paso
 
 Clonación de VMs, creación de templates, y sistema de backups.
 
----
 
 ## Fuentes
 - [Curso Proxmox VE - Módulo 4 (GitHub)](https://github.com/iesgn/curso_proxmox_cep)

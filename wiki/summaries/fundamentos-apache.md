@@ -1,4 +1,5 @@
 ---
+title: "Fundamentos de Apache"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
@@ -15,7 +16,6 @@ Conceptos base de Apache 2.4: protocolo HTTP, historia del servidor, instalació
 - **Plataforma:** Linux Debian/Ubuntu
 - **URL:** https://plataforma.josedomingo.org/pledin/cursos/apache24/
 
----
 
 ## Protocolo HTTP
 
@@ -32,7 +32,6 @@ GET /index.html HTTP/1.1
 Host: www.ejemplo.com
 ```
 
----
 
 ## Historia de Apache
 
@@ -47,7 +46,6 @@ Host: www.ejemplo.com
 - Código abierto (Apache License)
 - Modular y extensible
 
----
 
 ## Instalación en Debian/Ubuntu
 
@@ -64,7 +62,6 @@ systemctl [start|stop|restart|reload|status] apache2.service
 
 **Nota:** `systemctl reload` recarga config sin reiniciar (graceful).
 
----
 
 ## Gestión con apache2ctl
 
@@ -92,7 +89,6 @@ apache2ctl [-k start|restart|stop|graceful|graceful-stop]
 # graceful: termina conexiones actuales, reinicia suavemente
 ```
 
----
 
 ## Conceptos Clave
 
@@ -119,7 +115,6 @@ grep -E "^User " /etc/apache2/apache2.conf
 # Típicamente: User www-data
 ```
 
----
 
 ## Relaciones
 
@@ -132,7 +127,6 @@ grep -E "^User " /etc/apache2/apache2.conf
 - linux — Sistema operativo base
 - redes — Puertos, TCP/IP
 
----
 
 ## Fuentes
 

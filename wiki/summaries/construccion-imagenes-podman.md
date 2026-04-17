@@ -1,4 +1,5 @@
 ---
+title: "Construcción y Distribución de Imágenes OCI"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
@@ -13,7 +14,6 @@ Construcción de imágenes OCI con Podman: Dockerfile idéntico a Docker, `podma
 ## Información
 - **Fuente:** Curso Podman 2024 - Módulo 8
 
----
 
 ## Construcción: Dockerfile
 
@@ -37,7 +37,6 @@ CMD ["python3", "app.py"]
 podman build -t myapp:1.0 .
 ```
 
----
 
 ## podman build
 
@@ -54,7 +53,6 @@ podman build --build-arg ENV=prod -t myapp:1.0 .
 podman build --no-cache -t myapp:1.0 .
 ```
 
----
 
 ## Distribución (Push/Pull)
 
@@ -75,7 +73,6 @@ podman push registry.example.com/myapp:1.0
 podman pull registry.example.com/myapp:1.0
 ```
 
----
 
 ## Diferencias Podman vs Docker
 
@@ -89,7 +86,6 @@ docker pull = podman pull
 
 **Ventaja:** Mismos Dockerfiles funcionan en ambos
 
----
 
 ## Construcción desde Contenedor
 
@@ -103,7 +99,6 @@ podman run -it ubuntu bash
 podman commit <container-id> myapp:1.0
 ```
 
----
 
 ## Relaciones
 
@@ -111,7 +106,6 @@ podman commit <container-id> myapp:1.0
 - [[imagenes-podman|Gestión de imágenes]]
 - [[dockerfile-y-construccion|Dockerfile]]
 
----
 
 ## Fuentes
 

@@ -1,4 +1,5 @@
 ---
+title: "Instalación de VMs por Red en KVM"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ Instalación virt-install por URL (--location): repositorios HTTP/FTP/NFS, conso
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm2/
 - **Líneas de contenido:** 250+
 
----
 
 ## Instalación por Red vs ISO Local
 
@@ -43,7 +43,6 @@ ISP/Datacenter sin GUI
   → Sin interfaz gráfica
 ```
 
----
 
 ## Repositorios de Instalación Disponibles
 
@@ -107,7 +106,6 @@ http://mirror.local/ubuntu/...
 http://mirror.rackspace.com/archlinux/iso/latest/
 ```
 
----
 
 ## Instalación Básica por Red
 
@@ -131,7 +129,6 @@ virt-install --connect qemu:///system \
 - `--memory 1024`: RAM en MB
 - `--vcpus 2`: Número de vCPUs
 
----
 
 ## Instalación Headless (Sin GUI)
 
@@ -186,7 +183,6 @@ Primer boot
 Sistema listo
 ```
 
----
 
 ## Instalación Automatizada
 
@@ -267,7 +263,6 @@ virt-install --connect qemu:///system \
 
 **Resultado:** Instalación completamente automática, sin interacción
 
----
 
 ## Kickstart (RedHat/CentOS/Rocky)
 
@@ -335,7 +330,6 @@ virt-install --connect qemu:///system \
              --noreboot
 ```
 
----
 
 ## Cloud-Init (Para Cloud)
 
@@ -376,7 +370,6 @@ cloud-localds init.iso user-data.yaml
 # (más avanzado, típicamente con qcow2 backing images)
 ```
 
----
 
 ## Flujo Completo: Automatización Batch
 
@@ -422,7 +415,6 @@ wait $HTTP_SERVER_PID
 echo "✅ $CANTIDAD VMs creadas automáticamente"
 ```
 
----
 
 ## Troubleshooting
 
@@ -457,7 +449,6 @@ virt-install ... --noreboot
 virt-viewer nombre-vm
 ```
 
----
 
 ## Relaciones
 
@@ -468,7 +459,6 @@ virt-viewer nombre-vm
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización
 
----
 
 ## Fuentes
 

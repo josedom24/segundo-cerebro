@@ -1,4 +1,5 @@
 ---
+title: "Proxy Inverso y Análisis de Logs en Apache"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
@@ -16,7 +17,6 @@ Proxy inverso con mod_proxy: enrutamiento a servidores backend, balanceo carga; 
 - **Herramienta:** AWStats (análisis logs)
 - **URL:** https://plataforma.josedomingo.org/pledin/cursos/apache24/
 
----
 
 ## Proxy Inverso (mod_proxy)
 
@@ -82,7 +82,6 @@ SSLProxyEngine on                                    # Habilitar SSL
 SSLProxyVerify none                                 # No verificar cert
 ```
 
----
 
 ## Balanceo de Carga
 
@@ -109,7 +108,6 @@ ProxyPassReverse / balancer://mycluster/
 - `bytraffic` — Por volumen datos
 - `bybusyness` — Por conexiones activas
 
----
 
 ## Headers Proxy
 
@@ -128,7 +126,6 @@ RequestHeader set X-Forwarded-Proto "http"
 # X-Forwarded-Proto: http (protocolo original)
 ```
 
----
 
 ## Casos de Uso Proxy
 
@@ -166,7 +163,6 @@ RequestHeader set X-Forwarded-Proto "http"
 </VirtualHost>
 ```
 
----
 
 ## AWStats: Análisis de Logs
 
@@ -233,7 +229,6 @@ a2enmod cgi
 - **Tráfico:** Bytes entrada/salida
 - **Búsquedas:** Palabras clave búsqueda
 
----
 
 ## Logrotate: Rotación de Logs
 
@@ -265,7 +260,6 @@ Rotación automática logs cada semana/mes:
 logrotate -d /etc/logrotate.d/apache2
 ```
 
----
 
 ## Análisis Manual Logs
 
@@ -296,7 +290,6 @@ grep "POST /login" /var/log/apache2/access.log | wc -l
 awk '$NF > 1000 {print $7, $NF}' /var/log/apache2/access.log | sort -k2 -rn
 ```
 
----
 
 ## Relaciones
 
@@ -306,7 +299,6 @@ awk '$NF > 1000 {print $7, $NF}' /var/log/apache2/access.log | sort -k2 -rn
 - redes — Concepto proxy, balanceo carga
 - [[seguridad-apache|Seguridad]] — Logs análisis
 
----
 
 ## Fuentes
 

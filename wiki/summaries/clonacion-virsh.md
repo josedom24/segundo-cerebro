@@ -1,4 +1,5 @@
 ---
+title: "Clonación Avanzada con virsh"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ Clonación CLI: virt-clone (--auto-clone, --name, --file), virsh vol-clone + vir
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm2/
 - **Líneas de contenido:** 280+
 
----
 
 ## Clonación con virt-clone
 
@@ -88,7 +88,6 @@ virt-clone --original origen \
            --preserve
 ```
 
----
 
 ## Clonación Paso a Paso: virsh vol-clone + virt-install
 
@@ -138,7 +137,6 @@ virsh vol-clone + virt-install:
   ❌ Más pasos
 ```
 
----
 
 ## Problemas de Identidad en Clones
 
@@ -232,7 +230,6 @@ virsh edit debian12-clon
 # Salvar
 ```
 
----
 
 ## Flujo Completo: Clone + Limpieza
 
@@ -305,7 +302,6 @@ virt-customize -d debian12-clon \
   --ssh-inject root:file:/root/.ssh/id_rsa.pub
 ```
 
----
 
 ## Plantillas de VMs (VM Templates)
 
@@ -348,7 +344,6 @@ for i in {1..5}; do
 done
 ```
 
----
 
 ## Automatización: Clonación en Batch
 
@@ -382,7 +377,6 @@ done
 echo "✅ $CANTIDAD clones creados"
 ```
 
----
 
 ## Relaciones
 
@@ -393,7 +387,6 @@ echo "✅ $CANTIDAD clones creados"
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización
 
----
 
 ## Fuentes
 

@@ -1,4 +1,5 @@
 ---
+title: "Gestión de Redes en Proxmox VE"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
@@ -15,7 +16,6 @@ Configuración de red del servidor Proxmox con Linux Bridge (vmbr0), creación d
 - **Duración:** 2 horas teoría + 2.5 horas actividades prácticas
 - **Semana:** Semana 7
 
----
 
 ## Conceptos de Red en Proxmox
 
@@ -48,7 +48,6 @@ SERVIDOR PROXMOX
 └─ [Bridges privados opcionales]
 ```
 
----
 
 ## Configuración de Red del Servidor
 
@@ -91,7 +90,6 @@ vmbr0 (192.168.100.87 - Proxmox GUI)
 └─ Open vSwitch
 ```
 
----
 
 ## Conexión de VMs/Contenedores a vmbr0
 
@@ -110,7 +108,6 @@ VM → vmbr0 → DHCP del router
 2. Verificar IP asignada
 3. Accesible desde cualquier máquina en red local
 
----
 
 ## Redes Internas
 
@@ -156,7 +153,6 @@ Después de crear o modificar red:
 2. **Apply** reinicia interfaces (puede perder conectividad)
 3. Generalmente se recupera automáticamente
 
----
 
 ## Conexión a Redes Internas
 
@@ -189,7 +185,6 @@ VM con dos interfaces:
 Función: Enrutar y filtrar tráfico entre redes
 ```
 
----
 
 ## Firewall en Proxmox
 
@@ -241,7 +236,6 @@ Para que funcione firewall en VM:
 Omitir paso 1 o 2 → paso 3 no tiene efecto
 ```
 
----
 
 ## Creación de Reglas de Cortafuego
 
@@ -289,7 +283,6 @@ VM con salida general permitida
 3. Habilitar regla (checkbox)
 4. Crear
 
----
 
 ## Firewall Práctico: Caso Educativo
 
@@ -311,7 +304,6 @@ Resultado:
 └─ Resto del tráfico bloqueado
 ```
 
----
 
 ## Limitaciones Actuales
 
@@ -329,7 +321,6 @@ Impacto educativo:
 
 **Nota:** En desarrollo en futuras versiones
 
----
 
 ## Relaciones
 
@@ -339,13 +330,11 @@ Impacto educativo:
 - [[usuarios-permisos-proxmox|Usuarios y Permisos]] — Control de acceso (limitado en redes)
 - [[instalacion-proxmox|Instalación]] — Configuración inicial de red
 
----
 
 ## Próximo Paso
 
 Gestión de usuarios, autenticación, permisos y roles en Proxmox.
 
----
 
 ## Fuentes
 - [Curso Proxmox VE - Módulo 7 (GitHub)](https://github.com/iesgn/curso_proxmox_cep)

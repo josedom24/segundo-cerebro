@@ -1,4 +1,5 @@
 ---
+title: "HTTPS en Apache"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_apache24]
@@ -16,7 +17,6 @@ Activar HTTPS: módulo mod_ssl, certificados (CAcert, Let's Encrypt), VirtualHos
 - **Certificados:** CAcert (educativo), Let's Encrypt (gratuito), CA comercial
 - **URL:** https://plataforma.josedomingo.org/pledin/cursos/apache24/
 
----
 
 ## Módulo mod_ssl
 
@@ -33,7 +33,6 @@ a2enmod ssl
 systemctl restart apache2
 ```
 
----
 
 ## Obtener Certificado
 
@@ -101,7 +100,6 @@ openssl req -x509 -new -key /etc/ssl/private/server.key \
 chmod 600 /etc/ssl/private/server.key
 ```
 
----
 
 ## Configuración VirtualHost HTTPS
 
@@ -138,7 +136,6 @@ chmod 600 /etc/ssl/private/server.key
 </VirtualHost>
 ```
 
----
 
 ## Directivas mod_ssl Importantes
 
@@ -168,7 +165,6 @@ SSLUseStapling on
 SSLStaplingCache shmcb:/var/run/apache2/stapling_cache(128000)
 ```
 
----
 
 ## Verificar Configuración
 
@@ -198,7 +194,6 @@ curl -v https://www.ejemplo.com/
 # https://www.ssllabs.com/ssltest/
 ```
 
----
 
 ## HSTS (HTTP Strict-Transport-Security)
 
@@ -214,7 +209,6 @@ Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains
 
 **Nota:** Preload registra tu sitio en navegadores para siempre usar HTTPS.
 
----
 
 ## Casos de Uso
 
@@ -241,7 +235,6 @@ SSLCertificateChainFile /etc/ssl/certs/ca-bundle.crt
 SSLCertificateKeyFile /etc/ssl/private/server.key
 ```
 
----
 
 ## Relaciones
 
@@ -252,7 +245,6 @@ SSLCertificateKeyFile /etc/ssl/private/server.key
 - [[seguridad-apache|Seguridad]] — HSTS, cipher suites
 - [[virtual-hosting-apache|Virtual Hosting]] — VirtualHost puerto 443
 
----
 
 ## Fuentes
 

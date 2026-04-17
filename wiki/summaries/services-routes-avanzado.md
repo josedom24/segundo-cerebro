@@ -1,4 +1,5 @@
 ---
+title: "Acceso a Aplicaciones: Services y Routes (Curso 2 - Módulo 7)"
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
@@ -65,7 +66,6 @@ spec:
   to:
     kind: Service
     name: api-service
----
 spec:
   host: example.com
   path: /web

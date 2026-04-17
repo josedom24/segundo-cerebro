@@ -1,4 +1,5 @@
 ---
+title: "Clonación, Snapshots y Backups en Proxmox"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_proxmox_cep]
@@ -15,7 +16,6 @@ Clonación de VMs (completa vs ligera), conversión de VMs en plantillas, creaci
 - **Duración:** 2 horas teoría + 2 horas actividades prácticas
 - **Semana:** Semana 5
 
----
 
 ## Clonación de Máquinas Virtuales
 
@@ -47,7 +47,6 @@ Máquina original → Copia independiente (almacenamiento duplicado)
 - Más tiempo de creación
 - Consume más espacio
 
----
 
 ## Plantillas y Clonación Ligera
 
@@ -94,7 +93,6 @@ Plantilla → Modificar hardware (RAM, CPU, etc.)
 
 Permite ajustar características base antes de clonar
 
----
 
 ## Snapshots (Instantáneas)
 
@@ -146,7 +144,6 @@ En ciclos formativos (FP), estudiantes pueden:
 - Volver a estado estable si hay problemas
 - No necesitan eliminar VM y recrearla
 
----
 
 ## Copias de Seguridad
 
@@ -207,7 +204,6 @@ Incluye información de compresión en nombre
 - **Show Configuration:** Ver detalles
 - **Restore:** Crear o restaurar VM
 
----
 
 ## Comparativa: Snapshots vs Backups
 
@@ -220,7 +216,6 @@ Incluye información de compresión en nombre
 | **Consistencia** | Alta (si Qemu-agent) | Seleccionable |
 | **Compresión** | No | Sí |
 
----
 
 ## Relaciones
 
@@ -229,13 +224,11 @@ Incluye información de compresión en nombre
 - [[almacenamiento-proxmox|Almacenamiento]] — Dónde se guardan
 - [[usuarios-permisos-proxmox|Usuarios y Permisos]] — Control de acceso
 
----
 
 ## Próximo Paso
 
 Trabajar con Linux Containers (LXC), creación y gestión de contenedores ligeros.
 
----
 
 ## Fuentes
 - [Curso Proxmox VE - Módulo 5 (GitHub)](https://github.com/iesgn/curso_proxmox_cep)

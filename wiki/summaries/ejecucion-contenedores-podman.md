@@ -1,4 +1,5 @@
 ---
+title: "Ejecución de Contenedores con Podman"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
@@ -14,7 +15,6 @@ Ejecutar contenedores con Podman: `podman run` (igual que Docker), modos rootles
 - **Fuente:** Curso Podman 2024 - Módulo 2
 - **URL GitHub:** https://github.com/josedom24/curso_podman_ow/tree/main/contenido/modulo2
 
----
 
 ## Ejecución Básica
 
@@ -33,7 +33,6 @@ podman run -d -p 8080:80 nginx
 
 **Ventaja:** Si conoces Docker, ya sabes Podman
 
----
 
 ## Rootful vs Rootless
 
@@ -56,7 +55,6 @@ podman run ubuntu
 # Pero con limitaciones (ver módulo 1)
 ```
 
----
 
 ## Modos de Ejecución
 
@@ -86,7 +84,6 @@ podman logs web
 podman logs -f web
 ```
 
----
 
 ## Configuración de Contenedores
 
@@ -116,7 +113,6 @@ podman run -v mydata:/app/data ubuntu
 podman run -v /home/user/data:/app/data ubuntu
 ```
 
----
 
 ## Información de Contenedores
 
@@ -140,7 +136,6 @@ podman top container-name   # Procesos dentro
 podman inspect container-name   # Detalles JSON
 ```
 
----
 
 ## Contenedores Rootless Específicos
 
@@ -157,7 +152,6 @@ podman inspect container-name   # Detalles JSON
 - ✅ Más aislado
 - ✅ Más seguro
 
----
 
 ## Comparativa: Docker vs Podman
 
@@ -169,7 +163,6 @@ podman inspect container-name   # Detalles JSON
  Rootless  ⚠️ Reciente  ✅ Nativo 
  Sin demonio  ❌  ✅ 
 
----
 
 ## Relaciones
 
@@ -180,7 +173,6 @@ podman inspect container-name   # Detalles JSON
 ### Parte de
 - Ejecución de contenedores — Ejecución de contenedores
 
----
 
 ## Fuentes
 

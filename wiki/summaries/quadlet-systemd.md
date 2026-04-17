@@ -1,4 +1,5 @@
 ---
+title: "Systemd y Quadlet: Gestión de Contenedores"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_podman_ow]
@@ -13,7 +14,6 @@ Quadlet permite gestionar contenedores Podman como servicios systemd nativos: ar
 ## Información
 - **Fuente:** Curso Podman 2024 - Módulo 6
 
----
 
 ## Concepto: Quadlet
 
@@ -41,7 +41,6 @@ systemctl enable container-app
 systemctl status container-app
 ```
 
----
 
 ## Sintaxis
 
@@ -71,7 +70,6 @@ Type=notify             # Notificar cuando está listo
 WantedBy=default.target
 ```
 
----
 
 ## Ventajas
 
@@ -80,7 +78,6 @@ WantedBy=default.target
 ✅ Reinicio automático con host  
 ✅ Integración con otros servicios systemd  
 
----
 
 ## Ejemplos
 
@@ -119,7 +116,6 @@ Restart=always
 WantedBy=default.target
 ```
 
----
 
 ## Operaciones
 
@@ -134,7 +130,6 @@ journalctl -u container-app -f
 systemctl stop container-app
 ```
 
----
 
 ## Relaciones
 
@@ -142,7 +137,6 @@ systemctl stop container-app
 - [[introduccion-podman|Introducción]] — Feature de Podman
 - [[pods-podman|Pods]] — También con Pods
 
----
 
 ## Fuentes
 

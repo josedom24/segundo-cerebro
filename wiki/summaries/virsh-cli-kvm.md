@@ -1,4 +1,5 @@
 ---
+title: "Gestión de Máquinas Virtuales con virsh"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kvm_ow]
@@ -15,7 +16,6 @@ virsh CLI: gestión de dominios (VMs), definición XML, ciclo de vida (define/st
 - **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/kvm2/
 - **Líneas de contenido:** 300+
 
----
 
 ## Concepto: Dominios en virsh
 
@@ -52,7 +52,6 @@ undefine
 No existe
 ```
 
----
 
 ## Crear Dominio con virsh
 
@@ -130,7 +129,6 @@ qemu-img create -f qcow2 /var/lib/libvirt/images/mi-vm.qcow2 10G
 <graphics type='spice'>: Acceso gráfico SPICE
 ```
 
----
 
 ## Ciclo de Vida con virsh
 
@@ -204,7 +202,6 @@ virsh undefine mi-vm
 virsh undefine --remove-all-storage mi-vm
 ```
 
----
 
 ## Gestión de Volúmenes
 
@@ -250,7 +247,6 @@ sudo growpart /dev/vda 1  # si particiones
 sudo resize2fs /dev/vda1  # expandir ext4
 ```
 
----
 
 ## Consultar Información de Dominio
 
@@ -287,7 +283,6 @@ virsh top
 virsh event --domain mi-vm
 ```
 
----
 
 ## Opciones Avanzadas de virsh
 
@@ -327,7 +322,6 @@ virt-clone --original mi-vm --auto-clone \
   --name mi-vm-clon
 ```
 
----
 
 ## Flujo de Trabajo Completo: virsh vs virt-manager
 
@@ -359,7 +353,6 @@ virt-clone --original mi-vm --auto-clone \
  Consola  Doble clic  virt-viewer 
  Snapshots  Botón 3 (Instantáneas)  virsh snapshot-* 
 
----
 
 ## Ejemplos Prácticos
 
@@ -397,7 +390,6 @@ virsh vol-create-as default mi-vm-restore.qcow2 \
   --input backup-mi-vm-20260415.qcow2
 ```
 
----
 
 ## Relaciones
 
@@ -410,7 +402,6 @@ virsh vol-create-as default mi-vm-restore.qcow2 \
 ### Parte de
 - [[kvm|KVM]] — Stack de virtualización
 
----
 
 ## Fuentes
 

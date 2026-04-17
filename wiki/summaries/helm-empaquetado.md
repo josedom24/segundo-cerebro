@@ -1,4 +1,5 @@
 ---
+title: "Helm: Empaquetado y Despliegue de Aplicaciones"
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
@@ -14,7 +15,6 @@ Helm es el "apt/npm de Kubernetes": gestor de paquetes que permite instalar apli
 - **Fuente:** Curso Kubernetes - Módulo 10
 - **URL GitHub:** https://github.com/iesgn/curso_kubernetes_cep/tree/main/modulo10
 
----
 
 ## Problema: YAML Repetitivo
 
@@ -37,7 +37,6 @@ Propenso a errores
 
 **Solución:** Helm
 
----
 
 ## Concepto: Helm
 
@@ -58,7 +57,6 @@ Package Helm = "Chart":
 - Valores por defecto
 - Dependencias
 
----
 
 ## Flujo Típico
 
@@ -96,7 +94,6 @@ kubectl apply -f service-mariadb.yaml
 # 8+ comandos, 200+ líneas de YAML ❌
 ```
 
----
 
 ## Componentes de Helm
 
@@ -135,7 +132,6 @@ repos:
 - Custom: https://charts.mycompany.com
 ```
 
----
 
 ## Operaciones Comunes
 
@@ -198,7 +194,6 @@ helm rollback my-wordpress 1
 helm uninstall my-wordpress
 ```
 
----
 
 ## Valores y Personalización
 
@@ -243,7 +238,6 @@ helm install my-app bitnami/wordpress \
   --set mariadb.primary.persistence.size=20Gi
 ```
 
----
 
 ## Crear un Chart Propio
 
@@ -300,7 +294,6 @@ service:
   port: 8080
 ```
 
----
 
 ## Casos de Uso
 
@@ -326,7 +319,6 @@ helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm install ingress-nginx ingress-nginx/ingress-nginx
 ```
 
----
 
 ## Helm vs Deployment Manual
 
@@ -340,7 +332,6 @@ helm install ingress-nginx ingress-nginx/ingress-nginx
  **Instalación**  8+ comandos  1 comando 
  **Actualizaciones**  Manual merge  helm upgrade 
 
----
 
 ## Relaciones
 
@@ -354,7 +345,6 @@ helm install ingress-nginx ingress-nginx/ingress-nginx
 ### Parte de
 - Gestión y empaquetado de aplicaciones en Kubernetes
 
----
 
 ## Conclusión: Fin del Curso
 
@@ -382,7 +372,6 @@ Módulo 10: Helm ← ¡Estás aquí!
 ✅ Completo: Kubernetes end-to-end
 ```
 
----
 
 ## Fuentes
 
