@@ -2,6 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-17
 tags: [openshift, kubernetes, vm, contenedores, kvm, redes, podman, deployment, docker, configuracion, apache, proxmox, almacenamiento, virtualizacion, imagenes, seguridad, linux, openstack, instalacion, orquestacion, automatizacion, rootless, pods, oci, http, dns, bridge, volumes, templates, services, secrets, imagestream, tls, vagrant, iac, box, provisioning]
+title: Wiki Pledin
 ---
 
 # Índice del Vault
