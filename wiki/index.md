@@ -20,9 +20,9 @@ title: Wiki Pledin
 
 ## 📰 Artículos y Recursos
 
-- [[vagrant-introduccion|Vagrant: Introducción y Conceptos Fundamentales]] — Automatización de VMs, providers, provisioning, ciclo de vida
-- [[vagrant-libvirt-configuracion|Vagrant + libvirt: Configuración Completa]] — Networking, almacenamiento persistente, multi-VM, casos de uso
-- [[vagrant-creacion-boxes|Creación de Custom Boxes Vagrant]] — Empaquetar, versionar, distribuir boxes, Vagrant Cloud
+- [[vagrant-introduccion|Vagrant - Introducción y Conceptos Fundamentales]] — Automatización de VMs, providers, provisioning, ciclo de vida
+- [[vagrant-libvirt-configuracion|Vagrant + libvirt - Configuración Completa de Networking y Almacenamiento]] — Networking, almacenamiento persistente, multi-VM, casos de uso
+- [[vagrant-creacion-boxes|Creación de Custom Boxes para Vagrant]] — Empaquetar, versionar, distribuir boxes, Vagrant Cloud
 
 ---
 
@@ -73,111 +73,111 @@ title: Wiki Pledin
 ### KVM & libvirt
 
 #### Introducción a KVM & libvirt
-- [[introduccion-kvm|Introducción a KVM]] — Virtualización completa, QEMU/KVM stack, arquitectura
-- [[virt-manager-setup|Setup de virt-manager]] — Instalación, configuración inicial, redes default, almacenamiento
-- [[creacion-vms|Creación de VMs]] — Wizard instalación, Linux/Windows, hardware, detalles VM
-- [[almacenamiento-kvm|Almacenamiento en KVM]] — Storage pools, volúmenes, QCOW2, snapshots, thin provisioning
-- [[clonacion-kvm|Clonación de VMs]] — Full clone vs linked clone, problemas identidad, gestión
-- [[redes-kvm|Redes en KVM]] — NAT privadas, aisladas, bridge públicas, macvtap, configuración
-- [[consola-serie-kvm|Consola Serie en KVM]] — Acceso serie, getty, administración remota, bajo overhead
+- [[introduccion-kvm|Introducción a la Virtualización con KVM/libvirt]] — Virtualización completa, QEMU/KVM stack, arquitectura
+- [[virt-manager-setup|Instalación y Configuración de virt-manager]] — Instalación, configuración inicial, redes default, almacenamiento
+- [[creacion-vms|Creación de Máquinas Virtuales en virt-manager]] — Wizard instalación, Linux/Windows, hardware, detalles VM
+- [[almacenamiento-kvm|Almacenamiento en KVM/virt-manager]] — Storage pools, volúmenes, QCOW2, snapshots, thin provisioning
+- [[clonacion-kvm|Clonación de Máquinas Virtuales en KVM]] — Full clone vs linked clone, problemas identidad, gestión
+- [[redes-kvm|Redes en KVM/libvirt]] — NAT privadas, aisladas, bridge públicas, macvtap, configuración
+- [[consola-serie-kvm|Acceso por Consola Serie en KVM]] — Acceso serie, getty, administración remota, bajo overhead
 
 #### Profundización en KVM / libvirt
-- [[conceptos-avanzados-kvm|Conceptos Avanzados]] — Aislamiento seguridad, benchmarking, disaster recovery, cloud computing
-- [[setup-avanzado-kvm|Setup Avanzado]] — Virtualización anidada, CPU host-passthrough, requisitos hardware
-- [[virsh-cli-kvm|virsh CLI]] — Gestión dominios XML, ciclo de vida, volúmenes, virt-viewer
-- [[almacenamiento-virsh|Almacenamiento (virsh)]] — Pool types (dir/lvm/zfs/nfs), qemu-img, snapshots
-- [[clonacion-virsh|Clonación (virsh)]] — virt-clone, virt-install, virt-customize, templates, batch
-- [[redes-virsh|Redes (virsh)]] — Definición XML, DHCP/DNS, bridges (virbr), leases
-- [[instalacion-red-kvm|Instalación por Red]] — virt-install --location, preseed/kickstart, automatización
+- [[conceptos-avanzados-kvm|Conceptos Avanzados de Virtualización en KVM]] — Aislamiento seguridad, benchmarking, disaster recovery, cloud computing
+- [[setup-avanzado-kvm|Setup Avanzado de KVM/QEMU]] — Virtualización anidada, CPU host-passthrough, requisitos hardware
+- [[virsh-cli-kvm|Gestión de Máquinas Virtuales con virsh]] — Gestión dominios XML, ciclo de vida, volúmenes, virt-viewer
+- [[almacenamiento-virsh|Almacenamiento en KVM/libvirt con virsh]] — Pool types (dir/lvm/zfs/nfs), qemu-img, snapshots
+- [[clonacion-virsh|Clonación Avanzada con virsh]] — virt-clone, virt-install, virt-customize, templates, batch
+- [[redes-virsh|Redes Virtuales con virsh]] — Definición XML, DHCP/DNS, bridges (virbr), leases
+- [[instalacion-red-kvm|Instalación de VMs por Red en KVM]] — virt-install --location, preseed/kickstart, automatización
 
 ### Proxmox VE
-- [[introduccion-proxmox|Introducción a Proxmox]] — Virtualización, tipos de hipervisores (KVM, LXC), plataforma gestión
-- [[instalacion-proxmox|Instalación de Proxmox]] — Requisitos, proceso instalación, GUI, estructura cluster, storage/red por defecto
-- [[creacion-maquinas-virtuales-proxmox|Creación de Máquinas Virtuales]] — ISO, dispositivos VirtIO, creación Linux/Windows, Qemu-guest-agent, acceso remoto
-- [[almacenamiento-proxmox|Almacenamiento en Proxmox]] — Tipos storage, Directory, LVM thin, adición discos, resize/move/detach, snapshots
-- [[clonacion-snapshots-backups-proxmox|Clonación, Snapshots y Backups]] — Full/linked clone, plantillas, snapshots y rollback, backups (stop/suspend/snapshot)
-- [[linux-containers-lxc-proxmox|Contenedores LXC]] — Gestión LXC vs VMs, descarga plantillas, creación contenedores, ciclo de vida, mount points
-- [[redes-proxmox|Redes en Proxmox]] — Linux Bridge, vmbr0 público, redes internas, firewall 3 niveles (datacenter/nodo/VM)
-- [[usuarios-permisos-proxmox|Usuarios y Permisos]] — Autenticación (PAM, Proxmox), usuarios/grupos, roles, privilegios, pools de recursos, RBAC
+- [[introduccion-proxmox|Introducción a la Virtualización con Proxmox VE]] — Virtualización, tipos de hipervisores (KVM, LXC), plataforma gestión
+- [[instalacion-proxmox|Instalación de Proxmox VE]] — Requisitos, proceso instalación, GUI, estructura cluster, storage/red por defecto
+- [[creacion-maquinas-virtuales-proxmox|Creación de Máquinas Virtuales en Proxmox]] — ISO, dispositivos VirtIO, creación Linux/Windows, Qemu-guest-agent, acceso remoto
+- [[almacenamiento-proxmox|Gestión de Almacenamiento en Proxmox]] — Tipos storage, Directory, LVM thin, adición discos, resize/move/detach, snapshots
+- [[clonacion-snapshots-backups-proxmox|Clonación, Snapshots y Backups en Proxmox]] — Full/linked clone, plantillas, snapshots y rollback, backups (stop/suspend/snapshot)
+- [[linux-containers-lxc-proxmox|Trabajando con Linux Containers (LXC) en Proxmox]] — Gestión LXC vs VMs, descarga plantillas, creación contenedores, ciclo de vida, mount points
+- [[redes-proxmox|Gestión de Redes en Proxmox VE]] — Linux Bridge, vmbr0 público, redes internas, firewall 3 niveles (datacenter/nodo/VM)
+- [[usuarios-permisos-proxmox|Gestión de Usuarios y Permisos en Proxmox VE]] — Autenticación (PAM, Proxmox), usuarios/grupos, roles, privilegios, pools de recursos, RBAC
 
 ### OpenStack
 - [[introduccion-openstack|Introducción a OpenStack]] — Cloud IaaS, Horizon (web), OpenStack Client (CLI), claves SSH, grupos de seguridad
-- [[glance-imagenes-openstack|Glance: Gestión de Imágenes]] — Catálogo de imágenes, formatos QCOW2/raw, snapshots, visibilidad
-- [[nova-instancias-openstack|Nova: Gestión de Instancias]] — Ciclo de vida VM, sabores (flavors), snapshots, redimensión, cloud-init
-- [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Volúmenes persistentes, adjunción a instancias, snapshots, tipos storage
-- [[neutron-redes-openstack|Neutron: Redes Virtuales]] — Redes privadas, routers, Floating IPs, grupos de seguridad, SDN
+- [[glance-imagenes-openstack|Glance: Gestión de Imágenes en OpenStack]] — Catálogo de imágenes, formatos QCOW2/raw, snapshots, visibilidad
+- [[nova-instancias-openstack|Nova: Gestión de Instancias en OpenStack]] — Ciclo de vida VM, sabores (flavors), snapshots, redimensión, cloud-init
+- [[cinder-almacenamiento-openstack|Cinder: Gestión de Almacenamiento en OpenStack]] — Volúmenes persistentes, adjunción a instancias, snapshots, tipos storage
+- [[neutron-redes-openstack|Neutron: Gestión de Redes en OpenStack]] — Redes privadas, routers, Floating IPs, grupos de seguridad, SDN
 
 ### Docker
 - [[introduccion-docker|Introducción a Docker]] — Conceptos, diferencias con VMs, instalación
-- [[docker-run-y-ciclo-vida|Docker Run y Ciclo de Vida]] — docker run, ciclo de vida, mapeamiento de puertos
-- [[imagenes-y-docker-hub|Imágenes y Docker Hub]] — Capas, Docker Hub, comandos de gestión
-- [[volumenes-bind-mounts|Volúmenes y Bind Mounts]] — Volúmenes, bind mounts, tmpfs, persistencia
+- [[docker-run-y-ciclo-vida|Ejecución de Contenedores]] — docker run, ciclo de vida, mapeamiento de puertos
+- [[imagenes-y-docker-hub|Gestión de Imágenes]] — Capas, Docker Hub, comandos de gestión
+- [[volumenes-bind-mounts|Almacenamiento]] — Volúmenes, bind mounts, tmpfs, persistencia
 - [[redes-docker|Redes en Docker]] — Bridge, DNS, mapeamiento de puertos, SNAT/DNAT
 - [[docker-compose|Docker Compose]] — Orquestación declarativa, servicios, volúmenes, variables
-- [[dockerfile-y-construccion|Dockerfile y Construcción]] — Dockerfile, docker build, caching, multi-stage, best practices
+- [[dockerfile-y-construccion|Creación de Imágenes]] — Dockerfile, docker build, caching, multi-stage, best practices
 - [[docker-desktop|Docker Desktop]] — GUI para contenedores, imágenes, volúmenes, builds, extensiones
 
 ### Podman
 - [[introduccion-podman|Introducción a Podman]] — Daemonless, rootless nativo, Pods, Quadlet
-- [[ejecucion-contenedores-podman|Ejecución de Contenedores]] — podman run, rootless vs rootful
-- [[imagenes-podman|Gestión de Imágenes OCI]] — Pull, push, registros múltiples
-- [[almacenamiento-redes-podman|Almacenamiento y Redes]] — Volúmenes, bind mounts, redes bridge
-- [[pods-podman|Gestión de Pods]] — Pods nativos, generación YAML Kubernetes
-- [[quadlet-systemd|Systemd y Quadlet]] — Gestión de contenedores como servicios systemd
-- [[podman-compose|podman-compose]] — Escenarios multicontenedor, compose.yaml
-- [[construccion-imagenes-podman|Construcción de Imágenes OCI]] — Dockerfile, podman build, distribución
+- [[ejecucion-contenedores-podman|Ejecución de Contenedores con Podman]] — podman run, rootless vs rootful
+- [[imagenes-podman|Gestión de Imágenes OCI en Podman]] — Pull, push, registros múltiples
+- [[almacenamiento-redes-podman|Almacenamiento y Redes en Podman]] — Volúmenes, bind mounts, redes bridge
+- [[pods-podman|Gestión de Pods en Podman]] — Pods nativos, generación YAML Kubernetes
+- [[quadlet-systemd|Systemd y Quadlet: Gestión de Contenedores]] — Gestión de contenedores como servicios systemd
+- [[podman-compose|Escenarios Multicontenedor con podman-compose]] — Escenarios multicontenedor, compose.yaml
+- [[construccion-imagenes-podman|Construcción y Distribución de Imágenes OCI]] — Dockerfile, podman build, distribución
 - [[seguridad-podman|Seguridad en Podman]] — Rootless, SELinux, AppArmor
-- [[casos-practicos-podman|Casos Prácticos]] — WordPress, GuestBook, integración Kubernetes
+- [[casos-practicos-podman|Casos Prácticos y Aplicaciones con Podman]] — WordPress, GuestBook, integración Kubernetes
 
 ### Kubernetes
 - [[introduccion-kubernetes|Introducción a Kubernetes]] — Orquestación, arquitectura master/worker, por qué k8s
 - [[instalacion-kubernetes|Instalación de Kubernetes]] — minikube, kubeadm, kind, kubectl setup
 - [[pods-contenedores|Pods: Contenedores en Kubernetes]] — Unidad mínima, efímeros, health checks
-- [[replicasets|ReplicaSets]] — Escalabilidad, auto-reparación, tolerancia a fallos
-- [[deployments|Deployments]] — Ciclo de vida, rolling updates, rollbacks
+- [[replicasets|ReplicaSets: Escalabilidad y Tolerancia a Fallos]] — Escalabilidad, auto-reparación, tolerancia a fallos
+- [[deployments|Deployments: Ciclo de Vida Completo]] — Ciclo de vida, rolling updates, rollbacks
 - [[services-acceso|Services: Acceso a Aplicaciones]] — ClusterIP, NodePort, LoadBalancer, Ingress, DNS
-- [[configmaps-y-secrets|ConfigMaps y Secrets]] — Parametrización, configuración, credenciales
+- [[configmaps-y-secrets|Despliegues Parametrizados: ConfigMaps y Secrets]] — Parametrización, configuración, credenciales
 - [[almacenamiento-kubernetes|Almacenamiento en Kubernetes]] — PersistentVolumes, PVCs, provisioning
-- [[statefulsets-daemonsets-jobs|StatefulSets, DaemonSets, Jobs]] — Cargas de trabajo especializadas
-- [[helm-empaquetado|Helm: Empaquetado de Aplicaciones]] — Charts, package manager, templating
+- [[statefulsets-daemonsets-jobs|Otras Cargas de Trabajo: StatefulSets, DaemonSets, Jobs]] — Cargas de trabajo especializadas
+- [[helm-empaquetado|Helm: Empaquetado y Despliegue de Aplicaciones]] — Charts, package manager, templating
 
 ### OpenShift v4
 
 #### Kubernetes y OpenShift
-- [[introduccion-openshift|Introducción a OpenShift]] — Distribución K8s enterprise, Developer Sandbox, características
-- [[developer-sandbox|Developer Sandbox]] — Entorno cloud gratuito, proyectos, acceso web
-- [[code-ready-containers|Instalación Local (CRC)]] — Code Ready Containers, instalación, requisitos, primeros pasos
-- [[pods-replicasets-deployments|Pods, ReplicaSets y Deployments]] — Recursos Kubernetes en OpenShift
-- [[services-routes|Services y Routes]] — Acceso a aplicaciones, exposición, routing
-- [[configmaps-secrets|ConfigMaps y Secrets]] — Parametrización, credenciales, configuración
-- [[almacenamiento-openshift|Almacenamiento en OpenShift]] — Volumes, PersistentVolumes, PersistentVolumeClaims
-- [[recursos-avanzados|Recursos Avanzados]] — StatefulSet, DaemonSet, Jobs, CronJobs, HPA
-- [[aplicacion-ejemplo-citas|Aplicación Ejemplo: Citas]] — Despliegue multi-componente, microservices
+- [[introduccion-openshift|Introducción a OpenShift v4 (Curso 1 - Módulo 1)]] — Distribución K8s enterprise, Developer Sandbox, características
+- [[developer-sandbox|Red Hat OpenShift Dedicated Developer Sandbox (Curso 1 - Módulo 2)]] — Entorno cloud gratuito, proyectos, acceso web
+- [[code-ready-containers|CRC (CodeReady Containers) (Curso 1 - Módulo 3)]] — Code Ready Containers, instalación, requisitos, primeros pasos
+- [[pods-replicasets-deployments|OpenShift como Distribución de Kubernetes (Curso 1 - Módulo 4)]] — Recursos Kubernetes en OpenShift
+- [[services-routes|Acceso a las Aplicaciones (Curso 1 - Módulo 5)]] — Acceso a aplicaciones, exposición, routing
+- [[configmaps-secrets|Despliegues Parametrizados (Curso 1 - Módulo 6)]] — Parametrización, credenciales, configuración
+- [[almacenamiento-openshift|Almacenamiento en OpenShift v4 (Curso 1 - Módulo 7)]] — Volumes, PersistentVolumes, PersistentVolumeClaims
+- [[recursos-avanzados|Otros Recursos para Manejar Aplicaciones (Curso 1 - Módulo 8)]] — StatefulSet, DaemonSet, Jobs, CronJobs, HPA
+- [[aplicacion-ejemplo-citas|Ejemplo Final: Aplicación Citas (Curso 1 - Módulo 9)]] — Despliegue multi-componente, microservices
 
 #### OpenShift como PaaS
-- [[openshift-paas|OpenShift como PaaS]] — Características PaaS, abstracciones, flujos de trabajo
-- [[metodos-despliegue|Métodos de Despliegue]] — Image, Source-to-Image (S2I), Dockerfile, Templates
-- [[imagestream-gestion|ImageStream y Gestión]] — Abstracción de imágenes, triggers automáticos, importación
-- [[buildconfig-cicd|BuildConfig y CI/CD]] — Construcción automatizada, S2I, Docker build, webhooks
-- [[imagepull-registros|ImagePull y Registros Privados]] — ImagePullSecrets, registros privados, seguridad
-- [[deployconfig-rolling-updates|DeployConfig y Rolling Updates]] — Despliegues avanzados, hooks lifecycle, rollbacks
-- [[services-routes-avanzado|Services y Routes Avanzado]] — Exposición de aplicaciones, TLS, balanceo de carga
-- [[operadores-knative-tekton|Operadores, Knative y Tekton]] — Extensiones, serverless, CI/CD declarativa
-- [[monitorizacion-prometheus|Monitorización con Prometheus]] — Prometheus, Grafana, logs, alertas, health checks
-- [[seguridad-rbac-policies|Seguridad: RBAC y Network Policies]] — Control de acceso, aislamiento red, Secrets, SecurityContext
+- [[openshift-paas|Introducción a OpenShift v4 como PaaS (Curso 2 - Módulo 1)]] — Características PaaS, abstracciones, flujos de trabajo
+- [[metodos-despliegue|Despliegue de Aplicaciones en OpenShift v4 (Curso 2 - Módulo 2)]] — Image, Source-to-Image (S2I), Dockerfile, Templates
+- [[imagestream-gestion|ImageStreams: Gestión de Imágenes (Curso 2 - Módulo 3)]] — Abstracción de imágenes, triggers automáticos, importación
+- [[buildconfig-cicd|Builds: Construcción Automática de Imágenes (Curso 2 - Módulo 4)]] — Construcción automatizada, S2I, Docker build, webhooks
+- [[imagepull-registros|ImageStreams Avanzado: Etiquetas y Actualizaciones (Curso 2 - Módulo 5)]] — ImagePullSecrets, registros privados, seguridad
+- [[deployconfig-rolling-updates|DeployConfig y Rolling Updates (Curso 2 - Módulo 6)]] — Despliegues avanzados, hooks lifecycle, rollbacks
+- [[services-routes-avanzado|Acceso a Aplicaciones: Services y Routes (Curso 2 - Módulo 7)]] — Exposición de aplicaciones, TLS, balanceo de carga
+- [[operadores-knative-tekton|Extensiones de OpenShift: Operadores, Knative, Tekton (Curso 2 - Módulo 8)]] — Extensiones, serverless, CI/CD declarativa
+- [[monitorizacion-prometheus|Monitorización y Observabilidad (Curso 2 - Módulo 9)]] — Prometheus, Grafana, logs, alertas, health checks
+- [[seguridad-rbac-policies|Seguridad en OpenShift (Curso 2 - Módulo 10)]] — Control de acceso, aislamiento red, Secrets, SecurityContext
 
 ---
 
 ## 🌐 Servicios y Aplicaciones
 
 ### Apache2
-- [[fundamentos-apache|Fundamentos]] — HTTP, introducción, instalación en Debian/Ubuntu
-- [[configuracion-apache|Configuración]] — Ficheros config, directivas clave, contextos Directory
-- [[virtual-hosting-apache|Virtual Hosting]] — Múltiples dominios, NameVhost, a2ensite/a2dissite
-- [[directorios-urls-apache|Directorios y URLs]] — Options, Alias, Redirect, DirectoryIndex, negociación
-- [[autenticacion-apache|Autenticación]] — Control acceso, auth básica/digest, .htaccess, políticas Require
-- [[modulos-apache|Módulos]] — a2enmod/a2dismod, mod_userdir, mod_dav, mod_rewrite, MPM
-- [[aplicaciones-web-apache|Aplicaciones Web]] — mod_php, PHP-FPM, Python/WSGI, Node.js
-- [[https-apache|HTTPS]] — mod_ssl, certificados, Let's Encrypt, CAcert, configuración TLS
-- [[seguridad-apache|Seguridad]] — mod_security2, hardening, headers, permisos, logs
-- [[proxy-logs-apache|Proxy Inverso y Logs]] — mod_proxy, balanceo carga, AWStats
+- [[fundamentos-apache|Fundamentos de Apache]] — HTTP, introducción, instalación en Debian/Ubuntu
+- [[configuracion-apache|Configuración de Apache]] — Ficheros config, directivas clave, contextos Directory
+- [[virtual-hosting-apache|Virtual Hosting en Apache]] — Múltiples dominios, NameVhost, a2ensite/a2dissite
+- [[directorios-urls-apache|Directorios y URLs en Apache]] — Options, Alias, Redirect, DirectoryIndex, negociación
+- [[autenticacion-apache|Autenticación en Apache]] — Control acceso, auth básica/digest, .htaccess, políticas Require
+- [[modulos-apache|Módulos en Apache]] — a2enmod/a2dismod, mod_userdir, mod_dav, mod_rewrite, MPM
+- [[aplicaciones-web-apache|Aplicaciones Web en Apache]] — mod_php, PHP-FPM, Python/WSGI, Node.js
+- [[https-apache|HTTPS en Apache]] — mod_ssl, certificados, Let's Encrypt, CAcert, configuración TLS
+- [[seguridad-apache|Seguridad en Apache]] — mod_security2, hardening, headers, permisos, logs
+- [[proxy-logs-apache|Proxy Inverso y Análisis de Logs en Apache]] — mod_proxy, balanceo carga, AWStats
