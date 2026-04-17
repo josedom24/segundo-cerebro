@@ -127,9 +127,11 @@ Si Pod cae → datos persisten en PVs
 ```
 
 ## Relaciones
-- Parte de: [[openshift]], [[kubernetes]]
-- Conceptos: [[volume]] (abstracción conceptual)
-- Similar a: [[snapshot]] (backup/restore)
+
+### Conecta con
+- Parte de: [[openshift|OpenShift]], [[kubernetes|Kubernetes]]
+- Conceptos: [[volume|Volume]] (abstracción conceptual)
+- Similar a: [[snapshot|Snapshot]] (backup/restore)
 
 ## Fuentes
-- [Curso OpenShift v4 (Módulo 7)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo7)
+- [Curso: OpenShift v4](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/)

@@ -19,7 +19,7 @@ Conceptos base de Apache 2.4: protocolo HTTP, historia del servidor, instalació
 
 ## Protocolo HTTP
 
-[[http]] es el protocolo base que Apache implementa. Características:
+[[http|HTTP]] es el protocolo base que Apache implementa. Características:
 - **Request/Response:** Cliente solicita, servidor responde
 - **Sin estado:** Cada petición es independiente
 - **Texto plano:** Mensajes legibles (antes de HTTPS)
@@ -124,8 +124,8 @@ grep -E "^User " /etc/apache2/apache2.conf
 ## Relaciones
 
 ### Conecta con
-- [[http]] — Protocolo implementado
-- [[apache]] — Concepto general del servidor
+- [[http|HTTP]] — Protocolo implementado
+- [[apache|Apache]] — Concepto general del servidor
 - [[configuracion-apache|Configuración]] — Ficheros config
 
 ### Conceptos previos
@@ -136,6 +136,6 @@ grep -E "^User " /etc/apache2/apache2.conf
 
 ## Fuentes
 
-- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
+- [Curso: Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache HTTP Server 2.4 Documentation](https://httpd.apache.org/docs/2.4/)
 - [Apache 2.4 Docs ES](https://httpd.apache.org/docs/2.4/es/)

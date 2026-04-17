@@ -315,13 +315,13 @@ Detalles VM → Interfaces de red
 - [[consola-serie-kvm|Unidad 7: Consola Serie]]
 
 ### Parte de
-- [[kvm]] — Stack de virtualización
+- [[kvm|KVM]] — Stack de virtualización
 
 ---
 
 ## Fuentes
 
-- [Curso KVM 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm1/)
+- [Curso: KVM 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm1/)
 - [Curso KVM 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [libvirt Networking](https://libvirt.org/formatnetwork.html)
 - [Linux Bridge](https://wiki.linuxfoundation.org/networking/bridge)

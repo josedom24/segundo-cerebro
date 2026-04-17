@@ -188,7 +188,7 @@ apache2ctl -S
 ## Relaciones
 
 ### Conecta con
-- [[apache]] — Concept general
+- [[apache|Apache]] — Concept general
 - [[fundamentos-apache|Fundamentos]] — Instalación previa
 - [[virtual-hosting-apache|Virtual Hosting]] — Usando VirtualHosts en config
 - [[directorios-urls-apache|Directorios y URLs]] — Directivas Directory avanzadas
@@ -198,6 +198,6 @@ apache2ctl -S
 
 ## Fuentes
 
-- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
+- [Curso: Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 Configuration Directives](https://httpd.apache.org/docs/2.4/mod/directives.html)
 - [Apache 2.4 Sections (Directory, Files, VirtualHost)](https://httpd.apache.org/docs/2.4/sections.html)

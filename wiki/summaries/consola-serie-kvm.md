@@ -341,14 +341,14 @@ Resultados:
 - [[redes-kvm|Unidad 6: Redes]]
 
 ### Parte de
-- [[kvm]] — Stack de virtualización
+- [[kvm|KVM]] — Stack de virtualización
 
 
 ---
 
 ## Fuentes
 
-- [Curso KVM 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm1/)
+- [Curso: KVM 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm1/)
 - [Curso KVM 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [Systemd getty](https://man7.org/linux/man-pages/man8/getty.8.html)
 - [Serial Console Debugging](https://wiki.ubuntu.com/Kernel/Debugging/SerialConsoleHowto)

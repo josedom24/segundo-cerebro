@@ -120,10 +120,12 @@ spec:
 - Ver cuáles Pods usan qué imagen
 
 ## Relaciones
-- Parte de: [[openshift]]
-- Produce: [[build]] (BuildConfig crea IS)
-- Usa: [[deployment]] (referencian IS)
+
+### Conecta con
+- Parte de: [[openshift|OpenShift]]
+- Produce: [[build|Build]] (BuildConfig crea IS)
+- Usa: [[deployment|Deployment]] (referencian IS)
 - Alternativa: Referencias simples a Docker registros
 
 ## Fuentes
-- [Curso OpenShift v4 PaaS (Módulo 3)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo3)
+- [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

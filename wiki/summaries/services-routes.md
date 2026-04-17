@@ -65,10 +65,12 @@ Pods (replicas)
 ```
 
 ## Relaciones
-- Parte de: [[openshift]]
+
+### Conecta con
+- Parte de: [[openshift|OpenShift]]
 - Expone: Deployments/Pods
-- Alternativa de: [[kubernetes|Ingress]] de [[kubernetes]]
-- Usa: [[service]] internamente
+- Alternativa de: [[kubernetes|Ingress]] de [[kubernetes|Kubernetes]]
+- Usa: [[service|Service]] internamente
 
 ## Fuentes
-- [Curso OpenShift v4 (Módulo 5)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo5)
+- [Curso: OpenShift v4](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/)

@@ -246,8 +246,8 @@ SSLCertificateKeyFile /etc/ssl/private/server.key
 ## Relaciones
 
 ### Conecta con
-- [[apache]] — Servidor web
-- [[tls]] — Protocolo TLS/SSL base
+- [[apache|Apache]] — Servidor web
+- [[tls|TLS]] — Protocolo TLS/SSL base
 - [[modulos-apache|Módulos]] — mod_ssl
 - [[seguridad-apache|Seguridad]] — HSTS, cipher suites
 - [[virtual-hosting-apache|Virtual Hosting]] — VirtualHost puerto 443
@@ -256,7 +256,7 @@ SSLCertificateKeyFile /etc/ssl/private/server.key
 
 ## Fuentes
 
-- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
+- [Curso: Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 mod_ssl](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
 - [Apache 2.4 SSL/TLS Configuration](https://httpd.apache.org/docs/2.4/ssl/)
 - [CAcert Community](http://www.cacert.org/)

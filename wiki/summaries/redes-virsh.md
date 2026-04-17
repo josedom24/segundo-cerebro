@@ -390,12 +390,12 @@ sudo ip link del virbr-test
 - [[instalacion-red-kvm|Unidad 7: Instalación por Red]]
 
 ### Parte de
-- [[kvm]] — Stack de virtualización
+- [[kvm|KVM]] — Stack de virtualización
 
 ---
 
 ## Fuentes
 
-- [Curso KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
+- [Curso: KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
 - [Curso KVM Avanzado 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [libvirt Networking](https://libvirt.org/formatnetwork.html)

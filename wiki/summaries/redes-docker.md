@@ -12,7 +12,7 @@ Cómo se comunican los contenedores entre sí y con el exterior: redes bridge, m
 
 ## Información
 - **Fuente:** Curso Docker 2024 - Módulo 5
-- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo5
+- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 699
 
@@ -415,8 +415,8 @@ docker run -d \
 ## Relaciones
 
 ### Conecta con
-- [[docker]] — Plataforma base
-- [[contenedores]] — Lo que se comunica
+- [[docker|Docker]] — Plataforma base
+- [[contenedores|Contenedores]] — Lo que se comunica
 - [[docker-compose|Docker Compose]] — Define redes declarativamente
 
 
@@ -436,4 +436,4 @@ docker run -d \
 
 ## Fuentes
 
-- [Curso Docker 2024 - Módulo 5](https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo5)
+- [Curso: Docker 2024 - Módulo 5](https://plataforma.josedomingo.org/pledin/cursos/docker2024/)

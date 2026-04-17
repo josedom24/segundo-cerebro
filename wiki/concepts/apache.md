@@ -97,9 +97,11 @@ Apache sigue dominando en:
 
 ## Relaciones
 
+### Conecta con
+
 ### Enlaza con
-- [[http]] — Protocolo base que implementa
-- [[tls]] — Certificados y HTTPS (mod_ssl)
+- [[http|HTTP]] — Protocolo base que implementa
+- [[tls|TLS]] — Certificados y HTTPS (mod_ssl)
 - linux — Instalación, gestión systemd
 - seguridad — mod_security2, autenticación, control acceso
 
@@ -109,6 +111,6 @@ Apache sigue dominando en:
 
 ## Fuentes
 
-- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
+- [Curso: Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache HTTP Server Official](https://httpd.apache.org/)
 - [Apache 2.4 Documentation (ES)](https://httpd.apache.org/docs/2.4/es/)

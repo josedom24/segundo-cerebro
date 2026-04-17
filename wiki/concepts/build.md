@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas]
-tags: [contenedores, openshift]
+tags: [contenedores, openshift, build]
 ---
 
 # Build (BuildConfig en OpenShift)
@@ -177,10 +177,14 @@ Builds periódicos (como cron)
 
 ## Relaciones
 
-- Parte de: [[openshift]] (característica específica)
-- Produce: [[imagestream]] (output de cada build)
-- Triggers automáticos con: [[imagestream]] (cambios en imágenes base)
-- Complementa: [[paas]] (automatización de despliegues)
+### Conecta con
+
+- Parte de: [[openshift|OpenShift]] (característica específica)
+- Produce: [[imagestream|ImageStream]] (output de cada build)
+- Triggers automáticos con: [[imagestream|ImageStream]] (cambios en imágenes base)
+- Complementa: [[paas|PaaS]] (automatización de despliegues)
 
 ## Fuentes
-- Curso osv4_paas - Módulo 4: Builds y BuildConfig
+
+- [[buildconfig-cicd|Buildconfig Cicd]]
+- [[imagestream-gestion|Imagestream Gestion]]

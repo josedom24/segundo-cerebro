@@ -175,7 +175,7 @@ podman inspect container-name   # Detalles JSON
 
 ### Conecta con
 - [[introduccion-podman|Introducción a Podman]]
-- [[docker]] — Misma interfaz
+- [[docker|Docker]] — Misma interfaz
 
 ### Parte de
 - Ejecución de contenedores — Ejecución de contenedores

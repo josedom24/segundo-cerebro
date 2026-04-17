@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep]
-tags: [deployment, kubernetes]
+tags: [deployment, kubernetes, job]
 aliases: [Job]
 ---
 
@@ -158,9 +158,9 @@ failedJobsHistoryLimit: 1
 ## Relaciones
 
 ### Conecta con
-- [[deployment]] — Alternativa para Pods que no terminan
-- [[pod]] — Unidad ejecutada
-- [[kubernetes]] — Patrón de batch
+- [[deployment|Deployment]] — Alternativa para Pods que no terminan
+- [[pod|Pod]] — Unidad ejecutada
+- [[kubernetes|Kubernetes]] — Patrón de batch
 
 ### Reutilizable en
 - Kubernetes principalmente

@@ -197,12 +197,14 @@ openssl x509 -in server.crt -noout -text | grep -A1 "Subject Alternative"
 
 ## Relaciones
 
+### Conecta con
+
 ### Implementa
 - **HTTPS** — HTTP sobre TLS
 - **Autenticación mutua** — Ambos lados verifican identidad
 
 ### Complementa
-- [[apache]] — mod_ssl para HTTPS
+- [[apache|Apache]] — mod_ssl para HTTPS
 - [[kubernetes|K8s Ingress]] — TLS termination
 - [[openshift|OpenShift Routes]] — HTTPS automático
 

@@ -234,13 +234,13 @@ Contenedor eliminado
 ## Relaciones
 
 ### Conecta con
-- [[docker]] — Plataforma que ejecuta contenedores
-- [[podman]] — Runtime alternativo daemonless
-- [[kubernetes]] — Orquestación de contenedores
-- [[openshift]] — Distribución K8s con abstracciones PaaS para contenedores
+- [[docker|Docker]] — Plataforma que ejecuta contenedores
+- [[podman|Podman]] — Runtime alternativo daemonless
+- [[kubernetes|Kubernetes]] — Orquestación de contenedores
+- [[openshift|OpenShift]] — Distribución K8s con abstracciones PaaS para contenedores
 
 ### Contrasta con
-- [[kvm]] — Máquinas virtuales con overhead mayor
+- [[kvm|KVM]] — Máquinas virtuales con overhead mayor
 
 ## Fuentes
 - [Curso Docker 2024 - Módulo 1](../summaries/introduccion-docker.md) — Introducción a contenedores

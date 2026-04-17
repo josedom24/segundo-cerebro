@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
-tags: [kubernetes]
+tags: [helm, kubernetes]
 ---
 
 # Helm: Empaquetado y Despliegue de Aplicaciones
@@ -345,8 +345,8 @@ helm install ingress-nginx ingress-nginx/ingress-nginx
 ## Relaciones
 
 ### Conecta con
-- [[helm]] — Package manager de Kubernetes
-- [[kubernetes]] — Orquestador donde corre Helm
+- [[helm|Helm]] — Package manager de Kubernetes
+- [[kubernetes|Kubernetes]] — Orquestador donde corre Helm
 - [[deployments|Deployments]] — Lo que Helm despliega
 - [[services-acceso|Services]] — Parte de Charts
 - [[almacenamiento-kubernetes|Storage]] — PVCs en Charts

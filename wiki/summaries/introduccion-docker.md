@@ -198,8 +198,8 @@ Docker es para single-host. Cuando necesitas múltiples servidores → Kubernete
 ## Relaciones
 
 ### Conecta con
-- [[contenedores]] — Concepto fundamental
-- [[docker]] — Plataforma general
+- [[contenedores|Contenedores]] — Concepto fundamental
+- [[docker|Docker]] — Plataforma general
 
 ## Fuentes
-- [Curso Docker 2024 - Módulo 1](https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo1) — En la plataforma de enseñanza
+- [Curso: Docker 2024 - Módulo 1](https://plataforma.josedomingo.org/pledin/cursos/docker2024/) — En la plataforma de enseñanza

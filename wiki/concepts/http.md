@@ -152,13 +152,15 @@ Accept-Encoding: gzip, deflate, br
 
 ## Relaciones
 
+### Conecta con
+
 ### Implementado por
-- [[apache]] — Apache HTTP Server v2.4
-- [[kubernetes]] — Ingress/Services exponen HTTP
-- [[openshift]] — Routes + ingress HTTP(S)
+- [[apache|Apache]] — Apache HTTP Server v2.4
+- [[kubernetes|Kubernetes]] — Ingress/Services exponen HTTP
+- [[openshift|OpenShift]] — Routes + ingress HTTP(S)
 
 ### Complementado por
-- [[tls]] — HTTPS (HTTP sobre TLS/SSL)
+- [[tls|TLS]] — HTTPS (HTTP sobre TLS/SSL)
 - redes — TCP/IP transporte
 
 ## Fuentes

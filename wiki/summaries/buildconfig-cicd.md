@@ -195,10 +195,12 @@ Resultado:
 ```
 
 ## Relaciones
-- Parte de: [[openshift]] (característica PaaS)
-- Produce: [[imagestream]] (output de build)
+
+### Conecta con
+- Parte de: [[openshift|OpenShift]] (característica PaaS)
+- Produce: [[imagestream|ImageStream]] (output de build)
 - Usa: BuildConfig (recurso)
 - Integra: Git webhooks, CI/CD
 
 ## Fuentes
-- [Curso OpenShift v4 PaaS (Módulo 4)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo4)
+- [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

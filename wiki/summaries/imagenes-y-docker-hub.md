@@ -12,7 +12,7 @@ Cómo funcionan las imágenes Docker (capas, almacenamiento, compartición), Doc
 
 ## Información
 - **Fuente:** Curso Docker 2024 - Módulo 3
-- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo3
+- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 407
 
@@ -315,9 +315,9 @@ docker run postgres:15-alpine  # Versión específica
 ## Relaciones
 
 ### Conecta con
-- [[docker]] — Plataforma base
+- [[docker|Docker]] — Plataforma base
 - Docker Hub — Registro de imágenes
-- [[contenedores]] — Basados en imágenes
+- [[contenedores|Contenedores]] — Basados en imágenes
 - [[dockerfile-y-construccion|Dockerfile]] — Cómo construir imágenes
 
 ---
@@ -336,5 +336,5 @@ docker run postgres:15-alpine  # Versión específica
 
 ## Fuentes
 
-- [Curso Docker 2024 - Módulo 3](https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo3)
+- [Curso: Docker 2024 - Módulo 3](https://plataforma.josedomingo.org/pledin/cursos/docker2024/)
 - [Docker Hub](https://hub.docker.com)

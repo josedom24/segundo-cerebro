@@ -138,7 +138,7 @@ Conexión de instancias a redes virtuales:
 - [[nova-instancias-openstack|Nova: Instancias]] — Máquinas virtuales
 - [[cinder-almacenamiento-openstack|Cinder: Almacenamiento]] — Volúmenes persistentes
 - [[neutron-redes-openstack|Neutron: Redes]] — Conectividad virtual
-- [[contenedores]] — Alternativa: contenedores vs VMs
+- [[contenedores|Contenedores]] — Alternativa: contenedores vs VMs
 
 ### Parte de
 - Cloud Computing IaaS

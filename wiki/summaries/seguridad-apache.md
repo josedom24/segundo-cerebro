@@ -291,9 +291,9 @@ awk '$9 == 404 {print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -
 ## Relaciones
 
 ### Conecta con
-- [[apache]] — Servidor web
+- [[apache|Apache]] — Servidor web
 - [[https-apache|HTTPS]] — Headers seguridad HSTS
-- [[tls]] — Cifrado transporte
+- [[tls|TLS]] — Cifrado transporte
 - [[autenticacion-apache|Autenticación]] — Control acceso
 - linux — Permisos ficheros, monitoreo
 
@@ -301,7 +301,7 @@ awk '$9 == 404 {print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -
 
 ## Fuentes
 
-- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
+- [Curso: Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 Security Tips](https://httpd.apache.org/docs/2.4/misc/security_tips.html)
 - [mod_security](https://www.modsecurity.org/)
 - [OWASP Apache Hardening](https://owasp.org/www-project-integration-standards/writeups/owasp_apache_hardening_guide)

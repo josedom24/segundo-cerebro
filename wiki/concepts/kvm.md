@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso-kvm, creacion-box-vagrant]
-tags: [linux, virtualizacion]
+tags: [linux, virtualizacion, kvm]
 aliases: [KVM]
 ---
 
@@ -36,7 +36,15 @@ Capa de abstracción que simplifica la gestión de VMs mediante:
 - Entornos de desarrollo
 - Infraestructura empresarial
 
+## Fuentes
+
+- [[introduccion-kvm|Introduccion Kvm]]
+- [[virt-manager-setup|Virt Manager Setup]]
+- [[creacion-vms|Creacion Vms]]
+
 ## Relaciones
+
+### Conecta con
 - **API:** libvirt (gestión)
 - **Herramientas:** virt-manager, virt-install
 - **Parte de:** Stack de virtualización en Linux

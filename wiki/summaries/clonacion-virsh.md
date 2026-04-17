@@ -391,13 +391,13 @@ echo "✅ $CANTIDAD clones creados"
 - [[almacenamiento-virsh|Unidad 4: Almacenamiento]]
 
 ### Parte de
-- [[kvm]] — Stack de virtualización
+- [[kvm|KVM]] — Stack de virtualización
 
 ---
 
 ## Fuentes
 
-- [Curso KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
+- [Curso: KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
 - [Curso KVM Avanzado 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [virt-clone Man Page](https://linux.die.net/man/1/virt-clone)
 - [virt-customize Man Page](https://linux.die.net/man/1/virt-customize)

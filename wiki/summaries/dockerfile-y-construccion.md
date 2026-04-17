@@ -12,7 +12,7 @@ Cómo construir imágenes Docker personalizadas con Dockerfile, docker build, ca
 
 ## Información
 - **Fuente:** Curso Docker 2024 - Módulo 7
-- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo7
+- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 1138
 - **Nota:** Módulo más grande del curso
@@ -512,7 +512,7 @@ docker run -d myregistry.com/myapp:1.0
 
 ### Conecta con
 - [[dockerfile-y-construccion|Dockerfile]] — Concepto y sintaxis
-- [[docker]] — Plataforma base
+- [[docker|Docker]] — Plataforma base
 - [[docker-compose|Docker Compose]] — Define imágenes a construir
 
 ### Parte de
@@ -523,4 +523,4 @@ docker run -d myregistry.com/myapp:1.0
 
 ## Fuentes
 
-- [Curso Docker 2024 - Módulo 7](https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo7)
+- [Curso: Docker 2024 - Módulo 7](https://plataforma.josedomingo.org/pledin/cursos/docker2024/)

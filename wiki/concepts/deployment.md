@@ -126,13 +126,13 @@ spec:
 ## Relaciones
 
 ### Conecta con
-- [[pod]] — Unidad desplegada
-- [[service]] — Expone Deployment
-- [[statefulset]] — Para aplicaciones stateful
-- [[job]] — Para tareas que terminan
+- [[pod|Pod]] — Unidad desplegada
+- [[service|Service]] — Expone Deployment
+- [[statefulset|StatefulSet]] — Para aplicaciones stateful
+- [[job|Job]] — Para tareas que terminan
 
 ### Reutilizable en
-- [[kubernetes]] — Patrón principal
+- [[kubernetes|Kubernetes]] — Patrón principal
 - Cualquier orquestador de contenedores
 
 ## Fuentes

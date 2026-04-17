@@ -197,13 +197,13 @@ Necesarios para buen rendimiento. La mayoría de CPUs modernas los incluyen.
 ## Relaciones
 
 ### Conecta con
-- [[kvm]] — Hipervisor basado en Linux
-- [[contenedores]] — Alternativa ligera a virtualización
-- [[proxmox]] — Plataforma que usa KVM
+- [[kvm|KVM]] — Hipervisor basado en Linux
+- [[contenedores|Contenedores]] — Alternativa ligera a virtualización
+- [[proxmox|Proxmox]] — Plataforma que usa KVM
 
 ### Diferencia con
-- [[docker]] — Virtualización completa vs ligera
-- [[podman]] — Contenedores vs máquinas virtuales
+- [[docker|Docker]] — Virtualización completa vs ligera
+- [[podman|Podman]] — Contenedores vs máquinas virtuales
 
 ### Parte de
 - Soluciones de virtualización en infraestructura
@@ -218,6 +218,6 @@ Con conceptos claros, pasar a [[virt-manager-setup|Unidad 2: virt-manager]].
 
 ## Fuentes
 
-- [Curso KVM 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm1/)
+- [Curso: KVM 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm1/)
 - [Curso KVM 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [KVM Official](https://www.linux-kvm.org/)

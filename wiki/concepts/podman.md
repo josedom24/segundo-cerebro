@@ -157,12 +157,12 @@ podman-compose -f compose.yaml up -d
 ## Relaciones
 
 ### Conecta con
-- [[contenedores]] — Virtualización a nivel SO
-- [[docker]] — Alternativa directa
-- [[kubernetes]] — Siguiente nivel orquestación
+- [[contenedores|Contenedores]] — Virtualización a nivel SO
+- [[docker|Docker]] — Alternativa directa
+- [[kubernetes|Kubernetes]] — Siguiente nivel orquestación
 
 ### Diferencia con
-- [[docker]] — Demonio vs daemonless, rootless nativo
+- [[docker|Docker]] — Demonio vs daemonless, rootless nativo
 - Kubernetes — Single-host vs cluster-wide
 
 ### Compatible con

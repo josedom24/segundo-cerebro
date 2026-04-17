@@ -466,13 +466,13 @@ virt-viewer nombre-vm
 - [[redes-virsh|Unidad 6: Redes]]
 
 ### Parte de
-- [[kvm]] — Stack de virtualización
+- [[kvm|KVM]] — Stack de virtualización
 
 ---
 
 ## Fuentes
 
-- [Curso KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
+- [Curso: KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
 - [Curso KVM Avanzado 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [virt-install Man Page](https://linux.die.net/man/1/virt-install)
 - [Debian Preseed](https://wiki.debian.org/DebianInstaller/Preseed)

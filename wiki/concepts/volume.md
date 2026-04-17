@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep, curso_openstack_ies, curso_proxmox_cep]
-tags: [almacenamiento]
+tags: [almacenamiento, volume]
 aliases: [Volume]
 ---
 
@@ -160,16 +160,18 @@ Snapshot: ahora 2GB (datos cambiados)
 
 ## Relaciones
 
+### Conecta con
+
 ### Aparece en
-- [[kubernetes]] — PersistentVolumes
-- [[openstack]] — Cinder blocks
-- [[proxmox]] — Storage management
-- [[kvm]] — Storage pools
-- [[statefulset]] — Para aplicaciones con estado
-- [[deployment]] — Configuración, secretos
+- [[kubernetes|Kubernetes]] — PersistentVolumes
+- [[openstack|OpenStack]] — Cinder blocks
+- [[proxmox|Proxmox]] — Storage management
+- [[kvm|KVM]] — Storage pools
+- [[statefulset|StatefulSet]] — Para aplicaciones con estado
+- [[deployment|Deployment]] — Configuración, secretos
 
 ### Complementa
-- [[snapshot]] — Backup incremental de volúmenes
+- [[snapshot|Snapshot]] — Backup incremental de volúmenes
 
 ## Fuentes
 

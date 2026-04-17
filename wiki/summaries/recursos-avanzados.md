@@ -134,11 +134,13 @@ spec:
 - Respeta min/max replicas
 
 ## Relaciones
-- Parte de: [[kubernetes]], [[openshift]]
+
+### Conecta con
+- Parte de: [[kubernetes|Kubernetes]], [[openshift|OpenShift]]
 - StatefulSet: Para apps con estado
 - DaemonSet: Para infraestructura
 - Job/CronJob: Para tareas batch
 - HPA: Escalado automático
 
 ## Fuentes
-- [Curso OpenShift v4 (Módulo 8)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo8)
+- [Curso: OpenShift v4](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/)

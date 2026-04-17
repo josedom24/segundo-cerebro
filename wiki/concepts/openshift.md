@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s, osv4_paas]
-tags: [contenedores, kubernetes]
+tags: [contenedores, kubernetes, openshift]
 ---
 
 # OpenShift
@@ -82,15 +82,16 @@ Route → acceso HTTP/HTTPS
 | **Imágenes** | Simples refs a registros | ImageStream + triggers |
 | **Flujo DevOps** | Manual | Integración Git automática |
 
-## Conceptos Relacionados
+## Relaciones
 
-- [[paas]] — Modelo de plataforma que OpenShift implementa
-- [[kubernetes]] — Orquestador subyacente
-- [[contenedores]] — Unidad de despliegue
-- [[imagestream]] — Abstracción propia de OpenShift
-- [[build]] — Construcción automática en OpenShift
-- [[route]] — Acceso simplificado a aplicaciones
-- [[template]] — Plantillas parametrizadas
+### Conecta con
+- [[paas|PaaS]] — Modelo de plataforma que OpenShift implementa
+- [[kubernetes|Kubernetes]] — Orquestador subyacente
+- [[contenedores|Contenedores]] — Unidad de despliegue
+- [[imagestream|ImageStream]] — Abstracción propia de OpenShift
+- [[build|Build]] — Construcción automática en OpenShift
+- [[route|Route]] — Acceso simplificado a aplicaciones
+- [[template|Template]] — Plantillas parametrizadas
 
 ## Instalaciones Disponibles
 
@@ -100,4 +101,6 @@ Route → acceso HTTP/HTTPS
 - **AWS/Azure/Google:** OpenShift en clouds públicos
 
 ## Fuentes
-- Cursos: osv4_k8s, osv4_paas de Pledin
+
+- [[introduccion-openshift|Introduccion Openshift]]
+- [[openshift-paas|Openshift Paas]]

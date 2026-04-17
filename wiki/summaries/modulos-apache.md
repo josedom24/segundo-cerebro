@@ -280,7 +280,7 @@ systemctl restart apache2
 ## Relaciones
 
 ### Conecta con
-- [[apache]] — Servidor modular
+- [[apache|Apache]] — Servidor modular
 - [[configuracion-apache|Configuración]] — Activación módulos
 - [[aplicaciones-web-apache|Aplicaciones Web]] — mod_php, mod_wsgi
 - [[https-apache|HTTPS]] — mod_ssl
@@ -290,7 +290,7 @@ systemctl restart apache2
 
 ## Fuentes
 
-- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
+- [Curso: Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 Modules Index](https://httpd.apache.org/docs/2.4/mod/)
 - [Apache 2.4 MPM Documentation](https://httpd.apache.org/docs/2.4/mpm.html)
 - [mod_rewrite Guide](https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html)

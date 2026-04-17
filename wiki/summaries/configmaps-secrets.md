@@ -99,9 +99,11 @@ oc expose service wordpress --hostname=myapp.example.com
 ```
 
 ## Relaciones
-- Parte de: [[openshift]]
+
+### Conecta con
+- Parte de: [[openshift|OpenShift]]
 - Usa: ConfigMap, Secret, Environment variables
 - Ejemplo de: Despliegue real multi-tier
 
 ## Fuentes
-- [Curso OpenShift v4 (Módulo 6)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo6)
+- [Curso: OpenShift v4](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/)

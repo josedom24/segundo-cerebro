@@ -1,3 +1,181 @@
+## [2026-04-17] update | Carpeta analyses con index en español
+
+Se creó archivo `wiki/analyses/index.md` con título "# Análisis y Síntesis" para que aparezca en español en el explorador de Obsidian, manteniendo el nombre técnico `analyses/` en la carpeta.
+
+**Cambios:**
+- ✏️ wiki/analyses/index.md (creado con título en español)
+
+---
+
+## [2026-04-17] fix | Estandarización de secciones Relaciones
+
+Se estandarizaron **31 archivos** al formato mayoritario: `## Relaciones` → `### Conecta con`
+
+**Cambio realizado:**
+```
+Antes: ## Relaciones
+       - **Categoría:** item
+
+Después: ## Relaciones
+         
+         ### Conecta con
+         - **Categoría:** item
+```
+
+**Resultado:** ✅ 100% de archivos (111/111) con formato estandarizado
+
+---
+
+## [2026-04-17] fix | Estandarización de enlaces a cursos en Fuentes
+
+Se estandarizaron **53 archivos** con enlaces a cursos en secciones Fuentes.
+
+**Cambios realizados:**
+
+1. **Agregar "Curso: " al inicio (53 archivos)**
+   - Antes: `[OpenShift v4 PaaS (Módulo 1)](url)`
+   - Después: `[Curso: OpenShift v4 PaaS](url)`
+
+2. **Remover referencias a módulos específicos (19 archivos)**
+   - Antes: `[Curso: Texto (Módulo X)](url)`
+   - Después: `[Curso: Texto](url)`
+
+3. **URLs ya ajustadas a nivel de curso** (paso anterior)
+
+**Resultado:** ✅ Todos los enlaces de cursos estandarizados con prefijo "Curso: "
+
+---
+
+## [2026-04-17] fix | URLs de cursos: módulo → nivel de curso
+
+Se corrigieron **27 archivos** que tenían enlaces rotos a módulos específicos.
+
+**Cambio realizado:**
+```
+Antes: https://plataforma.josedomingo.org/pledin/cursos/[curso]/modulo[X]
+Ahora: https://plataforma.josedomingo.org/pledin/cursos/[curso]/
+```
+
+**Cursos corregidos:**
+- osv4_paas (10 archivos)
+- osv4_k8s (3 archivos)
+- docker2024 (10 archivos)
+- apache24 (4 archivos)
+
+**Resultado:** ✅ 0 enlaces rotos a /modulo[X] restantes
+
+---
+
+## [2026-04-17] fix | Coherencia de tags: conceptos y resúmenes
+
+**Problema:** Incoherencia de tags - conceptos no tenían su propio tag, resúmenes sin tags de plataforma.
+
+**Correcciones implementadas:**
+
+**Conceptos (14 arreglados):**
+- ✏️ Agregado tag propio a cada concepto:
+  - build, deploymentconfig, helm, job, kvm, openshift, paas, pod, route, service, snapshot, statefulset, template, volume
+
+**Resúmenes (1 arreglado):**
+- ✏️ helm-empaquetado.md: Agregado tag `helm`
+
+**Resultado:**
+- ✅ 100% de conceptos tienen su propio tag
+- ✅ Resúmenes tienen tags de plataforma (docker, kvm, kubernetes, openshift, podman, apache, openstack, proxmox, helm)
+- ⚠️ Nota: 45 "subtemas" no tienen tags independientes (estrategia correcta - solo ~30 tags consolidados)
+
+---
+
+## [2026-04-17] fix | Reparación de secciones "Fuentes" con enlaces
+
+Se arreglaron **9 archivos** que no cumplían la norma: secciones "Fuentes" sin enlaces.
+
+**Archivos reparados:**
+- ✏️ concepts/kvm.md (sin sección → Agregada con enlaces)
+- ✏️ analyses/utilidad-pods-podman.md (enlaces añadidos)
+- ✏️ concepts/build.md (enlaces añadidos)
+- ✏️ concepts/deploymentconfig.md (enlaces añadidos)
+- ✏️ concepts/imagestream.md (enlaces añadidos)
+- ✏️ concepts/openshift.md (enlaces añadidos)
+- ✏️ concepts/paas.md (enlaces añadidos)
+- ✏️ concepts/route.md (enlaces añadidos)
+- ✏️ concepts/template.md (enlaces añadidos)
+
+**Resultado:**
+- ✅ 110/110 archivos con sección "Fuentes" y enlaces (100% cumplimiento)
+- ⚠️ Excepción: log.md (archivo histórico, no requiere)
+
+---
+
+## [2026-04-17] lint | Estandarización de secciones "Conecta con..." y formato de enlaces
+
+**Fase 1: Auditoría**
+Se revisaron 114 archivos markdown encontrando:
+- ✅ 109 con sección "Relaciones/Conecta con"
+- ⚠️ 144 enlaces incompletos sin pipe `|`
+- ❌ 1 archivo con formato no estandarizado
+
+**Fase 2: Correcciones implementadas**
+
+1️⃣ **Estandarización de `concepts/openshift.md`**
+   - Cambio: "Conceptos Relacionados" → "## Relaciones" → "### Conecta con"
+   - Actualización de enlaces: 7 con pipe añadido
+
+2️⃣ **Batch-fix de 144 enlaces incompletos en 60 archivos**
+   - Primera pasada: 73 enlaces (conceptos principales)
+   - Pasada global: 144 enlaces totales
+   - Archivos afectados:
+     * Conceptos: 18 archivos (33 enlaces)
+     * Resúmenes: 41 archivos (110 enlaces)
+     * Análisis: 1 archivo (1 enlace)
+     * Log: 2 archivos (6 enlaces)
+
+**Ejemplos de reemplazos:**
+```
+[[docker]] → [[docker|Docker]]
+[[kubernetes]] → [[kubernetes|Kubernetes]]
+[[docker-compose]] → [[docker-compose|Docker Compose]]
+[[introduccion-podman]] → [[introduccion-podman|Introducción a Podman]]
+```
+
+**Resultado final:**
+✅ 100% de enlaces en formato `[[archivo|Texto]]`
+✅ Todos archivos con sección estandarizada
+✅ 0 enlaces rotos (archivos inexistentes)
+
+**Archivos modificados:**
+- ✏️ concepts/openshift.md (estandarización sección)
+- ✏️ 59 archivos más (batch-fix enlaces)
+
+**Ideas clave:**
+- Formato consistente: `[[archivo-minusculas|Título Mostrado]]`
+- Todos los enlaces apuntan a archivos existentes
+- Secciones "Relaciones" unificadas en todo el vault
+
+---
+
+## [2026-04-17] query | ¿Qué utilidad tiene la ejecución de pods en podman?
+
+Se respondió pregunta sobre utilidad de pods en Podman mediante síntesis de:
+- `wiki/summaries/pods-podman.md` — Gestión y operaciones
+- `wiki/summaries/introduccion-podman.md` — Contexto arquitectura Podman
+- `wiki/concepts/pod.md` — Definición conceptual
+
+Se creó análisis con 3 utilidades principales:
+1. Orquestación local multicontenedor (IP/almacenamiento/ciclo de vida compartido)
+2. Generación automática de YAML Kubernetes (diferenciador único)
+3. Alternativa nativa a Docker Swarm
+
+**Cambios:**
+- ✏️ wiki/analyses/utilidad-pods-podman.md (creado)
+- ✏️ wiki/index.md (añadida sección "📊 Análisis y Síntesis")
+
+**Ideas clave:**
+- Pods permiten simular multicontenedor localmente sin docker-compose
+- `podman generate kube` exporta a YAML K8s directamente
+- Más simple que Docker Swarm, alineado con ecosistema Kubernetes
+
+---
 
 **Conceptos (9 archivos):** Removidos enlaces rotos, normalizados a minúsculas
 - ✏️ contenedores.md
@@ -11,13 +189,13 @@
 - ✏️ helm.md
 
 **Summaries (14 archivos):** Agregadas referencias a conceptos, normalizados nombres
-- ✏️ introduccion-kubernetes.md (agregada [[kubernetes]])
-- ✏️ introduccion-podman.md (agregada [[podman]])
-- ✏️ introduccion-kvm.md (agregada [[kvm]])
-- ✏️ introduccion-proxmox.md (agregada [[proxmox]])
+- ✏️ introduccion-kubernetes.md (agregada [[kubernetes|Kubernetes]])
+- ✏️ introduccion-podman.md (agregada [[podman|Podman]])
+- ✏️ introduccion-kvm.md (agregada [[kvm|KVM]])
+- ✏️ introduccion-proxmox.md (agregada [[proxmox|Proxmox]])
 - ✏️ dockerfile-y-construccion.md (agregada [[dockerfile-y-construccion|dockerfile]])
-- ✏️ docker-compose.md (agregada [[docker-compose]])
-- ✏️ helm-empaquetado.md (agregada [[helm]])
+- ✏️ docker-compose.md (agregada [[docker-compose|Docker Compose]])
+- ✏️ helm-empaquetado.md (agregada [[helm|Helm]])
 - ✏️ 7 archivos más con reemplazos masivos
 
 **Log & Index:**
@@ -31,7 +209,7 @@
 - Normalizados 8 nombres de conceptos a minúsculas
 
 **Fase 2: Conectar conceptos aislados (1 hora)**
-- Agregadas referencias a [[kubernetes]], [[podman]], [[kvm]], [[proxmox]], [[helm]], [[dockerfile-y-construccion|dockerfile]], [[docker-compose]]
+- Agregadas referencias a [[kubernetes|Kubernetes]], [[podman|Podman]], [[kvm|KVM]], [[proxmox|Proxmox]], [[helm|Helm]], [[dockerfile-y-construccion|dockerfile]], [[docker-compose|Docker Compose]]
 - Resultado: 0 conceptos aislados (antes 5)
 
 **Fase 3: Limpeza y validación (30 min)**

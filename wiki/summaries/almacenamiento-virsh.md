@@ -366,13 +366,13 @@ virsh pool-info vm-images  # ver target
 - [[clonacion-virsh|Unidad 5: Clonación]]
 
 ### Parte de
-- [[kvm]] — Stack de virtualización
+- [[kvm|KVM]] — Stack de virtualización
 
 ---
 
 ## Fuentes
 
-- [Curso KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
+- [Curso: KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
 - [Curso KVM Avanzado 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [qemu-img Documentation](https://qemu-project.gitlab.io/qemu/tools/qemu-img.html)
 - [libvirt Storage](https://libvirt.org/storage.html)

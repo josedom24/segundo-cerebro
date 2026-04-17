@@ -269,12 +269,12 @@ Uso: Copias de seguridad VM
 - [[virt-manager-setup|Unidad 2: Setup]]
 
 ### Parte de
-- [[kvm]] — Stack de virtualización
+- [[kvm|KVM]] — Stack de virtualización
 
 ---
 
 ## Fuentes
 
-- [Curso KVM 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm1/)
+- [Curso: KVM 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm1/)
 - [Curso KVM 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [QEMU QCOW2 Format](https://en.wikibooks.org/wiki/QEMU/Images)

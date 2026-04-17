@@ -156,10 +156,12 @@ Flujo:
 ```
 
 ## Relaciones
-- Extensión de: [[imagestream]]
-- Usado por: [[build]] (producción)
+
+### Conecta con
+- Extensión de: [[imagestream|ImageStream]]
+- Usado por: [[build|Build]] (producción)
 - Patrón para: Multi-entorno (dev/test/prod)
 - Automation: Triggers automáticos
 
 ## Fuentes
-- [Curso OpenShift v4 PaaS (Módulo 5)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo5)
+- [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

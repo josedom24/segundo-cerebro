@@ -12,7 +12,7 @@ Interfaz gráfica de Docker Desktop para gestionar contenedores, imágenes, vol�
 
 ## Información
 - **Fuente:** Curso Docker 2024 - Módulo 8
-- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo8
+- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 294
 
@@ -351,7 +351,7 @@ Acceso rápido desde icono en barra de notificaciones:
 ## Relaciones
 
 ### Conecta con
-- [[docker]] — Plataforma base
+- [[docker|Docker]] — Plataforma base
 - [[docker-run-y-ciclo-vida|Docker Run y Ciclo de Vida]] — Funciones en GUI
 - [[imagenes-y-docker-hub|Imágenes y Docker Hub]] — Interfaz visual
 - [[volumenes-bind-mounts|Volúmenes y Bind Mounts]] — Gestión de volúmenes
@@ -373,4 +373,4 @@ Acceso rápido desde icono en barra de notificaciones:
 
 ## Fuentes
 
-- [Curso Docker 2024 - Módulo 8](https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo8)
+- [Curso: Docker 2024 - Módulo 8](https://plataforma.josedomingo.org/pledin/cursos/docker2024/)

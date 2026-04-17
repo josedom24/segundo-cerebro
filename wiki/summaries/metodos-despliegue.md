@@ -103,10 +103,12 @@ oc get is
 **Ventaja:** Triggers automáticos para redeploy
 
 ## Relaciones
-- Parte de: [[openshift]] (característica PaaS)
-- Usa: [[build]] (construcción automática)
-- Produce: [[imagestream]] (referencias)
+
+### Conecta con
+- Parte de: [[openshift|OpenShift]] (característica PaaS)
+- Usa: [[build|Build]] (construcción automática)
+- Produce: [[imagestream|ImageStream]] (referencias)
 - Define: Deployment, Service, Route
 
 ## Fuentes
-- [Curso OpenShift v4 PaaS (Módulo 2)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo2)
+- [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

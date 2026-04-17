@@ -286,6 +286,6 @@ Opciones: Disco, Red, USB, PCI, Gráficos, ...
 
 ## Fuentes
 
-- [Curso KVM 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm1/)
+- [Curso: KVM 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm1/)
 - [Curso KVM 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [VirtIO Drivers Windows (Fedora)](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/)

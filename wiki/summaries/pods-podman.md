@@ -138,10 +138,10 @@ podman run --pod wordpress-pod \
 
 ### Conecta con
 - [[introduccion-podman|Introducción]] — Feature única de Podman
-- [[kubernetes]] — Generate YAML compatible
+- [[kubernetes|Kubernetes]] — Generate YAML compatible
 
 ### Diferencia con
-- [[docker]] — Docker usa Swarm, Podman usa Pods nativos
+- [[docker|Docker]] — Docker usa Swarm, Podman usa Pods nativos
 
 ---
 

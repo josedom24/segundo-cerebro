@@ -147,9 +147,11 @@ triggers:
 - **Manual:** `oc rollout latest`
 
 ## Relaciones
-- OpenShift específico: Alternativa a [[deployment]]
-- Integración: [[imagestream]] triggers
+
+### Conecta con
+- OpenShift específico: Alternativa a [[deployment|Deployment]]
+- Integración: [[imagestream|ImageStream]] triggers
 - Patrón: Reemplazado por Deployment en versiones recientes
 
 ## Fuentes
-- [Curso OpenShift v4 PaaS (Módulo 6)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo6)
+- [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

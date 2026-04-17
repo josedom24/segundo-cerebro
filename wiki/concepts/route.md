@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s]
-tags: [openshift, redes]
+tags: [openshift, redes, route]
 ---
 
 # Route
@@ -203,10 +203,12 @@ OpenShift genera certificados self-signed si no se proporciona
 
 ## Relaciones
 
-- Parte de: [[openshift]] (característica específica)
-- Expone: [[service]] (acceso a Pods internos)
-- Alternativa a: Ingress de [[kubernetes]] (más simple)
-- Complementa: [[paas]] (simplificación de acceso a aplicaciones)
+### Conecta con
+
+- Parte de: [[openshift|OpenShift]] (característica específica)
+- Expone: [[service|Service]] (acceso a Pods internos)
+- Alternativa a: Ingress de [[kubernetes|Kubernetes]] (más simple)
+- Complementa: [[paas|PaaS]] (simplificación de acceso a aplicaciones)
 
 ## Ventajas sobre Ingress
 
@@ -219,4 +221,6 @@ OpenShift genera certificados self-signed si no se proporciona
 | Integración nativa OpenShift |
 
 ## Fuentes
-- Curso osv4_k8s - Módulo 5: Acceso a aplicaciones
+
+- [[services-routes|Services Routes]]
+- [[services-routes-avanzado|Services Routes Avanzado]]

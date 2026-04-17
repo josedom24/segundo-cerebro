@@ -152,9 +152,11 @@ MySQL (interno): mysql:3306
 6. **Acceso público:** Routes para clientes externos
 
 ## Relaciones
-- Aplicación de: [[deployment]], [[service]], [[route]]
-- Usa: ConfigMap, Secret, [[volume]]
+
+### Conecta con
+- Aplicación de: [[deployment|Deployment]], [[service|Service]], [[route|Route]]
+- Usa: ConfigMap, Secret, [[volume|Volume]]
 - Ejemplo de: Arquitectura microservicios real
 
 ## Fuentes
-- [Curso OpenShift v4 (Módulo 9)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo9)
+- [Curso: OpenShift v4](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/)

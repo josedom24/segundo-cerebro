@@ -59,9 +59,11 @@ Instalación local de OpenShift v4 en laptop usando CRC. Cluster single-node con
 - **Recursos:** Deployments, Services, Pods por proyecto
 
 ## Relaciones
+
+### Conecta con
 - Alternativa a: Developer Sandbox
-- Implementación local de: [[openshift]]
+- Implementación local de: [[openshift|OpenShift]]
 - Herramienta de desarrollo: Para antes de producción
 
 ## Fuentes
-- [Curso OpenShift v4 (Módulo 3)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo3)
+- [Curso: OpenShift v4](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/)

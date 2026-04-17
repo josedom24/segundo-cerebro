@@ -94,9 +94,11 @@ oc rollout undo deployment/myapp     # Volver anterior
 ```
 
 ## Relaciones
-- Heredado de: [[kubernetes]]
-- Parte de: [[openshift]]
-- Relacionado: [[service]] (acceso a Pods)
+
+### Conecta con
+- Heredado de: [[kubernetes|Kubernetes]]
+- Parte de: [[openshift|OpenShift]]
+- Relacionado: [[service|Service]] (acceso a Pods)
 
 ## Fuentes
-- [Curso OpenShift v4 (Módulo 4)](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/modulo4)
+- [Curso: OpenShift v4](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/)

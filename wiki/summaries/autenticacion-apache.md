@@ -245,16 +245,16 @@ Require ip 192.168.1.0/24
 ## Relaciones
 
 ### Conecta con
-- [[apache]] — Servidor web
+- [[apache|Apache]] — Servidor web
 - seguridad — Control acceso, autenticación
 - [[configuracion-apache|Configuración]] — Directivas Apache
-- [[tls]] — HTTPS recomendado con autenticación basic
+- [[tls|TLS]] — HTTPS recomendado con autenticación basic
 
 ---
 
 ## Fuentes
 
-- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
+- [Curso: Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 mod_authz_core (Require)](https://httpd.apache.org/docs/2.4/mod/mod_authz_core.html)
 - [Apache 2.4 mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.html)
 - [Apache 2.4 mod_auth_digest](https://httpd.apache.org/docs/2.4/mod/mod_auth_digest.html)

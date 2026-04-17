@@ -12,7 +12,7 @@ Cómo persistir datos en contenedores efímeros usando volúmenes Docker, bind m
 
 ## Información
 - **Fuente:** Curso Docker 2024 - Módulo 4
-- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo4
+- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 480
 
@@ -365,8 +365,8 @@ docker run -d \
 ## Relaciones
 
 ### Conecta con
-- [[docker]] — Plataforma base
-- [[contenedores]] — Lo que almacenan
+- [[docker|Docker]] — Plataforma base
+- [[contenedores|Contenedores]] — Lo que almacenan
 - [[docker-compose|Docker Compose]] — Define volúmenes declarativamente
 
 ### Parte de
@@ -390,4 +390,4 @@ docker run -d \
 
 ## Fuentes
 
-- [Curso Docker 2024 - Módulo 4](https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo4)
+- [Curso: Docker 2024 - Módulo 4](https://plataforma.josedomingo.org/pledin/cursos/docker2024/)

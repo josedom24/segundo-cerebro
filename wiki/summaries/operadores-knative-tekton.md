@@ -114,10 +114,12 @@ spec:
 4. **Custom Operators:** Escribir propio operador
 
 ## Relaciones
-- Extensiones de: [[openshift]]
+
+### Conecta con
+- Extensiones de: [[openshift|OpenShift]]
 - Knative: Abstracción por encima de Pods
 - Tekton: Alternativa a Jenkins
 - Operadores: Software as code
 
 ## Fuentes
-- [Curso OpenShift v4 PaaS (Módulo 8)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo8)
+- [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

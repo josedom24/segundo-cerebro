@@ -147,9 +147,11 @@ spec:
 - Botón: Create Route
 
 ## Relaciones
-- Parte de: [[openshift]]
-- Expone: [[service]] internamente
+
+### Conecta con
+- Parte de: [[openshift|OpenShift]]
+- Expone: [[service|Service]] internamente
 - Reemplaza: [[kubernetes|Ingress]] de Kubernetes (más simple)
 
 ## Fuentes
-- [Curso OpenShift v4 PaaS (Módulo 7)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo7)
+- [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

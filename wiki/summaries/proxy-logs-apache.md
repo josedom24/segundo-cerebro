@@ -301,7 +301,7 @@ awk '$NF > 1000 {print $7, $NF}' /var/log/apache2/access.log | sort -k2 -rn
 ## Relaciones
 
 ### Conecta con
-- [[apache]] — Servidor web
+- [[apache|Apache]] — Servidor web
 - [[modulos-apache|Módulos]] — mod_proxy, mod_proxy_http
 - redes — Concepto proxy, balanceo carga
 - [[seguridad-apache|Seguridad]] — Logs análisis
@@ -310,7 +310,7 @@ awk '$NF > 1000 {print $7, $NF}' /var/log/apache2/access.log | sort -k2 -rn
 
 ## Fuentes
 
-- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
+- [Curso: Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 mod_proxy](https://httpd.apache.org/docs/2.4/mod/mod_proxy.html)
 - [Apache 2.4 mod_proxy_balancer](https://httpd.apache.org/docs/2.4/mod/mod_proxy_balancer.html)
 - [AWStats Official](https://awstats.sourceforge.io/)

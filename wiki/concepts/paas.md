@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas_curso]
-tags: []
+tags: [paas]
 ---
 
 # PaaS (Platform as a Service)
@@ -103,9 +103,9 @@ Código → Git webhook → Build → Test → Deploy → Ejecutando
 ## Relaciones
 
 ### Conecta con
-- [[openshift]] — Implementación PaaS basada en Kubernetes
-- [[kubernetes]] — Orquestador subyacente (abstracción más baja)
-- [[contenedores]] — Unidad de despliegue en PaaS
+- [[openshift|OpenShift]] — Implementación PaaS basada en Kubernetes
+- [[kubernetes|Kubernetes]] — Orquestador subyacente (abstracción más baja)
+- [[contenedores|Contenedores]] — Unidad de despliegue en PaaS
 
 ### Parte de
 - Cloud Computing (junto con IaaS, SaaS)
@@ -115,4 +115,6 @@ Código → Git webhook → Build → Test → Deploy → Ejecutando
 - **SaaS:** Menos control, más simple (Slack, Salesforce)
 
 ## Fuentes
-- Cursos OpenShift v4 (osv4_paas) - Módulo 1
+
+- [[openshift-paas|Openshift Paas]]
+- [[metodos-despliegue|Metodos Despliegue]]

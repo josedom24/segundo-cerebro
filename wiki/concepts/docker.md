@@ -137,16 +137,16 @@ Soluciona conflictos de versiones de gemas Ruby al aislar cada proyecto en su co
 ### Conecta con
 - [[docker-compose|Docker Compose]] — Orquestación de múltiples contenedores
 - [[dockerfile-y-construccion|Dockerfile]] — Sintaxis para construir imágenes
-- [[contenedores]] — Tecnología subyacente
-- [[podman]] — Alternativa daemonless
+- [[contenedores|Contenedores]] — Tecnología subyacente
+- [[podman|Podman]] — Alternativa daemonless
 
 ### Parte de
 - Arquitectura de microservicios modernos
 - Práct icas DevOps y CI/CD
 
 ### Contrasta con
-- [[kvm]] — Máquinas virtuales con mayor overhead
-- [[kubernetes]] — Docker para single-host; K8s para clusters escalables
+- [[kvm|KVM]] — Máquinas virtuales con mayor overhead
+- [[kubernetes|Kubernetes]] — Docker para single-host; K8s para clusters escalables
 
 ## Fuentes
 - [Curso Docker 2024 - Introducción](../summaries/introduccion-docker.md) — Inicio del curso

@@ -264,9 +264,9 @@ Funcionalidad adicional que corre en el propio k8s:
 ## Relaciones
 
 ### Conecta con
-- [[kubernetes]] — Concepto fundamental de orquestación
-- [[contenedores]] — Base de k8s
-- [[docker]] — Runtime por defecto
+- [[kubernetes|Kubernetes]] — Concepto fundamental de orquestación
+- [[contenedores|Contenedores]] — Base de k8s
+- [[docker|Docker]] — Runtime por defecto
 - [[docker-compose|Docker Compose]] — Orquestación simple (un solo host)
 
 ### Primer paso en

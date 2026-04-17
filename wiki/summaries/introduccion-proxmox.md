@@ -140,13 +140,13 @@ Proxmox VE (Hypervisor Manager)
 ## Relaciones
 
 ### Conecta con
-- [[proxmox]] — Plataforma de virtualización integrada
-- [[kvm]] — Hipervisor de máquinas virtuales en Proxmox
-- [[contenedores]] — LXC es virtualización ligera en Proxmox
+- [[proxmox|Proxmox]] — Plataforma de virtualización integrada
+- [[kvm|KVM]] — Hipervisor de máquinas virtuales en Proxmox
+- [[contenedores|Contenedores]] — LXC es virtualización ligera en Proxmox
 
 ### Diferencia con
-- [[docker]] — Proxmox es full virtualization + containers
-- [[kubernetes]] — Proxmox es infraestructura, K8s es orquestación
+- [[docker|Docker]] — Proxmox es full virtualization + containers
+- [[kubernetes|Kubernetes]] — Proxmox es infraestructura, K8s es orquestación
 
 ### Parte de
 - Soluciones de virtualización para datacenters

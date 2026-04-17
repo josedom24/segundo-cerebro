@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep]
-tags: [deployment, kubernetes]
+tags: [deployment, kubernetes, statefulset]
 aliases: [StatefulSet]
 ---
 
@@ -154,10 +154,10 @@ Comportamiento:
 ## Relaciones
 
 ### Conecta con
-- [[deployment]] — Alternativa para aplicaciones stateless
-- [[pod]] — Unidad gestionada
-- [[service]] — Acceso a StatefulSet (headless)
-- [[kubernetes]] — Patrón de estado
+- [[deployment|Deployment]] — Alternativa para aplicaciones stateless
+- [[pod|Pod]] — Unidad gestionada
+- [[service|Service]] — Acceso a StatefulSet (headless)
+- [[kubernetes|Kubernetes]] — Patrón de estado
 
 ### Reutilizable en
 - Kubernetes principalmente

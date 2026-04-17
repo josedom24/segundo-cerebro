@@ -12,7 +12,7 @@ Cómo ejecutar, gestionar y controlar contenedores Docker: `docker run`, ciclo d
 
 ## Información
 - **Fuente:** Curso Docker 2024 - Módulo 2
-- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo2
+- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 734
 
@@ -270,8 +270,8 @@ docker exec -it nombre bash     # Conectarse y debuguear
 ## Relaciones
 
 ### Conecta con
-- [[docker]] — Plataforma base
-- [[contenedores]] — Lo que estamos ejecutando
+- [[docker|Docker]] — Plataforma base
+- [[contenedores|Contenedores]] — Lo que estamos ejecutando
 - [[docker-compose|Docker Compose]] — Orquestación de múltiples contenedores
 
 ### Parte de
@@ -295,4 +295,4 @@ docker exec -it nombre bash     # Conectarse y debuguear
 
 ## Fuentes
 
-- [Curso Docker 2024 - Módulo 2](https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo2)
+- [Curso: Docker 2024 - Módulo 2](https://plataforma.josedomingo.org/pledin/cursos/docker2024/)

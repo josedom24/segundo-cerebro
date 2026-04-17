@@ -72,15 +72,17 @@ Tipos soportados:
 
 ## Relaciones
 
+### Conecta con
+
 ### Conceptos Relacionados
 
 **Técnicamente Vinculados:**
-- [[kvm]] — Hipervisor subyacente para VMs
-- [[contenedores]] — Fundamento de LXC
+- [[kvm|KVM]] — Hipervisor subyacente para VMs
+- [[contenedores|Contenedores]] — Fundamento de LXC
 
 **En Contexto de Infraestructura:**
-- [[docker]] — Alternativa para containerización (daemon)
-- [[kubernetes]] — Orquestación de contenedores (nivel superior)
+- [[docker|Docker]] — Alternativa para containerización (daemon)
+- [[kubernetes|Kubernetes]] — Orquestación de contenedores (nivel superior)
 
 ## Casos de Uso
 

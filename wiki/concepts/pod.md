@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep]
-tags: [contenedores, kubernetes]
+tags: [contenedores, kubernetes, pod]
 aliases: [Pod]
 ---
 
@@ -129,9 +129,9 @@ spec:
 ## Relaciones
 
 ### Conecta con
-- [[deployment]] — Gestiona Pods automáticamente
-- [[service]] — Expone grupo de Pods
-- [[kubernetes]] — Unidad fundamental
+- [[deployment|Deployment]] — Gestiona Pods automáticamente
+- [[service|Service]] — Expone grupo de Pods
+- [[kubernetes|Kubernetes]] — Unidad fundamental
 
 ### Reutilizable en
 - Kubernetes principalmente

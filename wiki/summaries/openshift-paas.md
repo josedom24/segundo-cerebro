@@ -98,10 +98,12 @@ Desarrollo → Pruebas → Producción
 - Admin access
 
 ## Relaciones
-- Basado en: [[kubernetes]]
-- Implementa: [[paas]] (modelo)
-- Automatiza: [[build]], [[imagestream]], despliegues
-- Simplifica: Acceso via [[route]]
+
+### Conecta con
+- Basado en: [[kubernetes|Kubernetes]]
+- Implementa: [[paas|PaaS]] (modelo)
+- Automatiza: [[build|Build]], [[imagestream|ImageStream]], despliegues
+- Simplifica: Acceso via [[route|Route]]
 
 ## Fuentes
-- [Curso OpenShift v4 PaaS (Módulo 1)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo1)
+- [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

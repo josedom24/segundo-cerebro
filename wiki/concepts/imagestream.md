@@ -114,10 +114,14 @@ oc tag imagestream:v1.0 imagestream:latest
 
 ## Relaciones
 
-- Parte de: [[openshift]] (abstracción propia)
-- Producido por: [[build]] (BuildConfig crea ImageStreams)
-- Usado por: [[deployment]] (despliegues referencian ImageStreams)
-- Complementa: [[kubernetes]] (abstracción propia de OpenShift)
+### Conecta con
+
+- Parte de: [[openshift|OpenShift]] (abstracción propia)
+- Producido por: [[build|Build]] (BuildConfig crea ImageStreams)
+- Usado por: [[deployment|Deployment]] (despliegues referencian ImageStreams)
+- Complementa: [[kubernetes|Kubernetes]] (abstracción propia de OpenShift)
 
 ## Fuentes
-- Curso osv4_paas - Módulo 3: ImageStreams
+
+- [[imagestream-gestion|Imagestream Gestion]]
+- [[buildconfig-cicd|Buildconfig Cicd]]

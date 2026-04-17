@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_k8s, osv4_paas]
-tags: [deployment, openshift]
+tags: [deployment, openshift, deploymentconfig]
 ---
 
 # DeploymentConfig
@@ -158,10 +158,12 @@ oc rollout latest dc/myapp
 
 ## Relaciones
 
-- Parte de: [[openshift]] (característica específica)
-- Basado en: [[deployment]] (concepto subyacente)
-- Integra: [[imagestream]] (triggers automáticos)
-- Complementa: [[paas]] (automatización de despliegues)
+### Conecta con
+
+- Parte de: [[openshift|OpenShift]] (característica específica)
+- Basado en: [[deployment|Deployment]] (concepto subyacente)
+- Integra: [[imagestream|ImageStream]] (triggers automáticos)
+- Complementa: [[paas|PaaS]] (automatización de despliegues)
 - Alternativa a: Deployment + webhook externo
 
 ## Nota Histórica
@@ -170,7 +172,9 @@ DeploymentConfig fue el método primario de OpenShift para despliegues antes de 
 - **OpenShift 4.x**: Todavía soportado, pero Deployment es recomendado
 - **Tendencia**: Migrar a Deployment + Tekton para CI/CD
 
-Para proyectos nuevos, considera [[deployment]] nativo en lugar de DeploymentConfig, especialmente si portabilidad a K8s puro importa.
+Para proyectos nuevos, considera [[deployment|Deployment]] nativo en lugar de DeploymentConfig, especialmente si portabilidad a K8s puro importa.
 
 ## Fuentes
-- Cursos osv4_k8s, osv4_paas - Módulos de Deployments y DeployConfig
+
+- [[deployconfig-rolling-updates|Deployconfig Rolling Updates]]
+- [[metodos-despliegue|Metodos Despliegue]]

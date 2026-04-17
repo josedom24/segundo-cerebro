@@ -132,10 +132,12 @@ http_requests_total{method="GET",status="200"} 1234
 
 **Biblioteca:** Prometheus client library
 
-### Relaciones
-- Parte de: [[openshift]]
+## Relaciones
+
+### Conecta con
+- Parte de: [[openshift|OpenShift]]
 - Herramientas: Prometheus, Grafana, Elasticsearch, Kibana
 - Integración: AlertManager para alertas
 
 ## Fuentes
-- [Curso OpenShift v4 PaaS (Módulo 9)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo9)
+- [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

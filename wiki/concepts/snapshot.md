@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep, curso_openstack_ies, curso_proxmox_cep, curso_kvm_ow]
-tags: []
+tags: [snapshot]
 aliases: [Snapshot]
 ---
 
@@ -194,12 +194,14 @@ Aplicar fix
 
 ## Relaciones
 
+### Conecta con
+
 ### Aparece en
-- [[kvm]] — Internal/external snapshots
-- [[proxmox]] — VM snapshots
-- [[openstack]] — Volume/image snapshots
-- [[kubernetes]] — Volume snapshots
-- [[volume]] — Storage snapshots
+- [[kvm|KVM]] — Internal/external snapshots
+- [[proxmox|Proxmox]] — VM snapshots
+- [[openstack|OpenStack]] — Volume/image snapshots
+- [[kubernetes|Kubernetes]] — Volume snapshots
+- [[volume|Volume]] — Storage snapshots
 
 ### Casos comunes
 - Backup incremental vía snapshots

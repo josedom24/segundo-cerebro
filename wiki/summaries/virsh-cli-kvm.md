@@ -408,13 +408,13 @@ virsh vol-create-as default mi-vm-restore.qcow2 \
 - [[clonacion-virsh|Unidad 5: Clonación (virsh)]]
 
 ### Parte de
-- [[kvm]] — Stack de virtualización
+- [[kvm|KVM]] — Stack de virtualización
 
 ---
 
 ## Fuentes
 
-- [Curso KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
+- [Curso: KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
 - [Curso KVM Avanzado 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [virsh Man Page](https://linux.die.net/man/1/virsh)
 - [libvirt Domain XML](https://libvirt.org/formatdomain.html)

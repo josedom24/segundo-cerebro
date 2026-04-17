@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [osv4_paas]
-tags: [deployment, openshift, templates]
+tags: [deployment, openshift, templates, template]
 ---
 
 # Template
@@ -249,10 +249,14 @@ oc new-app wordpress-complete \
 
 ## Relaciones
 
-- Parte de: [[openshift]] (característica propia)
-- Define: Conjunto de recursos ([[deployment]], [[service]], [[route]], etc.)
-- Similar a: [[helm]] charts de [[kubernetes]] (pero más simple)
-- Complementa: [[paas]] (parametrización de aplicaciones)
+### Conecta con
+
+- Parte de: [[openshift|OpenShift]] (característica propia)
+- Define: Conjunto de recursos ([[deployment|Deployment]], [[service|Service]], [[route|Route]], etc.)
+- Similar a: [[helm|Helm]] charts de [[kubernetes|Kubernetes]] (pero más simple)
+- Complementa: [[paas|PaaS]] (parametrización de aplicaciones)
 
 ## Fuentes
-- Curso osv4_paas - Módulo 2: Templates
+
+- [[openshift-paas|Openshift Paas]]
+- [[metodos-despliegue|Metodos Despliegue]]

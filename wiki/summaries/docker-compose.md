@@ -12,7 +12,7 @@ Cómo orquestar múltiples contenedores declarativamente con `docker-compose.yam
 
 ## Información
 - **Fuente:** Curso Docker 2024 - Módulo 6
-- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo6
+- **URL Plataforma:** https://plataforma.josedomingo.org/pledin/cursos/docker2024/
 - **URL GitHub:** https://github.com/josedom24/curso_docker_ow
 - **Líneas de contenido:** 913
 
@@ -592,8 +592,8 @@ docker compose down -v
 ## Relaciones
 
 ### Conecta con
-- [[docker-compose]] — Package manager de multi-contenedores
-- [[docker]] — Plataforma base
+- [[docker-compose|Docker Compose]] — Package manager de multi-contenedores
+- [[docker|Docker]] — Plataforma base
 - [[dockerfile-y-construccion|Dockerfile]] — Define imágenes que Compose orquesta
 - [[volumenes-bind-mounts|Volúmenes y Bind Mounts]] — Define volúmenes
 - [[redes-docker|Redes en Docker]] — Define redes
@@ -606,4 +606,4 @@ docker compose down -v
 
 ## Fuentes
 
-- [Curso Docker 2024 - Módulo 6](https://plataforma.josedomingo.org/pledin/cursos/docker2024/modulo6)
+- [Curso: Docker 2024 - Módulo 6](https://plataforma.josedomingo.org/pledin/cursos/docker2024/)

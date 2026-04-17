@@ -2,7 +2,7 @@
 created: 2026-04-16
 updated: 2026-04-16
 sources: [curso_kubernetes_cep]
-tags: [dns, kubernetes, redes]
+tags: [dns, kubernetes, redes, service]
 aliases: [Service]
 ---
 
@@ -130,9 +130,9 @@ curl http://mi-app.default.svc.cluster.local  # FQDN
 ## Relaciones
 
 ### Conecta con
-- [[deployment]] — Define Pods a exponer
-- [[pod]] — Unidad detrás del Service
-- [[kubernetes]] — Patrón de networking
+- [[deployment|Deployment]] — Define Pods a exponer
+- [[pod|Pod]] — Unidad detrás del Service
+- [[kubernetes|Kubernetes]] — Patrón de networking
 
 ### Reutilizable en
 - Kubernetes principalmente

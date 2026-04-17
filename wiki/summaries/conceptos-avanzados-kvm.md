@@ -275,12 +275,12 @@ Ventajas:
 - [[virt-manager-setup|Setup virt-manager (Curso 1)]]
 
 ### Parte de
-- [[kvm]] — Stack de virtualización avanzada
+- [[kvm|KVM]] — Stack de virtualización avanzada
 
 ---
 
 ## Fuentes
 
-- [Curso KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
+- [Curso: KVM Avanzado 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/kvm2/)
 - [Curso KVM Avanzado 2024 (GitHub)](https://github.com/josedom24/curso_kvm_ow)
 - [KVM Architecture](https://www.linux-kvm.org/)

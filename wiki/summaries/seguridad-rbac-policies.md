@@ -213,10 +213,12 @@ ingress:
 ```
 
 ## Relaciones
-- Parte de: [[openshift]], [[kubernetes]]
+
+### Conecta con
+- Parte de: [[openshift|OpenShift]], [[kubernetes|Kubernetes]]
 - RBAC: Control de acceso basado roles
 - Network Policy: Aislamiento micro-segmentación
 - Secrets: Gestión de credenciales
 
 ## Fuentes
-- [Curso OpenShift v4 PaaS (Módulo 10)](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/modulo10)
+- [Curso: OpenShift v4 PaaS](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/)

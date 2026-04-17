@@ -1,6 +1,7 @@
 ---
 created: 2026-04-15
 updated: 2026-04-15
+tags: [openshift, kubernetes, vm, contenedores, kvm, redes, podman, deployment, docker, configuracion, apache, proxmox, almacenamiento, virtualizacion, imagenes, seguridad, linux, openstack, instalacion, orquestacion, automatizacion, rootless, pods, oci, http, dns, bridge, volumes, templates, services, secrets, imagestream, tls]
 ---
 
 # Índice del Vault
@@ -20,9 +21,9 @@ updated: 2026-04-15
 
 ---
 
-## 🏷️ Etiquetas (33)
+## 📊 Análisis y Síntesis
 
-#openshift #kubernetes #contenedores #kvm #redes #deployment #docker #podman #apache #proxmox #almacenamiento #imagenes #virtualizacion #openstack #instalacion #linux #http #orquestacion #automatizacion #oci #rootless #bridge #dns #seguridad #configuracion #imagestream #pods #secrets #services #templates #vm #volumes #tls
+- [[utilidad-pods-podman|Utilidad de Pods en Podman]] — Orquestación local, generación YAML K8s, alternativa a Swarm
 
 ---
 

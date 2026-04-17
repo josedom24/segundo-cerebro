@@ -2,7 +2,7 @@
 created: 2026-04-15
 updated: 2026-04-15
 sources: [curso_kubernetes_cep]
-tags: [kubernetes]
+tags: [kubernetes, helm]
 aliases: [Helm]
 ---
 
@@ -174,15 +174,15 @@ mychart/
 ## Relaciones
 
 ### Conecta con
-- [[kubernetes]] — Plataforma subyacente
-- [[podman]] — Container images que empaqueta
+- [[kubernetes|Kubernetes]] — Plataforma subyacente
+- [[podman|Podman]] — Container images que empaqueta
 
 ### Parte de
 - Ecosistema CNCF
 - GitOps practices (Flux, ArgoCD usan charts)
 
 ### Complementa
-- [[kubernetes]] package distribution
+- [[kubernetes|Kubernetes]] package distribution
 - CI/CD pipelines para deployment
 
 ## Fuentes

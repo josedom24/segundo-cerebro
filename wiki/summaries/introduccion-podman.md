@@ -283,13 +283,13 @@ Automáticamente crea VM con Podman dentro.
 ## Relaciones
 
 ### Conecta con
-- [[podman]] — Concepto y arquitectura
-- [[docker]] — Similar, CLI compatible, pero daemonless y rootless
-- [[kubernetes]] — Podman genera YAML k8s
-- [[contenedores]] — Base conceptual
+- [[podman|Podman]] — Concepto y arquitectura
+- [[docker|Docker]] — Similar, CLI compatible, pero daemonless y rootless
+- [[kubernetes|Kubernetes]] — Podman genera YAML k8s
+- [[contenedores|Contenedores]] — Base conceptual
 
 ### Diferencia principal con
-- [[docker]] — Daemonless, rootless nativo, Quadlet, Pods integrados
+- [[docker|Docker]] — Daemonless, rootless nativo, Quadlet, Pods integrados
 
 ### Parte de
 - Runtimes de contenedores OCI estándar
@@ -304,7 +304,7 @@ Con Podman instalado, pasar a [[ejecucion-contenedores-podman|Módulo 2: Ejecuci
 
 ## Fuentes
 
-- [Curso Podman 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/podman2024/)
+- [Curso: Podman 2024 (Plataforma)](https://plataforma.josedomingo.org/pledin/cursos/podman2024/)
 - [Curso Podman 2024 (GitHub)](https://github.com/josedom24/curso_podman_ow)
 - [Podman Official](https://podman.io/)
 - [Open Container Initiative](https://opencontainers.org/)

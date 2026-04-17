@@ -224,16 +224,16 @@ ErrorDocument 404 /404.html
 ## Relaciones
 
 ### Conecta con
-- [[apache]] — Servidor base
+- [[apache|Apache]] — Servidor base
 - [[configuracion-apache|Configuración]] — Directivas Apache
-- [[http]] — Códigos redirección, negociación contenido
+- [[http|HTTP]] — Códigos redirección, negociación contenido
 - [[modulos-apache|Módulos]] — mod_negotiation, mod_dir
 
 ---
 
 ## Fuentes
 
-- [Curso Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
+- [Curso: Apache 2.4 (PLEDIN)](https://plataforma.josedomingo.org/pledin/cursos/apache24/)
 - [Apache 2.4 Directory, Files Directives](https://httpd.apache.org/docs/2.4/mod/core.html#directory)
 - [Apache 2.4 Alias](https://httpd.apache.org/docs/2.4/mod/mod_alias.html)
 - [Apache 2.4 Redirect](https://httpd.apache.org/docs/2.4/mod/mod_alias.html#redirect)

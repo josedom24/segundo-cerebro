@@ -129,18 +129,18 @@ Cluster Kubernetes:
 ## Relaciones
 
 ### Conecta con
-- [[contenedores]] — Unidad de deployment
-- [[docker]] — Runtime típico
-- [[podman]] — Alternativa OCI-compatible
-- [[openshift]] — Distribución empresarial de Kubernetes con abstracciones PaaS
+- [[contenedores|Contenedores]] — Unidad de deployment
+- [[docker|Docker]] — Runtime típico
+- [[podman|Podman]] — Alternativa OCI-compatible
+- [[openshift|OpenShift]] — Distribución empresarial de Kubernetes con abstracciones PaaS
 
 ### Parte de
 - Cloud Native Computing Foundation (CNCF) ecosystem
 
 ### Comparado con
-- [[docker]] Compose: Simple single-host
+- [[docker|Docker]] Compose: Simple single-host
 - Nomad: Orquestador general-purpose (no solo contenedores)
-- [[openshift]]: Distribución empresarial con features adicionales (ImageStream, BuildConfig, Routes)
+- [[openshift|OpenShift]]: Distribución empresarial con features adicionales (ImageStream, BuildConfig, Routes)
 
 ## Fuentes
 
