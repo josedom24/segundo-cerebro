@@ -1,8 +1,6 @@
----
-
 # Mi Segundo Cerebro: Una Wiki Extensible con Obsidian y Quartz
 
-He acumulado años creando cursos técnicos sobre infraestructura, plataformas y herramientas de virtualización y contenedores. El material está disperso: repositorios de GitHub, plataformas de e-learning, apuntes personales. Hace tiempo quería unificarlo en un único lugar consultable, versionado y extensible. Este artículo explica cómo lo hice y cómo crece.
+Llevo muchos años generando materiales didácticos. Están esparcidos por todas partes: en el blog de mi página web, en cursos publicados en plataformas de e-learning, en apuntes de las asignaturas que imparto en el instituto, en repositorios de GitHub, en documentación de proyectos. Cada pieza de contenido vive aislada, sin relación con las otras. Durante años sentí la necesidad de conectarlas todas — reunir ese conocimiento acumulado en un único lugar donde pueda verse cómo se relacionan los conceptos, dónde se solapan las plataformas, qué patrones emergen cuando juntas Docker, Kubernetes, Proxmox y KVM bajo el mismo grafo. Este artículo explica cómo lo hice.
 
 ## El concepto: Segundo Cerebro
 
