@@ -3,6 +3,7 @@ created: 2026-04-17
 updated: 2026-04-17
 sources: [pods-podman, introduccion-podman]
 tags: [podman, pods, orquestacion, kubernetes]
+title: Utilidad de Pods en Podman
 ---
 
 # Utilidad de Pods en Podman
