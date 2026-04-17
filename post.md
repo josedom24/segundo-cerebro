@@ -4,7 +4,7 @@ Llevo muchos años generando materiales didácticos: en el blog de mi página we
 
 ## El concepto: Segundo Cerebro
 
-La idea del "Segundo Cerebro" en la era de los LLMs es simple: un sistema externo donde acumulas conocimiento de forma estructurada, con relaciones entre conceptos, que puedes consultar y ampliar con ayuda de la IA. No se trata de almacenar información en bruto, sino de *sintetizarla* — extraer lo esencial, relacionarlo con lo que ya sabes, y mantenerlo accesible.
+La idea del "Segundo Cerebro" no es nueva, pero Andrej Karpathy la reformuló recientemente en el contexto de los LLMs: un sistema externo donde acumulas conocimiento de forma estructurada, con relaciones entre conceptos, que puedes consultar y ampliar con ayuda de la IA. No se trata de almacenar información en bruto, sino de *sintetizarla* — extraer lo esencial, relacionarlo con lo que ya sabes, y mantenerlo accesible.
 
 Pero esto es clave: **la síntesis no pierde la conexión con el original**. Cada resumen mantiene referencias a la fuente (un curso, un artículo, un libro), y cada concepto enlaza con los resúmenes que lo usan. Si quiero entender cómo funciona un Deployment en Kubernetes, voy al concepto abstracto; si quiero ver ejemplos prácticos, salto al resumen del curso donde se enseña. La información es redundante en estructura pero no en contenido: el mismo concepto aparece en múltiples plataformas, así que un solo "Deployment" conecta Docker, Kubernetes, OpenShift, etc. a la vez.
 
