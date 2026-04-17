@@ -5,10 +5,6 @@ tags: [openshift, kubernetes, vm, contenedores, kvm, redes, podman, deployment, 
 title: Wiki Pledin
 ---
 
-# Índice del Vault
-
----
-
 ## 🔗 Enlaces Rápidos
 
 - [Blog/Microblog](https://www.josedomingo.org) — Blog personal
