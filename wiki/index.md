@@ -4,8 +4,6 @@ updated: 2026-04-19
 title: Wiki Pledin
 ---
 
-# Segundo Cerebro - Wiki Pledin
-
 Esta wiki es tu **segundo cerebro digital** sobre infraestructura, virtualización, contenedores y servicios en Linux. Está construida a partir de la documentación disponible en las páginas web de [PLEDIN](https://www.josedomingo.org/pledin), con resúmenes, conceptos y análisis que se van ampliando continuamente.
 
 ---
