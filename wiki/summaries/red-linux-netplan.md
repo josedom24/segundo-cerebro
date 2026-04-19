@@ -1,7 +1,7 @@
 ---
 created: 2026-04-19
 updated: 2026-04-19
-title: netplan: Abstracción Declarativa de Red en YAML
+title: "netplan: Abstracción Declarativa de Red en YAML"
 sources: [configuracion_red_linux_netplan]
 tags: [redes, linux, netplan, configuracion]
 ---

@@ -1,7 +1,7 @@
 ---
 created: 2026-04-19
 updated: 2026-04-19
-title: ifupdown: Configuración Tradicional de Red en Linux
+title: "ifupdown: Configuración Tradicional de Red en Linux"
 sources: [configuracion_red_linux_ifupdown]
 tags: [redes, linux, ifupdown, configuracion]
 ---
