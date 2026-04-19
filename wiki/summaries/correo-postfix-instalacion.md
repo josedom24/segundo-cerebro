@@ -117,7 +117,7 @@ tail -f /var/log/mail.log
 
 ### Conecta con
 - [[postfix|Postfix]] — Concepto del servidor
-- [[correo-envio-local|Envío Local de Correos]] — Casos de uso
+- [[correo-conceptos-basicos|Fundamentos de Correo Electrónico]] — Agentes (MUA/MTA/MDA), flujo de envío
 - [[correo-envio-a-internet|Envío a Internet]] — Configuración avanzada
 
 ## Fuentes
