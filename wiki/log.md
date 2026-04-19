@@ -1,3 +1,25 @@
+## [2026-04-19] article | DNS para Balanceo de Carga
+
+- ✏️ wiki/articles/dns-balanceo-carga.md (creado)
+- ✏️ wiki/index.md (artículo añadido a "📰 Artículos y Recursos")
+
+**Técnicas cubiertas:**
+1. **DNS Round Robin** — Múltiples A records, distribución aproximada (sin HA)
+2. **Delegación DNS** — NS records + dnsmasq, failover automático (con HA)
+
+**Conecta con:**
+- [[dns-conceptos-fundamentales|Fundamentos de DNS]] — Registros A, NS, CNAME
+- [[dns-bind9-subdominios|Subdominios en Bind9]] — Delegación
+- [[dnsmasq-dns-caching-dhcp|dnsmasq]] — Implementación secundaria
+
+**Ideas clave:**
+- 🔄 Round Robin: simple pero sin high availability
+- 🔗 Delegación: complex pero con failover automático
+- 📊 Distribución sin hardware load balancer
+- ✅ Casos uso: redes educativas, laboratorios, entornos sin presupuesto
+
+---
+
 ## [2026-04-19] article | dnsmasq: Servidor DNS Ligero para Redes Locales
 
 - ✏️ wiki/articles/dnsmasq-dns-caching-dhcp.md (creado)

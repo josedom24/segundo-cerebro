@@ -20,6 +20,7 @@ title: Wiki Pledin
 
 ## 📰 Artículos y Recursos
 
+- [[dns-balanceo-carga|DNS para Balanceo de Carga]] — Round robin y delegación DNS, high availability, failover automático
 - [[dnsmasq-dns-caching-dhcp|dnsmasq: Servidor DNS Ligero para Redes Locales]] — DNS forwarder con caching, DHCP integrado, alternativa simple a Bind9
 - [[spf-dkim-dmarc-profundizacion|SPF, DKIM y DMARC - Profundización]] — Estándares de autenticación, implementación progresiva, reportes
 - [[vagrant-introduccion|Vagrant - Introducción y Conceptos Fundamentales]] — Automatización de VMs, providers, provisioning, ciclo de vida
