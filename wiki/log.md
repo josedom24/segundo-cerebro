@@ -37,6 +37,42 @@
 
 ---
 
+## [2026-04-19] ingest | Configuración de Red en Linux (5 summaries + 2 conceptos)
+
+**Archivos finales (7):**
+
+**Conceptos (2)** - En sección "📚 Conceptos → Protocolos y Seguridad":
+- ✏️ wiki/concepts/red-linux.md — Herramientas configuración de red (evolución)
+- ✏️ wiki/concepts/resolucion-nombres-linux.md — Mecanismo DNS, /etc/resolv.conf, systemd-resolved
+
+**Summaries (5)** - En "🌐 Servicios y Aplicaciones → Configuración de Red en Linux":
+- ✏️ wiki/summaries/red-linux-ifupdown.md — Métod tradicional, /etc/network/interfaces, hooks
+- ✏️ wiki/summaries/red-linux-networkmanager.md — Dinámico, nmcli, GUI, desktops/WiFi
+- ✏️ wiki/summaries/red-linux-systemd-networkd.md — Declarativo systemd, .network, bridges
+- ✏️ wiki/summaries/red-linux-netplan.md — Abstracción YAML, múltiples renderers
+- ✏️ wiki/summaries/red-linux-resolucion-nombres.md — DNS, nsswitch.conf, systemd-resolved, mDNS
+
+**Cambios en index.md:**
+- Conceptos: 25 → 27 (agregados red-linux y resolucion-nombres-linux)
+- Nueva sección "### Configuración de Red en Linux" (al inicio de Servicios y Aplicaciones, antes de Apache2)
+- Incluidos 5 enlaces a summaries
+- "Protocolos y Seguridad": 4 → 6 conceptos
+
+**Estructura:**
+```
+Conceptos (2): General + Resolución de Nombres
+Summaries (5): Tradicional (ifupdown) → Moderno (netplan) + DNS
+```
+
+**Ideas clave:**
+- 🔄 Evolución: ifupdown (scripts) → NetworkManager (dinámico) → systemd-networkd/netplan (declarativo)
+- 🖥️ Herramientas por caso: ifupdown (servidores), NetworkManager (desktops), systemd-networkd/netplan (moderno)
+- 🔹 netplan como capa de abstracción: mismo YAML, diferentes backends
+- 🔍 Resolución de nombres: flujo completo nsswitch.conf → /etc/hosts → systemd-resolved → DNS
+- 📡 systemd-resolved: caché, mDNS, DNSSEC, DoT (moderno)
+
+---
+
 ## [2026-04-19] ingest | Curso de DNS - Bind9
 
 **Archivos finales (7):**

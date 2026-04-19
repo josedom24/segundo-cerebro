@@ -29,7 +29,7 @@ title: Wiki Pledin
 
 ---
 
-## 📚 Conceptos (25)
+## 📚 Conceptos (27)
 
 ### Plataformas Principales (10)
 - [[docker|Docker]] — Plataforma de containerización con imágenes, registros, Compose
@@ -62,12 +62,14 @@ title: Wiki Pledin
 - [[volume|Volume]] — Almacenamiento persistente e independiente (K8s, OpenStack, Proxmox, KVM)
 - [[snapshot|Snapshot]] — Captura punto-en-tiempo: backup, clones, rollback
 
-### Protocolos y Seguridad (4)
+### Protocolos y Seguridad (6)
 - [[http|HTTP]] — Protocolo request/response stateless: métodos GET/POST, códigos estado, cabeceras, negociación contenido
 - [[tls|TLS]] — Encriptación transport-layer: PKI, certificados X.509, handshake, HTTPS, openssl
 - [[spf|SPF (Sender Policy Framework)]] — Autenticación DNS para autorizar MTAs que envían correo
 - [[dkim|DKIM]] — Firma digital criptográfica para validar autenticidad de correos
 - [[dmarc|DMARC]] — Política unificada: SPF + DKIM + reportes de fallos
+- [[red-linux|Configuración de Red en Linux]] — Herramientas para gestionar interfaces, IP, rutas, DNS
+- [[resolucion-nombres-linux|Resolución de Nombres en Linux]] — /etc/resolv.conf, /etc/nsswitch.conf, systemd-resolved, mDNS
 
 ### Correo (1)
 - [[postfix|Postfix]] — Servidor MTA: enrutamiento, entrega y gestión de correo electrónico
@@ -179,6 +181,13 @@ title: Wiki Pledin
 
 ## 🌐 Servicios y Aplicaciones
 
+### Configuración de Red en Linux
+- [[red-linux-ifupdown|ifupdown: Configuración Tradicional de Red]] — Ficheros /etc/network/interfaces, hooks, modular
+- [[red-linux-networkmanager|NetworkManager]] — Gestor dinámico con nmcli, nmtui, GUI (desktops/WiFi)
+- [[red-linux-systemd-networkd|systemd-networkd]] — Configuración declarativa con .network, bridges, VLAN
+- [[red-linux-netplan|netplan]] — Abstracción YAML con múltiples renderers (networkd/NetworkManager)
+- [[red-linux-resolucion-nombres|Resolución de Nombres en Linux]] — DNS, /etc/resolv.conf, /etc/nsswitch.conf, systemd-resolved
+
 ### Apache2
 - [[fundamentos-apache|Fundamentos de Apache]] — HTTP, introducción, instalación en Debian/Ubuntu
 - [[configuracion-apache|Configuración de Apache]] — Ficheros config, directivas clave, contextos Directory
@@ -197,8 +206,6 @@ title: Wiki Pledin
 - [[dns-bind9-maestro-esclavo|Servidor Maestro/Esclavo en Bind9]] — Replicación de zonas, transferencia, sincronización con serial SOA
 - [[dns-bind9-subdominios|Subdominios en Bind9]] — Subdominios virtuales y delegación a servidores DNS separados
 - [[dns-bind9-vistas|Vistas en Bind9]] — Split-horizon DNS, respuestas diferentes según cliente (interno/externo)
-
----
 
 ### Postfix: Correo Electrónico
 - [[correo-conceptos-basicos|Fundamentos de Correo Electrónico]] — Agentes (MUA/MTA/MDA), protocolos (SMTP/POP3/IMAP), viaje del email
