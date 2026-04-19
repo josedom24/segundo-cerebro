@@ -1,3 +1,20 @@
+## [2026-04-19] article | dnsmasq: Servidor DNS Ligero para Redes Locales
+
+- ✏️ wiki/articles/dnsmasq-dns-caching-dhcp.md (creado)
+- ✏️ wiki/index.md (artículo añadido a "📰 Artículos y Recursos")
+
+**Conecta con:**
+- [[dns-conceptos-fundamentales|Fundamentos de DNS]] — Base conceptual
+- [[dns-bind9-configuracion|Configuración de Bind9]] — Alternativa más potente
+
+**Ideas clave:**
+- 🔍 dnsmasq: DNS forwarder + caching para redes locales (< 50 máquinas)
+- 📋 Integración automática con /etc/hosts + DHCP
+- ✅ Ideal educación: instalación trivial vs Bind9 complejo
+- 🔀 Casos uso: laboratorios, oficinas pequeñas, redes domésticas
+
+---
+
 ## [2026-04-19] ingest | Curso de DNS - Bind9
 
 **Archivos finales (7):**
