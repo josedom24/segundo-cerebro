@@ -4,6 +4,37 @@ updated: 2026-04-19
 title: Wiki Pledin
 ---
 
+# Segundo Cerebro - Wiki Pledin
+
+Bienvenido a tu **segundo cerebro digital**: un repositorio centralizado de conocimiento sobre infraestructura, virtualización, contenedores, servicios y redes en Linux.
+
+## Estructura de la Wiki
+
+Esta wiki está organizada en dos capas:
+
+🧠 **Núcleo (Inmutable):** 
+- **27 Conceptos** — Abstracciones reutilizables (Docker, Kubernetes, Bind9, Postfix, etc.)
+- **74 Resúmenes** — Módulos específicos de 6 cursos (KVM, Proxmox, Docker, Kubernetes, OpenShift, etc.)
+
+🛰️ **Satélites (Flexibles):**
+- **6 Artículos** — Casos reales, comparativas, profundizaciones
+- **1 Análisis** — Síntesis propias y estudios
+
+## Cómo Navegar
+
+1. **Explora por conceptos** → Ver qué plataformas/herramientas tienes disponibles
+2. **Busca por resúmenes** → Módulos de cursos específicos, paso a paso
+3. **Consulta artículos** → Casos reales, troubleshooting, análisis comparativos
+4. **Usa el grafo** → Visualiza conexiones entre temas en Obsidian
+
+## Últimas Ingestas
+
+- **DNS** (Bind9) — Servidor autoritativo, master/slave, delegación, vistas, dnsmasq
+- **Configuración de Red en Linux** — ifupdown, NetworkManager, systemd-networkd, netplan
+- **Correo Electrónico** (Postfix) — Autenticación SPF/DKIM/DMARC, clientes remotos, configuración avanzada
+
+---
+
 ## 🔗 Enlaces Rápidos
 
 - [Blog/Microblog](https://www.josedomingo.org) — Blog personal
