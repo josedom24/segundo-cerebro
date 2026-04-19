@@ -3,7 +3,7 @@ title: Envío a Internet
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies, spf-dkim-dmarc-profundizacion]
-tags: [correo, postfix, autenticacion, seguridad]
+tags: [correo, autenticacion, dns, seguridad]
 ---
 
 # Envío a Internet

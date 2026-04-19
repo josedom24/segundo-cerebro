@@ -3,7 +3,7 @@ title: Conceptos de Correo Electrónico
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies]
-tags: [correo, conceptos, protocolos]
+tags: [correo, protocolos]
 ---
 
 # Conceptos de Correo Electrónico

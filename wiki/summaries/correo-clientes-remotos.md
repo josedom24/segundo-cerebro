@@ -3,7 +3,7 @@ title: Clientes Remotos - POP3, IMAP y SMTP 587
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies]
-tags: [correo, pop3, imap, smtp, clientes, tls]
+tags: [correo, protocolos, autenticacion, tls]
 ---
 
 # Clientes Remotos - POP3, IMAP y SMTP 587

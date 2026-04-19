@@ -3,7 +3,7 @@ title: DKIM
 created: 2026-04-19
 updated: 2026-04-19
 sources: [correo-envio-a-internet, spf-dkim-dmarc-profundizacion]
-tags: [correo, autenticacion, criptografia, seguridad]
+tags: [correo, autenticacion, dns, seguridad]
 ---
 
 # DKIM

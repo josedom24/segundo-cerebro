@@ -3,7 +3,7 @@ title: Recepción Remota de Correos
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies]
-tags: [correo, pop3, imap, clientes, protocolos]
+tags: [correo, protocolos, autenticacion, tls]
 ---
 
 # Recepción Remota de Correos

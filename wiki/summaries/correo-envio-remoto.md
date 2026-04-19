@@ -3,7 +3,7 @@ title: Envío Remoto de Correos
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies]
-tags: [correo, smtp, autenticacion, clientes]
+tags: [correo, autenticacion, seguridad]
 ---
 
 # Envío Remoto de Correos

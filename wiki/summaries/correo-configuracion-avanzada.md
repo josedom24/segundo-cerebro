@@ -3,7 +3,7 @@ title: Configuración Avanzada de Postfix
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies]
-tags: [correo, postfix, configuracion, alias, spam]
+tags: [correo, configuracion, seguridad]
 ---
 
 # Configuración Avanzada de Postfix

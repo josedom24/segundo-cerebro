@@ -3,7 +3,7 @@ title: Recepción de Correos desde Internet
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies]
-tags: [correo, postfix, recepcion, mx, dns]
+tags: [correo, dns, configuracion]
 ---
 
 # Recepción de Correos desde Internet
