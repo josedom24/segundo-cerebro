@@ -171,19 +171,19 @@ network:
 
 ## Ventajas
 
-✅ **Flexible** — Mismo YAML, diferentes backends
-✅ **Moderno** — YAML es estándar industria
-✅ **Try/Apply** — Rollback automático si falla
-✅ **Legible** — Sintaxis clara
-✅ **Validación** — `netplan validate` antes de aplicar
-✅ **Ubuntu standard** — Método oficial
+- ✅ **Flexible** — Mismo YAML, diferentes backends
+- ✅ **Moderno** — YAML es estándar industria
+- ✅ **Try/Apply** — Rollback automático si falla
+- ✅ **Legible** — Sintaxis clara
+- ✅ **Validación** — `netplan validate` antes de aplicar
+- ✅ **Ubuntu standard** — Método oficial
 
 ## Desventajas
 
-❌ **Abstracción** — Menos control que backends directos
-❌ **Debugging** — Errores del renderer pueden ser confusos
-❌ **No GUI** — Solo texto
-❌ **Curva aprendizaje** — YAML + conceptos netplan
+- ❌ **Abstracción** — Menos control que backends directos
+- ❌ **Debugging** — Errores del renderer pueden ser confusos
+- ❌ **No GUI** — Solo texto
+- ❌ **Curva aprendizaje** — YAML + conceptos netplan
 
 ## Comparativa: Sintaxis
 
