@@ -1,6 +1,7 @@
 ---
 created: 2026-04-19
 updated: 2026-04-19
+title: Resolución de Nombres en Linux
 sources: [resolucion_nombres_linux]
 tags: [dns, linux, resolucion-nombres, configuracion]
 ---
@@ -233,7 +234,7 @@ journalctl -u systemd-resolved -f
 ## Relaciones
 
 ### Conecta con
-- [[resolucion-nombres-linux|Resolución de Nombres en Linux]] — Concepto
+- [[red-linux-resolucion-nombres|Resolución de Nombres en Linux]] — Concepto
 - [[red-linux|Configuración de Red en Linux]] — Parte de configuración
 - [[dns-conceptos-fundamentales|Fundamentos de DNS]] — Protocolo DNS
 - [[bind9|Bind9]] — Servidor DNS autoritativo

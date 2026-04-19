@@ -1,6 +1,7 @@
 ---
 created: 2026-04-19
 updated: 2026-04-19
+title: systemd-networkd: Configuración Declarativa de Red
 sources: [configuracion_red_linux_systemd_networkd]
 tags: [redes, linux, systemd, configuracion]
 ---

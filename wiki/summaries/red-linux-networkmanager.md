@@ -1,6 +1,7 @@
 ---
 created: 2026-04-19
 updated: 2026-04-19
+title: NetworkManager: Configuración Dinámica de Red en Linux
 sources: [configuracion_red_linux_networkmanager]
 tags: [redes, linux, networkmanager, configuracion]
 ---

@@ -1,6 +1,7 @@
 ---
 created: 2026-04-19
 updated: 2026-04-19
+title: netplan: Abstracción Declarativa de Red en YAML
 sources: [configuracion_red_linux_netplan]
 tags: [redes, linux, netplan, configuracion]
 ---
@@ -225,7 +226,7 @@ Gateway=192.168.1.1
 - [[red-linux-ifupdown|ifupdown]] — Alternativa tradicional
 - [[red-linux-networkmanager|NetworkManager]] — Backend compatible
 - [[red-linux-systemd-networkd|systemd-networkd]] — Backend compatible
-- [[resolucion-nombres-linux|Resolución de Nombres en Linux]] — Configuración de DNS
+- [[red-linux-resolucion-nombres|Resolución de Nombres en Linux]] — Configuración de DNS
 
 ## Fuentes
 - [netplan](https://www.josedomingo.org/pledin/2025/04/configuracion-red-linux-netplan/) — Configuración YAML declarativa
