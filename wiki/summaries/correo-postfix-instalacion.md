@@ -42,30 +42,50 @@ Durante instalación elige configuración:
 
 Esta es la configuración principal que controla todo el comportamiento.
 
-## Configuración Básica
+## Instalación - Opciones
 
-### Parámetros Esenciales
+Durante `apt install postfix` se pregunta:
 
-**Identidad del servidor:**
+**Tipo de servidor:**
+- **Internet Site** (recomendado) — Recibe/envía directamente
+- Internet with smarthost — Usa otro servidor
+- Satellite system — Reenviador
+- Local only — Solo correo local
+
+**Mailname:** Dominio (se guarda en `/etc/mailname`)
+
+## Configuración Básica (`/etc/postfix/main.cf`)
+
+### Identidad del Servidor
 ```
-myhostname = servidor.midominio.com
+myhostname = mail.midominio.com
 mydomain = midominio.com
+myorigin = midominio.com  # Dominio que usa para envío
 ```
 
-**Usuarios locales:**
+### Dominios Locales
 ```
-myorigin = midominio.com
-mydestination = localhost, localhost.localdomain, servidor.midominio.com
-```
-
-**Redes permitidas:**
-```
-mynetworks = 127.0.0.1/8, [::1]/128
+mydestination = localhost, localhost.localdomain, midominio.com
+  # Dominios para los que recibe correo
 ```
 
-**Almacén de correos:**
+### Dominios Reenviados
+```
+relay_domains = dominio2.com, dominio3.com
+  # Dominios cuyo correo reenviará (relay)
+```
+
+### Redes y Acceso
+```
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+  # IPs desde las que puede enviar correo
+```
+
+### Almacén de Correos
 ```
 home_mailbox = Maildir/
+  # Formato Maildir (moderno, escalable)
+  # Alternativa: mbox (tradicional, un archivo por usuario)
 ```
 
 ### Servicios Postfix

@@ -11,6 +11,54 @@ tags: [correo, postfix, configuracion, seguridad]
 ## Resumen de una línea
 Alias, redirecciones, usuarios virtuales, filtrado de spam y listas negras en Postfix.
 
+## SMTPd Restrictions
+
+Controlar conexiones SMTP entrantes y salientes con directivas en `/etc/postfix/main.cf`:
+
+### Directivas Principales
+- `smtpd_helo_restrictions` — Filtrar por parámetro HELO
+- `smtpd_client_restrictions` — Filtrar dominio MAIL FROM
+- `smtpd_relay_restrictions` — Permisos para relay (reenvío)
+- `smtpd_recipient_restrictions` — Filtrar clientes origen (búsquedas RBL)
+
+### Ejemplo Completo
+```
+smtpd_client_restrictions =
+    permit_mynetworks,
+    reject_unknown_client_hostname
+
+smtpd_recipient_restrictions =
+    permit_mynetworks,
+    permit_sasl_authenticated,
+    reject_non_fqdn_recipient,
+    reject_unauth_destination,
+    check_policy_service unix:private/policyd-spf
+```
+
+## Validación de SPF en Recepción
+
+Verificar remitentes contra registros SPF:
+
+**Instalación:**
+```bash
+apt install postfix-policyd-spf-python
+```
+
+**Configuración `/etc/postfix/master.cf`:**
+```
+policyd-spf unix - n n - 0 spawn user=policyd-spf argv=/usr/bin/policyd-spf
+```
+
+**En `/etc/postfix/main.cf`:**
+```
+policyd-spf_time_limit = 3600
+smtpd_recipient_restrictions =
+    ...
+    check_policy_service unix:private/policyd-spf
+```
+
+Rechaza/marca spam si SPF falla.
+
 ## Alias y Redirecciones
 
 ### Alias del Sistema
@@ -39,10 +87,36 @@ virtual_alias_maps = hash:/etc/postfix/virtual
 virtual_alias_domains = midominio.com
 ```
 
+## Antivirus: ClamAV + Amavis
+
+### Arquitectura
+```
+Correo → Postfix → Amavis (puerto 10024) → ClamAV
+                                        → SpamAssassin
+         ↓
+    Postfix (puerto 10025) → Entrega/Rechazo
+```
+
+**Amavis** actúa como intermediario:
+1. Recibe correo de Postfix (10024)
+2. Envía a ClamAV para análisis de virus
+3. Devuelve a Postfix (10025) con decisión
+4. Rechaza si tiene virus, marca si es sospechoso
+
+**Instalación:**
+```bash
+apt install amavis clamav clamav-daemon
+```
+
+**Test antivirus (EICAR):**
+```
+X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+```
+
 ## Filtrado de Spam
 
-### Listas Negras (DNSBL)
-Consultar listas públicas de IPs que envían spam.
+### Listas Negras (RBL/DNSBL)
+Consultar bases de datos en tiempo real de IPs de spam.
 
 **En `/etc/postfix/main.cf`:**
 ```
@@ -51,26 +125,41 @@ smtpd_recipient_restrictions =
     permit_sasl_authenticated,
     reject_rbl_client zen.spamhaus.org,
     reject_rbl_client blacklist.otro.com,
-    permit_dnswl_client whitelist.local,
     reject_unauth_destination
 ```
 
-**Proveedores:**
-- Spamhaus SBL
-- DNSBL.info
-- MXToolbox
+**Proveedores:** Spamhaus, DNSBL.info, MXToolbox
+
+### SpamAssassin - Análisis Avanzado
+
+Motor de filtrado que analiza múltiples factores:
+
+| Método | Descripción |
+|--------|------------|
+| Palabras clave | Detecta frases típicas de spam |
+| RBL | Consulta listas negras |
+| Análisis Bayesian | Aprende correos spam vs legítimos |
+| Heurística | Aplica reglas predefinidas |
+| SPF/DKIM | Verifica autenticación |
+
+Cada regla suma/resta puntos. Umbral por defecto: 5.0 = spam.
+
+**Integración con Postfix (via spamc):**
+```bash
+apt install spamassassin spamc
+```
+
+Postfix envía correos a SpamAssassin para análisis, recibe con cabecera `X-Spam-Score`.
+
+**Test SpamAssassin (GTUBE):**
+```
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+```
 
 ### Límites de Velocidad
 ```
 smtpd_client_connection_rate_limit = 10
 smtpd_client_message_rate_limit = 5
-```
-
-### SpamAssassin (Milter)
-Integración con filtro de contenido:
-```
-smtpd_milters = inet:localhost:10025
-non_smtpd_milters = inet:localhost:10025
 ```
 
 ## Validación de Dominio

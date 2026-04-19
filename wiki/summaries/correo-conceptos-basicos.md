@@ -65,11 +65,60 @@ Agentes y protocolos que intervienen en el envío y recepción de correos: MUA, 
 | **Bandeja** | Cliente | Servidor |
 | **Offline** | Sí (después descarga) | No (necesita conexión) |
 
+## Viaje de un Correo Electrónico
+
+### De Extremo a Extremo
+
+```
+Remitente (MUA)
+    ↓ SMTP 587
+Servidor A (MTA)
+    ↓ DNS lookup MX
+Servidor B (MTA)
+    ↓ MDA (entrega)
+Buzón del Receptor
+    ↑ POP3/IMAP
+Receptor (MUA)
+```
+
+**Pasos Detallados:**
+1. Usuario A escribe en su MUA (Thunderbird, Outlook)
+2. MUA conecta al servidor SMTP (puerto 587 con autenticación)
+3. Servidor A examina destino: usuario@dominioB.com
+4. Servidor A consulta DNS: ¿Qué MTA gestiona dominioB.com?
+5. Servidor A se conecta a servidor B (puerto 25 SMTP)
+6. Servidor B valida que usuario existe
+7. MDA de servidor B entrega al buzón (`~/Maildir` o `~/mbox`)
+8. Usuario B conecta por POP3/IMAP cuando quiere leer
+9. Descarga (POP3) o sincroniza (IMAP)
+
+### Reintento Automático
+
+Si servidor destino no responde:
+- Reintentos a intervalos: 5 min, 30 min, 1h, etc.
+- Después de 5 días: rebota (devuelve al remitente con error)
+
+## Direcciones de Correo
+
+### Estructura
+```
+usuario@dominio.com
+└─┬──┘ └────┬─────┘
+  │         └─ Dominio (organización, servidor)
+  └─ Usuario (buzón local o virtual)
+```
+
+### Usuarios Especiales
+- `postmaster` — Cuenta **obligatoria** para administración del servidor
+- `root` — Usuario administrador del sistema operativo
+- `abuse` — Contacto para reportar correos de abuso
+- `noreply` — Correos automatizados (no lee respuestas)
+
 ## Relaciones
 
 ### Conecta con
-- [[correo-funcionamiento|Funcionamiento del Correo Electrónico]] — Viaje de un email
-- [[correo-formato|Formato de Correos Electrónicos]] — Estructura técnica
+- [[correo-envio-a-internet|Envío a Internet]] — SPF, DKIM, autenticación
+- [[correo-recepcion-desde-internet|Recepción desde Internet]] — MX, usuarios locales
 
 ## Fuentes
 - [Conceptos sobre Correo Electrónico](https://github.com/josedom24/curso_correo_electronico_ies/blob/main/modulo1/conceptos.md) — Definiciones técnicas
