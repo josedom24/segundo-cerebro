@@ -1,3 +1,44 @@
+## [2026-04-19] ingest | Curso de Correo Electrónico
+
+**Nuevos archivos creados (18):**
+
+**Conceptos (4):**
+- ✏️ wiki/concepts/postfix.md (Servidor de correo MTA)
+- ✏️ wiki/concepts/spf.md (Autenticación DNS)
+- ✏️ wiki/concepts/dkim.md (Firma digital)
+- ✏️ wiki/concepts/dmarc.md (Política unificada)
+
+**Summaries (13):**
+- ✏️ wiki/summaries/correo-direcciones-electronicas.md (Estructura usuario@dominio)
+- ✏️ wiki/summaries/correo-conceptos-basicos.md (MUA, MTA, MDA, SMTP, POP3, IMAP)
+- ✏️ wiki/summaries/correo-funcionamiento.md (Viaje de un email)
+- ✏️ wiki/summaries/correo-formato.md (Cabeceras, cuerpo, MIME)
+- ✏️ wiki/summaries/correo-postfix-instalacion.md (Setup inicial)
+- ✏️ wiki/summaries/correo-envio-local.md (Entre usuarios locales)
+- ✏️ wiki/summaries/correo-envio-a-internet.md (SPF, DKIM, DMARC + lectura de artículo)
+- ✏️ wiki/summaries/correo-recepcion-desde-internet.md (Registros MX, usuarios)
+- ✏️ wiki/summaries/correo-alias-redirecciones.md (Usuarios virtuales)
+- ✏️ wiki/summaries/correo-spam.md (DNSBL, filtros)
+- ✏️ wiki/summaries/correo-recepcion-remota.md (POP3, IMAP, Dovecot)
+- ✏️ wiki/summaries/correo-envio-remoto.md (SMTP autenticado)
+- ✏️ wiki/summaries/correo-tls-cifrado.md (Cifrado transporte)
+
+**Artículos (1):**
+- ✏️ wiki/articles/spf-dkim-dmarc-profundizacion.md (Blog con estrategia unificada)
+
+**Cambios en documentos existentes:**
+- ✏️ wiki/summaries/correo-envio-a-internet.md (Añadido enlace a artículo profundización)
+- ✏️ wiki/index.md (Nueva sección "Servicios y Aplicaciones" → "Correo Electrónico" con 4 conceptos, 13 summaries, 1 artículo)
+
+**Ideas clave del curso:**
+- 🔐 SPF, DKIM y DMARC son mecanismos de autenticación unificados, requeridos ahora por Google/Yahoo
+- 📧 Postfix como MTA modular con integración de filtros (opendkim, SpamAssassin)
+- 🔀 Usuarios locales, virtuales, alias y redirecciones para gestión flexible
+- 🔒 TLS obligatorio en clientes (IMAP/IMAP+STARTTLS, POP3S, SMTP 587)
+- ⚠️ Limitaciones de SPF (alineación débil, lookups DNS), fortalezas de DKIM (criptografía)
+
+---
+
 ## [2026-04-17] fix | Reparación de enlaces rotos y fragmentos de código mal formados
 
 **Problemas encontrados y reparados:**

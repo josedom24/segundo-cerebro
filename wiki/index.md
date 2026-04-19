@@ -1,6 +1,6 @@
 ---
 created: 2026-04-15
-updated: 2026-04-17
+updated: 2026-04-19
 title: Wiki Pledin
 ---
 
@@ -169,6 +169,38 @@ title: Wiki Pledin
 ---
 
 ## 🌐 Servicios y Aplicaciones
+
+### Correo Electrónico
+
+#### Conceptos Fundamentales
+- [[postfix|Postfix]] — Servidor de correo MTA: enrutamiento, seguridad, modular
+- [[spf|SPF (Sender Policy Framework)]] — Autenticación DNS: autorizar IPs para envío
+- [[dkim|DKIM]] — Firma digital: validar autenticidad con criptografía
+- [[dmarc|DMARC]] — Política unificada: SPF + DKIM + reportes
+
+#### Fundamentos
+- [[correo-direcciones-electronicas|Direcciones de Correo Electrónico]] — Estructura usuario@dominio
+- [[correo-conceptos-basicos|Conceptos de Correo Electrónico]] — MUA, MTA, MDA, SMTP, POP3, IMAP
+- [[correo-funcionamiento|Funcionamiento del Correo Electrónico]] — Viaje de un email de extremo a extremo
+- [[correo-formato|Formato de Correos Electrónicos]] — Cabeceras, cuerpo, MIME multipart
+
+#### Servidor Postfix
+- [[correo-postfix-instalacion|Instalación y Configuración de Postfix]] — Setup inicial, parámetros esenciales
+- [[correo-envio-local|Envío Local de Correos]] — Entre usuarios del mismo servidor
+- [[correo-envio-a-internet|Envío a Internet]] — SPF, DKIM, DMARC, seguridad
+- [[correo-recepcion-desde-internet|Recepción desde Internet]] — Registros MX, usuarios locales/virtuales
+
+#### Gestión Avanzada
+- [[correo-alias-redirecciones|Alias y Redirecciones de Correo]] — Usuarios virtuales, aliases, redirecciones
+- [[correo-spam|Filtrado de Spam en Correo]] — DNSBL, listas negras, SpamAssassin
+- [[correo-recepcion-remota|Recepción Remota de Correos]] — POP3, IMAP, Dovecot
+- [[correo-envio-remoto|Envío Remoto de Correos]] — SMTP autenticado, puerto 587, SASL
+- [[correo-tls-cifrado|TLS y Cifrado en Correo]] — Cifrado en transporte, certificados, STARTTLS
+
+#### Profundizaciones
+- [[spf-dkim-dmarc-profundizacion|SPF, DKIM y DMARC - Profundización]] — Estándares de autenticación, implementación progresiva
+
+---
 
 ### Apache2
 - [[fundamentos-apache|Fundamentos de Apache]] — HTTP, introducción, instalación en Debian/Ubuntu
