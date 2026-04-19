@@ -177,18 +177,6 @@ title: Wiki Pledin
 
 ## 🌐 Servicios y Aplicaciones
 
-### Correo Electrónico
-- [[correo-conceptos-basicos|Conceptos de Correo Electrónico]] — MUA, MTA, MDA, SMTP, POP3, IMAP
-- [[correo-envio-a-internet|Envío a Internet]] — SPF, DKIM, DMARC, seguridad en tránsito
-- [[correo-recepcion-desde-internet|Recepción desde Internet]] — Registros MX, usuarios locales/virtuales
-
-### Postfix
-- [[correo-postfix-instalacion|Instalación y Configuración de Postfix]] — Setup inicial, parámetros esenciales
-- [[correo-configuracion-avanzada|Configuración Avanzada de Postfix]] — Alias, redirecciones, filtrado spam, DNSBL
-- [[correo-clientes-remotos|Clientes Remotos: POP3, IMAP y SMTP 587]] — Recepción/envío remoto, TLS, autenticación
-
----
-
 ### Apache2
 - [[fundamentos-apache|Fundamentos de Apache]] — HTTP, introducción, instalación en Debian/Ubuntu
 - [[configuracion-apache|Configuración de Apache]] — Ficheros config, directivas clave, contextos Directory
@@ -200,3 +188,13 @@ title: Wiki Pledin
 - [[https-apache|HTTPS en Apache]] — mod_ssl, certificados, Let's Encrypt, CAcert, configuración TLS
 - [[seguridad-apache|Seguridad en Apache]] — mod_security2, hardening, headers, permisos, logs
 - [[proxy-logs-apache|Proxy Inverso y Análisis de Logs en Apache]] — mod_proxy, balanceo carga, AWStats
+
+---
+
+### Postfix: Correo Electrónico
+- [[correo-conceptos-basicos|Fundamentos de Correo Electrónico]] — Agentes (MUA/MTA/MDA), protocolos (SMTP/POP3/IMAP), viaje del email
+- [[correo-envio-a-internet|Envío de Correo con Postfix]] — Autenticación (SPF, DKIM, DMARC), seguridad en tránsito
+- [[correo-recepcion-desde-internet|Recepción de Correo con Postfix]] — Registros MX, usuarios locales/virtuales, validación
+- [[correo-postfix-instalacion|Instalación y Configuración de Postfix]] — Opciones instalación, parámetros esenciales, tipos servidor
+- [[correo-configuracion-avanzada|Configuración Avanzada de Postfix]] — SMTPd restrictions, SPF verificación, antivirus (ClamAV), spam (SpamAssassin)
+- [[correo-clientes-remotos|Clientes Remotos: POP3, IMAP y SMTP 587]] — Recepción/envío remoto, Dovecot, TLS, autenticación SASL

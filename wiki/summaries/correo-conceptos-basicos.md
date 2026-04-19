@@ -1,15 +1,15 @@
 ---
-title: Conceptos de Correo Electrónico
+title: Fundamentos de Correo Electrónico
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies]
 tags: [correo, protocolos]
 ---
 
-# Conceptos de Correo Electrónico
+# Fundamentos de Correo Electrónico
 
 ## Resumen de una línea
-Agentes y protocolos que intervienen en el envío y recepción de correos: MUA, MTA, MDA, SMTP, POP3, IMAP.
+Agentes (MUA, MTA, MDA), protocolos (SMTP, POP3, IMAP) y el viaje de un correo de extremo a extremo.
 
 ## Agentes de Correo
 
@@ -117,8 +117,8 @@ usuario@dominio.com
 ## Relaciones
 
 ### Conecta con
-- [[correo-envio-a-internet|Envío a Internet]] — SPF, DKIM, autenticación
-- [[correo-recepcion-desde-internet|Recepción desde Internet]] — MX, usuarios locales
+- [[correo-envio-a-internet|Envío de Correo con Postfix]] — SPF, DKIM, DMARC, autenticación
+- [[correo-recepcion-desde-internet|Recepción de Correo con Postfix]] — MX, usuarios locales/virtuales
 
 ## Fuentes
 - [Conceptos sobre Correo Electrónico](https://github.com/josedom24/curso_correo_electronico_ies/blob/main/modulo1/conceptos.md) — Definiciones técnicas

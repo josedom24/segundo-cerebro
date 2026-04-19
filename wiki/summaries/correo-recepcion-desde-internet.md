@@ -1,15 +1,15 @@
 ---
-title: Recepción de Correos desde Internet
+title: Recepción de Correo con Postfix
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies]
 tags: [correo, dns, configuracion]
 ---
 
-# Recepción de Correos desde Internet
+# Recepción de Correo con Postfix
 
 ## Resumen de una línea
-Configuración de Postfix para recibir correos externos: registros MX en DNS y gestión de usuarios.
+Configuración de Postfix para recibir correos: registros MX en DNS, validación de usuarios y relays.
 
 ## Caso: Correo Desde Internet al Servidor
 
@@ -122,9 +122,9 @@ Si no restringe relays, cualquiera puede usarlo de spam.
 ## Relaciones
 
 ### Conecta con
-- [[correo-conceptos-basicos|Conceptos de Correo Electrónico]] — DNS, MX
-- [[correo-postfix-instalacion|Instalación de Postfix]] — Configuración base
-- [[correo-alias-redirecciones|Alias y Redirecciones]] — Usuarios virtuales
+- [[correo-conceptos-basicos|Fundamentos de Correo Electrónico]] — Protocolos, MTA, MDA
+- [[correo-postfix-instalacion|Instalación y Configuración de Postfix]] — Setup base
+- [[correo-configuracion-avanzada|Configuración Avanzada de Postfix]] — Alias y usuarios virtuales
 
 ## Fuentes
 - [Caso 3: Recibir desde Internet](https://github.com/josedom24/curso_correo_electronico_ies/blob/main/modulo3/caso3.md) — Configuración completa

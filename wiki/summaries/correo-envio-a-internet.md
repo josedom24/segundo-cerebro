@@ -1,15 +1,15 @@
 ---
-title: Envío a Internet
+title: Envío de Correo con Postfix
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies, spf-dkim-dmarc-profundizacion]
 tags: [correo, autenticacion, dns, seguridad]
 ---
 
-# Envío a Internet
+# Envío de Correo con Postfix
 
 ## Resumen de una línea
-Configuración de Postfix para enviar correos a internet con autenticación SPF, DKIM y DMARC.
+Configuración de Postfix para enviar correos con autenticación SPF, DKIM, DMARC y seguridad en tránsito.
 
 ## Caso: Correo Desde Servidor a Internet
 
@@ -129,17 +129,18 @@ _dmarc.midominio.com TXT "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:ad
    smtpd_tls_security_level = may
    ```
 
-### Lecturas Relacionadas
-- [[spf-dkim-dmarc-profundizacion|SPF, DKIM y DMARC - Profundización]] — Blog con estrategia unificada
+## Lecturas Relacionadas
+- [[spf-dkim-dmarc-profundizacion|SPF, DKIM y DMARC - Profundización]] — Blog con estrategia unificada y reportes
 
 ## Relaciones
 
 ### Conecta con
-- [[postfix|Postfix]] — Servidor que envía
+- [[postfix|Postfix]] — Servidor MTA
 - [[spf|SPF]] — Autenticación por DNS
-- [[dkim|DKIM]] — Firma digital de correos
+- [[dkim|DKIM]] — Firma digital criptográfica
 - [[dmarc|DMARC]] — Política unificada
-- [[tls|TLS]] — Cifrado de tránsito
+- [[tls|TLS]] — Cifrado transport-layer
+- [[correo-conceptos-basicos|Fundamentos de Correo Electrónico]] — Protocolos SMTP
 
 ## Fuentes
 - [¿Qué hacer para que llegue a buen puerto?](https://github.com/josedom24/curso_correo_electronico_ies/blob/main/modulo3/asegurar_envio_correo.md) — Detalles técnicos SPF/DKIM/DMARC
