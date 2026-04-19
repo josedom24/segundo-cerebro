@@ -20,6 +20,7 @@ title: Wiki Pledin
 
 ## 📰 Artículos y Recursos
 
+- [[spf-dkim-dmarc-profundizacion|SPF, DKIM y DMARC - Profundización]] — Estándares de autenticación, implementación progresiva, reportes
 - [[vagrant-introduccion|Vagrant - Introducción y Conceptos Fundamentales]] — Automatización de VMs, providers, provisioning, ciclo de vida
 - [[vagrant-libvirt-configuracion|Vagrant + libvirt - Configuración Completa de Networking y Almacenamiento]] — Networking, almacenamiento persistente, multi-VM, casos de uso
 - [[vagrant-creacion-boxes|Creación de Custom Boxes para Vagrant]] — Empaquetar, versionar, distribuir boxes, Vagrant Cloud
@@ -59,9 +60,15 @@ title: Wiki Pledin
 - [[volume|Volume]] — Almacenamiento persistente e independiente (K8s, OpenStack, Proxmox, KVM)
 - [[snapshot|Snapshot]] — Captura punto-en-tiempo: backup, clones, rollback
 
-### Protocolos y Seguridad (2)
+### Protocolos y Seguridad (4)
 - [[http|HTTP]] — Protocolo request/response stateless: métodos GET/POST, códigos estado, cabeceras, negociación contenido
 - [[tls|TLS]] — Encriptación transport-layer: PKI, certificados X.509, handshake, HTTPS, openssl
+- [[spf|SPF (Sender Policy Framework)]] — Autenticación DNS para autorizar MTAs que envían correo
+- [[dkim|DKIM]] — Firma digital criptográfica para validar autenticidad de correos
+- [[dmarc|DMARC]] — Política unificada: SPF + DKIM + reportes de fallos
+
+### Correo (1)
+- [[postfix|Postfix]] — Servidor MTA: enrutamiento, entrega y gestión de correo electrónico
 
 ### Abstracciones Base (1)
 - [[contenedores|Contenedores]] — Virtualización a nivel SO con kernel compartido
@@ -171,34 +178,14 @@ title: Wiki Pledin
 ## 🌐 Servicios y Aplicaciones
 
 ### Correo Electrónico
-
-#### Conceptos Fundamentales
-- [[postfix|Postfix]] — Servidor de correo MTA: enrutamiento, seguridad, modular
-- [[spf|SPF (Sender Policy Framework)]] — Autenticación DNS: autorizar IPs para envío
-- [[dkim|DKIM]] — Firma digital: validar autenticidad con criptografía
-- [[dmarc|DMARC]] — Política unificada: SPF + DKIM + reportes
-
-#### Fundamentos
-- [[correo-direcciones-electronicas|Direcciones de Correo Electrónico]] — Estructura usuario@dominio
 - [[correo-conceptos-basicos|Conceptos de Correo Electrónico]] — MUA, MTA, MDA, SMTP, POP3, IMAP
-- [[correo-funcionamiento|Funcionamiento del Correo Electrónico]] — Viaje de un email de extremo a extremo
-- [[correo-formato|Formato de Correos Electrónicos]] — Cabeceras, cuerpo, MIME multipart
-
-#### Servidor Postfix
-- [[correo-postfix-instalacion|Instalación y Configuración de Postfix]] — Setup inicial, parámetros esenciales
-- [[correo-envio-local|Envío Local de Correos]] — Entre usuarios del mismo servidor
-- [[correo-envio-a-internet|Envío a Internet]] — SPF, DKIM, DMARC, seguridad
+- [[correo-envio-a-internet|Envío a Internet]] — SPF, DKIM, DMARC, seguridad en tránsito
 - [[correo-recepcion-desde-internet|Recepción desde Internet]] — Registros MX, usuarios locales/virtuales
 
-#### Gestión Avanzada
-- [[correo-alias-redirecciones|Alias y Redirecciones de Correo]] — Usuarios virtuales, aliases, redirecciones
-- [[correo-spam|Filtrado de Spam en Correo]] — DNSBL, listas negras, SpamAssassin
-- [[correo-recepcion-remota|Recepción Remota de Correos]] — POP3, IMAP, Dovecot
-- [[correo-envio-remoto|Envío Remoto de Correos]] — SMTP autenticado, puerto 587, SASL
-- [[correo-tls-cifrado|TLS y Cifrado en Correo]] — Cifrado en transporte, certificados, STARTTLS
-
-#### Profundizaciones
-- [[spf-dkim-dmarc-profundizacion|SPF, DKIM y DMARC - Profundización]] — Estándares de autenticación, implementación progresiva
+### Postfix
+- [[correo-postfix-instalacion|Instalación y Configuración de Postfix]] — Setup inicial, parámetros esenciales
+- [[correo-configuracion-avanzada|Configuración Avanzada de Postfix]] — Alias, redirecciones, filtrado spam, DNSBL
+- [[correo-clientes-remotos|Clientes Remotos: POP3, IMAP y SMTP 587]] — Recepción/envío remoto, TLS, autenticación
 
 ---
 
