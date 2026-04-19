@@ -1,3 +1,37 @@
+## [2026-04-19] ingest | Curso de DNS - Bind9
+
+**Archivos finales (7):**
+
+**Conceptos (2)** - En sección "📚 Conceptos":
+- ✏️ wiki/concepts/dns.md — Protocolo DNS, FQDN, zonas, autoridad, registros
+- ✏️ wiki/concepts/bind9.md — Servidor Bind9, master/slave, views, delegación
+
+**Summaries (5)** - En "🌐 Servicios y Aplicaciones":
+- ✏️ wiki/summaries/dns-conceptos-fundamentales.md — Protocolo DNS, registros, resolución recursiva
+- ✏️ wiki/summaries/dns-bind9-configuracion.md — Instalación, zonas directas/inversas, DHCP
+- ✏️ wiki/summaries/dns-bind9-maestro-esclavo.md — Replicación, transferencia, sincronización SOA
+- ✏️ wiki/summaries/dns-bind9-subdominios.md — Subdominios virtuales y delegación
+- ✏️ wiki/summaries/dns-bind9-vistas.md — Split-horizon DNS, respuestas por cliente
+
+**Cambios en index.md:**
+- Añadida nueva sección "### Bind9: Servidor DNS" entre Apache2 y Postfix
+- Incluidos 5 enlaces a summaries
+
+**Estructura:**
+```
+Conceptos DNS (2): Fundamentos + Bind9 servidor
+Summaries (5): Conceptos → Configuración → Master/Slave → Subdominios → Vistas
+```
+
+**Ideas clave:**
+- 🌐 DNS: Protocolo nombres + autoridad sobre zonas
+- 🔗 Bind9: Servidor autoritativo, master/slave replicación
+- 📊 SOA: Serial número es clave sincronización (YYYYMMDDNN)
+- 🔀 Vistas: Split-horizon (respuestas diferentes por IP cliente)
+- 🪜 Delegación: Subdominios separados con NS records
+
+---
+
 ## [2026-04-19] ingest | Curso de Correo Electrónico (Opción C)
 
 **Archivos finales (10):**

@@ -189,6 +189,13 @@ title: Wiki Pledin
 - [[seguridad-apache|Seguridad en Apache]] — mod_security2, hardening, headers, permisos, logs
 - [[proxy-logs-apache|Proxy Inverso y Análisis de Logs en Apache]] — mod_proxy, balanceo carga, AWStats
 
+### Bind9: Servidor DNS
+- [[dns-conceptos-fundamentales|Fundamentos de DNS]] — Protocolo DNS, FQDN, zonas, autoridad, registros (A, MX, CNAME, NS, SOA), resolución recursiva
+- [[dns-bind9-configuracion|Configuración de Bind9]] — Instalación, zonas directas e inversas, ficheros de zona, integración DHCP
+- [[dns-bind9-maestro-esclavo|Servidor Maestro/Esclavo en Bind9]] — Replicación de zonas, transferencia, sincronización con serial SOA
+- [[dns-bind9-subdominios|Subdominios en Bind9]] — Subdominios virtuales y delegación a servidores DNS separados
+- [[dns-bind9-vistas|Vistas en Bind9]] — Split-horizon DNS, respuestas diferentes según cliente (interno/externo)
+
 ---
 
 ### Postfix: Correo Electrónico
