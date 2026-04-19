@@ -3,7 +3,7 @@ title: Postfix
 created: 2026-04-19
 updated: 2026-04-19
 sources: [correo-postfix-instalacion]
-tags: [correo, autenticacion, seguridad]
+tags: [postfix, autenticacion, seguridad]
 ---
 
 # Postfix

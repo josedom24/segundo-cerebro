@@ -3,7 +3,7 @@ title: Instalación y Configuración de Postfix
 created: 2026-04-19
 updated: 2026-04-19
 sources: [curso_correo_electronico_ies]
-tags: [correo, instalacion, configuracion]
+tags: [correo, postfix, instalacion, configuracion]
 ---
 
 # Instalación y Configuración de Postfix
