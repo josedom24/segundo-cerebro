@@ -135,7 +135,7 @@ telnet localhost 110  # POP3
 ### Conecta con
 - [[correo-conceptos-basicos|Conceptos de Correo Electrónico]] — Protocolos POP3/IMAP
 - [[correo-postfix-instalacion|Instalación de Postfix]] — Backend de almacenamiento
-- [[correo-tls-cifrado|TLS en Correo]] — Cifrado de sesiones
+- [[correo-clientes-remotos|Clientes Remotos: POP3, IMAP y SMTP 587]] — Configuración de clientes con TLS
 
 ## Fuentes
 - [Caso 4: Recepción Remota](https://github.com/josedom24/curso_correo_electronico_ies/blob/main/modulo4/caso4.md) — POP3 e IMAP detallado

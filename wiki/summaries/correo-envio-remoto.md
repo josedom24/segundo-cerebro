@@ -153,7 +153,7 @@ RCPT TO: <victima@otro.com>
 ### Conecta con
 - [[correo-conceptos-basicos|Conceptos de Correo Electrónico]] — SMTP
 - [[correo-postfix-instalacion|Instalación de Postfix]] — Configuración base
-- [[correo-tls-cifrado|TLS en Correo]] — Cifrado STARTTLS
+- [[correo-clientes-remotos|Clientes Remotos: POP3, IMAP y SMTP 587]] — STARTTLS y configuración de clientes
 
 ## Fuentes
 - [Caso 5: Envío Remoto](https://github.com/josedom24/curso_correo_electronico_ies/blob/main/modulo4/caso5.md) — SMTP autenticado
