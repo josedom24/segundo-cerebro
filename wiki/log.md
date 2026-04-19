@@ -1,41 +1,41 @@
-## [2026-04-19] ingest | Curso de Correo Electrónico
+## [2026-04-19] ingest | Curso de Correo Electrónico (Opción C)
 
-**Nuevos archivos creados (18):**
+**Archivos finales (10):**
 
-**Conceptos (4):**
-- ✏️ wiki/concepts/postfix.md (Servidor de correo MTA)
-- ✏️ wiki/concepts/spf.md (Autenticación DNS)
-- ✏️ wiki/concepts/dkim.md (Firma digital)
-- ✏️ wiki/concepts/dmarc.md (Política unificada)
+**Conceptos (4)** - En sección "📚 Conceptos":
+- ✏️ wiki/concepts/postfix.md — Servidor MTA
+- ✏️ wiki/concepts/spf.md — Autenticación DNS
+- ✏️ wiki/concepts/dkim.md — Firma digital
+- ✏️ wiki/concepts/dmarc.md — Política unificada
 
-**Summaries (13):**
-- ✏️ wiki/summaries/correo-direcciones-electronicas.md (Estructura usuario@dominio)
-- ✏️ wiki/summaries/correo-conceptos-basicos.md (MUA, MTA, MDA, SMTP, POP3, IMAP)
-- ✏️ wiki/summaries/correo-funcionamiento.md (Viaje de un email)
-- ✏️ wiki/summaries/correo-formato.md (Cabeceras, cuerpo, MIME)
-- ✏️ wiki/summaries/correo-postfix-instalacion.md (Setup inicial)
-- ✏️ wiki/summaries/correo-envio-local.md (Entre usuarios locales)
-- ✏️ wiki/summaries/correo-envio-a-internet.md (SPF, DKIM, DMARC + lectura de artículo)
-- ✏️ wiki/summaries/correo-recepcion-desde-internet.md (Registros MX, usuarios)
-- ✏️ wiki/summaries/correo-alias-redirecciones.md (Usuarios virtuales)
-- ✏️ wiki/summaries/correo-spam.md (DNSBL, filtros)
-- ✏️ wiki/summaries/correo-recepcion-remota.md (POP3, IMAP, Dovecot)
-- ✏️ wiki/summaries/correo-envio-remoto.md (SMTP autenticado)
-- ✏️ wiki/summaries/correo-tls-cifrado.md (Cifrado transporte)
+**Summaries (6)** - En "🌐 Servicios y Aplicaciones":
+- ✏️ wiki/summaries/correo-conceptos-basicos.md — MUA, MTA, MDA, SMTP, POP3, IMAP
+- ✏️ wiki/summaries/correo-envio-a-internet.md — SPF, DKIM, DMARC, seguridad
+- ✏️ wiki/summaries/correo-recepcion-desde-internet.md — Registros MX, usuarios
+- ✏️ wiki/summaries/correo-postfix-instalacion.md — Setup inicial
+- ✏️ wiki/summaries/correo-configuracion-avanzada.md — Alias, usuarios virtuales, spam, DNSBL
+- ✏️ wiki/summaries/correo-clientes-remotos.md — POP3, IMAP, SMTP 587, TLS
 
-**Artículos (1):**
-- ✏️ wiki/articles/spf-dkim-dmarc-profundizacion.md (Blog con estrategia unificada)
+**Artículos (1)** - En sección "📰 Artículos y Recursos":
+- ✏️ wiki/articles/spf-dkim-dmarc-profundizacion.md — Estrategia unificada, implementación progresiva
 
-**Cambios en documentos existentes:**
-- ✏️ wiki/summaries/correo-envio-a-internet.md (Añadido enlace a artículo profundización)
-- ✏️ wiki/index.md (Nueva sección "Servicios y Aplicaciones" → "Correo Electrónico" con 4 conceptos, 13 summaries, 1 artículo)
+**Cambios en index.md:**
+- Agregados 4 conceptos a sección "Protocolos y Seguridad (→4)"
+- Nuevo subsection "Correo (1)" con [[postfix|Postfix]]
+- Nueva estructura "🌐 Servicios y Aplicaciones": Correo Electrónico (3) + Postfix (3)
+- Artículo movido a "📰 Artículos y Recursos"
 
-**Ideas clave del curso:**
-- 🔐 SPF, DKIM y DMARC son mecanismos de autenticación unificados, requeridos ahora por Google/Yahoo
-- 📧 Postfix como MTA modular con integración de filtros (opendkim, SpamAssassin)
-- 🔀 Usuarios locales, virtuales, alias y redirecciones para gestión flexible
-- 🔒 TLS obligatorio en clientes (IMAP/IMAP+STARTTLS, POP3S, SMTP 587)
-- ⚠️ Limitaciones de SPF (alineación débil, lookups DNS), fortalezas de DKIM (criptografía)
+**Estructura Opción C:**
+```
+Correo Electrónico (3): conceptos, envío, recepción
+Postfix (3): instalación, configuración avanzada, clientes remotos
+```
+
+**Ideas clave:**
+- 🔐 SPF, DKIM, DMARC: Autenticación unificada (requerida Google/Yahoo)
+- 📧 Postfix: MTA modular con alias, usuarios virtuales, filtrado spam
+- 🔀 Clientes: POP3 (descarga), IMAP (sincronización), SMTP 587 (envío autenticado)
+- 🔒 TLS: Cifrado obligatorio (993, 995, 587+STARTTLS)
 
 ---
 
