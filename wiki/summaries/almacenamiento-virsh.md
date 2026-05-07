@@ -6,7 +6,7 @@ sources: [curso_kvm_ow]
 tags: [almacenamiento, kvm]
 ---
 
-# Almacenamiento en KVM/libvirt con virsh
+# Almacenamiento en KVM - libvirt con virsh
 
 ## Resumen de una línea
 Almacenamiento avanzado con virsh: pool types (dir/disk/logical/nfs/zfs), qemu-img para gestión ficheros, LVM para volúmenes lógicos, snapshots, resize dinámico, thin provisioning QCOW2.

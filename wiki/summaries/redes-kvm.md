@@ -6,7 +6,7 @@ sources: [curso_kvm_ow]
 tags: [bridge, kvm, redes]
 ---
 
-# Redes en KVM/libvirt
+# Redes en KVM - libvirt
 
 ## Resumen de una línea
 Redes libvirt: virtuales privadas (NAT, aisladas, muy aisladas) con bridge/DHCP/DNS; redes públicas (bridge externo, macvtap para conexión directa a física; bridge virtual = Linux Bridge.

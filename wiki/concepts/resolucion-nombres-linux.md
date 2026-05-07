@@ -1,8 +1,9 @@
 ---
 created: 2026-04-19
-updated: 2026-04-19
+updated: 2026-05-07
 sources: []
 tags: [dns, linux, redes]
+title: "Resolución de Nombres en Linux"
 ---
 
 # Resolución de Nombres en Linux

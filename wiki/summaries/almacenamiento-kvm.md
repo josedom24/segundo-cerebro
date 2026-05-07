@@ -6,7 +6,7 @@ sources: [curso_kvm_ow]
 tags: [almacenamiento, kvm]
 ---
 
-# Almacenamiento en KVM/virt-manager
+# Almacenamiento en KVM - virt-manager
 
 ## Resumen de una línea
 Gestión de almacenamiento KVM: storage pools (directorios, bloque, red), volúmenes (raw vs qcow2), snapshots para recuperación, thin provisioning para optimización de espacio.

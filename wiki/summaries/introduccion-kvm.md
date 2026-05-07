@@ -6,7 +6,7 @@ sources: [curso_kvm_ow]
 tags: [kvm, virtualizacion]
 ---
 
-# Introducción a la Virtualización con KVM/libvirt
+# Introducción a la Virtualización con KVM - libvirt
 
 ## Resumen de una línea
 KVM es un hipervisor que virtualiza máquinas completas (con SO propio) a nivel kernel Linux; libvirt es la API para gestionarlas; virt-manager proporciona interfaz gráfica.

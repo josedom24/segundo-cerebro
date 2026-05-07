@@ -1,8 +1,9 @@
 ---
 created: 2026-04-19
-updated: 2026-04-19
+updated: 2026-05-07
 sources: []
 tags: [redes, linux, configuracion]
+title: "Configuración de Red en Linux"
 ---
 
 # Configuración de Red en Linux

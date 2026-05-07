@@ -6,7 +6,7 @@ tags: [vagrant, kvm, redes, almacenamiento, automatizacion]
 title: Vagrant + libvirt - Configuración Completa de Networking y Almacenamiento
 ---
 
-# Vagrant + libvirt: Configuración Completa de Networking y Almacenamiento
+# Vagrant + libvirt - Configuración Completa de Networking y Almacenamiento
 
 ## Resumen de una línea
 Guía para usar Vagrant con libvirt/KVM en Linux, cobriendo configuración de redes, almacenamiento persistente y casos de uso prácticos.

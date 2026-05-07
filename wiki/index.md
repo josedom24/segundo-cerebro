@@ -19,6 +19,7 @@ Esta wiki es tu **segundo cerebro digital** sobre infraestructura, virtualizaci�
 ## 📊 Análisis y Síntesis
 
 - [[utilidad-pods-podman|Utilidad de Pods en Podman]] — Orquestación local, generación YAML K8s, alternativa a Swarm
+- [[openstack-vs-proxmox|OpenStack vs Proxmox VE: Análisis Comparativo]] — Cloud IaaS vs virtualización integrada, casos uso, escalabilidad, TCO
 
 ---
 
@@ -30,6 +31,12 @@ Esta wiki es tu **segundo cerebro digital** sobre infraestructura, virtualizaci�
 - [[vagrant-introduccion|Vagrant - Introducción y Conceptos Fundamentales]] — Automatización de VMs, providers, provisioning, ciclo de vida
 - [[vagrant-libvirt-configuracion|Vagrant + libvirt - Configuración Completa de Networking y Almacenamiento]] — Networking, almacenamiento persistente, multi-VM, casos de uso
 - [[vagrant-creacion-custom-boxes|Creación de Custom Boxes para Vagrant]] — Empaquetar, versionar, distribuir boxes, Vagrant Cloud
+- [[headscale-vpn-mesh-profundizacion|Headscale: VPN Mesh - Instalación, Configuración y Seguridad]] — Control plane open-source, routing avanzado, DNS dinámico, ACLs y aislamiento
+- [[kvm-cloud-init-automatizacion|KVM + cloud-init: Despliegue Automatizado de Máquinas Virtuales]] — Cloud images, cloud-config YAML, despliegue en <2 minutos, laboratorios y clusters
+- [[criptografia-conceptos-gpg|Criptografía: Conceptos Fundamentales e Implementación con GPG]] — Simétrica vs asimétrica, firmas digitales, PKI, Web of Trust, GPG práctica
+- [[ssh-claves-autenticacion|SSH: Autenticación por Claves y Acceso Remoto Seguro]] — Claves RSA/EdDSA, ssh-copy-id, ssh-agent, automatización, múltiples claves
+- [[nftables-cortafuegos-completo|nftables: Cortafuegos Moderno - Personal, NAT y Perimetral]] — Tables, chains, reglas, SNAT/DNAT, masquerade, forward, laboratorios educativos
+- [[proxmox-cloud-init-automatizacion|Proxmox + cloud-init: Despliegue Automatizado en Hypervisor]] — Templates, clonado, cloud-init en Proxmox VE, laboratorios escalables
 
 ---
 

@@ -6,7 +6,7 @@ tags: [vagrant, vm, automatizacion, kvm, docker]
 title: Vagrant - Introducción y Conceptos Fundamentales
 ---
 
-# Vagrant: Introducción y Conceptos Fundamentales
+# Vagrant - Introducción y Conceptos Fundamentales
 
 ## Resumen de una línea
 Vagrant es una herramienta que automatiza la creación y configuración de máquinas virtuales mediante código declarativo, permitiendo reproducibilidad y colaboración en equipos de desarrollo.

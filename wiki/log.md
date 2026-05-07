@@ -1,3 +1,245 @@
+## [2026-05-07] update | Aplicación de Correcciones del Lint Report
+
+**Correcciones aplicadas:**
+
+✅ **Title añadido a frontmatter (2 archivos):**
+- ✏️ wiki/concepts/red-linux.md → `title: "Configuración de Red en Linux"`
+- ✏️ wiki/concepts/resolucion-nombres-linux.md → `title: "Resolución de Nombres en Linux"`
+
+✅ **H1 actualizado para coincidir con title (6 archivos):**
+- ✏️ wiki/summaries/redes-kvm.md (`KVM/libvirt` → `KVM - libvirt`)
+- ✏️ wiki/summaries/almacenamiento-virsh.md (`KVM/libvirt` → `KVM - libvirt`)
+- ✏️ wiki/summaries/introduccion-kvm.md (`KVM/libvirt` → `KVM - libvirt`)
+- ✏️ wiki/summaries/almacenamiento-kvm.md (`KVM/virt-manager` → `KVM - virt-manager`)
+- ✏️ wiki/articles/vagrant-introduccion.md (`Vagrant:` → `Vagrant -`)
+- ✏️ wiki/articles/vagrant-libvirt-configuracion.md (`Vagrant + libvirt:` → `Vagrant + libvirt -`)
+
+✅ **Archivos huérfanos eliminados (2 duplicados):**
+- 🗑️ wiki/summaries/correo-envio-remoto.md (contenido cubierto en correo-clientes-remotos)
+- 🗑️ wiki/summaries/correo-recepcion-remota.md (contenido cubierto en correo-clientes-remotos)
+
+**Estado post-limpieza:**
+- ✅ 0 archivos sin title
+- ✅ 0 archivos con title != H1
+- ✅ 0 archivos huérfanos (excepto index/log esperados)
+- ✅ 0 enlaces rotos
+- 📊 155 archivos totales (de 157 antes: -2 huérfanos)
+
+**Pendiente (opcional, no urgente):**
+- Consolidar ~20 tags con < 3 ocurrencias
+
+---
+
+## [2026-05-07] lint | Limpieza Mensual - Mayo 2026
+
+- ✏️ wiki/lint-report.md (creado/actualizado)
+
+**Análisis realizado sobre 152 archivos:**
+
+**Hallazgos:**
+- 🔴 6 archivos con title != H1 (KVM/libvirt, Vagrant)
+- 🟡 2 archivos sin title en frontmatter (red-linux, resolucion-nombres-linux)
+- 🟠 2 archivos huérfanos (correo-envio-remoto, correo-recepcion-remota - posibles duplicados)
+- 🟢 ~20 tags con < 3 ocurrencias (candidatos a consolidación)
+- ✅ 0 enlaces rotos reales (los detectados son falsos positivos en log.md)
+
+**Estadísticas:**
+- 35 conceptos / 103 summaries / 13 articles / 3 analyses
+- 60+ tags totales (30+ consolidados)
+- 157 enlaces internos únicos
+- Top tags: redes(26), openshift(25), configuracion(25), kubernetes(23), seguridad(21)
+
+**Plan de acción sugerido:** Ver `lint-report.md` para detalles
+- Inmediato: Corregir title=H1 y añadir title faltantes (15 min)
+- Corto: Investigar archivos huérfanos correo (30 min)
+- Medio: Consolidar tags específicos (1-2h, opcional)
+
+**Próxima limpieza:** 2026-06-07
+
+---
+
+## [2026-05-07] analysis | OpenStack vs Proxmox VE - Análisis Comparativo
+
+- ✏️ wiki/analyses/openstack-vs-proxmox.md (creado)
+- ✏️ wiki/index.md (análisis añadido a "📊 Análisis y Síntesis")
+
+**Basado en:**
+- [[openstack|OpenStack]] — Concepto wiki
+- [[proxmox|Proxmox VE]] — Concepto wiki
+
+**Conclusiones clave:**
+- 🎯 No son competencia directa: OpenStack = Cloud IaaS, Proxmox = Hypervisor avanzado
+- 🟢 OpenStack: Cloud privado multi-tenant, escala miles, APIs AWS-like, equipo dedicado
+- 🟢 Proxmox: Virtualización SMB, KVM+LXC integrado, GUI simple, 1 admin
+- 📊 Curva aprendizaje: OpenStack 3-6 meses vs Proxmox 1-2 semanas
+- ⚙️ Setup: OpenStack días-semanas vs Proxmox horas
+- 💰 TCO: OpenStack $$$$ enterprise vs Proxmox $$ SMB
+- 🔄 Pueden coexistir: Proxmox producción + OpenStack self-service developers
+
+**Casos comparados:**
+- Telecom multi-tenant (500+ clientes) → OpenStack
+- Centro educativo (30 estudiantes, 3 nodos) → Proxmox
+
+**Conecta con:**
+- [[openstack|OpenStack]] — Concepto principal
+- [[proxmox|Proxmox VE]] — Concepto principal
+- [[kvm|KVM]] — Hypervisor común
+- [[kubernetes|Kubernetes]] — Alternativa cloud-native
+
+---
+
+## [2026-05-07] article | Proxmox + cloud-init: Despliegue Automatizado en Hypervisor
+
+- ✏️ wiki/articles/proxmox-cloud-init-automatizacion.md (creado)
+- ✏️ wiki/index.md (artículo añadido a "📰 Artículos y Recursos")
+
+**Fuente:**
+- Proxmox + cloud-init — Templates, clonado, configuración automática en Proxmox VE
+
+**Ideas clave:**
+- 🎯 Problema: VMs clonadas idénticas (mismo hostname, IP, SSH keys) → Solución: cloud-init
+- 📋 Workflow: Template base (cloud-init) → Clonar → Configurar cloud-init → Boot automático
+- 🔧 CloudInit Drive: CD-ROM virtual que inyecta config en primer boot
+- 📊 Escalabilidad: 30 VMs en 5 minutos vs 10-15 min cada una manualmente
+- 🏫 Casos: Laboratorios educativos (30 estudiantes), clusters web, replicas BD (Galera)
+- ✅ Rápido: < 3 min/VM (vs 10-15 min manual)
+- 🔄 Reproducible: misma config → mismo resultado (Git-versionable)
+- ⚠️ Primer boot solamente: cloud-init se ejecuta 1 sola vez (cloud-init clean para re-ejecutar)
+
+**Conecta con:**
+- [[kvm-cloud-init-automatizacion|KVM + cloud-init]] — Similar en KVM
+- [[introduccion-proxmox|Introducción a Proxmox]] — Plataforma base
+- [[creacion-maquinas-virtuales-proxmox|Creación de VMs Proxmox]] — Alternativa manual
+
+---
+
+## [2026-05-07] article | nftables: Cortafuegos Moderno - Personal, NAT y Perimetral
+
+- ✏️ wiki/articles/nftables-cortafuegos-completo.md (creado)
+- ✏️ wiki/index.md (artículo añadido a "📰 Artículos y Recursos")
+
+**Fuentes consolidadas:**
+1. Cortafuegos Personal con nftables — Tables, chains, reglas básicas (SSH, DNS, HTTP, ICMP)
+2. nftables NAT Perimetral — SNAT (masquerade), DNAT (port forwarding), PAT
+3. nftables Cortafuegos Perimetral Filtrado — Input/output/forward chains, políticas drop, casos laboratorio
+
+**Ideas clave:**
+- 🔥 nftables: Reemplazo moderno de iptables (sintaxis unificada, mejor rendimiento)
+- 📊 Arquitectura: Tables (inet/ip/nat) → Chains (input/output/forward/prerouting/postrouting) → Rules
+- 🚫 Política DROP: Rechazar todo por defecto, permitir explícitamente (seguridad)
+- 🔄 Stateful filtering: `ct state established,related` para conexiones activas
+- 🌐 SNAT (masquerade): Máquinas locales → internet con IP cortafuegos
+- 🔀 DNAT (port forwarding): Internet → servidores internos (cambiar destino)
+- 🎓 Casos: Personal (1 máquina), NAT (red local), Perimetral (laboratorio educativo)
+- 📝 Persistencia: `nft list ruleset > nftables.conf` + systemd para boot
+
+**Conecta con:**
+- [[ssh-claves-autenticacion|SSH]] — Acceso seguro a cortafuegos
+- [[red-linux|Configuración de Red Linux]] — Interfaces, enrutamiento
+- [[tls|TLS]] — Complementario a firewall
+
+---
+
+## [2026-05-07] article | SSH: Autenticación por Claves y Acceso Remoto Seguro
+
+- ✏️ wiki/articles/ssh-claves-autenticacion.md (creado)
+- ✏️ wiki/index.md (artículo añadido a "📰 Artículos y Recursos")
+
+**Fuente:**
+- Claves SSH para Acceso Remoto Seguro — ssh-keygen, ssh-copy-id, ssh-agent, casos automatización
+
+**Ideas clave:**
+- 🔑 SSH: Autenticación asimétrica (clave privada + pública) vs contraseña
+- ⚙️ Funcionamiento: Cliente firma desafío → Servidor verifica con clave pública
+- 🚀 Ventajas: Sin contraseña débil, automatización sin interacción, cuentas sin password
+- 📋 Setup: ssh-keygen → ssh-copy-id → autorización automática
+- 💾 ssh-agent: Cachea clave en memoria (pide passphrase 1 sola vez)
+- 🔄 Casos: Automatización (cron, CI/CD), Git, SCP/SFTP, port forwarding, tuneling
+- 🔐 Seguridad: Passphrase fuerte, permisos 600/700, no compartir clave privada
+- 🔀 Múltiples claves: ~/.ssh/config para diferentes servidores/propósitos
+- 📊 RSA 4096 vs EdDSA: EdDSA más rápido y moderno (recomendado)
+
+**Conecta con:**
+- [[criptografia-conceptos-gpg|Criptografía]] — Fundamentos asimétricos
+- [[tls|TLS]] — Otra aplicación de criptografía
+
+---
+
+## [2026-05-07] article | Criptografía: Conceptos Fundamentales e Implementación con GPG
+
+- ✏️ wiki/articles/criptografia-conceptos-gpg.md (creado)
+- ✏️ wiki/index.md (artículo añadido a "📰 Artículos y Recursos")
+
+**Fuentes consolidadas:**
+1. Introducción a la Criptografía — Conceptos, simétrica, asimétrica, firmas, modelos confianza
+2. Criptografía con GPG — Implementación práctica, generación claves, cifrado, firmas, Web of Trust
+
+**Ideas clave:**
+- 🔐 Criptografía: Simétrica (rápida, requiere compartir clave) vs Asimétrica (segura para distribución)
+- 🔗 Hybrid en práctica: Asimétrica para intercambiar clave simétrica → luego simétrica para datos (HTTPS, SSH, PGP)
+- ✍️ Firmas digitales: Autentican remitente + detectan alteraciones (hash + clave privada)
+- 🏢 PKI (Autoridad Central): CA firma certificados, escalable, depende de CAs
+- 🕸️ Web of Trust (Descentralizado): Personas firman claves → red de confianza, sin autoridades centrales
+- 🛠️ GPG: Cifrado simétrico (contraseña), asimétrico (claves públicas), firmas, gestión keyring
+- 📧 Casos: Email privado, verificación software, backup cifrado, autenticación SSH
+
+**Conecta con:**
+- [[tls|TLS]] — Criptografía en HTTPS
+- [[spf|SPF]] — Autenticación email
+- [[dkim|DKIM]] — Firmas digitales para correo
+
+---
+
+## [2026-05-07] article | KVM + cloud-init: Despliegue Automatizado de Máquinas Virtuales
+
+- ✏️ wiki/articles/kvm-cloud-init-automatizacion.md (creado)
+- ✏️ wiki/index.md (artículo añadido a "📰 Artículos y Recursos")
+
+**Fuente:**
+- KVM + libvirt + cloud-init — Despliegue automatizado con cloud images
+
+**Ideas clave:**
+- ☁️ Cloud images: Plantillas preconfiguradas (200-500 MB) vs ISO (2-4 GB)
+- ⚡ Rapidez: < 2 minutos vs 15-20 minutos con ISO manual
+- 🔧 cloud-init: Automatización en primer boot con cloud-config YAML
+- 🖇️ Linked clones: Múltiples VMs comparten imagen base (QCOW2)
+- 📚 Casos: Laboratorios (30 VMs idénticas), servidores web, clusters BD
+- 🎓 Escalabilidad: 100 VMs con 1 comando vs instalación manual
+- 📝 Reproducibilidad: Infraestructura como código (versionable en Git)
+
+**Conecta con:**
+- [[introduccion-kvm|Introducción a KVM]] — Fundamentos
+- [[creacion-vms|Creación de VMs]] — Alternativa manual
+- [[almacenamiento-kvm|Almacenamiento KVM]] — Linked clones
+- [[vagrant-introduccion|Vagrant]] — Alternativa para desarrollo
+
+---
+
+## [2026-05-07] article | Headscale: VPN Mesh - Instalación, Configuración y Seguridad
+
+- ✏️ wiki/articles/headscale-vpn-mesh-profundizacion.md (creado)
+- ✏️ wiki/index.md (artículo añadido a "📰 Artículos y Recursos")
+
+**Fuentes consolidadas:**
+1. VPN Mesh con Tailscale/Headscale — Instalación y arquitectura
+2. Rutas y DNS en Headscale — Routing avanzado, subnet routers, exit nodes, MagicDNS, Split DNS
+3. Seguridad y Control de Acceso — ACLs (deny by default), tags, dos estrategias de aislamiento
+
+**Ideas clave:**
+- 🔐 Headscale = Open-source control plane para Tailscale (soberanía total)
+- 🌐 Zero Trust con arquitectura de dos capas (Control Plane + Data Plane P2P)
+- 🔗 Subnet routers: acceso a redes locales; Exit nodes: tráfico centralizado
+- 📡 MagicDNS automático + Split DNS selectivo (internal/external)
+- 🔒 ACLs (JSON): "deny by default" con tags funcionales (alumno, profesor, recurso)
+- 📊 Dos estrategias: Tags (escalable 100+) vs User Segmentation (simple <30)
+- 🎓 Ideal para laboratorios educativos, oficinas distribuidas, acceso remoto seguro
+
+**Conecta con:**
+- [[red-linux|Configuración de Red en Linux]] — Fundamentos (IP, rutas, DNS)
+- [[tls|TLS]] — Encriptación VPN
+
+---
+
 ## [2026-04-19] article | DNS para Balanceo de Carga
 
 - ✏️ wiki/articles/dns-balanceo-carga.md (creado)
