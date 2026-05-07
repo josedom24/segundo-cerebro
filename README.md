@@ -4,7 +4,7 @@ Vault de [Obsidian](https://obsidian.md) sobre **infraestructura, virtualizació
 
 🌐 **Wiki publicada:** [wiki.josedomingo.org](https://wiki.josedomingo.org)
 
-📖 **Sobre el proyecto:** lee [el artículo del blog](https://www.josedomingo.org/pledin/) donde se explica el porqué, la arquitectura y los aprendizajes del proceso.
+📖 **Sobre el proyecto:** lee [Mi Segundo Cerebro: Una Wiki Extensible con Obsidian y Quartz](https://www.josedomingo.org/pledin/2026/05/mi-segundo-cerebro-una-wiki-extensible-con-obsidian-y-quartz/) en el blog, donde se explica el porqué, la arquitectura y los aprendizajes del proceso.
 
 ## Arquitectura
 
