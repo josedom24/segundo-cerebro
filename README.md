@@ -1,94 +1,68 @@
-# Wiki Pledin - Segundo Cerebro Educativo
+# Segundo Cerebro Educativo
 
-Un vault de Obsidian sobre **infraestructura y plataformas**, construido a partir de 9 cursos completos. Publicado con **Quartz** como sitio web estático.
+Vault de [Obsidian](https://obsidian.md) sobre **infraestructura, virtualización, contenedores y servicios en Linux**, construido a partir de los cursos publicados en [plataforma.josedomingo.org](https://plataforma.josedomingo.org) y de los artículos del blog [josedomingo.org](https://www.josedomingo.org/pledin/blog/). Publicado como sitio web estático con [Quartz](https://quartz.jzhao.xyz/).
 
-## 📚 Contenido
+🌐 **Wiki publicada:** [wiki.josedomingo.org](https://wiki.josedomingo.org)
 
-### Infraestructura y Plataformas (9 cursos)
+📖 **Sobre el proyecto:** lee [el artículo del blog](https://www.josedomingo.org/pledin/) donde se explica el porqué, la arquitectura y los aprendizajes del proceso.
 
-| Curso | Módulos | Fuente |
-|-------|---------|--------|
-| **KVM & libvirt** (Intro + Avanzado) | 14 | [josedomingo.org](https://plataforma.josedomingo.org/pledin/cursos/kvm1/) |
-| **Proxmox VE** | 8 | [IESGN - CEP](https://github.com/josedom24/curso_proxmox_cep) |
-| **OpenStack** | 5 | [IESGN - IES](https://github.com/josedom24/curso_openstack_ies) |
-| **Docker 2024** | 8 | [josedomingo.org](https://plataforma.josedomingo.org/pledin/cursos/docker2024) |
-| **Podman 2024** | 10 | [josedomingo.org](https://github.com/josedom24/curso_podman_ow) |
-| **Kubernetes 2024** | 10 | [IESGN - CEP](https://github.com/iesgn/curso_kubernetes_cep) |
-| **OpenShift v4 (Curso 1)** | 9 | [Plataforma](https://plataforma.josedomingo.org/pledin/cursos/osv4_k8s/) |
-| **OpenShift v4 (Curso 2)** | 10 | [Plataforma](https://plataforma.josedomingo.org/pledin/cursos/osv4_paas/) |
+## Arquitectura
 
-**Total:** 66 módulos + 15 conceptos = ~81 páginas
+El vault se organiza en dos capas:
 
-### Estructura
+**Núcleo (inmutable, fuente de verdad):**
+
+- `concepts/` — Abstracciones reutilizables que aparecen en múltiples plataformas (Deployment, Volume, Snapshot, Pod, etc.).
+- `summaries/` — Síntesis de módulos específicos de cursos, con referencias a la fuente original.
+
+**Satélites (flexibles, crecen con el tiempo):**
+
+- `articles/` — Entradas de blog, casos prácticos, profundizaciones.
+- `analyses/` — Síntesis propias y comparativas entre tecnologías.
+- `entities/` — Personas, empresas y recursos relevantes.
+
+El núcleo es estable y referencial; los satélites lo enriquecen con contexto del mundo real y pueden retroalimentarlo.
+
+## Estructura del repositorio
 
 ```
 segundo-cerebro/
-├── wiki/                          # Vault de Obsidian
-│   ├── index.md                   # Tabla de contenidos (actualización dinámica)
-│   ├── concepts/                  # Conceptos reutilizables (21)
-│   ├── summaries/                 # Resúmenes de módulos (74)
-│   └── log.md                     # Historial append-only de cambios
-├── quartz/                        # Site builder (Quartz v4)
-│   ├── quartz.config.ts           # Configuración del site (title, theme, plugins)
-│   ├── quartz.layout.ts           # Layout y componentes
-│   └── public/                    # Build output
+├── wiki/                  # Vault de Obsidian
+│   ├── index.md           # Tabla de contenidos (catálogo navegable)
+│   ├── concepts/          # Conceptos reutilizables
+│   ├── summaries/         # Resúmenes de módulos de cursos
+│   ├── articles/          # Artículos y profundizaciones
+│   ├── analyses/          # Análisis y comparativas propias
+│   ├── entities/          # Personas, empresas, recursos
+│   ├── log.md             # Historial append-only de operaciones
+│   └── lint-report.md     # Auditoría periódica del vault
+├── quartz/                # Generador de sitio estático (Quartz v4)
+│   ├── quartz.config.ts   # Configuración del sitio
+│   └── quartz.layout.ts   # Layout y componentes
 ├── scripts/
-│   └── deploy.sh                  # Build + rsync al servidor
-├── CLAUDE.md                      # Reglas del vault (instrucciones para Claude)
-└── README.md                      # Este archivo
+│   └── deploy.sh          # Build + rsync al servidor
+├── CLAUDE.md              # Reglas del vault e instrucciones para Claude
+└── README.md              # Este archivo
 ```
 
-## 🔍 Conceptos Clave (21)
+## Uso
 
-### Plataformas Principales (8)
-- **Docker** — Containerización con imágenes, registros, Compose
-- **Kubernetes** — Orquestación cloud-native: master/worker, auto-scaling
-- **OpenShift** — Distribución empresarial de Kubernetes con PaaS
-- **Podman** — Runtime daemonless, rootless nativo, Pods, Quadlet
-- **KVM** — Hipervisor integrado en Linux para virtualización
-- **Proxmox VE** — Plataforma virtualización: KVM + LXC, gestión centralizada
-- **OpenStack** — Plataforma cloud IaaS: compute, storage, networking
-- **Helm** — Package manager de Kubernetes: charts, templating
-
-### OpenShift-specific Patterns (6)
-- **PaaS** — Platform as a Service: abstracción de infraestructura
-- **ImageStream** — Gestión automática de imágenes con triggers
-- **Build** — CI/CD nativo: S2I, Docker build, webhooks
-- **Route** — Exposición simplificada vs Kubernetes Ingress
-- **Template** — Plantillas parametrizadas para aplicaciones complejas
-- **DeploymentConfig** — Despliegues con triggers, rolling updates, lifecycle hooks
-
-### Kubernetes Patterns (5)
-- **Deployment** — Orquestación declarativa con rolling updates
-- **Service** — Exposición de Pods con load balancing y DNS
-- **Pod** — Unidad mínima de Kubernetes
-- **StatefulSet** — Aplicaciones con identidad persistente
-- **Job** — Tareas batch con completación garantizada
-
-### Storage & Base (2)
-- **Volume** — Almacenamiento persistente multiplataforma
-- **Snapshot** — Captura punto-en-tiempo para backup y rollback
-- **Contenedores** — Virtualización a nivel SO con kernel compartido
-
-## 🚀 Uso
-
-### Ver en Obsidian
+### Ver el vault en Obsidian
 
 ```bash
 git clone git@github.com:josedom24/segundo-cerebro.git
-# Abre Obsidian → "Open vault as folder" → selecciona wiki/
+# Abrir Obsidian → "Open vault as folder" → seleccionar wiki/
 ```
 
-### Build local (Quartz)
+### Construir y servir el sitio en local
 
 ```bash
 cd quartz
-npm install       # solo la primera vez
-npx quartz build --serve
-# Abre http://localhost:8080
+npm install                                    # solo la primera vez
+npm run quartz build -- --serve --watch       # http://localhost:8080
 ```
 
-### Deploy al servidor
+### Desplegar al servidor
 
 ```bash
 # Solo build + deploy
@@ -98,33 +72,30 @@ npx quartz build --serve
 ./scripts/deploy.sh "mensaje del commit"
 ```
 
-## 📖 Convenciones
+## Convenciones
 
-- **Nombres de archivos:** `kebab-case` (minúsculas, guiones) — `introduccion-docker.md`
-- **Wikilinks:** `[[nombre-archivo|Texto]]` o `[[Alias]]` (los conceptos tienen alias en frontmatter)
-- **Frontmatter:**
+- **Nombres de archivos:** `kebab-case` en minúsculas (`introduccion-docker.md`).
+- **Wikilinks:** `[[nombre-archivo|Texto mostrado]]`.
+- **Frontmatter mínimo:**
+
   ```yaml
   ---
+  title: "Título del documento (igual al H1)"
   created: YYYY-MM-DD
   updated: YYYY-MM-DD
-  sources: [fuente-1]
-  tags: [tag1, tag2]
-  aliases: [NombreCapitalizado]   # obligatorio en concepts/
+  sources: [referencia-fuente]
+  tags: [etiqueta1, etiqueta2]
   ---
   ```
 
-## 📝 Archivos Clave
+- **Etiquetas:** consolidadas en español. Cada etiqueta debe tener al menos 3 ocurrencias para mantenerse; en caso contrario se consolida con una más general.
 
-| Archivo | Propósito |
-|---------|-----------|
-| `CLAUDE.md` | Reglas del vault, convenciones, workflow de ingesta |
-| `log.md` | Historial de todas las operaciones (append-only) |
-| `lint-report.md` | Auditoría de problemas y soluciones |
+## Mantenimiento
 
-## 📜 Licencia
+Las reglas completas, los workflows de ingesta de fuentes y las normas de mantenimiento están documentadas en [`CLAUDE.md`](CLAUDE.md). Ese archivo permite que cualquier conversación con Claude empiece con el mismo contexto y pueda seguir manteniendo el vault de forma consistente.
 
-Contenido basado en cursos de [josedomingo.org](https://josedomingo.org) e [IESGN](https://github.com/iesgn). Respeta las licencias de las fuentes originales.
+Periódicamente se ejecuta un proceso de *lint* sobre el vault (enlaces rotos, archivos huérfanos, coherencia entre `title` y H1, etiquetas poco usadas). Los resultados se registran en `wiki/lint-report.md`.
 
----
+## Licencia
 
-**Creado:** 2026-04-15 | **Última actualización:** 2026-04-16 | **App:** Wiki Pledin
+Contenido basado en los cursos de [josedomingo.org](https://josedomingo.org) e [IESGN](https://github.com/iesgn). Respeta las licencias de las fuentes originales.
