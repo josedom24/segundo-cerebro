@@ -203,7 +203,7 @@ vagrant up  # VM con Nginx lista en <1 minuto
 
 - [[vagrant-introduccion|Vagrant - Introducción y Conceptos Fundamentales]]
 - [[vagrant-libvirt-configuracion|Vagrant + libvirt - Configuración Completa de Networking y Almacenamiento]]
-- [[vagrant-creacion-boxes|Creación de Custom Boxes para Vagrant]]
+- [[vagrant-creacion-custom-boxes|Creación de Custom Boxes para Vagrant]]
 
 
 ## Relaciones

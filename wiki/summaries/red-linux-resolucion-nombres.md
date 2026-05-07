@@ -238,7 +238,7 @@ journalctl -u systemd-resolved -f
 - [[red-linux|Configuración de Red en Linux]] — Parte de configuración
 - [[dns-conceptos-fundamentales|Fundamentos de DNS]] — Protocolo DNS
 - [[bind9|Bind9]] — Servidor DNS autoritativo
-- [[dnsmasq-dns-caching-dhcp|dnsmasq]] — DNS + DHCP local
+- [[dnsmasq-servidor-dns-ligero|dnsmasq]] — DNS + DHCP local
 
 ## Fuentes
 - [Resolución de Nombres en Linux](https://www.josedomingo.org/pledin/2024/02/resolucion-nombres-linux/) — Configuración systemd-resolved y nsswitch

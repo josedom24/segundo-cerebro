@@ -3,6 +3,7 @@ created: 2026-04-19
 updated: 2026-04-19
 sources: [dns_balanceo_carga]
 tags: [dns, balanceo, escalabilidad, alta-disponibilidad]
+title: "DNS para Balanceo de Carga"
 ---
 
 # DNS para Balanceo de Carga
@@ -155,7 +156,7 @@ address=/www.http.example.com/10.1.1.102
 - [[dns-conceptos-fundamentales|Fundamentos de DNS]] — Registros A, NS, CNAME
 - [[dns-bind9-configuracion|Configuración de Bind9]] — Configuración de zonas
 - [[dns-bind9-subdominios|Subdominios en Bind9]] — Delegación de subdominios
-- [[dnsmasq-dns-caching-dhcp|dnsmasq]] — Implementación en servidores secundarios
+- [[dnsmasq-servidor-dns-ligero|dnsmasq]] — Implementación en servidores secundarios
 
 ## Fuentes
 - [DNS para Balanceo de Carga](https://www.josedomingo.org/pledin/2022/02/dns-balanceo-carga/) — Técnicas round robin y delegación

@@ -67,7 +67,7 @@ Aplicación → nsswitch.conf → /etc/hosts (files) → systemd-resolved → se
 - [[red-linux|Configuración de Red en Linux]] — Parte de configuración de red
 - [[dns-conceptos-fundamentales|Fundamentos de DNS]] — Protocolo DNS
 - [[bind9|Bind9]] — Servidor DNS autoritativo
-- [[dnsmasq-dns-caching-dhcp|dnsmasq]] — DNS + DHCP local
+- [[dnsmasq-servidor-dns-ligero|dnsmasq]] — DNS + DHCP local
 
 ## Fuentes
 - Artículo: Resolución de Nombres en Linux

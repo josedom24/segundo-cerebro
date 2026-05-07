@@ -10,7 +10,7 @@
 **Conecta con:**
 - [[dns-conceptos-fundamentales|Fundamentos de DNS]] — Registros A, NS, CNAME
 - [[dns-bind9-subdominios|Subdominios en Bind9]] — Delegación
-- [[dnsmasq-dns-caching-dhcp|dnsmasq]] — Implementación secundaria
+- [[dnsmasq-servidor-dns-ligero|dnsmasq]] — Implementación secundaria
 
 **Ideas clave:**
 - 🔄 Round Robin: simple pero sin high availability
@@ -22,7 +22,7 @@
 
 ## [2026-04-19] article | dnsmasq: Servidor DNS Ligero para Redes Locales
 
-- ✏️ wiki/articles/dnsmasq-dns-caching-dhcp.md (creado)
+- ✏️ wiki/articles/dnsmasq-servidor-dns-ligero.md (creado)
 - ✏️ wiki/index.md (artículo añadido a "📰 Artículos y Recursos")
 
 **Conecta con:**
@@ -297,7 +297,7 @@ Se ingerieron 3 artículos sobre Vagrant (Infrastructure as Code para máquinas 
 **Artículos creados (wiki/articles/):**
 - ✨ vagrant-introduccion.md — Conceptos, workflows, providers, provisioning, ciclo de vida
 - ✨ vagrant-libvirt-configuracion.md — Networking completo, almacenamiento persistente, multi-VM
-- ✨ vagrant-creacion-boxes.md — Custom boxes, distribución, versionado, Vagrant Cloud
+- ✨ vagrant-creacion-custom-boxes.md — Custom boxes, distribución, versionado, Vagrant Cloud
 
 **Cambios en conceptos:**
 - ✨ concepts/vagrant.md (creado) — Nuevo concepto: herramienta IaC transversal

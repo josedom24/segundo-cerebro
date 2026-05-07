@@ -25,11 +25,11 @@ Esta wiki es tu **segundo cerebro digital** sobre infraestructura, virtualizaci�
 ## 📰 Artículos y Recursos
 
 - [[dns-balanceo-carga|DNS para Balanceo de Carga]] — Round robin y delegación DNS, high availability, failover automático
-- [[dnsmasq-dns-caching-dhcp|dnsmasq: Servidor DNS Ligero para Redes Locales]] — DNS forwarder con caching, DHCP integrado, alternativa simple a Bind9
+- [[dnsmasq-servidor-dns-ligero|dnsmasq: Servidor DNS Ligero para Redes Locales]] — DNS forwarder con caching, DHCP integrado, alternativa simple a Bind9
 - [[spf-dkim-dmarc-profundizacion|SPF, DKIM y DMARC - Profundización]] — Estándares de autenticación, implementación progresiva, reportes
 - [[vagrant-introduccion|Vagrant - Introducción y Conceptos Fundamentales]] — Automatización de VMs, providers, provisioning, ciclo de vida
 - [[vagrant-libvirt-configuracion|Vagrant + libvirt - Configuración Completa de Networking y Almacenamiento]] — Networking, almacenamiento persistente, multi-VM, casos de uso
-- [[vagrant-creacion-boxes|Creación de Custom Boxes para Vagrant]] — Empaquetar, versionar, distribuir boxes, Vagrant Cloud
+- [[vagrant-creacion-custom-boxes|Creación de Custom Boxes para Vagrant]] — Empaquetar, versionar, distribuir boxes, Vagrant Cloud
 
 ---
 

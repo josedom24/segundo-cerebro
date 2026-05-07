@@ -45,7 +45,7 @@ La configuración de red en Linux ha evolucionado desde métodos tradicionales (
 ### Conecta con
 - [[resolucion-nombres-linux|Resolución de Nombres en Linux]] — Parte de configuración (DNS)
 - [[bind9|Bind9]] — Servidor DNS para redes
-- [[dnsmasq-dns-caching-dhcp|dnsmasq]] — DNS + DHCP en redes locales
+- [[dnsmasq-servidor-dns-ligero|dnsmasq]] — DNS + DHCP en redes locales
 
 ## Fuentes
 - Artículos individuales sobre cada herramienta
