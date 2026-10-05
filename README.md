@@ -40,7 +40,7 @@ segundo-cerebro/
 │   ├── quartz.config.ts   # Configuración del sitio
 │   └── quartz.layout.ts   # Layout y componentes
 ├── scripts/
-│   └── deploy.sh          # Build + rsync al servidor
+│   └── deploy.sh          # Commit + push (publica la GitHub Action)
 ├── CLAUDE.md              # Reglas del vault e instrucciones para Claude
 └── README.md              # Este archivo
 ```
@@ -62,14 +62,12 @@ npm install                                    # solo la primera vez
 npm run quartz build -- --serve --watch       # http://localhost:8080
 ```
 
-### Desplegar al servidor
+### Publicar
+
+La wiki se publica en https://wiki.josedomingo.org con GitHub Pages: la GitHub Action `.github/workflows/deploy.yml` construye el sitio con Quartz en cada push a `main`.
 
 ```bash
-# Solo build + deploy
-./scripts/deploy.sh
-
-# Commit + build + deploy
-./scripts/deploy.sh "mensaje del commit"
+./scripts/deploy.sh "mensaje del commit"   # git add + commit + push
 ```
 
 ## Convenciones
